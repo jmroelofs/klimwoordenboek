@@ -1,0 +1,417 @@
+/* CSS for klimwoordenboek */
+
+/* Improve font rendering on HiDPI devices */
+
+@media
+	screen and (-webkit-min-device-pixel-ratio: 2),
+	screen and (min-resolution: 2dppx) {
+	body {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+/* colors */
+
+$background-color: #f6f5f4;
+$background-color-darker: rgba(0, 0, 0, 0.04);
+$text-color: #242424;
+$bold-color: #333;
+$underline-color: #999;
+$french-color: #004210;
+$english-color: #500010;
+$color-even: #BAE2F3;
+$color-odd: desaturate(darken($color-even, 4%), 15%);
+
+/* font related */
+
+$font-family: 'Newsreader', serif;
+$line-height: 1.5rem;
+$block-top-padding: 1.5rem;
+$text-indent: 0.667rem;
+$font-size: 14px;
+$font-size-header: 1.333rem;
+$padding-height: $font-size * ($line-height / 1rem) * 2;
+$vertical-adjust-for_font: 2px;
+
+/* use golden ratio */
+
+$ratio: 1.618;
+$ratio-view-lower-width: 1200px;
+$ratio-view-lower-height: round($ratio-view-lower-width / $ratio);
+$ratio-view-upper-width: 1600px;
+$ratio-view-upper-height: round($ratio-view-upper-width / $ratio);
+$ratio-view-aspect-ratio: round(1000 * $ratio)+'/1000';
+$left-column-ratio: 0.234;
+$left-column-margin-ratio: 0.015;
+
+
+/* ------------------------------------------------- */
+
+@import 'fonts-newsreader';
+
+@viewport {
+    width: device-width;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    width: 100%;
+    font: 400 $font-size/($line-height / 1rem) $font-family;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    font-variant: common-ligatures proportional-nums oldstyle-nums;
+    hyphens: auto;
+    line-break: loose;
+    min-width: 432px;
+    /* to always show the vertical scrollbar */
+    overflow-y: scroll;
+    overflow-x: auto;
+    color: $text-color;
+    background: $background-color url('../images/handmadepaper.webp') repeat scroll 0 0;
+}
+
+body {
+    margin: 0 auto;
+    overflow-anchor: none;
+    overscroll-behavior: contain;
+}
+
+.left-column {
+    position: sticky;
+    top: 0;
+    height: 0;
+    margin-left: $left-column-margin-ratio * 100%;
+    width: $left-column-ratio * 100%;
+
+    div {
+        height: 100vh;
+        padding-bottom: $padding-height;
+        overflow-y: scroll;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+.main-column {
+    margin: 0 2.25% 0 26.7%;
+    padding-left: 1.2%;
+}
+
+
+/*  to get a right margin on smaller screens
+    we don't use it everywhere because it slows down page rendering */
+
+#grading-tables {
+    display: inline-block;
+}
+
+section {
+    margin-bottom: $padding-height;
+}
+
+
+/* continuous column */
+
+#spacer {
+    display: none;
+}
+
+@media (min-width: 801px) and (min-device-width: 750px) {
+    .continuous-column {
+        column-count: 2;
+        column-gap: 28px;
+        --column-offset: #{$padding-height};
+        padding-top: var(--column-offset);
+
+        #spacer+h2 {
+            margin-top: calc(0px - var(--column-offset));
+        }
+
+        #spacer {
+            margin-top: calc(100vh - #{$padding-height * 2});
+            width: 100%;
+            float: left;
+            display: block;
+            shape-outside: content-box;
+            break-inside: avoid;
+        }
+
+        /* fix for firefox splitting h2 in columns */
+        h2:after {
+            content: " \00A0";
+        }
+
+        h2:target:after {
+            text-decoration: underline $background-color 2px;
+        }
+    }
+}
+
+
+/*  on big and wide screens we use the golden ratio
+    it kicks in between 1200 and 1600 pixels wide
+    also do some repairs for a fixed positioned left-column */
+
+@media (max-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) {
+
+    /* wide enough, but not high enough, body will be 1200px wide */
+    body {
+        max-width: $ratio-view-lower-width;
+    }
+
+    .continuous-column {
+        column-gap: 33px;
+    }
+}
+
+@media (min-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) and (min-aspect-ratio: $ratio-view-aspect-ratio) {
+
+    /* body will use golden ratio */
+    body {
+        max-width: $ratio * 100vh;
+    }
+
+    .continuous-column {
+        column-gap: 39px;
+    }
+}
+
+@media (min-height: $ratio-view-upper-height) and (min-width: $ratio-view-upper-width) {
+
+    /* too big, body will be 1600px wide */
+    body {
+        max-width: $ratio-view-upper-width;
+    }
+
+    .continuous-column {
+        column-gap: 45px;
+    }
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+h1,
+h2+p {
+    padding-top: $block-top-padding;
+}
+
+h2,
+h3,
+nav+p {
+    padding-top: $line-height;
+}
+
+p {
+    text-align: justify;
+    text-indent: -$text-indent;
+    margin: 0 0 0 $text-indent;
+	/* gives a wierd width in chrome 120, like there's an extra column */
+    /* text-wrap: pretty; */
+}
+
+dfn {
+    scroll-margin-top: $padding-height;
+    scroll-margin-bottom: $padding-height;
+}
+
+nav h2:first-child,
+.main-column h2 {
+    font-size: $font-size-header;
+    line-height: $line-height;
+    padding-top: $padding-height;
+}
+
+.main-column section+section h2 {
+    padding-top: 0;
+}
+
+*:target,
+a:link,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+a:link,
+a:visited {
+    text-decoration: underline $underline-color from-font;
+}
+
+*:target,
+a:hover,
+a:active,
+a:focus,
+a.active {
+    text-decoration: underline currentcolor 2px;
+}
+
+a:focus {
+    outline: none;
+}
+
+#alphabet a {
+    letter-spacing: 2px;
+}
+
+
+/* language specifics */
+
+strong,
+b,
+h1,
+h2,
+h3,
+[lang|="fr"],
+[lang|="en"] {
+    font-weight: 450;
+}
+
+h1,
+h2,
+h2:target {
+    color: $bold-color;
+}
+
+dfn {
+    font-style: italic;
+}
+
+[lang|="fr"],
+a[lang|="fr"] {
+    font-style: inherit;
+    color: $french-color;
+}
+
+[lang|="en"],
+a[lang|="en"] {
+    font-style: italic;
+    color: $english-color;
+}
+
+
+/* make left column pushable to the left on a small screen */
+
+@media (max-width: 549px) {
+    body {
+        min-width: 135vw;
+    }
+
+    .left-column p {
+        text-align: left;
+    }
+
+    .main-column {
+        margin-right: 3vw;
+
+        h2 {
+            scroll-margin-right: 3vw;
+        }
+    }
+}
+
+
+/* grading tables */
+
+.grading-table {
+    padding-top: $block-top-padding;
+    position: relative;
+
+    &:hover::before {
+        content: "";
+        position: absolute;
+        inset: (($font-size * ($line-height / 1rem)) - $vertical-adjust-for_font) 0 $vertical-adjust-for_font 0;
+        z-index: -1;
+        background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
+    }
+
+    display: table;
+
+    table {
+        border-spacing: 0;
+
+        td {
+            padding: 0;
+        }
+    }
+
+    td {
+        font-size: 0.85rem;
+        text-align: center;
+        line-height: $line-height;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: -$vertical-adjust-for_font 0 $vertical-adjust-for_font 0;
+            z-index: -1;
+        }
+
+        &:nth-child(odd)::before {
+            background-color: $color-odd;
+        }
+
+        &:nth-child(even)::before {
+            background-color: $color-even;
+        }
+    }
+}
+
+.decp {
+    letter-spacing: -0.5px;
+}
+
+.decp1 {
+    letter-spacing: -1px;
+}
+
+
+/* adjust text in garding tables */
+
+#grading-tables {
+    p {
+        text-indent: 0;
+        margin-left: 0;
+    }
+
+    h2, p {
+        position: sticky;
+        width: max-content;
+        left: 1.2%;
+    }
+}
+
+
+/* print */
+
+@media print {
+    page {
+        margin: 10%;
+    }
+
+    p {
+        page-break-inside: avoid;
+    }
+
+    h1,
+    h2 {
+        page-break-after: avoid;
+    }
+}

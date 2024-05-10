@@ -1,0 +1,19 @@
+{
+    "name": "jm/klimwoordenboek",
+    "description": "Klimwoordenboek Frans & Engels",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jm\\Klimwoordenboek\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Martin roelofs",
+            "email": "jmartinr@home.nl"
+        }
+    ],
+    "require": {
+        "scssphp/server": "^1.10"
+    }
+}
