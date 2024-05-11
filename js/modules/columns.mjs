@@ -5,7 +5,7 @@ class Columns {
     lastParagraph = this.column?.appendChild(document.createElement('div'));
     spacer = document.getElementById('spacer');
     offsetOld = this.offsetOriginal;
-    heightOld = 0;
+    heightOld = 0.1;
     
     firstParagraph = this.spacer?.nextElementSibling;
     firstParagraphHeight = this.firstParagraph?.getBoundingClientRect().height;
@@ -80,7 +80,7 @@ class Columns {
             this.offsetOld = offsetNeeded
 
             // adjust height of spacer
-            if (this.heightOld === 0 || this.diffMoreThan(heightNew, this.heightOld, 1)) {
+            if (this.diffMoreThan(heightNew, this.heightOld, 1)) {
                 this.spacer.style.height = `${heightNew}px`;
                 this.heightOld = heightNew;
             }
