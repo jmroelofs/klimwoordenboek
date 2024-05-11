@@ -72,8 +72,8 @@ class Columns {
                     Math.min(1, calculatedHeight / windowInnerHeight)
                         * this.firstParagraphHeight, this.secondParagraphHalfLineHeight
                 ),
-                // we need a minumum of 1 pixel, or else the margin of the spacer is not picked up
-                heightNew = Math.max(1, calculatedHeight + safetyMargin);
+                // we need a minumum of 0.1 pixel, or else the margin of the spacer is not picked up
+                heightNew = Math.max(0.1, calculatedHeight + safetyMargin);
 
             // adjust offset
             this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
