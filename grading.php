@@ -3,7 +3,7 @@ if (! defined( '_LEXICON' )) {
     require '404.php';
 }
 ?>
-<section class="continuous-column">
+<section id="continuous-column">
 <div id="spacer"></div>
 <h2>Moeilijkheids&shy;waarderingen gebruikt in het klimmen</h2>
 <p><dfn lang="fr">2, 3, 3<sup>+</sup>, 4<sup>&minus;</sup>, 4, 4<sup>+</sup>, 5<sup>&minus;</sup>, 5, 5<sup>+</sup>, 6a, 6a<sup>+</sup>, 6b, 6b<sup>+</sup>, 6c, 6c<sup>+</sup>, 7a&nbsp;&hellip; 9c</dfn> <dfn lang="en-GB">F7a&nbsp;&hellip; F9c</dfn>
@@ -26,4 +26,5 @@ if (! defined( '_LEXICON' )) {
 	Ameri&shy;kaanse boulder&shy;waardering, ook gebruikt in Australië en Zuid Afrika, bedacht door <a href="https://en.wikipedia.org/wiki/John_Sherman_(climber)" target="_blank" rel="noopener">John Sherman</a>.</p>
 <p><dfn lang="en-US">YDS/<wbr><a href="https://en.wikipedia.org/wiki/Yosemite_Decimal_System" target="_blank" rel="noopener">Yosemite Decimal System</a></dfn>
 	Ameri&shy;kaanse waar&shy;dering die de zwaarte van een route aangeeft. <dfn lang="en-US">class 1</dfn> lopen. <dfn lang="en-US">class 2</dfn> lopen met hoogte&shy;verschil. <dfn lang="en-US">class 3</dfn> lopen over rots&shy;blokken, soms met gebruik van de handen. <dfn lang="en-US">class 4</dfn> klimmen met gebruik van de handen, zonder de noodzaak van zekering. <dfn lang="en-GB">5<span class="decp1">.</span>1&nbsp;&hellip; 5<span class="decp">.</span>9, 5<span class="decp1">.</span>10a, 5<span class="decp1">.</span>10b, 5<span class="decp1">.</span>10c, 5<span class="decp1">.</span>10d, 5<span class="decp1">.</span>11a&nbsp;&hellip; 5<span class="decp1">.</span>15d</dfn> (vrij)klimmen met zekering, het tweede getal geeft de zwaarte van een touw&shy;lengte aan. <dfn lang="en-US" id="six">class 6</dfn> artifi&shy;cieel klimmen, met gebruik van haken voor de voort&shy;beweging (meestal wordt hier het <a href=waarderingen#a-rating>A rating system</a> voor gebruikt).</p>
+<div id="last-paragraph"></div>
 </section>

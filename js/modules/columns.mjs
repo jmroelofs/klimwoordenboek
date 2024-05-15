@@ -1,8 +1,8 @@
 class Columns {
     animationFrameID = null;
-    column = document.getElementsByClassName('continuous-column').item(0);
-    offsetOriginal = this.column && parseFloat(window.getComputedStyle(this.column).getPropertyValue('--column-offset'));
-    lastParagraph = this.column?.appendChild(document.createElement('div'));
+    column = document.getElementById('continuous-column');
+    offsetOriginal = 42;
+    lastParagraph = document.getElementById('last-paragraph');
     spacer = document.getElementById('spacer');
     offsetOld = this.offsetOriginal;
     heightOld = 0.1;

@@ -3,7 +3,7 @@ if (! defined( '_LEXICON' )) {
     require '404.php';
 }
 ?>
-<section class="continuous-column">
+<section id="continuous-column">
 <div id="spacer"></div>
 <h2 id="A">A</h2>
 <p><dfn lang="en-US"><a href="https://www.americanalpineclub.org/" target="_blank" rel="noopener">AAC/<wbr>American Alpine Club</a></dfn>
@@ -878,4 +878,5 @@ if (! defined( '_LEXICON' )) {
 <h2 id="Z">Z</h2>
 <p><dfn lang="fr">zipper/<wbr>riper/<wbr>glisser</dfn>
 	weg-/<wbr>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
+<div id="last-paragraph"></div>
 </section>
