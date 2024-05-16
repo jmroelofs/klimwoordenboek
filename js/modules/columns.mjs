@@ -5,7 +5,7 @@ class Columns {
     lastParagraph = document.getElementById('last-paragraph');
     spacer = document.getElementById('spacer');
     offsetOld = this.offsetOriginal;
-    heightOld = 0.1;
+    heightOld = 0.25;
     
     firstParagraph = this.spacer?.nextElementSibling;
     firstParagraphHeight = this.firstParagraph?.getBoundingClientRect().height;
@@ -19,6 +19,10 @@ class Columns {
     roundNearest = (x, y) => y * Math.round(x / y);
 
     flowColumns = (event) => {
+        if (event.type === 'init' ) {
+            this.spacer.style.height = `${this.heightOld}px`
+        }
+
         if (this.animationFrameID) {
             console.log(`[flowColumns] resetting animation in ${event.type} event`);
             window.cancelAnimationFrame(this.animationFrameID);
@@ -72,8 +76,9 @@ class Columns {
                     Math.min(1, calculatedHeight / windowInnerHeight)
                         * this.firstParagraphHeight, this.secondParagraphHalfLineHeight
                 ),
-                // we need a minumum of 0.1 pixel, or else the margin of the spacer is not picked up
-                heightNew = Math.max(0.1, calculatedHeight + safetyMargin);
+                // we need a minumum of 0.25 pixel, or else the margin of the spacer is not picked up
+                // 0.1 pixel gave a very long repaint time on the 'waardering' page on chrome on a 1000 px wide screen
+                heightNew = Math.max(0.25, calculatedHeight + safetyMargin);
 
             // adjust offset
             this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
