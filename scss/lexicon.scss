@@ -295,14 +295,12 @@ dfn {
     font-style: italic;
 }
 
-[lang|="fr"],
-a[lang|="fr"] {
+*[lang|="fr"] {
     font-style: inherit;
     color: $french-color;
 }
 
-[lang|="en"],
-a[lang|="en"] {
+*[lang|="en"] {
     font-style: italic;
     color: $english-color;
 }
