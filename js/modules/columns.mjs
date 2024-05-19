@@ -77,6 +77,8 @@ class Columns {
                         * this.firstParagraphHeight, this.secondParagraphHalfLineHeight
                 ),
                 // we need a minumum of 0.25 pixel, or else the margin of the spacer is not picked up
+                // zero heigth is ignored by getBoundingClientRect
+                // https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
                 // 0.1 pixel gave a very long repaint time on the 'waardering' page on chrome on a 1000 px wide screen
                 heightNew = Math.max(0.25, calculatedHeight + safetyMargin);
 

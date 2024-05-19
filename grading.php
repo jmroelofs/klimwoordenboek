@@ -4,7 +4,7 @@ if (! defined( '_LEXICON' )) {
 }
 ?>
 <section id="continuous-column">
-<div id="spacer"></div>
+<div id="spacer"><div></div></div>
 <h2>Moeilijkheids&shy;waarderingen gebruikt in het klimmen</h2>
 <p><dfn lang="fr">2, 3, 3<sup>+</sup>, 4<sup>&minus;</sup>, 4, 4<sup>+</sup>, 5<sup>&minus;</sup>, 5, 5<sup>+</sup>, 6a, 6a<sup>+</sup>, 6b, 6b<sup>+</sup>, 6c, 6c<sup>+</sup>, 7a&nbsp;&hellip; 9c</dfn> <dfn lang="en-GB">F7a&nbsp;&hellip; F9c</dfn>
 	Franse waardering die de zwaarte van een touw&shy;lengte aangeeft, dit is in het sport&shy;klimmen de meeste gebruikte waardering (in België zijn de routes tot en met <dfn lang="fr">7a</dfn> één graad strenger gewaar&shy;deerd dan in Frankrijk); in het boul&shy;deren wordt een zwaarder gewaar&shy;deerde variant hierop gehanteerd, een <dfn lang="fr">7a <a href="#bloc">bloc</a></dfn> is vergelijk&shy;baar met een <dfn lang="fr">7b<sup>+</sup> <a href="#falaise">falaise</a></dfn>.</p>
