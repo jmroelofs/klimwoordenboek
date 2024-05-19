@@ -42,9 +42,9 @@ class Columns {
                 offsetDifference = offsetNeeded - this.offsetOld,
 
                 // column readings
-                spacerRec = this.spacer.getBoundingClientRect(),
-                columnRec = this.column.getBoundingClientRect(),
-                lastParagraphRec = this.lastParagraph.getBoundingClientRect(),
+                {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
+                {bottom: columnBottom} = this.column.getBoundingClientRect(),
+                {bottom: lastParagraphBottom} = this.lastParagraph.getBoundingClientRect(),
 
                 // use document.documentElement.clientHeight instead of window.innerHeight to accomodate Safari on iPad
                 windowInnerHeight = document.documentElement.clientHeight;
@@ -54,18 +54,18 @@ class Columns {
                 heightNeeded,
                 calculatedHeight;
 
-            if (spacerRec.bottom >= lastParagraphRec.bottom) {
+            if (spacerBottom >= lastParagraphBottom) {
                 // we are overshooting
                 // console.log('[flowColumns] overshooting');
 
-                heightNeeded = lastParagraphRec.bottom - spacerRec.top;
+                heightNeeded = lastParagraphBottom - spacerTop;
                 calculatedHeight = heightNeeded - offsetDifference;
 
             } else {
                 // we are undershooting
                 // console.log('[flowColumns] undershooting');
 
-                heightNeeded = columnRec.bottom - spacerRec.top;
+                heightNeeded = columnBottom - spacerTop;
                 calculatedHeight = (2 * heightNeeded) - this.heightOld - offsetDifference;
 
             }
