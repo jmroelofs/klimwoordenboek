@@ -136,8 +136,12 @@ section {
             margin-top: calc(0px - var(--column-offset));
         }
 
+        /*  we use padding because a block with zero height is ignored by getBoundingClientRect
+            https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
-            margin-top: calc(100vh - #{$padding-height * 2});
+            /* adjust margin 1px because of padding */
+            margin-top: calc(100vh - #{($padding-height * 2) + 1});
+            padding-top: 1px;
             width: 100%;
             float: left;
             display: block;
