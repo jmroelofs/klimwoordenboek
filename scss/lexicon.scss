@@ -54,10 +54,6 @@ $left-column-margin-ratio: 0.015;
     width: device-width;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 :root {
     width: 100%;
     font: 400 $font-size/($line-height / 1rem) $font-family;
@@ -224,8 +220,6 @@ p {
     text-align: justify;
     text-indent: -$text-indent;
     margin: 0 0 0 $text-indent;
-	/* gives a wierd width in chrome 120, like there's an extra column */
-    /* text-wrap: pretty; */
 }
 
 dfn {
