@@ -223,8 +223,7 @@ p {
 }
 
 dfn {
-    scroll-margin-top: $padding-height;
-    scroll-margin-bottom: $padding-height;
+    scroll-margin-block: $padding-height;
 }
 
 nav h2:first-child,
