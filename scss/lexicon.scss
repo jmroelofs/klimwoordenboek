@@ -63,9 +63,7 @@ $left-column-margin-ratio: 0.015;
     hyphens: auto;
     line-break: loose;
     min-width: 432px;
-    /* to always show the vertical scrollbar */
-    overflow-y: auto;
-    overflow-x: auto;
+    overflow: auto;
     color: $text-color;
     background: $background-color url('../images/handmadepaper.webp') repeat scroll 0 0;
 }
