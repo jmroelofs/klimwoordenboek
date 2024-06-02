@@ -1,6 +1,6 @@
 <?php
 if (! defined( '_LEXICON' )) {
-    require '404.php';
+    require '../404.php';
 }
 ?>
 <div>
@@ -27,9 +27,8 @@ if (! defined( '_LEXICON' )) {
 <p><dfn>[eig.]</dfn>
 	eigenlijk.</p>
 <p><dfn>laatst bijgewerkt</dfn>
-	<?php $formatter = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE);
-	date_default_timezone_set('Europe/Amsterdam');
-	echo $formatter->format(max(array_map(fn($index) => filemtime($index['contentFile']), $namesAndDescriptions))); ?>.</p>
+	<?php date_default_timezone_set('Europe/Amsterdam');
+	echo (new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE))->format(max(array_map(fn($index) => filemtime('content/' . $index['contentFile']), $namesAndDescriptions))); ?>.</p>
 <p><dfn>[lett.]</dfn>
 	letterlijk.</p>
 <p><dfn lang="fr">[v.], [m.]</dfn>
