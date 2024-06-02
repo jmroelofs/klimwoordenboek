@@ -132,11 +132,11 @@ document.querySelectorAll('a[href^="mailto:"]')
 <body>
 
 <div class="left-column">
-<?php include 'left-column.php'; ?>
+<?php include 'content/left-column.php'; ?>
 </div>
 
 <div id="<?php echo pathinfo($contentFile)['filename']; ?>" class="main-column">
-<?php include $contentFile; ?>
+<?php include 'content/'. $contentFile; ?>
 </div>
 
 </body>

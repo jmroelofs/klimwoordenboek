@@ -1,6 +1,6 @@
 <?php
 if (! defined( '_LEXICON' )) {
-    require '404.php';
+    require '../404.php';
 }
 ?>
 <section id="continuous-column">
