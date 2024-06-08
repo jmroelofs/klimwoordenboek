@@ -123,24 +123,38 @@ section {
     #continuous-column {
         column-count: 2;
         column-gap: 28px;
-        --column-offset: #{$padding-height};
-        padding-top: var(--column-offset);
+        // --column-offset: #{$padding-height};
+        --column-offset: 0;
+        // padding-top: var(--column-offset);
+        transform: scaleY(-1);
+        margin-block: 42px 0;
 
-        #spacer+h2 {
-            margin-top: calc(0px - var(--column-offset));
-        }
+        // #spacer+h2 {
+        //     margin-top: calc(0px - var(--column-offset));
+        // }
 
         /*  we use padding because a block with zero height is ignored by getBoundingClientRect
             https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
             /* adjust margin 1px because of padding */
-            margin-top: calc(100vh - #{($padding-height * 2) + 1});
+
             padding-top: 1px;
             width: 100%;
-            float: left;
             display: block;
             shape-outside: content-box;
             break-inside: avoid;
+            background-color: lightcyan;
+            height: 21px;
+        }
+
+        #column-content {
+            transform: scaleY(-1);
+            margin-bottom: calc(0px + var(--column-offset));
+
+            h2:first-child {
+                padding-top: 0;
+            }
+
         }
 
         /* fix for firefox splitting h2 in columns */
