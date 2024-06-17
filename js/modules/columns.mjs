@@ -32,7 +32,7 @@ class Columns {
         this.animationFrameID = window.requestAnimationFrame(() => {
 
             // column readings
-            const { top: spacerTop, bottom: spacerBottom, height: spacerHeight } = this.spacer.getBoundingClientRect();
+            const { top: spacerTop, height: spacerHeight } = this.spacer.getBoundingClientRect();
             const windowInnerHeight = document.documentElement.clientHeight;
             const scrollY = window.scrollY;
 
