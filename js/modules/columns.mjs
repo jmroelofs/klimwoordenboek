@@ -31,6 +31,13 @@ class Columns {
 
         this.animationFrameID = window.requestAnimationFrame(() => {
 
+            // offset of page readings
+            const offsetNeeded = this.roundNearestUneven(window.scrollY + this.offsetOriginal, this.secondParagraphLineHeight);
+
+            // adjust offset
+            this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
+            this.offsetOld = offsetNeeded;
+
             // column readings
             const { top: spacerTop, height: spacerHeight } = this.spacer.getBoundingClientRect();
             const windowInnerHeight = document.documentElement.clientHeight;
@@ -41,7 +48,7 @@ class Columns {
             if (adjustment < 0) {
                 // we are overshooting
                 console.log('[flowColumns] overshooting');
-                adjustment *= 0.5;
+                adjustment *= 2;
             } else {
                 // we are undershooting
                 console.log('[flowColumns] undershooting');
@@ -56,13 +63,6 @@ class Columns {
             console.log(this.spacer.getBoundingClientRect());
 
             this.spacerChild.style.height = `${heightNew}px`;
-
-            // offset of page readings
-            const offsetNeeded = this.roundNearestUneven(window.scrollY + this.offsetOriginal, this.secondParagraphLineHeight);
-
-            // adjust offset
-            this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
-            this.offsetOld = offsetNeeded;
 
             this.animationFrameID = null;
         });
