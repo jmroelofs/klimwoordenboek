@@ -1,16 +1,12 @@
 class Columns {
     animationFrameID = null;
     column = document.getElementById('continuous-column');
-    offsetOriginal = 0;
-    spacer = document.getElementById('spacer');
-    spacerChild = document.getElementById('spacer-child');
     content = document.getElementById('column-content');
-    offsetOld = this.offsetOriginal;
+    oldContentTopMargin = 0;
+    oldContentBottomMargin = 0;
 
-    firstParagraph = this.content?.firstElementChild;
-
-    secondParagraph = this.firstParagraph?.nextElementSibling;
-    secondParagraphLineHeight = this.secondParagraph
+    secondParagraph = this.content?.firstElementChild?.nextElementSibling;
+    lineHeight = this.secondParagraph
         ? parseInt(window.getComputedStyle(this.secondParagraph).getPropertyValue('line-height'))
         : null;
 
