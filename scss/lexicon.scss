@@ -133,6 +133,10 @@ section {
                 padding-top: 0;
             }
 
+            p:last-child {
+                padding-bottom: 21px;;
+            }
+
         }
 
         /* fix for firefox splitting h2 in columns */

@@ -27,38 +27,13 @@ class Columns {
 
         this.animationFrameID = window.requestAnimationFrame(() => {
 
-            // offset of page readings
-            const offsetNeeded = this.roundNearestUneven(window.scrollY + this.offsetOriginal, this.secondParagraphLineHeight);
+            const windowTop = window.scrollY,
+                windowInnerHeight = document.documentElement.clientHeight,
+                windowBottom = windowTop + windowInnerHeight,
+                { top: columnTop, bottom: columnBottom } = this.column.getBoundingClientRect();
 
-            // adjust offset
-            this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
-            this.offsetOld = offsetNeeded;
-
-            // column readings
-            const { top: spacerTop, height: spacerHeight } = this.spacer.getBoundingClientRect();
-            const windowInnerHeight = document.documentElement.clientHeight;
-            const scrollY = window.scrollY;
-
-            let adjustment = spacerTop - (windowInnerHeight - 42);
-
-            if (adjustment < 0) {
-                // we are overshooting
-                console.log('[flowColumns] overshooting');
-                adjustment *= 2;
-            } else {
-                // we are undershooting
-                console.log('[flowColumns] undershooting');
-                adjustment *= 2;
-            }
-
-            console.log('adjustment', adjustment);
-
-            const heightNew = spacerHeight + adjustment - 1;
-
-            console.log('spacerHeight', spacerHeight, 'spacerTop', spacerTop, 'scrollY', scrollY, 'windowInnerHeight', windowInnerHeight, 'heightNew', heightNew);
-            console.log(this.spacer.getBoundingClientRect());
-
-            this.spacerChild.style.height = `${heightNew}px`;
+            this.content.style.marginBottom = `${42 - columnTop}px`;
+            this.content.style.marginTop = `${21 + columnBottom - windowInnerHeight}px`;
 
             this.animationFrameID = null;
         });
