@@ -32,8 +32,8 @@ class Columns {
                 windowBottom = windowTop + windowInnerHeight,
                 { top: columnTop, bottom: columnBottom } = this.column.getBoundingClientRect();
 
-            this.content.style.marginBottom = `${42 - columnTop}px`;
-            this.content.style.marginTop = `${21 + columnBottom - windowInnerHeight}px`;
+            this.content.style.marginBottom = `${63 - columnTop}px`;
+            this.content.style.marginTop = `${Math.max(0, 21 + columnBottom - windowInnerHeight)}px`;
 
             this.animationFrameID = null;
         });
