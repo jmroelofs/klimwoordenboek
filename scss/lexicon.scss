@@ -130,17 +130,16 @@ section {
             margin-top: calc(0px - var(--column-offset));
         }
 
-        /*  we use padding because a block with zero height is ignored by getBoundingClientRect
-            https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
+
         #spacer {
-            /* adjust margin 1px because of padding */
-            margin-top: calc(100vh - #{($padding-height * 2) + 1});
-            padding-top: 1px;
+            margin-top: calc(100vh - #{($padding-height * 2)});
             width: 100%;
             float: left;
             display: block;
             shape-outside: content-box;
             break-inside: avoid;
+            height: -webkit-fill-available;
+            height: -moz-available;
         }
 
         /* fix for firefox splitting h2 in columns */
