@@ -96,7 +96,7 @@ body {
 }
 
 .main-column {
-    margin: 0 2.25% 0 26.7%;
+    margin-block: 2.25% 26.7%;
     padding-left: 1.2%;
 }
 
@@ -331,7 +331,7 @@ dfn {
     &:hover::before {
         content: "";
         position: absolute;
-        inset-block: (($font-size * ($line-height / 1rem)) - $vertical-adjust-for_font) $vertical-adjust-for_font;
+        inset: (($font-size * ($line-height / 1rem)) - $vertical-adjust-for_font) 0 $vertical-adjust-for_font 0;
         z-index: -1;
         background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
     }
@@ -355,7 +355,7 @@ dfn {
         &::before {
             content: "";
             position: absolute;
-            inset-block: -$vertical-adjust-for_font $vertical-adjust-for_font;
+            inset: -$vertical-adjust-for_font 0 $vertical-adjust-for_font 0;
             z-index: -1;
         }
 

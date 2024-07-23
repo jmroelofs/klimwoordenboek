@@ -19,7 +19,7 @@ class Columns {
     diffMoreThan = (x, y, z) => Math.abs(x - y) > z;
     roundNearest = (x, y) => y * Math.round(x / y);
 
-    flowColumns = (event) => {
+    flowColumns = event => {
         if (this.animationFrameID) {
             console.log(`[flowColumns] resetting animation in ${event.type} event`);
             window.cancelAnimationFrame(this.animationFrameID);
