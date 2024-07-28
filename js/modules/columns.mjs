@@ -48,22 +48,20 @@ class Columns {
                 windowInnerHeight = document.documentElement.clientHeight;
 
             // calculate height of spacer
-            let
-                heightNeeded,
-                calculatedHeight;
+            let calculatedHeight;
 
             if (spacerBottom >= lastParagraphBottom) {
                 // we are overshooting
                 // console.log('[flowColumns] overshooting');
 
-                heightNeeded = lastParagraphBottom - spacerChildTop;
+                const heightNeeded = lastParagraphBottom - spacerChildTop;
                 calculatedHeight = heightNeeded - offsetDifference;
 
             } else {
                 // we are undershooting
                 // console.log('[flowColumns] undershooting');
 
-                heightNeeded = columnBottom - spacerChildTop;
+                const heightNeeded = columnBottom - spacerChildTop;
                 calculatedHeight = (2 * heightNeeded) - this.heightOld - offsetDifference;
 
             }
