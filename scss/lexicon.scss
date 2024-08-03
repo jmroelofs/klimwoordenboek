@@ -156,8 +156,7 @@ section {
 
 
 /*  on big and wide screens we use the golden ratio
-    it kicks in between 1200 and 1600 pixels wide
-    also do some repairs for a fixed positioned left-column */
+    it kicks in between 1200 and 1600 pixels wide */
 
 @media (max-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) {
 
