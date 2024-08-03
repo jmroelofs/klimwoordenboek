@@ -195,9 +195,8 @@ section {
 }
 
 h1,
-h2,
-h3 {
-    margin: 0;
+h2 {
+    margin-block: 0;
     font-size: inherit;
     line-height: inherit;
 }
@@ -208,7 +207,6 @@ h2+p {
 }
 
 h2,
-h3,
 nav+p {
     padding-top: $line-height;
 }
@@ -273,7 +271,6 @@ strong,
 b,
 h1,
 h2,
-h3,
 [lang|="fr"],
 [lang|="en"] {
     font-weight: 450;
