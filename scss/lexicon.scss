@@ -69,7 +69,7 @@ $left-column-margin-ratio: 0.015;
 }
 
 body {
-    margin: 0 auto;
+    margin-inline: auto;
     overflow-anchor: none;
     overscroll-behavior: contain;
 }
