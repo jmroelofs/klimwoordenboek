@@ -10,9 +10,6 @@ $namesAndDescriptions = [
         'description' => 'Franse en Engelse klimtermen en hun vertaling in het Nederlands',
         'contentFile' => 'main.php',
         'imageFile' => 'klimwoordenboek.png',
-        'mainClass' => 'active',
-        'gradingClass' => '',
-        'gradingTablesClass' => '',
     ],
     'waarderingen' => [
         'title' => 'Klimwoordenboek Frans &amp; Engels - moeilijkheidswaarderingen',
@@ -20,9 +17,6 @@ $namesAndDescriptions = [
         'description' => 'Moeilijkheidswaarderingen gebruikt in het klimmen',
         'contentFile' => 'grading.php',
         'imageFile' => 'klimwaarderingen.png',
-        'mainClass' => '',
-        'gradingClass' => 'active',
-        'gradingTablesClass' => '',
     ],
     'gradenschets' => [
         'title' => 'Klimwoordenboek Frans &amp; Engels - Vergelijking moeilijkheidswaarderingen',
@@ -30,9 +24,6 @@ $namesAndDescriptions = [
         'description' => 'Vergelijking tussen moeilijkheidswaarderingen gebruikt in het klimmen',
         'contentFile' => 'grading-tables.php',
         'imageFile' => 'vergelijking.png',
-        'mainClass' => '',
-        'gradingClass' => '',
-        'gradingTablesClass' => 'active',
     ],
 ];
 
