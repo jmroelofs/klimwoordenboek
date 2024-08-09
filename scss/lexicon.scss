@@ -84,7 +84,7 @@ body {
 
     div {
         height: 100vh;
-        height: 100cqh;
+        height: max(100vh, 100cqh);
         padding-bottom: $padding-height;
         overflow-y: scroll;
         scrollbar-width: none;
