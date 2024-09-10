@@ -263,7 +263,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">croiser</dfn> <dfn lang="en-GB">to cross</dfn>
 	kruisen. <dfn lang="fr">croisé [v.]</dfn> <dfn lang="en-GB">cross-move</dfn> kruispas, bij klim&shy;beweging de ene arm over de andere kruisen. <dfn lang="fr">décroisé [v.]</dfn> de pas na een kruis&shy;pas, waarbij ontkruist wordt. <dfn lang="fr">décroiser</dfn> ontkruisen.</p>
 <p><dfn lang="fr">faire un croix</dfn>
-	een kruisje zetten, <dfn lang="en-GB">to tick a route/<wbr></dfn><dfn lang="en-US">to send [Am.]</dfn> een route drukken. <dfn lang="en-US">send burn [Am.]</dfn> poging waarbij je een route in één keer klimt. <dfn lang="en-GB">a nice tick</dfn> een aanrader, een mooie prestatie. <dfn lang="fr">faire un anti-croix</dfn> iets doen dat slecht is voor de vorm (zuipen bv.).</p>
+	een kruisje zetten, <dfn lang="en-GB">to tick a route/<wbr></dfn><dfn lang="en-US">to send [Am.]</dfn> een route drukken. <dfn lang="en-US">send burn [Am.]</dfn> poging waarbij je een route in één keer klimt. <dfn lang="en-US">send train [Am.]</dfn> meerdere klimmers die een route of boulder na elkaar succesvol klimmen. <dfn lang="en-GB">a nice tick</dfn> een aanrader, een mooie prestatie. <dfn lang="fr">faire un anti-croix</dfn> iets doen dat slecht is voor de vorm (zuipen bv.).</p>
 <p><dfn lang="fr">cuissard [m.]</dfn>
 	heupgordel.</p>
 <p><dfn lang="fr">cupule [v.]</dfn>
