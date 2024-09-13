@@ -91,7 +91,7 @@ document.querySelectorAll('a[href^="mailto:"]')
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.roelofs-coaching.nl/klimwoordenboek/images/<?php echo $request ;?>"
+    "@id": "https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>"
   },
   "headline": "<?php echo $title; ?>",
   "image": {
