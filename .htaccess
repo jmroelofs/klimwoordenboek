@@ -13,11 +13,13 @@ AddType image/webp .webp
 # set charset for some files
 AddCharset UTF-8 .css .js .mjs
 
-# Caching directives (http://www.askapache.com/htaccess/speed-up-sites-with-htaccess-caching.html)
+# Response may be cached by any cache
+# http://www.askapache.com/htaccess/speed-up-sites-with-htaccess-caching.html
 <ifModule mod_headers.c>
     Header append Cache-Control "public"
 </ifModule>
 
+# Set max-age
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresDefault "access plus 1 day"
