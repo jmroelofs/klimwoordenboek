@@ -25,6 +25,7 @@ AddCharset UTF-8 .css .js .mjs
     ExpiresByType image/vnd.microsoft.icon "access plus 1 month"
 </IfModule>
 
+# Use gzip content-encoding for .mjs files 
 <IfModule mod_deflate.c>
     <FilesMatch "\.(mjs)$">
         SetOutputFilter DEFLATE
