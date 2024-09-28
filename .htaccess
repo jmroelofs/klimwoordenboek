@@ -5,17 +5,13 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 
-# Add javscript module type
+# Add types
 AddType text/javascript .mjs
-
-# set charset for .css and .js files
-AddCharset UTF-8 .css .js .mjs
-
-# Add font types
 Addtype font/woff2 .woff2
-
-# Add image types
 AddType image/webp .webp
+
+# set charset for some files
+AddCharset UTF-8 .css .js .mjs
 
 # Caching directives (http://www.askapache.com/htaccess/speed-up-sites-with-htaccess-caching.html)
 <ifModule mod_headers.c>
