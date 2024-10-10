@@ -8,7 +8,7 @@ RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 # Add types
 AddType text/javascript .mjs
 Addtype font/woff2 .woff2
-AddType image/webp .webp
+AddType image/avif .avif
 
 # set charset for some files
 AddCharset UTF-8 .css .js .mjs

@@ -55,7 +55,7 @@ extract($namesAndDescriptions[$request]);
 <meta property="og:url" content="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v20-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v20-italic.woff2">
-<link rel="preload" as="image" type="image/webp" href="images/handmadepaper.webp">
+<link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
 <link rel="modulepreload" href="js/modules/columns.mjs">
 <link rel="modulepreload" href="js/modules/rot13.mjs">
 <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
