@@ -103,6 +103,7 @@ document.querySelectorAll('a[href^="mailto:"]')
   "datePublished": "2001-06-02T18:33:56+02:00",
   "dateModified": "<?php echo date(DATE_ATOM, filemtime($contentFile)); ?>",
   "author": {
+    "url": "https://www.roelofs-coaching.nl/",
     "@type": "Person",
     "name": "Jan Martin Roelofs"
   },
