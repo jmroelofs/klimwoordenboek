@@ -82,7 +82,7 @@ new Promise((resolve, reject) => {
     .finally(setupFlow);
 
 document.querySelectorAll('a[href^="mailto:"]')
-    .forEach(mailLink => mailLink.href = 'mailto:' + decode(mailLink.href.split(':')[1]));
+    .forEach(mailLink => mailLink.href = `mailto:${decode(mailLink.href.split(':')[1])}`);
 </script>
 <?php include('analytics.php'); ?>
 <script type="application/ld+json">
