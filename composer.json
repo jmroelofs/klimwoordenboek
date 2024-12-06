@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "scssphp/server": "^1.10"
+        "scssphp/server": "^1.10.1"
     },
     "config": {
         "platform": {
