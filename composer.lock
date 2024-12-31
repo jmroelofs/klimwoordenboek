@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15f275f7836c80aded60b41b13ec84d8",
+    "content-hash": "10b3503c925dc442eb5d4c0980dde59f",
     "packages": [
         {
             "name": "scssphp/scssphp",
@@ -46,8 +46,8 @@
             "type": "library",
             "extra": {
                 "bamarni-bin": {
-                    "forward-command": false,
-                    "bin-links": false
+                    "bin-links": false,
+                    "forward-command": false
                 }
             },
             "autoload": {
@@ -134,7 +134,7 @@
     "platform": [],
     "platform-dev": [],
     "platform-overrides": {
-        "php": "8.3.0"
+        "php": "8.4.0"
     },
     "plugin-api-version": "2.3.0"
 }
