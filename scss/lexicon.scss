@@ -69,7 +69,6 @@ $left-column-margin-ratio: 0.015;
 }
 
 body {
-    margin-inline: auto;
     overflow-anchor: none;
     overscroll-behavior: contain;
 }
@@ -163,6 +162,7 @@ section {
     /* wide enough, but not high enough, body will be 1200px wide */
     body {
         max-width: $ratio-view-lower-width;
+        margin-left: calc(50vw - #{$ratio-view-lower-width / 2})
     }
 
     #continuous-column {
@@ -175,6 +175,7 @@ section {
     /* body will use golden ratio */
     body {
         max-width: $ratio * 100vh;
+        margin-left: calc(50vw - #{$ratio * 50}vh)
     }
 
     #continuous-column {
@@ -187,6 +188,7 @@ section {
     /* too big, body will be 1600px wide */
     body {
         max-width: $ratio-view-upper-width;
+        margin-left: calc(50vw - #{$ratio-view-upper-width / 2})
     }
 
     #continuous-column {
