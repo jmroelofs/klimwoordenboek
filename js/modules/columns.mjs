@@ -14,7 +14,6 @@ class Columns {
     secondParagraphLineHeight = this.secondParagraph
         ? parseInt(window.getComputedStyle(this.secondParagraph).getPropertyValue('line-height'))
         : null;
-    secondParagraphHalfLineHeight = this.secondParagraphLineHeight / 2;
 
     diffMoreThan = (x, y, z) => Math.abs(x - y) > z;
     roundNearest = (x, y) => y * Math.round(x / y);
@@ -59,7 +58,7 @@ class Columns {
         const
             safetyMargin = Math.max(
                 Math.min(1, calculatedHeight / windowInnerHeight) * this.firstParagraphHeight,
-                this.secondParagraphHalfLineHeight
+                this.secondParagraphLineHeight / 2
             ),
             heightNew = Math.max(0, calculatedHeight + safetyMargin);
 
