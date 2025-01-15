@@ -58,8 +58,8 @@ class Columns {
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
             safetyMargin = Math.max(
-                Math.min(1, calculatedHeight / windowInnerHeight)
-                    * this.firstParagraphHeight, this.secondParagraphHalfLineHeight
+                Math.min(1, calculatedHeight / windowInnerHeight) * this.firstParagraphHeight,
+                this.secondParagraphHalfLineHeight
             ),
             heightNew = Math.max(0, calculatedHeight + safetyMargin);
 
