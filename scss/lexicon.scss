@@ -254,7 +254,8 @@ a:visited {
 a:hover,
 a:active,
 a:focus,
-a.active {
+a.active,
+a.active-link {
     text-decoration: underline currentcolor 2px;
 }
 

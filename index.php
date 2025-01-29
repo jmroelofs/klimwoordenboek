@@ -67,6 +67,7 @@ extract($namesAndDescriptions[$request]);
 <link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
 <link rel="modulepreload" href="js/modules/columns.mjs">
 <link rel="modulepreload" href="js/modules/rot13.mjs">
+<link rel="modulepreload" href="js/modules/activeLink.mjs">
 <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 <link rel="stylesheet" href="style.php/lexicon.scss">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
@@ -77,8 +78,10 @@ extract($namesAndDescriptions[$request]);
 <script type="module">
 import { Columns } from './js/modules/columns.mjs';
 import { Rot13 } from './js/modules/rot13.mjs';
+import { ActiveLink } from './js/modules/activeLink.mjs';
 const setupFlow = new Columns().setupFlow,
     decode = new Rot13().decode,
+    setupLinks = new ActiveLink().setupLinks,
     maxWaitingTime = 1000,
     warn = () => console.warn(`Fonts were not available after waiting ${maxWaitingTime} milliseconds`);
 
@@ -92,6 +95,8 @@ new Promise((resolve, reject) => {
 
 document.querySelectorAll('a[href^="mailto:"]')
     .forEach(mailLink => mailLink.href = `mailto:${decode(mailLink.href.split(':')[1])}`);
+
+setupLinks(document.querySelectorAll('#alphabet a'));
 </script>
 <?php include('analytics.php'); ?>
 <script type="application/ld+json">
