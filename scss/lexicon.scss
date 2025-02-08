@@ -32,7 +32,7 @@ $text-indent: 0.667rem;
 $font-size: 14px;
 $font-size-header: 1.333rem;
 $padding-height: $font-size * ($line-height / 1rem) * 2;
-$vertical-adjust-for_font: 2px;
+$vertical-adjust-for-font: 2px;
 
 /* use golden ratio */
 
@@ -324,13 +324,13 @@ dfn {
 /* grading tables */
 
 .grading-table {
-    padding-top: $block-top-padding;
+    margin-top: $block-top-padding;
     position: relative;
 
     &:hover::before {
         content: "";
         position: absolute;
-        inset: (($font-size * ($line-height / 1rem)) - $vertical-adjust-for_font) 0 $vertical-adjust-for_font 0;
+        inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font 0;
         z-index: -1;
         background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
     }
@@ -354,7 +354,7 @@ dfn {
         &::before {
             content: "";
             position: absolute;
-            inset: -$vertical-adjust-for_font 0 $vertical-adjust-for_font 0;
+            inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font 0;
             z-index: -1;
         }
 
