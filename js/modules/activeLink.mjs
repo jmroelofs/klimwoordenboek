@@ -9,7 +9,7 @@ class ActiveLink {
             this.activeLink.classList.remove('active-link');
         }
 
-        this.allLinks.forEach((link) => {
+        this.allLinks.forEach(link => {
             if (link.href === href) {
                 link.classList.add('active-link');
                 this.activeLink = link;
@@ -17,7 +17,7 @@ class ActiveLink {
         })
     }
 
-    setupLinks = (links) => {
+    setupLinks = links => {
         this.allLinks = links;
         this.setActive();
         window.addEventListener('hashchange', this.setActive)
