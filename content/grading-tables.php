@@ -10,7 +10,7 @@ if (! defined( '_LEXICON' )) {
 <section>
 <h2>Routewaarderingen</h2>
 <div class="grading-table">
-  <p>Frans</p>
+  <p><a href="waarderingen#cotation">Frans</a></p>
   <table style="width:800px;">
     <tr>
       <td style="width:32px">5</td>
@@ -40,7 +40,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">9c</td>
     </tr>
   </table>
-  <p>Frans, meerdere touwlengten</p>
+  <p><a href="waarderingen#alpin">Frans, meerdere touwlengten</a></p>
   <table>
     <tr>
       <td style="width:32px">TD</td>
@@ -53,7 +53,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:192px">ABO<sup>+</sup></td>
     </tr>
   </table>
-  <p>UIAA/Duits</p>
+  <p><a href="waarderingen#UIAA">UIAA/Duits</a></p>
   <table>
     <tr>
       <td style="width:32px">V<sup>+</sup></td>
@@ -79,7 +79,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">XII</td>
     </tr>
   </table>
-  <p>Elbsandstein</p>
+  <p><a href="waarderingen#Elbsandstein">Elbsandstein</a></p>
   <table>
     <tr>
       <td style="width:32px">VIa</td>
@@ -104,7 +104,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">XIIb</td>
     </tr>
   </table>
-  <p>Amerikaans</p>
+  <p><a href="waarderingen#YDS">Amerikaans</a></p>
   <table>
     <tr>
       <td style="width:32px">5<span class="decp">.</span>8</td>
@@ -135,7 +135,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">5<span class="decp1">.</span>15d</td>
     </tr>
   </table>
-  <p>Australisch</p>
+  <p><a href="waarderingen#Ewbank">Australisch</a></p>
   <table>
     <tr>
       <td style="width:32px">16</td>
@@ -163,7 +163,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">38</td>
     </tr>
   </table>
-  <p>Engels</p>
+  <p><a href="waarderingen#adjectival-grade">Engels</a></p>
   <table>
     <tr>
       <td style="width:64px">HVS</td>
@@ -186,7 +186,7 @@ if (! defined( '_LEXICON' )) {
 <section>
 <h2>Boulderwaarderingen</h2>
 <div class="grading-table">
-  <p>Engels</p>
+  <p><a href="waarderingen#technical-grade">Engels</a></p>
   <table>
     <tr>
       <td style="width:64px">5a</td>
@@ -199,7 +199,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:96px">7b</td>
     </tr>
   </table>
-  <p>Bloc (Frans)</p>
+  <p><a href="waarderingen#cotation-bloc">Bloc (Frans)</a></p>
   <table style="width:768px;">
     <tr>
       <td style="width:32px">3<sup>+</sup></td>
@@ -228,7 +228,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">9a</td>
     </tr>
   </table>
-  <p>Amerikaans/Australisch</p>
+  <p><a href="waarderingen#V-scale">Amerikaans/Australisch</a></p>
   <table>
     <tr>
       <td style="width:64px">V0</td>
@@ -252,7 +252,7 @@ if (! defined( '_LEXICON' )) {
       <td style="width:32px">V17</td>
     </tr>
   </table>
-  <p>Traversewaardering (Frans)</p>
+  <p><a href="waarderingen#cotation-traverse">Traversewaardering (Frans)</a></p>
   <table>
     <tr>
       <td style="width:32px">3</td>
