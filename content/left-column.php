@@ -1,7 +1,11 @@
 <?php
+
+declare(strict_types = 1);
+
 if (! defined( '_LEXICON' )) {
     require '../404.php';
 }
+
 ?>
 <div>
 <nav><h2><a href="/">Roelofs Coaching</a></h2>

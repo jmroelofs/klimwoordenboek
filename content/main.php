@@ -1,7 +1,11 @@
 <?php
+
+declare(strict_types = 1);
+
 if (! defined( '_LEXICON' )) {
     require '../404.php';
 }
+
 ?>
 <section id="continuous-column">
 <div id="spacer"><div id="spacer-child"></div></div>

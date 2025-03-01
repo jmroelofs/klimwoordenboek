@@ -1,7 +1,11 @@
 <?php
+
+declare(strict_types = 1);
+
 if (! defined( '_LEXICON' ) && ! defined('_JEXEC')) {
     require '404.php';
 }
+
 ?>
 <script>
 window.dataLayer = window.dataLayer || [];

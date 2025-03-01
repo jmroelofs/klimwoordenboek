@@ -1,7 +1,11 @@
 <?php
+
+declare(strict_types = 1);
+
 if (! defined( '_LEXICON' )) {
     require '../404.php';
 }
+
 ?>
 <section>
 <h2>Routewaarderingen</h2>

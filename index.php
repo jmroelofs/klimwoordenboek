@@ -1,5 +1,8 @@
 <?php
-define( '_LEXICON', 1 );
+
+declare(strict_types = 1);
+
+const _LEXICON = 1;
 
 $request = $_GET['q'] ?? '';
 
@@ -115,7 +118,7 @@ setupLinks(document.querySelectorAll('#alphabet a'));
     "height": 430
   },
   "datePublished": "2001-06-02T18:33:56+02:00",
-  "dateModified": "<?php echo date(DATE_ATOM, filemtime($contentFile)); ?>",
+  "dateModified": "<?php echo date(DATE_ATOM, filemtime('content/' . $contentFile)); ?>",
   "author": {
     "@type": "Person",
     "url": "https://www.roelofs-coaching.nl/",
@@ -142,7 +145,7 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 </div>
 
 <div id="<?php echo pathinfo($contentFile)['filename']; ?>" class="main-column">
-<?php include 'content/'. $contentFile; ?>
+<?php include 'content/' . $contentFile; ?>
 </div>
 
 </body>
