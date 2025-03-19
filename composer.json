@@ -20,5 +20,7 @@
         "platform": {
              "php": "8.4.0"
         }
-    }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
