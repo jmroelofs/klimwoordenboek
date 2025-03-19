@@ -55,7 +55,6 @@ $left-column-margin-ratio: 0.015;
 }
 
 :root {
-    width: 100%;
     font: 400 $font-size/($line-height / 1rem) $font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
@@ -64,7 +63,6 @@ $left-column-margin-ratio: 0.015;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
     min-width: 432px;
-    overflow: auto;
     color: $text-color;
     background: $background-color url('../images/handmadepaper.avif') repeat scroll 0 0;
 }
