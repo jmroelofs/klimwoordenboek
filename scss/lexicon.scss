@@ -68,7 +68,6 @@ $left-column-margin-ratio: 0.015;
 }
 
 body {
-    overflow-anchor: none;
     overscroll-behavior: contain;
 }
 
@@ -125,7 +124,7 @@ section {
         padding-top: var(--column-offset);
 
         #spacer+h2 {
-            margin-top: calc(0px - var(--column-offset));
+            margin-top: calc(-1 * var(--column-offset));
         }
 
         /*  we use padding because a block with zero height is ignored by getBoundingClientRect
