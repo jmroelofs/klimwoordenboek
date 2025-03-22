@@ -194,14 +194,14 @@ section {
     }
 }
 
-h1,
+header,
 h2 {
     margin-block: 0;
     font-size: inherit;
     line-height: inherit;
 }
 
-h1,
+header,
 h2+p {
     padding-top: $block-top-padding;
 }
@@ -270,14 +270,14 @@ a:focus {
 
 strong,
 b,
-h1,
+header,
 h2,
 [lang|="fr"],
 [lang|="en"] {
     font-weight: 450;
 }
 
-h1,
+header,
 h2,
 h2:target {
     color: $bold-color;
@@ -402,7 +402,7 @@ dfn {
         page-break-inside: avoid;
     }
 
-    h1,
+    header,
     h2 {
         page-break-after: avoid;
     }
