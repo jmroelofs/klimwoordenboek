@@ -13,15 +13,15 @@
 
 /* colors */
 
-$background-color: #f6f5f4;
-$background-color-darker: rgba(0, 0, 0, 0.04);
-$text-color: #242424;
-$bold-color: #333;
-$underline-color: #999;
-$french-color: #004210;
-$english-color: #500010;
-$color-even: #BAE2F3;
-$color-odd: desaturate(darken($color-even, 4%), 15%);
+$background-color: oklch(0.97 0 0);
+$background-color-darker: oklch(0 0 0 / 0.035);
+$text-color: oklch(0.26 0 0);
+$bold-color: oklch(0.32 0 0);
+$underline-color: oklch(0.68 0 0);
+$french-color: oklch(0.33 0.1 146.11);
+$english-color: oklch(0.27 0.11 18.9);
+$color-even: oklch(0.89 0.05 225.57);
+$color-odd: oklch(0.86 0.05 225.57);
 
 /* font related */
 
