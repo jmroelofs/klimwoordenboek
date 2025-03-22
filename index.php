@@ -144,9 +144,9 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 <?php include 'content/left-column.php'; ?>
 </div>
 
-<div id="<?php echo pathinfo($contentFile)['filename']; ?>" class="main-column">
+<main id="<?php echo pathinfo($contentFile)['filename']; ?>" class="main-column">
 <?php include 'content/' . $contentFile; ?>
-</div>
+</main>
 
 </body>
 </html>
