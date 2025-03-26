@@ -98,6 +98,15 @@ body {
 }
 
 
+/*  on reasonably small screens the following gives nicer margins */
+
+@media (min-width: 850px) and (max-width: 1250px) {
+    :root {
+        scrollbar-gutter: stable both-edges;
+    }
+}
+
+
 /*  to get a right margin on smaller screens
     we don't use it everywhere because it slows down page rendering */
 
