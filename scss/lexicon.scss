@@ -3,7 +3,6 @@
 /* Improve font rendering on HiDPI devices */
 
 @media
-	screen and (-webkit-min-device-pixel-ratio: 2),
 	screen and (min-resolution: 2dppx) {
 	body {
 		-moz-osx-font-smoothing: grayscale;
@@ -125,7 +124,7 @@ section {
     display: none;
 }
 
-@media (min-width: 801px) and (min-device-width: 750px) {
+@media screen and (min-width: 801px) and (min-device-width: 750px) {
     #continuous-column {
         column-count: 2;
         column-gap: 28px;
@@ -408,11 +407,11 @@ dfn {
     }
 
     p {
-        page-break-inside: avoid;
+        break-inside: avoid-page;
     }
 
     header,
     h2 {
-        page-break-after: avoid;
+        break-after: avoid-page;
     }
 }
