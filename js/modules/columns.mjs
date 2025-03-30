@@ -4,7 +4,6 @@ class Columns {
     offsetOriginal = 42;
     lastParagraph = document.getElementById('last-paragraph');
     spacer = document.getElementById('spacer');
-    spacerChild = document.getElementById('spacer-child');
     offsetOld = this.offsetOriginal;
     heightOld = 0;
     
@@ -28,7 +27,7 @@ class Columns {
 
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
-            spacerChildTop = spacerTop - 1,
+            spacerContentTop = spacerTop - 1,
             {bottom: columnBottom} = this.column.getBoundingClientRect(),
             {bottom: lastParagraphBottom} = this.lastParagraph.getBoundingClientRect(),
 
@@ -42,14 +41,14 @@ class Columns {
             // we are overshooting
             // console.log('[flowColumns] overshooting');
 
-            const heightNeeded = lastParagraphBottom - spacerChildTop;
+            const heightNeeded = lastParagraphBottom - spacerContentTop;
             calculatedHeight = heightNeeded - offsetDifference;
 
         } else {
             // we are undershooting
             // console.log('[flowColumns] undershooting');
 
-            const heightNeeded = columnBottom - spacerChildTop;
+            const heightNeeded = columnBottom - spacerContentTop;
             calculatedHeight = (2 * heightNeeded) - this.heightOld - offsetDifference;
 
         }
@@ -68,7 +67,7 @@ class Columns {
 
         // adjust height of spacer
         if (this.diffMoreThan(heightNew, this.heightOld, 1)) {
-            this.spacerChild.style.height = `${heightNew}px`;
+            this.spacer.style.height = `${heightNew}px`;
             this.heightOld = heightNew;
         }
 

@@ -145,6 +145,7 @@ section {
             float: left;
             display: block;
             shape-outside: content-box;
+            box-sizing: content-box;
             break-inside: avoid;
         }
 
