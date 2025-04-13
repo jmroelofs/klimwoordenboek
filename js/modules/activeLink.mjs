@@ -1,25 +1,22 @@
 class ActiveLink {
     allLinks;
-    activeLink = null;
+    activeLink;
 
-    setActive = () => {
-        const href = window.location.href;
+    setActive = (event) => {
+        this.activeLink?.classList.remove('active-link');
 
-        if (this.activeLink && this.activeLink.href !== href) {
-            this.activeLink.classList.remove('active-link');
-        }
-
-        this.allLinks.forEach(link => {
-            if (link.href === href) {
+        this.allLinks.some(link => {
+            if (link.href === event.newURL) {
                 link.classList.add('active-link');
                 this.activeLink = link;
+                return true
             }
         })
     }
 
     setupLinks = links => {
-        this.allLinks = links;
-        this.setActive();
+        this.allLinks = Array.from(links);
+        this.setActive({ newURL: window.location.href });
         window.addEventListener('hashchange', this.setActive)
     }
 }
