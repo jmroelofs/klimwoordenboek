@@ -2,7 +2,7 @@ class ActiveLink {
     allLinks;
     activeLink;
 
-    setActive = (event) => {
+    setActive = event => {
         this.activeLink?.classList.remove('active-link');
 
         this.allLinks.some(link => {
