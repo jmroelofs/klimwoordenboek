@@ -17,7 +17,7 @@ class ActiveLink {
     setupLinks = links => {
         this.allLinks = Array.from(links);
         this.setActive({ newURL: window.location.href });
-        window.addEventListener('hashchange', this.setActive)
+        window.addEventListener('hashchange', this.setActive, { passive: true })
     }
 }
 
