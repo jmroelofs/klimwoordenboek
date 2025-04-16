@@ -1,13 +1,12 @@
 class Columns {
     animationFrameID = null;
+
     column = document.getElementById('continuous-column');
     offsetOriginal = this.column 
         ? parseInt(window.getComputedStyle(this.column).getPropertyValue('--column-offset'))
         : null;
+    spacer = this.column?.querySelector('#spacer');
     lastParagraph = this.column?.lastElementChild;
-    spacer = document.getElementById('spacer');
-    offsetOld = this.offsetOriginal;
-    heightOld = 0;
     
     firstParagraph = this.spacer?.nextElementSibling;
     firstParagraphHeight = this.firstParagraph?.getBoundingClientRect().height;
@@ -15,6 +14,9 @@ class Columns {
     secondParagraphLineHeight = this.secondParagraph
         ? parseInt(window.getComputedStyle(this.secondParagraph).getPropertyValue('line-height'))
         : null;
+
+    offsetOld = this.offsetOriginal;
+    heightOld = 0;
 
     diffMoreThan = (x, y, z) => Math.abs(x - y) > z;
     roundNearest = (x, y) => y * Math.round(x / y);
