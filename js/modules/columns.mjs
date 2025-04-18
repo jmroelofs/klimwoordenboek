@@ -33,7 +33,7 @@ class Columns {
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
             spacerContentTop = spacerTop - 1,
             {bottom: columnBottom} = this.column.getBoundingClientRect(),
-            {bottom: lastParagraphBottom} = this.lastParagraph.getBoundingClientRect(),
+            {bottom: lastParagraphBottom} = Array.from(this.lastParagraph.getClientRects()).pop(),
 
             // use document.documentElement.clientHeight instead of window.innerHeight to accomodate Safari on iPad
             windowInnerHeight = document.documentElement.clientHeight;

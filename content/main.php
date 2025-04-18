@@ -882,5 +882,4 @@ if (! defined( '_LEXICON' )) {
 <h2 id="Z">Z</h2>
 <p><dfn lang="fr">zipper/<wbr>riper/<wbr>glisser</dfn>
 	weg-/<wbr>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
-<div></div>
 </section>
