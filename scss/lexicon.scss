@@ -1,14 +1,17 @@
 /* CSS for klimwoordenboek */
 
-/* Improve font rendering on HiDPI devices */
 
-@media
-	screen and (min-resolution: 2dppx) {
-	body {
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-	}
-}
+/* font related */
+
+$font-family: 'Newsreader', serif;
+$line-height: 1.5rem;
+$block-top-padding: 1.5rem;
+$text-indent: 0.667rem;
+$font-size: 14px;
+$font-size-header: 1.333rem;
+$padding-height: $font-size * ($line-height / 1rem) * 2;
+$vertical-adjust-for-font: 2px;
+
 
 /* colors */
 
@@ -22,16 +25,6 @@ $english-color: oklch(0.27 0.11 18.9);
 $color-even: oklch(0.89 0.05 225.57);
 $color-odd: oklch(0.86 0.05 225.57);
 
-/* font related */
-
-$font-family: 'Newsreader', serif;
-$line-height: 1.5rem;
-$block-top-padding: 1.5rem;
-$text-indent: 0.667rem;
-$font-size: 14px;
-$font-size-header: 1.333rem;
-$padding-height: $font-size * ($line-height / 1rem) * 2;
-$vertical-adjust-for-font: 2px;
 
 /* use golden ratio */
 
@@ -44,10 +37,21 @@ $ratio-view-aspect-ratio: round(1000 * $ratio)+'/1000';
 $left-column-ratio: 0.234;
 $left-column-margin-ratio: 0.015;
 
-
-/* ------------------------------------------------- */
+/* ------------------------------------------------------------ */
 
 @import 'fonts-newsreader';
+
+
+/* Improve font rendering on HiDPI devices */
+
+@media
+	screen and (min-resolution: 2dppx) {
+	body {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
 
 @viewport {
     width: device-width;
@@ -110,6 +114,7 @@ body {
 #grading-tables {
     display: inline-block;
 }
+
 
 section {
     margin-bottom: $padding-height;
@@ -200,6 +205,7 @@ section {
         column-gap: 45px;
     }
 }
+
 
 header,
 h2 {
