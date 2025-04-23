@@ -61,7 +61,6 @@ $left-column-margin-ratio: 0.015;
     hyphens: auto;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
-    min-width: 432px;
     color: $text-color;
     background: $background-color url('../images/handmadepaper.avif') repeat scroll 0 0;
 }
@@ -310,7 +309,7 @@ dfn {
 
 @media (max-width: 549px) {
     body {
-        min-width: 135vw;
+        min-width: max(400px, 135vw);
     }
 
     .left-column p {
