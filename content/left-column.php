@@ -8,7 +8,7 @@ if (! defined( '_LEXICON' )) {
 
 ?>
 <div>
-<nav><h2><a href="/">Roelofs Coaching</a></h2>
+<nav><h2><a href="/">Roelofs <span class="nowrap">Coaching</span></a></h2>
 
 <header><a href="" class="<?php echo $mainClass; ?>">Klimwoorden&shy;boek Frans&nbsp;&amp;&nbsp;Engels</a></header>
 
