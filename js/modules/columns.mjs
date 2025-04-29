@@ -18,6 +18,9 @@ class Columns {
     offsetOld = this.offsetOriginal;
     heightOld = 0;
 
+    mediaQuery = window.matchMedia('screen and (min-width: 801px) and (min-device-width: 750px)');
+    matchesMedia = this.mediaQuery.matches;
+
     diffMoreThan = (x, y, z) => Math.abs(x - y) > z;
     roundNearest = (x, y) => y * Math.round(x / y);
 
@@ -84,15 +87,20 @@ class Columns {
             window.cancelAnimationFrame(this.animationFrameID);
         }
 
-        if (window.getComputedStyle(this.column).columnCount !== '2') {
+        if (! this.matchesMedia) {
             return;
         }
 
         this.animationFrameID = window.requestAnimationFrame(this.flowColumns);
     };
 
+    handleMediaChange = event => {
+        this.matchesMedia = event.matches;
+    };
+   
     setupFlow = () => {
         if (this.column) {
+            this.mediaQuery.addEventListener('change', this.handleMediaChange);
             this.handleEvent({ type: 'init' });
             ['scroll', 'resize'].forEach(event =>
                 window.addEventListener(event, this.handleEvent, { passive: true, capture: true })
