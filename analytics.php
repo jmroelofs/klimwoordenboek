@@ -8,7 +8,7 @@ if (! defined( '_LEXICON' ) && ! defined('_JEXEC')) {
 
 ?>
 <script>
-window.dataLayer = window.dataLayer || [];
+window.dataLayer ??= [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-J3VN5X9D08', {
