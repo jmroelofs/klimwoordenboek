@@ -1,6 +1,7 @@
 class Columns {
     animationFrameID = null;
 
+    root = document.documentElement
     column = document.getElementById('continuous-column');
     offsetOriginal = this.column 
         ? parseInt(window.getComputedStyle(this.column).getPropertyValue('--column-offset'))
@@ -31,15 +32,11 @@ class Columns {
         const
             offsetNeeded = this.roundNearest(window.scrollY + this.offsetOriginal, this.secondParagraphLineHeight),
             offsetDifference = offsetNeeded - this.offsetOld,
-
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
             spacerContentTop = spacerTop - 1,
             {bottom: columnBottom} = this.column.getBoundingClientRect(),
-            {bottom: lastParagraphBottom} = Array.from(this.lastParagraph.getClientRects()).pop(),
-
-            // use document.documentElement.clientHeight instead of window.innerHeight to accomodate Safari on iPad
-            windowInnerHeight = document.documentElement.clientHeight;
+            {bottom: lastParagraphBottom} = Array.from(this.lastParagraph.getClientRects()).pop();
 
         // calculate height of spacer
         let calculatedHeight;
@@ -63,7 +60,7 @@ class Columns {
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
             safetyMargin = Math.max(
-                Math.min(1, calculatedHeight / windowInnerHeight) * this.firstParagraphHeight,
+                Math.min(1, calculatedHeight / this.root.clientHeight) * this.firstParagraphHeight,
                 this.secondParagraphLineHeight / 2
             ),
             heightNew = Math.max(0, calculatedHeight + safetyMargin);
