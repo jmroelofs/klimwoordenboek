@@ -26,8 +26,6 @@ class Columns {
     roundNearest = (x, y) => y * Math.round(x / y);
 
     flowColumns = () => {
-        // do all the reading in the beginning
-
         // offset of page readings
         const
             offsetNeeded = this.roundNearest(window.scrollY + this.offsetOriginal, this.secondParagraphLineHeight),
@@ -35,7 +33,6 @@ class Columns {
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
             spacerContentTop = spacerTop - 1,
-            {bottom: columnBottom} = this.column.getBoundingClientRect(),
             {bottom: lastParagraphBottom} = Array.from(this.lastParagraph.getClientRects()).pop();
 
         // calculate height of spacer
@@ -52,7 +49,7 @@ class Columns {
             // we are undershooting
             // console.log('[flowColumns] undershooting');
 
-            const heightNeeded = columnBottom - spacerContentTop;
+            const heightNeeded =  this.column.getBoundingClientRect().bottom - spacerContentTop;
             calculatedHeight = (2 * heightNeeded) - this.heightOld - offsetDifference;
 
         }
