@@ -81,20 +81,14 @@ class Columns {
             window.cancelAnimationFrame(this.animationFrameID);
         }
 
-        if (! this.matchesMedia) {
-            return;
-        }
-
-        this.animationFrameID = window.requestAnimationFrame(this.flowColumns);
+        if (this.matchesMedia) {
+            this.animationFrameID = window.requestAnimationFrame(this.flowColumns);
+        }        
     };
-
-    handleMediaChange = event => {
-        this.matchesMedia = event.matches;
-    };
-   
+  
     setupFlow = () => {
         if (this.column) {
-            this.mediaQuery.addEventListener('change', this.handleMediaChange);
+            this.mediaQuery.addEventListener('change', event => this.matchesMedia = event.matches);
             this.handleEvent({ type: 'init' });
             ['scroll', 'resize'].forEach(event =>
                 window.addEventListener(event, this.handleEvent, { passive: true, capture: true })
