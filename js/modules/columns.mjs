@@ -59,20 +59,23 @@ class Columns {
             safetyMargin = Math.max(
                 Math.min(1, calculatedHeight / this.root.clientHeight) * this.firstParagraphHeight,
                 this.secondParagraphLineHeight / 2
-            ),
-            heightNew = Math.max(0, calculatedHeight + safetyMargin);
+            );
 
-        // adjust offset
-        this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
-        this.offsetOld = offsetNeeded
-
-        // adjust height of spacer
-        if (this.diffMoreThan(heightNew, this.heightOld, 1)) {
-            this.spacer.style.height = `${heightNew}px`;
-            this.heightOld = heightNew;
+        let heightNew = Math.max(0, calculatedHeight + safetyMargin);
+        if (! this.diffMoreThan(heightNew, this.heightOld, 1)) {
+            heightNew = this.heightOld;
         }
 
-        this.animationFrameID = null;
+        // setTimeout(() => {
+
+            // adjust offset
+            this.column.style.cssText = `--column-offset: ${offsetNeeded}px; --spacer-height: ${heightNew}px;`;
+            this.offsetOld = offsetNeeded
+            this.heightOld = heightNew;
+
+            this.animationFrameID = null;
+
+        // }, 0);
     };
 
     handleEvent = event => {

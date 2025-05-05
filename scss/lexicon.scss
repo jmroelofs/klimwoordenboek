@@ -133,6 +133,7 @@ section {
         column-count: 2;
         column-gap: 28px;
         --column-offset: #{$padding-height};
+        --spacer-height: 0px;
         padding-top: var(--column-offset);
 
         #spacer+h2 {
@@ -150,6 +151,7 @@ section {
             display: block;
             shape-outside: content-box;
             box-sizing: content-box;
+            height: var(--spacer-height);
             break-inside: avoid;
         }
 
