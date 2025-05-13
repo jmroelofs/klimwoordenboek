@@ -228,7 +228,8 @@ nav+p {
 p {
     text-align: justify;
     text-indent: -$text-indent;
-    margin: 0 0 0 $text-indent;
+    margin-block: 0;
+    padding-left: $text-indent;
 }
 
 dfn {
@@ -396,11 +397,6 @@ dfn {
 /* adjust text in grading tables */
 
 #grading-tables {
-    p {
-        text-indent: 0;
-        margin-left: 0;
-    }
-
     h2, p {
         position: sticky;
         width: max-content;
