@@ -42,7 +42,7 @@ $left-column-margin-ratio: 0.015;
 @import 'fonts-newsreader';
 
 
-/* Improve font rendering on HiDPI devices */
+/* improve font rendering on HiDPI devices */
 
 @media
 	screen and (min-resolution: 2dppx) {
@@ -52,6 +52,17 @@ $left-column-margin-ratio: 0.015;
 	}
 }
 
+/*  improve super- and subscripts
+    https://css-tricks.com/fluid-superscripts-and-subscripts/ */
+
+sup, sub {
+    font-size: calc(0.5em + 4px);
+    top: calc(-0.83em + 3.32px);
+}
+
+sub {
+    top: calc(0.42em - 1.66px);
+}
 
 @viewport {
     width: device-width;
@@ -100,7 +111,7 @@ body {
 }
 
 
-/*  on reasonably small screens the following gives nicer margins */
+/* on reasonably small screens the following gives nicer margins */
 
 @media (min-width: 850px) and (max-width: 1250px) {
     :root {
