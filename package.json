@@ -1,7 +1,0 @@
-{
-  "name": "klimwoordenboek",
-  "description": "Klimwoordenboek Frans & Engels",
-  "dependencies": {
-    "modern-normalize": "^3.0.0"
-  }
-}
