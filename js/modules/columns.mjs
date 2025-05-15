@@ -17,7 +17,7 @@ class Columns {
         : null;
 
     offsetOld = this.offsetOriginal;
-    heightOld = 0;
+    heightOld = 1;
 
     mediaQuery = window.matchMedia('screen and (min-width: 801px) and (min-device-width: 750px)');
     matchesMedia = this.mediaQuery.matches;
@@ -32,7 +32,6 @@ class Columns {
             offsetDifference = offsetNeeded - this.offsetOld,
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
-            spacerContentTop = spacerTop - 1,
             {bottom: lastParagraphBottom} = Array.from(this.lastParagraph.getClientRects()).pop();
 
         // calculate height of spacer
@@ -42,14 +41,14 @@ class Columns {
             // we are overshooting
             // console.log('[flowColumns] overshooting');
 
-            const heightNeeded = lastParagraphBottom - spacerContentTop;
+            const heightNeeded = lastParagraphBottom - spacerTop;
             calculatedHeight = heightNeeded - offsetDifference;
 
         } else {
             // we are undershooting
             // console.log('[flowColumns] undershooting');
 
-            const heightNeeded =  this.column.getBoundingClientRect().bottom - spacerContentTop;
+            const heightNeeded =  this.column.getBoundingClientRect().bottom - spacerTop;
             calculatedHeight = (2 * heightNeeded) - this.heightOld - offsetDifference;
 
         }
@@ -60,7 +59,7 @@ class Columns {
                 Math.min(1, calculatedHeight / this.root.clientHeight) * this.firstParagraphHeight,
                 this.secondParagraphLineHeight / 2
             ),
-            heightNew = Math.max(0, calculatedHeight + safetyMargin);
+            heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset
         this.column.style.setProperty('--column-offset', `${offsetNeeded}px`);
