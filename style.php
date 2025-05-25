@@ -12,4 +12,5 @@ $scssCompiler->setCharset(false);
 $scssCompiler->setOutputStyle(OutputStyle::COMPRESSED);
 $scssCompiler->setImportPaths($scssDirectory);
 
-new Server($scssDirectory, null, $scssCompiler)->serve();
+new Server($scssDirectory, null, $scssCompiler)
+    ->serve();
