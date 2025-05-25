@@ -8,6 +8,7 @@ use ScssPhp\Server\Server;
 $scssDirectory = getcwd() . '/scss';
 
 $scssCompiler = new Compiler();
+$scssCompiler->setCharset(false);
 $scssCompiler->setOutputStyle(OutputStyle::COMPRESSED);
 $scssCompiler->setImportPaths($scssDirectory);
 
