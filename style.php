@@ -5,7 +5,10 @@ use ScssPhp\ScssPhp\Compiler;
 use ScssPhp\ScssPhp\OutputStyle;
 use ScssPhp\Server\Server;
 
-$scss = new Compiler();
-$scss->setOutputStyle(OutputStyle::COMPRESSED);
+$scssDirectory = getcwd() . '/scss';
 
-new Server('scss', null, $scss)->serve();
+$scssCompiler = new Compiler();
+$scssCompiler->setOutputStyle(OutputStyle::COMPRESSED);
+$scssCompiler->setImportPaths($scssDirectory);
+
+new Server($scssDirectory, null, $scssCompiler)->serve();

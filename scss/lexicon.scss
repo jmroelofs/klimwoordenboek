@@ -62,7 +62,7 @@ $left-column-margin-ratio: 0.015;
     box-sizing: border-box;
     /* prevent adjustments of font size after orientation changes in iOS */
 	-webkit-text-size-adjust: 100%;
-    font: 400 $font-size/($line-height / 1rem) $font-family;
+    font: 400 #{$font-size}/#{($line-height / 1rem)} $font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
