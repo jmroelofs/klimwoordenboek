@@ -5,7 +5,7 @@ use ScssPhp\ScssPhp\Compiler;
 use ScssPhp\ScssPhp\OutputStyle;
 use ScssPhp\Server\Server;
 
-$scssDirectory = getcwd() . '/scss';
+$scssDirectory = 'scss';
 
 $scssCompiler = new Compiler();
 $scssCompiler->setCharset(false);
