@@ -175,7 +175,7 @@ section {
             https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
             /* adjust margin 1px because of padding */
-            margin-top: calc(100vh - #{($padding-height * 2) - 1});
+            margin-top: calc(100vh - #{($padding-height * 2) + 1});
             height: 1px;
             width: 100%;
             float: left;
