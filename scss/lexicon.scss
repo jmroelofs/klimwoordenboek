@@ -1,5 +1,7 @@
 /* CSS for klimwoordenboek */
 
+@use "sass:list";
+@use "sass:math";
 
 /* font related */
 
@@ -9,7 +11,7 @@ $block-top-padding: 1.5rem;
 $text-indent: 0.667rem;
 $font-size: 14px;
 $font-size-header: 1.333rem;
-$padding-height: $font-size * ($line-height / 1rem) * 2;
+$padding-height: $font-size * math.div($line-height, 1rem) * 2;
 $vertical-adjust-for-font: 2px;
 
 
@@ -30,16 +32,16 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 $ratio: 1.618;
 $ratio-view-lower-width: 1200px;
-$ratio-view-lower-height: round($ratio-view-lower-width / $ratio);
+$ratio-view-lower-height: math.round(math.div($ratio-view-lower-width, $ratio));
 $ratio-view-upper-width: 1600px;
-$ratio-view-upper-height: round($ratio-view-upper-width / $ratio);
-$ratio-view-aspect-ratio: round(1000 * $ratio)+'/1000';
+$ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
+$ratio-view-aspect-ratio: math.round(1000 * $ratio)+'/1000';
 $left-column-ratio: 0.234;
 $left-column-margin-ratio: 0.015;
 
 /* ------------------------------------------------------------ */
 
-@import 'fonts-newsreader';
+@use 'fonts-newsreader';
 
 
 /* improve font rendering on HiDPI devices */
@@ -62,7 +64,7 @@ $left-column-margin-ratio: 0.015;
     box-sizing: border-box;
     /* prevent adjustments of font size after orientation changes in iOS */
 	-webkit-text-size-adjust: 100%;
-    font: 400 #{$font-size}/#{($line-height / 1rem)} $font-family;
+    font: 400 list.slash($font-size, math.div($line-height, 1rem)) $font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
@@ -202,7 +204,7 @@ section {
     /* wide enough, but not high enough, body will be 1200px wide */
     body {
         max-width: $ratio-view-lower-width;
-        margin-left: calc(50vw - #{$ratio-view-lower-width / 2})
+        margin-left: calc(50vw - #{$ratio-view-lower-width * 0.5})
     }
 
     #continuous-column {
@@ -228,7 +230,7 @@ section {
     /* too big, body will be 1600px wide */
     body {
         max-width: $ratio-view-upper-width;
-        margin-left: calc(50vw - #{$ratio-view-upper-width / 2})
+        margin-left: calc(50vw - #{$ratio-view-upper-width * 0.5})
     }
 
     #continuous-column {

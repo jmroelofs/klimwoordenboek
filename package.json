@@ -1,0 +1,8 @@
+{
+  "name": "klimwoordenboek",
+  "description": "Klimwoordenboek Frans & Engels",
+  "scripts": {
+    "dev": "sass --style=compressed scss/lexicon.scss css/lexicon.css",
+    "watch": "sass --style=compressed --watch scss/lexicon.scss css/lexicon.css"
+  }
+}

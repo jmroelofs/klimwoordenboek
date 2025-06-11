@@ -71,7 +71,7 @@ extract($namesAndDescriptions[$request]);
 <link rel="modulepreload" href="js/modules/columns.mjs">
 <link rel="modulepreload" href="js/modules/rot13.mjs">
 <link rel="modulepreload" href="js/modules/activeLink.mjs">
-<link rel="stylesheet" href="style.php/lexicon.scss">
+<link rel="stylesheet" href="css/lexicon.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
 <link rel="canonical" href="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
