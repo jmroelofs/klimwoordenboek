@@ -160,11 +160,14 @@ section {
     display: none;
 }
 
+#continuous-column {
+    --column-offset: #{$padding-height};
+}
+
 @media screen and (min-width: 801px) and (min-device-width: 750px) {
     #continuous-column {
         column-count: 2;
         column-gap: 28px;
-        --column-offset: #{$padding-height};
         padding-top: var(--column-offset);
 
         #spacer+h2 {
