@@ -35,7 +35,7 @@ $ratio-view-lower-width: 1200px;
 $ratio-view-lower-height: math.round(math.div($ratio-view-lower-width, $ratio));
 $ratio-view-upper-width: 1600px;
 $ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
-$ratio-view-aspect-ratio: math.round(1000 * $ratio)+'/1000';
+$ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 $left-column-ratio: 0.234;
 $left-column-margin-ratio: 0.015;
 
@@ -105,7 +105,7 @@ sub {
 }
 
 
-.left-column {
+header {
     position: sticky;
     top: 0;
     height: 0;
@@ -126,7 +126,7 @@ sub {
     }
 }
 
-.main-column {
+main {
     margin-inline: 26.7% 2.25%;
     padding-left: 1.2%;
 }
@@ -249,13 +249,13 @@ h3 {
     line-height: inherit;
 }
 
-h3+p {
+h3 + p {
     padding-top: $block-top-padding;
 }
 
 h2,
 h3,
-nav+p {
+nav + p {
     padding-top: $line-height;
 }
 
@@ -271,13 +271,13 @@ dfn {
 }
 
 nav h1,
-.main-column h3 {
+main h3 {
     font-size: $font-size-header;
     line-height: $line-height;
     padding-top: $padding-height;
 }
 
-.main-column section+section h3 {
+main section + section h3 {
     padding-top: 0;
 }
 
@@ -360,11 +360,11 @@ dfn {
         min-width: max(400px, 135vw);
     }
 
-    .left-column p {
+    header p {
         text-align: left;
     }
 
-    .main-column {
+    main {
         margin-right: 3vw;
 
         h3 {
@@ -452,7 +452,6 @@ dfn {
         break-inside: avoid-page;
     }
 
-    header,
     h3 {
         break-after: avoid-page;
     }

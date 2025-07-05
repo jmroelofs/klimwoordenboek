@@ -139,11 +139,11 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 </head>
 <body>
 
-<header class="left-column">
+<header>
 <?php include 'content/left-column.php'; ?>
 </header>
 
-<main id="<?php echo pathinfo($contentFile)['filename']; ?>" class="main-column">
+<main id="<?php echo pathinfo($contentFile)['filename']; ?>">
 <?php include 'content/' . $contentFile; ?>
 </main>
 

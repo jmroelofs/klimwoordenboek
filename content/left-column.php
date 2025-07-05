@@ -8,7 +8,8 @@ if (! defined( '_LEXICON' )) {
 
 ?>
 <div>
-<nav><h1><a href="/">Roelofs <span class="nowrap">Coaching</span></a></h1>
+<nav>
+<h1><a href="/">Roelofs <span class="nowrap">Coaching</span></a></h1>
 
 <h2><a href="" class="<?php echo $mainClass; ?>">Klimwoorden&shy;boek Frans&nbsp;&amp;&nbsp;Engels</a></h2>
 
@@ -16,8 +17,8 @@ if (! defined( '_LEXICON' )) {
 
 <h3><a href="waarderingen" class="<?php echo $gradingClass; ?>">Moeilijkheids&shy;waarderingen</a></h3>
 
-<h3><a href="gradenschets" class="<?php echo $gradingTablesClass; ?>">Vergelijking moeilijkheids&shy;waarderingen</a></h3></nav>
-
+<h3><a href="gradenschets" class="<?php echo $gradingTablesClass; ?>">Vergelijking moeilijkheids&shy;waarderingen</a></h3>
+</nav>
 <p><dfn>algemeen</dfn>
 	In dit woor&shy;den&shy;boek staan Franse en Engelse sport&shy;klim&shy;termen. Het Franse woord staat eerst vermeld, gevolgd door het Engelse woord. Indien er meer&shy;dere woorden voor een begrip bestaan, wor&shy;den deze tegelijk be&shy;schreven.</p>
 <p><dfn lang="en-US">[Am.]</dfn>
