@@ -114,8 +114,7 @@ header {
     container-type: inline-size;
 
     div {
-        height: 100vh;
-        height: max(100vh, 100cqh);
+        max-height: max(100vh, 100cqh);
         padding-bottom: $padding-height;
         overflow-y: scroll;
         scrollbar-width: none;
