@@ -8,7 +8,7 @@ if (! defined( '_LEXICON' )) {
 
 ?>
 <section>
-<h2>Routewaarderingen</h2>
+<h3>Routewaarderingen</h3>
 <div class="grading-table">
   <p><a href="waarderingen#cotation">Frans</a></p>
   <table style="width:800px;">
@@ -184,7 +184,7 @@ if (! defined( '_LEXICON' )) {
 </div></section>
 
 <section>
-<h2>Boulderwaarderingen</h2>
+<h3>Boulderwaarderingen</h3>
 <div class="grading-table">
   <p><a href="waarderingen#technical-grade">Engels</a></p>
   <table>

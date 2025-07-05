@@ -139,9 +139,9 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 </head>
 <body>
 
-<div class="left-column">
+<header class="left-column">
 <?php include 'content/left-column.php'; ?>
-</div>
+</header>
 
 <main id="<?php echo pathinfo($contentFile)['filename']; ?>" class="main-column">
 <?php include 'content/' . $contentFile; ?>

@@ -9,7 +9,7 @@ if (! defined( '_LEXICON' )) {
 ?>
 <section id="continuous-column">
 <div id="spacer"></div>
-<h2 id="A">A</h2>
+<h3 id="A">A</h3>
 <p><dfn lang="en-US"><a href="https://www.americanalpineclub.org/" target="_blank" rel="noopener">AAC/<wbr>American Alpine Club</a></dfn>
 	Alpen&shy;vereniging van de Verenigde Staten, publiceert jaarlijks <dfn lang="en-US"><a href="https://publications.americanalpineclub.org/" target="_blank" rel="noopener">the American Alpine Journal</a></dfn>.</p>
 <p><dfn lang="fr"><a href="waarderingen#ABO">ABO(minablement difficile)</a></dfn>
@@ -61,7 +61,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">avale!</dfn> <dfn lang="en-GB">take in [Br.]/<wbr></dfn><dfn lang="en-US">up rope [Am.]!</dfn>
 	touw in!</p>
 
-<h2 id="B">B</h2>
+<h3 id="B">B</h3>
 <p><dfn lang="fr">bac [m.]</dfn> <dfn lang="en-GB">jug/<wbr>bucket</dfn>
 	emmer, bak, grote greep. <dfn lang="fr">baignoire [v.]</dfn> [lett. badkuip] heel grote greep. <dfn lang="fr">baquet [m.]</dfn> iets minder grote greep.</p>
 <p><dfn lang="en-GB">Bachar ladder</dfn>
@@ -149,7 +149,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">but [m.]</dfn> <dfn lang="en-GB">goal</dfn>
 	doel. <dfn lang="fr">se mettre un but</dfn> zich een doel stellen, populair gebruikt: mislukken in een route (waarna je dus een nieuw doel hebt). <dfn lang="fr">prendre un but</dfn> vallen, falen. <dfn lang="fr">se faire mettre un but</dfn> door iemand naar huis geklommen worden.</p>
 
-<h2 id="C">C</h2>
+<h3 id="C">C</h3>
 <p><dfn lang="fr"><a href="https://www.clubalpin.be/" target="_blank" rel="noopener">CAB [m.]/<wbr>Club Alpin Belge</a></dfn>
 	Belgische Alpen Club, over&shy;koepelende organisatie voor de klim- en berg&shy;sport in het Frans&shy;sprekende gedeelte van België.</p>
 <p><dfn lang="fr">cachou [m.]</dfn>
@@ -273,7 +273,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">cupule [v.]</dfn>
 	dopje [lett. dopje van eikel e.d.], greepje in die vorm.</p>
 
-<h2 id="D">D</h2>
+<h3 id="D">D</h3>
 <p><dfn lang="en-US">to dab [Am.]</dfn>
 	iets raken (bv. een boom aan&shy;tikken) waardoor de poging ongeldig is. <dfn lang="en-US">dab [Am.]</dfn> zo'n aanraking.</p>
 <p><dfn lang="fr">dalle [v.]</dfn> <dfn lang="en-GB">slab</dfn>
@@ -331,7 +331,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">dynamiser</dfn>
 	dynamisch klimmen, <dfn lang="fr">assurer dynamique</dfn> <dfn lang="en-GB">to belay dynamically</dfn> dynamisch zekeren, de klap van een val als zekeraar dynamisch opvangen, dynamisch klimmen.</p>
 
-<h2 id="E">E</h2>
+<h3 id="E">E</h3>
 <p><dfn lang="fr">EB [m.]</dfn> <dfn lang="en-GB">EB</dfn>
 	EB, het merk schoenen waar iedereen op klom toen de sportklim&shy;revolutie begon (vernoemd naar <a href="https://www.eb-escalade.com/chausson-escalade/histoire-eb/" target="_blank" rel="noopener">Edmond Bourdonneau</a>, de schoenmaker die de zaak overnam van <a href="#Pierre-Allain">Pierre Allain</a>).</p>
 <p><dfn lang="fr">écaille [v.]</dfn> <dfn lang="en-GB">shelf/<wbr>flake</dfn>
@@ -377,7 +377,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">expo(sé[e])</dfn> <dfn lang="en-GB">expo(sed)</dfn>
 	blootgesteld (aan de elementen), <dfn lang="en-US">gravical [Am.]</dfn> hoog en eng.</p>
 
-<h2 id="F">F</h2>
+<h3 id="F">F</h3>
 <p><dfn lang="fr">face [v.]</dfn> <dfn lang="en-GB">face</dfn>
 	voorkant van een rots. <dfn lang="fr">face ouest</dfn> <dfn lang="en-GB">west face</dfn> westwand.</p>
 <p><dfn lang="fr">de face</dfn>
@@ -411,7 +411,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">fuseau [m.]</dfn> <dfn lang="en-GB">strand</dfn>
 	touwstreng.</p>
 
-<h2 id="G">G</h2>
+<h3 id="G">G</h3>
 <p><dfn lang="fr">gaine [v.]</dfn> <dfn lang="en-GB">sheath</dfn>
 	mantel, buitenste laag van een touw.</p>
 <p><dfn lang="fr">gainer</dfn>
@@ -459,7 +459,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">guide [m.]</dfn> gids, <dfn lang="en-GB">guidebook</dfn>
 	klimgids, beschrijving van de routes in een gebied.</p>
 
-<h2 id="H">H</h2>
+<h3 id="H">H</h3>
 <p><dfn lang="en-US">highball [Am.]</dfn>
 	heel hoge <a href="#boulder">boulder</a>.</p>
 <p><dfn lang="fr">HMS [m.]</dfn> <dfn lang="en-GB">HMS</dfn>
@@ -471,7 +471,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">(descendeur en) huit [m.]</dfn> <dfn lang="en-GB">figure eight</dfn>
 	acht, aluminium achtvorm gebruikt om mee te zekeren en af te touwen. <dfn lang="fr">huit italien/<wbr>huit autobloquant</dfn> het gebruik van een acht als stijgklem, door in het grote oog in te klippen en het touw gekruisd in te hangen. <dfn lang="fr">huit rapide</dfn> het gebruik van een acht met het touw door de karabiner in plaats van om de acht, om de wrijving te verminderen en sneller touw te kunnen geven (in Nederland soms zekeren &lsquo;op z'n Frans&rsquo; genoemd).</p>
 
-<h2 id="I">I</h2>
+<h3 id="I">I</h3>
 <p><dfn lang="fr"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">Fédération&nbsp;[v.] inter&shy;nationale d'escalade</a></dfn> <dfn lang="en-GB"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">IFSC/<wbr>Inter&shy;national Federation of Sport Climbing</a></dfn>
 	inter&shy;nationale over&shy;koepelende sport&shy;federatie voor sportklimmen.</p>
 <p><dfn lang="fr">ça parait improbable</dfn> <dfn lang="en-GB">that seems impossible</dfn>
@@ -483,15 +483,15 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">sur information</dfn> <dfn lang="en-GB">with running beta/<wbr>on auto beta</dfn>
 	met informatie van beneden, makkelijke vorm van <a href="#flash">flash</a>.</p>
 
-<h2 id="J">J</h2>
+<h3 id="J">J</h3>
 <p><dfn lang="fr-BE">en jaune [Bel.]</dfn>
 	vrij (zonder haken), oude Belgische klimstijl, waarbij men oor&shy;spronkelijk de haken die niet voor de voort&shy;beweging gebruikt werden geel verfde. <dfn lang="fr-BE">jaunir [Bel.]</dfn> vrijklimmen.</p>
 <p><dfn lang="fr">jeté [m.]/<wbr>lancé [m.]/<wbr>jump [m.]</dfn> <dfn lang="en-GB" id="dyno">dyno/<wbr>jump</dfn>
 	sprong, dynamische beweging. <dfn lang="en-GB">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="fr">jeter/<wbr>lancer</dfn> <dfn lang="en-GB">to dyno/<wbr>jump</dfn> springen.</p>
 
-<h2 id="K">K</h2>
+<h3 id="K">K</h3>
 
-<h2 id="L">L</h2>
+<h3 id="L">L</h3>
 <p><dfn lang="en-GB"><a href="http://www.edhartouni.net/leavittation-the-off-width-renaissance.html" target="_blank" rel="noopener">leavittation</a></dfn>
 	techniek voor <a lang="en-GB" href="#off-width">off-width</a> spleten, twee handen worden verklemd, waarna de benen verklemd worden, de twee handen worden bij de voort&shy;beweging gelijktijdig verplaatst (vernoemd naar <a href="https://web.archive.org/web/20151230150936/http://www.joshuatreeclimb.com/members/History/Profiles/rleavitt.htm" target="_blank" rel="noopener">Randy Leavitt</a>).</p>
 <p><dfn lang="fr">du libre/<wbr>escalade [v.] libre</dfn> <dfn lang="en-US">free climbing [Am.]</dfn>
@@ -515,7 +515,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">lover une corde</dfn> <dfn lang="en-GB">to coil a rope</dfn>
 	een touw opschieten.</p>
 
-<h2 id="M">M</h2>
+<h3 id="M">M</h3>
 <p><dfn lang="fr" id=magnesium>magnésie [v.]/<wbr>kak [v.]/<wbr>magnoc [m.]</dfn> <dfn lang="en-GB">magnesia/<wbr>chalk</dfn>
 	magnesium&shy;(bi&shy;carbonaat).</p>
 <p><dfn lang="fr">maillon [m.]</dfn> [lett. schakel v.e. ketting] <dfn lang="en-GB">lower-off</dfn>
@@ -547,13 +547,13 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">mur [m.]</dfn> <dfn lang="en-GB">wall</dfn>
 	muur, (min of meer lood&#8209;)<wbr>rechte wand. <dfn lang="fr">escalade [v.] en mur</dfn> <dfn lang="en-GB">face climbing</dfn> (min of meer lood&shy;rechte&#8209;)<wbr>wandklimmen.</p>
 
-<h2 id="N">N</h2>
+<h3 id="N">N</h3>
 <p><dfn lang="fr">no foot [m]</dfn>
 	zonder gebruik van de voeten.</p>
 <p><dfn lang="fr">des nouilles [v.]</dfn>
 	(touw&#8209;)<wbr>spaghetti, knopen in een bos touw.</p>
 
-<h2 id="O">O</h2>
+<h3 id="O">O</h3>
 <p><dfn lang="fr">obligatoire (un pas obligatoire)</dfn>
 	dwingend, de pas kan maar op één manier geklommen worden, <dfn lang="fr">(6c obligatoire)</dfn> on&shy;ontkoombaar 6c, de moeilijke pas zit tussen twee haken, zodat die wel vrij geklommen móét worden.</p>
 <p><dfn lang="fr">off-width</dfn> <dfn lang="en-GB" id="off-width">off-width</dfn>
@@ -573,7 +573,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">ouvreur</dfn> <dfn lang="en-GB">route-setter/<wbr></dfn><dfn lang="en-US">forerunner [Am.]</dfn>
 	routebouwer.</p>
 
-<h2 id="P">P</h2>
+<h3 id="P">P</h3>
 <p><dfn lang="fr" id="Pierre-Allain">PA/Pierre Allain [m.]</dfn>
 	eerste &lsquo;moderne&rsquo; wrijvings&shy;schoen, de term werd door zeer ouderwetse klimmers ook wel gebruikt voor wrijvings&shy;schoen in het algemeen (uitgevonden door <a href="https://fr.wikipedia.org/wiki/Pierre_Allain" target="_blank" rel="noopener">Pierre Allain</a> en op de markt gebracht in 1948).</p>
 <p><dfn lang="fr">pain [m.] de <a href="#magnesium">magnésie</a></dfn> <dfn lang="en-GB">block of chalk</dfn>
@@ -671,7 +671,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">puissance [v.]/<wbr>force [v.] pure</dfn> <dfn lang="en-GB">power</dfn>
 	kracht. <dfn lang="fr">être puissant[e]</dfn> <dfn lang="en-GB">to be strong/<wbr>powerful</dfn> sterk zijn. <dfn lang="en-GB">power move</dfn> krachtpas.</p>
 
-<h2 id="Q">Q</h2>
+<h3 id="Q">Q</h3>
 <p><dfn lang="fr">quartz [m.]</dfn> <dfn lang="en-GB">quartz</dfn>
 	kwarts.</p>
 <p><dfn lang="fr">c'est du quatre</dfn> <dfn lang="en-GB">it's a path</dfn>
@@ -679,7 +679,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">queue [v.] de cochon</dfn>
 	varkens&shy;staart, haak bovenaan een route waar het touw in gevlochten kan worden.</p>
 
-<h2 id="R">R</h2>
+<h3 id="R">R</h3>
 <p><dfn lang="fr">raide</dfn> <dfn lang="en-GB">steep</dfn>
 	steil.</p>
 <p><dfn lang="fr">ramener</dfn> <dfn lang="en-GB">to match</dfn>
@@ -721,7 +721,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="en-GB">runout</dfn>
 	(grote) afstand tussen twee zekerings&shy;punten.</p>
 
-<h2 id="S">S</h2>
+<h3 id="S">S</h3>
 <p><dfn lang="fr">sac [m.] à corde</dfn> <dfn lang="en-GB">rope bag</dfn>
 	touwzak, zak waarin het touw samen&shy;gepakt en vervoerd kan worden.</p>
 <p><dfn lang="fr">sac [m.] à <a href="#magnesium">magnésie</a></dfn> <dfn lang="en-GB">chalk bag</dfn>
@@ -783,7 +783,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="en-US">swami belt [Am.]</dfn>
 	voorloper van de heup&shy;gordel, bestaande uit een brede band die enkele keren om het middel gewonden wordt.</p>
 
-<h2 id="T">T</h2>
+<h3 id="T">T</h3>
 <p><dfn lang="en-GB">tape</dfn>
 	nylon band, tape, <dfn lang="en-GB">duck-tape</dfn> [eig. een product&shy;naam] speciaal versterkt tape, meestal gebruikt voor reparaties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sporttape. <dfn lang="fr">se strapper</dfn> <dfn lang="en-GB">to tape up</dfn> zich intapen.</p>
 <p><dfn lang="fr">taper/<wbr>tirer un essai</dfn>
@@ -837,11 +837,11 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">trou [m.]</dfn> <dfn lang="en-GB">pocket</dfn>
 	gat. <dfn lang="fr">escalade [v.] à trous</dfn> <dfn lang="en-GB">pocket climbing/<wbr>pocketing</dfn> met je handen/<wbr>voeten in gaten klimmen. <dfn lang="en-GB">toe pocket</dfn> gat dat als tree gebruikt wordt.</p>
 
-<h2 id="U">U</h2>
+<h3 id="U">U</h3>
 <p><dfn lang="fr" id="UIAA"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA [v.]/<wbr>Union Internationale des Associations d'Alpinisme</a></dfn> <dfn lang="en-GB"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA</a></dfn>
 	federatie van nationale alpen&shy;verenigingen, stelt ook normering vast voor klimmateriaal.</p>
 
-<h2 id="V">V</h2>
+<h3 id="V">V</h3>
 <p><dfn lang="fr">se vacher</dfn>
 	zich vastmaken aan het relais. <dfn lang="fr">vaché[e]!</dfn> ik zit vast/<wbr>ik heb een zelf&shy;zekering! <dfn lang="en-GB">(I'm) safe [Br.]/<wbr></dfn><dfn lang="en-US">off belay [Am.]!</dfn> je kunt me losmaken!</p>
 <p><dfn lang="fr">varappe [v.]</dfn>
@@ -867,19 +867,19 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="fr">à-vue [m.]</dfn> <dfn lang="en-GB" id="on-sight">on sight</dfn>
 	klimstijl waarbij een route in één keer geklommen wordt, voor&shy;informatie is niet toegestaan, je mag zelfs niet iemand in de route hebben zien klimmen (de term wordt in Frankrijk en in klimbladen ook wel ten onrechte voor <a href="#flash">flash</a> gebruikt), het klimmen van een route op deze manier. <dfn lang="fr">faire du à-vue</dfn> <dfn lang="en-GB">to climb on sight</dfn> on sight klimmen. <dfn lang="fr">passer à-vue</dfn> iets on sight doen.</p>
 
-<h2 id="W">W</h2>
+<h3 id="W">W</h3>
 <p><dfn lang="en-GB">wired nut/<wbr>wire</dfn>
 	staalkabel-<a href="#nut">nut</a>.</p>
 
-<h2 id="X">X</h2>
+<h3 id="X">X</h3>
 
-<h2 id="Y">Y</h2>
+<h3 id="Y">Y</h3>
 <p><dfn lang="fr">Yaniro [m.]</dfn> <dfn lang="en-GB">figure four</dfn>
 	klimbeweging waarbij je het ene been over de andere arm vouwt (vernoemd naar <a href="https://web.archive.org/web/20151221103933/http://www.joshuatreeclimb.com/members/History/Profiles/tonyyaniro.htm" target="_blank" rel="noopener">Tony Yaniro</a>). <dfn lang="en-GB">figure nine</dfn> klim&shy;beweging waarbij je een been over de arm aan dezelfde kant vouwt.</p>
 <p><dfn lang="fr">yo-yo</dfn> <dfn lang="en-US">yo-yo [Am.]</dfn>
 	klimstijl waarbij je &lsquo;vrij&rsquo;-klimt, maar na een val het touw in de karabiners laat (een tegenwoordig weinig gebruikte stijl, die nuttig kan zijn bij slecht af te zekeren routes).</p>
 
-<h2 id="Z">Z</h2>
+<h3 id="Z">Z</h3>
 <p><dfn lang="fr">zipper/<wbr>riper/<wbr>glisser</dfn>
 	weg-/<wbr>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
 </section>

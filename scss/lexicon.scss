@@ -170,7 +170,7 @@ section {
         column-gap: 28px;
         padding-top: var(--column-offset);
 
-        #spacer+h2 {
+        #spacer+h3 {
             margin-top: calc(-1 * var(--column-offset));
         }
 
@@ -187,12 +187,12 @@ section {
             break-inside: avoid;
         }
 
-        /* fix for firefox splitting h2 in columns */
-        h2:after {
+        /* fix for firefox splitting h3 in columns */
+        h3:after {
             content: " \00A0";
         }
 
-        h2:target:after {
+        h3:target:after {
             text-decoration: underline $background-color 2px;
         }
     }
@@ -241,20 +241,22 @@ section {
     }
 }
 
-
-header,
-h2 {
+h1,
+h2,
+h3 {
     margin-block: 0;
     font-size: inherit;
     line-height: inherit;
 }
 
-header,
-h2+p {
+h1,
+h2,
+h3+p {
     padding-top: $block-top-padding;
 }
 
-h2,
+h1+h2,
+h3,
 nav+p {
     padding-top: $line-height;
 }
@@ -270,14 +272,14 @@ dfn {
     scroll-margin-block: $padding-height;
 }
 
-nav h2:first-child,
-.main-column h2 {
+nav h1,
+.main-column h3 {
     font-size: $font-size-header;
     line-height: $line-height;
     padding-top: $padding-height;
 }
 
-.main-column section+section h2 {
+.main-column section+section h3 {
     padding-top: 0;
 }
 
@@ -319,16 +321,18 @@ a:focus {
 
 strong,
 b,
-header,
+h1,
 h2,
+h3,
 [lang|="fr"],
 [lang|="en"] {
     font-weight: 450;
 }
 
-header,
+h1,
 h2,
-h2:target {
+h3,
+h3:target {
     color: $bold-color;
 }
 
@@ -365,7 +369,7 @@ dfn {
     .main-column {
         margin-right: 3vw;
 
-        h2 {
+        h3 {
             scroll-margin-right: 3vw;
         }
     }
@@ -431,7 +435,7 @@ dfn {
 /* adjust text in grading tables */
 
 #grading-tables {
-    h2, p {
+    h3, p {
         position: sticky;
         width: max-content;
         left: 1.2%;
@@ -451,7 +455,7 @@ dfn {
     }
 
     header,
-    h2 {
+    h3 {
         break-after: avoid-page;
     }
 }
