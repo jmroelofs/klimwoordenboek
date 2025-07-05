@@ -249,13 +249,11 @@ h3 {
     line-height: inherit;
 }
 
-h1,
-h2,
 h3+p {
     padding-top: $block-top-padding;
 }
 
-h1+h2,
+h2,
 h3,
 nav+p {
     padding-top: $line-height;
