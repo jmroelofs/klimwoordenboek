@@ -78,9 +78,9 @@ extract($namesAndDescriptions[$request]);
 <link rel="icon" sizes="192x192" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <script type="module">
-import { Columns } from './js/modules/columns.mjs';
-import { Rot13 } from './js/modules/rot13.mjs';
-import { ActiveLink } from './js/modules/activeLink.mjs';
+import { Columns } from './js/columns.mjs';
+import { Rot13 } from './js/rot13.mjs';
+import { ActiveLink } from './js/activeLink.mjs';
 const setupFlow = new Columns().setupFlow,
     decode = new Rot13().decode,
     setupLinks = new ActiveLink().setupLinks,
