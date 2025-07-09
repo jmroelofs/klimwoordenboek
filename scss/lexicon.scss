@@ -108,10 +108,8 @@ sub {
 header {
     position: sticky;
     top: 0;
-    padding-inline: 5.5% 6.9%;
-    container-type: inline-size;
+    padding: 0 6.9% $padding-height 5.5%;
     max-height: max(100vh, 100cqh);
-    padding-bottom: $padding-height;
     overflow-y: scroll;
     scrollbar-width: none;
 
