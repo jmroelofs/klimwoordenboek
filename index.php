@@ -11,9 +11,9 @@ $namesAndDescriptions = [
         'title' => 'Klimwoordenboek Frans &amp; Engels',
         'keywords' => 'klimtermen, klimwoordenboek, klimlexicon, klimmen, sportklimmen, boulderen, klimwoorden',
         'description' => 'Franse en Engelse klimtermen en hun vertaling in het Nederlands',
-        'contentFile' => 'main.php',
+        'contentFile' => 'lexicon.php',
         'imageFile' => 'klimwoordenboek.png',
-        'mainClass' => 'active',
+        'lexiconClass' => 'active',
         'gradingClass' => '',
         'gradingTablesClass' => '',
         'class' => 'continuous-column',
@@ -24,7 +24,7 @@ $namesAndDescriptions = [
         'description' => 'Moeilijkheidswaarderingen gebruikt in het klimmen',
         'contentFile' => 'grading.php',
         'imageFile' => 'klimwaarderingen.png',
-        'mainClass' => '',
+        'lexiconClass' => '',
         'gradingClass' => 'active',
         'gradingTablesClass' => '',
         'class' => 'continuous-column',
@@ -35,7 +35,7 @@ $namesAndDescriptions = [
         'description' => 'Vergelijking tussen moeilijkheidswaarderingen gebruikt in het klimmen',
         'contentFile' => 'grading-tables.php',
         'imageFile' => 'vergelijking.png',
-        'mainClass' => '',
+        'lexiconClass' => '',
         'gradingClass' => '',
         'gradingTablesClass' => 'active',
         'class' => '',
@@ -143,7 +143,7 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 <body>
 
 <header>
-<?php include 'content/left-column.php'; ?>
+<?php include 'content/header.php'; ?>
 </header>
 
 <main id="<?php echo pathinfo($contentFile)['filename']; ?>" class="<?php echo $class; ?>">
