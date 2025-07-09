@@ -36,8 +36,6 @@ $ratio-view-lower-height: math.round(math.div($ratio-view-lower-width, $ratio));
 $ratio-view-upper-width: 1600px;
 $ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
 $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
-$left-column-ratio: 0.234;
-$left-column-margin-ratio: 0.015;
 
 /* ------------------------------------------------------------ */
 
@@ -84,6 +82,8 @@ $left-column-margin-ratio: 0.015;
 body {
     margin: 0;
     overscroll-behavior: contain;
+    display: grid;
+    grid-template-columns: 26.7% auto;
 }
 
 /*  improve super- and subscripts
@@ -108,26 +108,22 @@ sub {
 header {
     position: sticky;
     top: 0;
-    height: 0;
-    margin-left: $left-column-margin-ratio * 100%;
-    width: $left-column-ratio * 100%;
+    padding-inline: 5.5% 6.9%;
     container-type: inline-size;
+    max-height: max(100vh, 100cqh);
+    padding-bottom: $padding-height;
+    overflow-y: scroll;
+    scrollbar-width: none;
 
-    div {
-        max-height: max(100vh, 100cqh);
-        padding-bottom: $padding-height;
-        overflow-y: scroll;
-        scrollbar-width: none;
-
-        &::-webkit-scrollbar {
-            display: none;
-        }
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
 
 main {
-    margin-inline: 26.7% 2.25%;
-    padding-left: 1.2%;
+    padding-left: 1.6%;
+    margin-right: 3.1%;
+    margin-bottom: $padding-height;
 }
 
 
@@ -140,16 +136,10 @@ main {
 }
 
 
-/*  to get a right margin on smaller screens
-    we don't use it everywhere because it slows down page rendering */
+/*  to get a right margin on smaller screens */
 
-#grading-tables {
-    display: inline-block;
-}
-
-
-main {
-    margin-bottom: $padding-height;
+#grading-tables section{
+    padding-right: 3.1%;
 }
 
 
@@ -365,6 +355,10 @@ dfn {
         h3 {
             scroll-margin-right: 3vw;
         }
+    }
+
+    #grading-tables section {
+        padding-right: 3vw;
     }
 }
 

@@ -7,7 +7,6 @@ if (! defined( '_LEXICON' )) {
 }
 
 ?>
-<div>
 <nav>
 <h1><a href="/">Roelofs <span class="nowrap">Coaching</span></a></h1>
 
@@ -40,4 +39,3 @@ if (! defined( '_LEXICON' )) {
 	geslacht, vrou&shy;we&shy;lijk of man&shy;ne&shy;lijk.</p>
 <p><dfn lang="fr">[.]</dfn>
 	verbuiging van een bij&shy;voeg&shy;lijk naam&shy;woord.</p>
-</div>
