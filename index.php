@@ -146,7 +146,7 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 <?php include 'content/header.php'; ?>
 </header>
 
-<main id="<?php echo pathinfo($contentFile)['filename']; ?>" class="<?php echo $class; ?>">
+<main class="<?php echo $class; ?>">
 <?php include 'content/' . $contentFile; ?>
 </main>
 

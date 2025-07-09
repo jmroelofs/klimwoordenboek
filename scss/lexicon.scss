@@ -136,7 +136,7 @@ main {
 
 /*  to get a right margin on smaller screens */
 
-#grading-tables section{
+section {
     padding-right: 3.1%;
 }
 
@@ -419,12 +419,11 @@ dfn {
 
 /* adjust text in grading tables */
 
-#grading-tables {
-    h3, p {
-        position: sticky;
-        width: max-content;
-        left: 1.2%;
-    }
+main h3,
+section p {
+    position: sticky;
+    width: max-content;
+    left: 1.2%;
 }
 
 
