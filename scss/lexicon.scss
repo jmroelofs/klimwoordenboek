@@ -148,7 +148,7 @@ main {
 }
 
 
-section {
+main {
     margin-bottom: $padding-height;
 }
 
@@ -159,12 +159,12 @@ section {
     display: none;
 }
 
-#continuous-column {
+.continuous-column {
     --column-offset: #{$padding-height};
 }
 
 @media screen and (min-width: 801px) and (min-device-width: 750px) {
-    #continuous-column {
+    .continuous-column {
         column-count: 2;
         column-gap: 28px;
         padding-top: var(--column-offset);
@@ -209,7 +209,7 @@ section {
         margin-left: calc(50vw - #{$ratio-view-lower-width * 0.5})
     }
 
-    #continuous-column {
+    .continuous-column {
         column-gap: 33px;
     }
 }
@@ -222,7 +222,7 @@ section {
         margin-left: calc(50vw - #{$ratio * 50}vh)
     }
 
-    #continuous-column {
+    .continuous-column {
         column-gap: 39px;
     }
 }
@@ -235,7 +235,7 @@ section {
         margin-left: calc(50vw - #{$ratio-view-upper-width * 0.5})
     }
 
-    #continuous-column {
+    .continuous-column {
         column-gap: 45px;
     }
 }
@@ -274,10 +274,6 @@ main h3 {
     font-size: $font-size-header;
     line-height: $line-height;
     padding-top: $padding-height;
-}
-
-main section + section h3 {
-    padding-top: 0;
 }
 
 *:target,

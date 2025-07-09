@@ -2,14 +2,15 @@ class Columns {
     animationFrameID = null;
 
     root = document.documentElement
-    column = document.getElementById('continuous-column');
+    column = document.getElementsByClassName('continuous-column')[0];
     offsetOriginal = this.column 
         ? parseInt(window.getComputedStyle(this.column).getPropertyValue('--column-offset'))
         : null;
-    spacer = this.column?.querySelector('#spacer');
-    lastParagraph = this.column?.lastElementChild;
-    
-    firstParagraph = this.spacer?.nextElementSibling;
+    spacer = this.column
+        ? document.createElement('div')
+        : null;
+    lastParagraph = this.column?.lastElementChild;    
+    firstParagraph = this.column?.firstElementChild;
     firstParagraphHeight = this.firstParagraph?.getBoundingClientRect().height;
     secondParagraph = this.firstParagraph?.nextElementSibling;
     secondParagraphLineHeight = this.secondParagraph
@@ -87,6 +88,8 @@ class Columns {
   
     setupFlow = () => {
         if (this.column) {
+            this.spacer.id = 'spacer';
+            this.column.prepend(this.spacer);
             this.mediaQuery.addEventListener('change', event => this.matchesMedia = event.matches);
             this.handleEvent({ type: 'init' });
             ['scroll', 'resize'].forEach(event =>

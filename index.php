@@ -16,6 +16,7 @@ $namesAndDescriptions = [
         'mainClass' => 'active',
         'gradingClass' => '',
         'gradingTablesClass' => '',
+        'class' => 'continuous-column',
     ],
     'waarderingen' => [
         'title' => 'Klimwoordenboek Frans &amp; Engels - moeilijkheidswaarderingen',
@@ -26,6 +27,7 @@ $namesAndDescriptions = [
         'mainClass' => '',
         'gradingClass' => 'active',
         'gradingTablesClass' => '',
+        'class' => 'continuous-column',
     ],
     'gradenschets' => [
         'title' => 'Klimwoordenboek Frans &amp; Engels - Vergelijking moeilijkheidswaarderingen',
@@ -36,6 +38,7 @@ $namesAndDescriptions = [
         'mainClass' => '',
         'gradingClass' => '',
         'gradingTablesClass' => 'active',
+        'class' => '',
     ],
 ];
 
@@ -68,9 +71,9 @@ extract($namesAndDescriptions[$request]);
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v25-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v25-italic.woff2">
 <link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
-<link rel="modulepreload" href="js/modules/columns.mjs">
-<link rel="modulepreload" href="js/modules/rot13.mjs">
-<link rel="modulepreload" href="js/modules/activeLink.mjs">
+<link rel="modulepreload" href="js/columns.mjs">
+<link rel="modulepreload" href="js/rot13.mjs">
+<link rel="modulepreload" href="js/activeLink.mjs">
 <link rel="stylesheet" href="css/lexicon.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
 <link rel="canonical" href="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>">
@@ -143,7 +146,7 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 <?php include 'content/left-column.php'; ?>
 </header>
 
-<main id="<?php echo pathinfo($contentFile)['filename']; ?>">
+<main id="<?php echo pathinfo($contentFile)['filename']; ?>" class="<?php echo $class; ?>">
 <?php include 'content/' . $contentFile; ?>
 </main>
 
