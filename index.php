@@ -11,8 +11,8 @@ $namesAndDescriptions = [
         'title' => 'Klimwoordenboek Frans &amp; Engels',
         'keywords' => 'klimtermen, klimwoordenboek, klimlexicon, klimmen, sportklimmen, boulderen, klimwoorden',
         'description' => 'Franse en Engelse klimtermen en hun vertaling in het Nederlands',
-        'contentFile' => 'lexicon.php',
-        'imageFile' => 'klimwoordenboek.png',
+        'contentFile' => 'content/lexicon.php',
+        'imageFile' => 'images/klimwoordenboek.png',
         'lexiconClass' => 'active',
         'gradingClass' => '',
         'gradingTablesClass' => '',
@@ -22,8 +22,8 @@ $namesAndDescriptions = [
         'title' => 'Klimwoordenboek Frans &amp; Engels - moeilijkheidswaarderingen',
         'keywords' => 'klimwaarderingen, moeilijkheidsgraden, moeilijkheidswaarderingen, klimmen, boulderen, boulderwaarderingen, klimwoordenboek',
         'description' => 'Moeilijkheidswaarderingen gebruikt in het klimmen',
-        'contentFile' => 'grading.php',
-        'imageFile' => 'klimwaarderingen.png',
+        'contentFile' => 'content/grading.php',
+        'imageFile' => 'images/klimwaarderingen.png',
         'lexiconClass' => '',
         'gradingClass' => 'active',
         'gradingTablesClass' => '',
@@ -33,8 +33,8 @@ $namesAndDescriptions = [
         'title' => 'Klimwoordenboek Frans &amp; Engels - Vergelijking moeilijkheidswaarderingen',
         'keywords' => 'klimwaarderingen, moeilijkheidsgraden, moeilijkheidswaarderingen, klimmen, boulderen, boulderwaarderingen',
         'description' => 'Vergelijking tussen moeilijkheidswaarderingen gebruikt in het klimmen',
-        'contentFile' => 'grading-tables.php',
-        'imageFile' => 'vergelijking.png',
+        'contentFile' => 'content/grading-tables.php',
+        'imageFile' => 'images/vergelijking.png',
         'lexiconClass' => '',
         'gradingClass' => '',
         'gradingTablesClass' => 'active',
@@ -63,7 +63,7 @@ extract($namesAndDescriptions[$request]);
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?php echo $title; ?>">
 <meta property="og:description" content="<?php echo $description; ?>">
-<meta property="og:image" content="https://www.roelofs-coaching.nl/images/klimwoordenboek/<?php echo $imageFile ;?>">
+<meta property="og:image" content="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $imageFile ;?>">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="696">
 <meta property="og:image:height" content="430">
@@ -74,7 +74,7 @@ extract($namesAndDescriptions[$request]);
 <link rel="modulepreload" href="js/columns.mjs">
 <link rel="modulepreload" href="js/rot13.mjs">
 <link rel="modulepreload" href="js/activeLink.mjs">
-<link rel="stylesheet" href="css/lexicon.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
 <link rel="canonical" href="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -115,12 +115,12 @@ setupLinks(document.querySelectorAll('#alphabet a'));
   "headline": "<?php echo $title; ?>",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.roelofs-coaching.nl/klimwoordenboek/images/<?php echo $imageFile ;?>",
+    "url": "https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $imageFile ;?>",
     "width": 696,
     "height": 430
   },
   "datePublished": "2001-06-02T18:33:56+02:00",
-  "dateModified": "<?php echo date(DATE_ATOM, filemtime('content/' . $contentFile)); ?>",
+  "dateModified": "<?php echo date(DATE_ATOM, filemtime($contentFile)); ?>",
   "author": {
     "@type": "Person",
     "url": "https://www.roelofs-coaching.nl/",
@@ -147,7 +147,7 @@ setupLinks(document.querySelectorAll('#alphabet a'));
 </header>
 
 <main class="<?php echo $class; ?>">
-<?php include 'content/' . $contentFile; ?>
+<?php include $contentFile; ?>
 </main>
 
 </body>

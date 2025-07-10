@@ -32,7 +32,7 @@ if (! defined( '_LEXICON' )) {
 	eigenlijk.</p>
 <p><dfn>laatst bijgewerkt</dfn>
 	<?php date_default_timezone_set('Europe/Amsterdam');
-	echo (new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE))->format(max(array_map(fn($index) => filemtime('content/' . $index['contentFile']), $namesAndDescriptions))); ?>.</p>
+	echo (new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE))->format(max(array_map(fn($index) => filemtime($index['contentFile']), $namesAndDescriptions))); ?>.</p>
 <p><dfn>[lett.]</dfn>
 	letterlijk.</p>
 <p><dfn lang="fr">[v.], [m.]</dfn>
