@@ -164,7 +164,7 @@ section {
         /*  a block with zero height is ignored by getBoundingClientRect
             https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
-            /* adjust margin 1px because of padding */
+            /* adjust margin 1px because of min height */
             margin-top: calc(100vh - #{($padding-height * 2) + 1});
             height: 1px;
             width: 100%;
