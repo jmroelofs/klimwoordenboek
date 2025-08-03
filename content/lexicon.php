@@ -785,11 +785,11 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="en-GB">tape</dfn>
 	nylon band, tape, <dfn lang="en-GB">duck-tape</dfn> [eig. een product&shy;naam] speciaal versterkt tape, meestal gebruikt voor reparaties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sporttape. <dfn lang="fr">se strapper</dfn> <dfn lang="en-GB">to tape up</dfn> zich intapen.</p>
 <p><dfn lang="fr">taper/<wbr>tirer un essai</dfn>
-	een poging trekken (in een route, totdat je hem rotpunkt hebt gedaan).</p>
+	een poging trekken (in een route, totdat je hem rotpunkt hebt gedaan). <dfn lang="en-GB">redpoint burn</dfn> poging een route in één keer te klimmen.</p>
 <p><dfn lang="fr">tapis [m.]/<wbr>paillasson [m.]/<wbr>moquette [v.]</dfn> <dfn lang="en-GB">mat</dfn>
 	(start&#8209;)<wbr>matje.</p>
 <p><dfn lang="fr">strate [v.]</dfn>
-	horizontale laag in de rots. <dfn lang="fr">stratifié[e]</dfn> gelaagd.</p>
+	horizontale laag in de rots. <dfn lang="fr">stratifié[e]</dfn> <dfn lang="en-GB">stratified</dfn> gelaagd.</p>
 <p><dfn lang="fr">surplomb [m.]</dfn> <dfn lang="en-GB">overhang</dfn>
 	overhang. <dfn lang="fr">gros surplomb</dfn> vette, grote overhang. <dfn lang="fr">surplombant[e]</dfn> <dfn lang="en-GB">overhanging</dfn> overhangend.</p>
 <p><dfn lang="fr">tailler</dfn> <dfn lang="en-GB">to chip</dfn>
