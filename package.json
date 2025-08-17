@@ -3,6 +3,6 @@
   "description": "Klimwoordenboek Frans & Engels",
   "scripts": {
     "dev": "sass --style=compressed scss/main.scss css/main.css",
-    "watch": "sass --style=compressed --watch scss/main.scss css/main.css"
+    "watch": "sass --style=compressed --watch scss:css"
   }
 }
