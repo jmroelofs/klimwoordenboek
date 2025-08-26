@@ -419,7 +419,7 @@ dfn {
 
 /* adjust text in grading tables */
 
-main h3,
+h3:has(+ section),
 section p {
     position: sticky;
     width: max-content;
