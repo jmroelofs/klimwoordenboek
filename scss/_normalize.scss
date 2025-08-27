@@ -1,0 +1,51 @@
+/* CSS for normalization */
+
+/* improve font rendering on HiDPI devices */
+
+@media
+	screen and (min-resolution: 2dppx) {
+	body {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+@viewport {
+    width: device-width;
+}
+
+/*  added some stuff from modern-normalize
+    https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css */
+:root {
+    box-sizing: border-box;
+    /* prevent adjustments of font size after orientation changes in iOS */
+	-webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+/*  improve super- and subscripts
+    https://css-tricks.com/fluid-superscripts-and-subscripts/ */
+
+sup, sub {
+    font-size: calc(0.5em + 4px);
+    line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+    top: calc(-0.83em + 3.32px);
+}
+
+sub {
+    top: calc(0.42em - 1.66px);
+}
