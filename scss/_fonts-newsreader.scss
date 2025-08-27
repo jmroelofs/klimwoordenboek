@@ -2,13 +2,15 @@
 
 /* https://pixelambacht.nl/google-variable-fonts-links/ */
 
+$font-name: 'Newsreader';
+$font-family: $font-name, serif;
 $font-display: block;
 
 /* Newsreader */
 /* https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,200..800&display=block */
 /* latin */
 @font-face {
-  font-family: 'Newsreader';
+  font-family: $font-name;
   font-style: normal;
   font-weight: 200 800;
   font-display: $font-display;
@@ -20,7 +22,7 @@ $font-display: block;
 /* https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,200..800&display=block */
 /* latin */
 @font-face {
-  font-family: 'Newsreader';
+  font-family: $font-name;
   font-style: italic;
   font-weight: 200 800;
   font-display: $font-display;

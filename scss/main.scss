@@ -5,7 +5,6 @@
 
 /* font related */
 
-$font-family: 'Newsreader', serif;
 $line-height: 1.5rem;
 $block-top-padding: 1.5rem;
 $text-indent: 0.667rem;
@@ -39,12 +38,12 @@ $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 
 /* ------------------------------------------------------------ */
 
-@use 'fonts-newsreader';
+@use 'fonts-newsreader' as font;
 @use 'normalize';
 
 
 :root {
-    font: 400 list.slash($font-size, math.div($line-height, 1rem)) $font-family;
+    font: 400 list.slash($font-size, math.div($line-height, 1rem)) font.$font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
