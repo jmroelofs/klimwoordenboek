@@ -52,10 +52,10 @@ $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
     hyphenate-limit-chars: 6 2 3;
     color: $text-color;
     background: $background-color url('../images/handmadepaper.avif') repeat scroll 0 0;
+    overscroll-behavior: contain;
 }
 
 body {
-    overscroll-behavior: contain;
     display: grid;
     grid-template-columns: 26.7% auto;
 }
