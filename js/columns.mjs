@@ -33,7 +33,7 @@ class Columns {
             offsetDifference = offsetNeeded - this.offsetOld,
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
-            {bottom: lastParagraphBottom} = Array.from(this.lastParagraph.getClientRects()).pop();
+            {bottom: lastParagraphBottom} = [...this.lastParagraph.getClientRects()].at(-1);
 
         // calculate height of spacer
         let calculatedHeight;
