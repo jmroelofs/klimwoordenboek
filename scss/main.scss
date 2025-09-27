@@ -63,7 +63,8 @@ body {
 header {
     position: sticky;
     top: 0;
-    padding: 0 6.9% $padding-height 5.5%;
+    margin-inline: 5.5% 6.9%;
+    padding-bottom: $padding-height;
     max-height: max(100vh, 100cqh);
     overflow-y: scroll;
     scrollbar-width: none;
@@ -74,9 +75,7 @@ header {
 }
 
 main {
-    padding-left: 1.6%;
-    margin-right: 3.1%;
-    margin-bottom: $padding-height;
+    margin: 0 3.1% $padding-height 1.6%
 }
 
 
