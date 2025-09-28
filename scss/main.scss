@@ -6,7 +6,6 @@
 /* font related */
 
 $line-height: 1.5rem;
-$block-top-padding: 1.5rem;
 $text-indent: 0.667rem;
 $font-size: 14px;
 $font-size-header: 1.333rem;
@@ -75,7 +74,7 @@ header {
 }
 
 main {
-    margin: 0 3.1% $padding-height 1.6%
+    margin: $padding-height 3.1% $padding-height 1.6%
 }
 
 
@@ -99,10 +98,6 @@ section {
 
 #spacer {
     display: none;
-}
-
-.continuous-column {
-    --column-offset: #{$padding-height};
 }
 
 @media screen and (min-width: 801px) and (min-device-width: 750px) {
@@ -191,7 +186,7 @@ h3 {
 }
 
 h3 + p {
-    padding-top: $block-top-padding;
+    padding-top: $line-height;
 }
 
 h2,
@@ -211,11 +206,15 @@ dfn {
     scroll-margin-block: $padding-height;
 }
 
-nav h1,
+h1,
 main h3 {
     font-size: $font-size-header;
     line-height: $line-height;
     padding-top: $padding-height;
+}
+
+main h3:first-of-type {
+    padding-top: 0;
 }
 
 *:target,
@@ -318,7 +317,7 @@ dfn {
 /* grading tables */
 
 .grading-table {
-    margin-top: $block-top-padding;
+    margin-top: $line-height;
     position: relative;
 
     &:hover::before {

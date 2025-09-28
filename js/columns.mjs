@@ -3,9 +3,6 @@ class Columns {
 
     root = document.documentElement
     column = document.getElementsByClassName('continuous-column')[0];
-    offsetOriginal = this.column 
-        ? parseInt(window.getComputedStyle(this.column).getPropertyValue('--column-offset'))
-        : null;
     spacer = this.column
         ? document.createElement('div')
         : null;
@@ -17,7 +14,7 @@ class Columns {
         ? parseInt(window.getComputedStyle(this.secondParagraph).getPropertyValue('line-height'))
         : null;
 
-    offsetOld = this.offsetOriginal;
+    offsetOld = 0;
     heightOld = 1;
 
     mediaQuery = window.matchMedia('screen and (min-width: 801px) and (min-device-width: 750px)');
@@ -29,7 +26,7 @@ class Columns {
     flowColumns = () => {
         // offset of page readings
         const
-            offsetNeeded = this.roundNearest(window.scrollY + this.offsetOriginal, this.secondParagraphLineHeight),
+            offsetNeeded = this.roundNearest(window.scrollY, this.secondParagraphLineHeight),
             offsetDifference = offsetNeeded - this.offsetOld,
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.spacer.getBoundingClientRect(),
