@@ -24,7 +24,7 @@ AddCharset UTF-8 .css .js .mjs
     ExpiresActive On
     ExpiresDefault "access plus 1 day"
     ExpiresByType font/woff2 "access plus 1 month"
-    ExpiresByType image/vnd.microsoft.icon "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 month"
 </IfModule>
 
 # Use gzip content-encoding for .mjs files 
