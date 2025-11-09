@@ -60,6 +60,7 @@ body {
 }
 
 header {
+    container-type: inline-size;
     position: sticky;
     top: 0;
     margin-inline: 5.5% 6.9%;
@@ -296,10 +297,6 @@ dfn {
         min-width: max(400px, 135vw);
     }
 
-    header p {
-        text-align: left;
-    }
-
     main {
         margin-right: 3vw;
 
@@ -310,6 +307,15 @@ dfn {
 
     #grading-tables section {
         padding-right: 3vw;
+    }
+}
+
+
+/* adjust header text alignment on smaller screens */
+
+@container (width < 185px) {
+    header p {
+        text-align: left;
     }
 }
 
