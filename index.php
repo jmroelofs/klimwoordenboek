@@ -98,7 +98,7 @@ new Promise((resolve, reject) => {
     .finally(setupFlow);
 
 document.querySelectorAll('a[href^="mailto:"]')
-    .forEach(mailLink => mailLink.href = `mailto:${decode(mailLink.href.split(':')[1])}`);
+    .forEach(mailLink => mailLink.href = mailLink.href.replace(/(?<=mailto:).*/i, decode));
 
 setupLinks(document.querySelectorAll('#alphabet a'));
 </script>
