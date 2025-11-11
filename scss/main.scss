@@ -104,7 +104,7 @@ section {
 @media screen and (min-width: 801px) and (min-device-width: 750px) {
     .continuous-column {
         column-count: 2;
-        column-gap: 28px;
+        column-gap: 4.1%;
         padding-top: var(--column-offset);
 
         #spacer+h3 {
@@ -146,10 +146,6 @@ section {
         max-width: $ratio-view-lower-width;
         margin-left: calc(50vw - #{$ratio-view-lower-width * 0.5})
     }
-
-    .continuous-column {
-        column-gap: 33px;
-    }
 }
 
 @media (min-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) and (min-aspect-ratio: $ratio-view-aspect-ratio) {
@@ -159,10 +155,6 @@ section {
         max-width: $ratio * 100vh;
         margin-left: calc(50vw - #{$ratio * 50}vh)
     }
-
-    .continuous-column {
-        column-gap: 39px;
-    }
 }
 
 @media (min-height: $ratio-view-upper-height) and (min-width: $ratio-view-upper-width) {
@@ -171,10 +163,6 @@ section {
     body {
         max-width: $ratio-view-upper-width;
         margin-left: calc(50vw - #{$ratio-view-upper-width * 0.5})
-    }
-
-    .continuous-column {
-        column-gap: 45px;
     }
 }
 
