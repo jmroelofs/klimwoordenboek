@@ -1,7 +1,10 @@
 /* CSS for klimwoordenboek */
 
-@use "sass:list";
-@use "sass:math";
+@use 'sass:list';
+@use 'sass:math';
+@use 'fonts-newsreader' as font;
+@use 'normalize';
+
 
 /* font related */
 
@@ -35,11 +38,8 @@ $ratio-view-upper-width: 1600px;
 $ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
 $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 
+
 /* ------------------------------------------------------------ */
-
-@use 'fonts-newsreader' as font;
-@use 'normalize';
-
 
 :root {
     font: 400 list.slash($font-size, math.div($line-height, 1rem)) font.$font-family;
@@ -174,13 +174,10 @@ h3 {
     line-height: inherit;
 }
 
-h3 + p {
-    padding-top: $line-height;
-}
-
 h2,
 h3,
-nav + p {
+nav + p,
+h3 + p {
     padding-top: $line-height;
 }
 
