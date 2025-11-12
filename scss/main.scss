@@ -203,11 +203,7 @@ main h3:first-of-type {
 }
 
 *:target,
-a:link,
-a:hover,
-a:active,
-a:focus,
-a:visited {
+a:is(:link, :hover, :active, :focus, :visited) {
     color: inherit;
     -webkit-tap-highlight-color: transparent;
     transition: all 0.1s ease-in-out 0s;
@@ -219,11 +215,7 @@ a:visited {
 }
 
 *:target,
-a:hover,
-a:active,
-a:focus,
-a.active,
-a.active-link {
+a:is(:hover, :active, :focus, .active, .active-link) {
     text-decoration: underline currentcolor 2px;
 }
 
@@ -243,8 +235,8 @@ b,
 h1,
 h2,
 h3,
-[lang|="fr"],
-[lang|="en"] {
+:lang(fr),
+:lang(en) {
     font-weight: 450;
 }
 
@@ -259,12 +251,12 @@ dfn {
     font-style: italic;
 }
 
-*[lang|="fr"] {
+:lang(fr) {
     font-style: inherit;
     color: $french-color;
 }
 
-*[lang|="en"] {
+:lang(en) {
     font-style: italic;
     color: $english-color;
 }
