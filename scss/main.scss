@@ -176,8 +176,7 @@ h3 {
 
 h2,
 h3,
-nav + p,
-h3 + p {
+:is(nav, h3) + p {
     padding-top: $line-height;
 }
 
