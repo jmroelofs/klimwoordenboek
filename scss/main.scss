@@ -316,28 +316,25 @@ dfn {
 
         td {
             padding: 0;
-        }
-    }
+            font-size: 0.85rem;
+            text-align: center;
+            line-height: $line-height;
+            position: relative;
 
-    td {
-        font-size: 0.85rem;
-        text-align: center;
-        line-height: $line-height;
-        position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
+                z-index: -1;
+            }
 
-        &::before {
-            content: "";
-            position: absolute;
-            inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
-            z-index: -1;
-        }
+            &:nth-child(odd)::before {
+                background-color: $color-odd;
+            }
 
-        &:nth-child(odd)::before {
-            background-color: $color-odd;
-        }
-
-        &:nth-child(even)::before {
-            background-color: $color-even;
+            &:nth-child(even)::before {
+                background-color: $color-even;
+            }
         }
     }
 }
