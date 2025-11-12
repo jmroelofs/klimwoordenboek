@@ -209,13 +209,12 @@ a:is(:link, :hover, :active, :focus, :visited) {
     transition: all 0.1s ease-in-out 0s;
 }
 
-a:link,
-a:visited {
+a:is(:link, :visited) {
     text-decoration: underline $underline-color from-font;
 }
 
-*:target,
-a:is(:hover, :active, :focus, .active, .active-link) {
+:target,
+a:is(.active, .active-link, :hover, :active, :focus) {
     text-decoration: underline currentcolor 2px;
 }
 
