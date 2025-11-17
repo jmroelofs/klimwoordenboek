@@ -41,11 +41,17 @@ $namesAndDescriptions = [
     ],
 ];
 
-if (!$namesAndDescriptions[$request]){
+if (!isset($namesAndDescriptions[$request])){
     require '404.php';
 }
 
 extract($namesAndDescriptions[$request]);
+
+date_default_timezone_set('Europe/Amsterdam');
+$lastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
+    ->format(max(array_map(fn($index) => filemtime($index['contentFile']), $namesAndDescriptions)));
+
+$mailAddress = str_rot13('jmartinr@home.nl');
 
 ?>
 <!DOCTYPE html>

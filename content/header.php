@@ -27,12 +27,11 @@ if (! defined( '_LEXICON' )) {
 <p><dfn lang="en-GB">[Br.]</dfn>
 	Brits Engels.</p>
 <p><dfn>contact/<wbr>auteur/<wbr>copyright</dfn>
-	voor in&shy;for&shy;matie, toe&shy;stem&shy;ming, sugges&shy;ties of fouten: <a href="mailto:<?php echo str_rot13('jmartinr@home.nl') ?>">Jan Martin Roelofs</a>.</p>
+	voor in&shy;for&shy;matie, toe&shy;stem&shy;ming, sugges&shy;ties of fouten: <a href="mailto:<?php echo $mailAddress ?>">Jan Martin Roelofs</a>.</p>
 <p><dfn>[eig.]</dfn>
 	eigenlijk.</p>
 <p><dfn>laatst bijgewerkt</dfn>
-	<?php date_default_timezone_set('Europe/Amsterdam');
-	echo (new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE))->format(max(array_map(fn($index) => filemtime($index['contentFile']), $namesAndDescriptions))); ?>.</p>
+	<?php echo $lastEdited; ?>.</p>
 <p><dfn>[lett.]</dfn>
 	letterlijk.</p>
 <p><dfn lang="fr">[v.], [m.]</dfn>
