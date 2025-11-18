@@ -5,51 +5,47 @@ const _LEXICON = 1;
 
 $request = $_GET['q'] ?? '';
 
-$namesAndDescriptions = [
-    '' => [
-        'title' => 'Klimwoordenboek Frans &amp; Engels',
-        'keywords' => 'klimtermen, klimwoordenboek, klimlexicon, klimmen, sportklimmen, boulderen, klimwoorden',
-        'description' => 'Franse en Engelse klimtermen en hun vertaling in het Nederlands',
-        'contentFile' => 'content/lexicon.php',
-        'imageFile' => 'images/klimwoordenboek.png',
-        'lexiconClass' => 'active',
-        'gradingClass' => '',
-        'gradingTablesClass' => '',
-        'class' => 'continuous-column',
-    ],
-    'waarderingen' => [
-        'title' => 'Klimwoordenboek Frans &amp; Engels - moeilijkheidswaarderingen',
-        'keywords' => 'klimwaarderingen, moeilijkheidsgraden, moeilijkheidswaarderingen, klimmen, boulderen, boulderwaarderingen, klimwoordenboek',
-        'description' => 'Moeilijkheidswaarderingen gebruikt in het klimmen',
-        'contentFile' => 'content/grading.php',
-        'imageFile' => 'images/klimwaarderingen.png',
-        'lexiconClass' => '',
-        'gradingClass' => 'active',
-        'gradingTablesClass' => '',
-        'class' => 'continuous-column',
-    ],
-    'gradenschets' => [
-        'title' => 'Klimwoordenboek Frans &amp; Engels - Vergelijking moeilijkheidswaarderingen',
-        'keywords' => 'klimwaarderingen, moeilijkheidsgraden, moeilijkheidswaarderingen, klimmen, boulderen, boulderwaarderingen',
-        'description' => 'Vergelijking tussen moeilijkheidswaarderingen gebruikt in het klimmen',
-        'contentFile' => 'content/grading-tables.php',
-        'imageFile' => 'images/vergelijking.png',
-        'lexiconClass' => '',
-        'gradingClass' => '',
-        'gradingTablesClass' => 'active',
-        'class' => '',
-    ],
-];
-
-if (!isset($namesAndDescriptions[$request])){
-    require '404.php';
+switch($request) {
+    case '':
+        $title = 'Klimwoordenboek Frans &amp; Engels';
+        $keywords = 'klimtermen, klimwoordenboek, klimlexicon, klimmen, sportklimmen, boulderen, klimwoorden';
+        $description = 'Franse en Engelse klimtermen en hun vertaling in het Nederlands';
+        $contentFile = 'content/lexicon.php';
+        $imageFile = 'images/klimwoordenboek.png';
+        $lexiconClass = 'active';
+        $gradingClass = '';
+        $gradingTablesClass = '';
+        $class = 'continuous-column';
+        break;
+    case 'waarderingen':
+        $title = 'Klimwoordenboek Frans &amp; Engels - moeilijkheidswaarderingen';
+        $keywords = 'klimwaarderingen, moeilijkheidsgraden, moeilijkheidswaarderingen, klimmen, boulderen, boulderwaarderingen, klimwoordenboek';
+        $description = 'Moeilijkheidswaarderingen gebruikt in het klimmen';
+        $contentFile = 'content/grading.php';
+        $imageFile = 'images/klimwaarderingen.png';
+        $lexiconClass = '';
+        $gradingClass = 'active';
+        $gradingTablesClass = '';
+        $class = 'continuous-column';
+        break;
+    case 'gradenschets':
+        $title = 'Klimwoordenboek Frans &amp; Engels - Vergelijking moeilijkheidswaarderingen';
+        $keywords = 'klimwaarderingen, moeilijkheidsgraden, moeilijkheidswaarderingen, klimmen, boulderen, boulderwaarderingen';
+        $description = 'Vergelijking tussen moeilijkheidswaarderingen gebruikt in het klimmen';
+        $contentFile = 'content/grading-tables.php';
+        $imageFile = 'images/vergelijking.png';
+        $lexiconClass = '';
+        $gradingClass = '';
+        $gradingTablesClass = 'active';
+        $class = '';
+        break;
+    default:
+        require '404.php';
 }
-
-extract($namesAndDescriptions[$request]);
 
 date_default_timezone_set('Europe/Amsterdam');
 $lastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
-    ->format(max(array_map(fn($index) => filemtime($index['contentFile']), $namesAndDescriptions)));
+    ->format(filemtime($contentFile));
 
 $mailAddress = str_rot13('jmartinr@home.nl');
 
