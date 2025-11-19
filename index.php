@@ -43,6 +43,8 @@ switch($request) {
         require '404.php';
 }
 
+$canonicalUrlStub = 'https://www.roelofs-coaching.nl/klimwoordenboek/';
+
 date_default_timezone_set('Europe/Amsterdam');
 $lastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
     ->format(filemtime($contentFile));
@@ -55,7 +57,7 @@ $mailAddress = str_rot13('jmartinr@home.nl');
 <head prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
 <title><?php echo $title; ?></title>
-<base href="<?php echo dirname(filter_input(INPUT_SERVER, 'PHP_SELF')).'/'; ?>">
+<base href="<?php echo dirname(filter_input(INPUT_SERVER, 'PHP_SELF')) . '/'; ?>">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=5, shrink-to-fit=no">
 <meta name="keywords" content="<?php echo $keywords; ?>">
 <meta name="description" content="<?php echo $description; ?>">
@@ -64,11 +66,11 @@ $mailAddress = str_rot13('jmartinr@home.nl');
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?php echo $title; ?>">
 <meta property="og:description" content="<?php echo $description; ?>">
-<meta property="og:image" content="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $imageFile ;?>">
+<meta property="og:image" content="<?php echo $canonicalUrlStub . $imageFile; ?>">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="696">
 <meta property="og:image:height" content="430">
-<meta property="og:url" content="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>">
+<meta property="og:url" content="<?php echo $canonicalUrlStub . $request; ?>">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-italic.woff2">
 <link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
@@ -77,7 +79,7 @@ $mailAddress = str_rot13('jmartinr@home.nl');
 <link rel="modulepreload" href="js/activeLink.mjs">
 <link rel="stylesheet" href="css/main.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
-<link rel="canonical" href="https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>">
+<link rel="canonical" href="<?php echo $canonicalUrlStub . $request ;?>">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" sizes="192x192" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -111,12 +113,12 @@ setupLinks(document.querySelectorAll('#alphabet a'));
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $request ;?>"
+    "@id": "<?php echo $canonicalUrlStub . $request; ?>"
   },
   "headline": "<?php echo $title; ?>",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.roelofs-coaching.nl/klimwoordenboek/<?php echo $imageFile ;?>",
+    "url": "<?php echo $canonicalUrlStub . $imageFile; ?>",
     "width": 696,
     "height": 430
   },
