@@ -31,7 +31,7 @@ if (! defined( '_LEXICON' )) {
 <p><dfn>[eig.]</dfn>
 	eigenlijk.</p>
 <p><dfn>laatst bijgewerkt</dfn>
-	<?php echo $lastEdited; ?>.</p>
+	<?php echo $formattedLastEdited; ?>.</p>
 <p><dfn>[lett.]</dfn>
 	letterlijk.</p>
 <p><dfn lang="fr">[v.], [m.]</dfn>

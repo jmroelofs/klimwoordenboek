@@ -46,7 +46,7 @@ switch($request) {
 $canonicalUrlStub = 'https://www.roelofs-coaching.nl/klimwoordenboek/';
 
 date_default_timezone_set('Europe/Amsterdam');
-$lastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
+$formattedLastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
     ->format(filemtime($contentFile));
 
 $mailAddress = str_rot13('jmartinr@home.nl');
