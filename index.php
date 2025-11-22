@@ -42,7 +42,7 @@ switch($request) {
         $class = '';
         break;
     default:
-        require '404.php';
+        require 'content/404.php';
 }
 
 $href = dirname(filter_input(INPUT_SERVER, 'PHP_SELF')) . '/';
@@ -110,7 +110,7 @@ document.querySelectorAll('a[href^="mailto:"]')
 
 setupLinks(document.querySelectorAll('#alphabet a'));
 </script>
-<?php include('analytics.php'); ?>
+<?php include('content/analytics.php'); ?>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

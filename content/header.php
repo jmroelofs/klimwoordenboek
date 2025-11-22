@@ -3,7 +3,7 @@
 declare(strict_types = 1);
 
 if (! defined( '_LEXICON' )) {
-    require '../404.php';
+    require '404.php';
 }
 
 ?>
