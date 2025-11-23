@@ -6,7 +6,12 @@ class Rot13 {
         ['N', 'A'], ['O', 'B'], ['P', 'C'], ['Q', 'D'], ['R', 'E'], ['S', 'F'], ['T', 'G'], ['U', 'H'], ['V', 'I'], ['W', 'J'], ['X', 'K'], ['Y', 'L'], ['Z', 'M'],
     ]);
 
-    decode = this.encode = source => source.replace(/[a-z]/gi, Map.prototype.get.bind(this.#lookupTable));
+    decode 
+        = this.encode 
+        = source => source.replaceAll(
+            /[^]/g,
+            char => this.#lookupTable.get(char) ?? char
+        );
 }
 
 export { Rot13 };
