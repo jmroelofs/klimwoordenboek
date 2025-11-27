@@ -41,7 +41,6 @@ import { Rot } from './js/rot.mjs';
 import { ActiveLink } from './js/activeLink.mjs';
 const setupFlow = new Columns().setupFlow,
     decode = new Rot(table).decode,
-    setupLinks = new ActiveLink().setupLinks,
     maxWaitingTime = 1000,
     warn = () => console.warn(`Fonts were not available after waiting ${maxWaitingTime} milliseconds`);
 
@@ -53,7 +52,7 @@ new Promise((resolve, reject) => {
     .catch(warn)
     .finally(setupFlow);
 
-setupLinks(document.querySelectorAll('#alphabet a'));
+new ActiveLink(document.querySelectorAll('#alphabet a'));
 
 document.querySelectorAll('a[href^="mailto:"]')
     .forEach(mailLink => mailLink.href = mailLink.href.replace(/(?<=mailto:).*/i, decode));

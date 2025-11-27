@@ -1,9 +1,9 @@
 class Rot {
-    #lookupTable;
-
     constructor(table) {
         this.#lookupTable = table;
     }
+
+    #lookupTable;
 
     decode 
         = this.encode 

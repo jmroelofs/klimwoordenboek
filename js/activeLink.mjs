@@ -1,4 +1,10 @@
 class ActiveLink {
+    constructor(links) {
+        this.#allLinks = [...links];
+        this.#setActive({ newURL: window.location.href });
+        window.addEventListener('hashchange', this.#setActive, { passive: true })
+    }
+
     #allLinks;
     #activeLink;
 
@@ -12,12 +18,6 @@ class ActiveLink {
                 return true
             }
         })
-    }
-
-    setupLinks = links => {
-        this.#allLinks = [...links];
-        this.#setActive({ newURL: window.location.href });
-        window.addEventListener('hashchange', this.#setActive, { passive: true })
     }
 }
 
