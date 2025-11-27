@@ -53,7 +53,8 @@ $formattedLastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, I
     ->format(filemtime($contentFile));
 $AtomLastEdited = date(DATE_ATOM, filemtime($contentFile));
 
-$mailAddress = str_rot13('jmartinr@home.nl');
+$table = json_decode(file_get_contents('json/rotTable.json'), true);
+$mailAddress = preg_replace_callback('/[\w\W]/', fn($match) => $table[$match[0]] ?? $match[0] ?? 'wwww' ,'jmartinr@home.nl');
 
 ?>
 <!DOCTYPE html>
