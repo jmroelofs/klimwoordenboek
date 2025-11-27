@@ -54,7 +54,7 @@ $formattedLastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, I
 $AtomLastEdited = date(DATE_ATOM, filemtime($contentFile));
 
 $table = json_decode(file_get_contents('json/rotTable.json'), true);
-$mailAddress = preg_replace_callback('/[\w\W]/', fn($match) => $table[$match[0]] ?? $match[0] ?? 'wwww' ,'jmartinr@home.nl');
+$mailAddress = preg_replace_callback('/[\w\W]/', fn($match) => $table[$match[0]] ?? $match[0], 'jmartinr@home.nl');
 
 ?>
 <!DOCTYPE html>
