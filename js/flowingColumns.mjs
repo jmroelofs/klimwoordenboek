@@ -1,4 +1,16 @@
-class Columns {
+class FlowingColumns {  
+    constructor() {
+        if (this.#column) {
+            this.#spacer.id = 'spacer';
+            this.#column.prepend(this.#spacer);
+            this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
+            this.#handleEvent({ type: 'init' });
+            ['scroll', 'resize'].forEach(event =>
+                window.addEventListener(event, this.#handleEvent, { passive: true, capture: true })
+            );
+        }
+    }
+
     #animationFrameID = null;
 
     #root = document.documentElement
@@ -82,18 +94,6 @@ class Columns {
             this.#animationFrameID = window.requestAnimationFrame(this.#flowColumns);
         }        
     };
-  
-    setupFlow = () => {
-        if (this.#column) {
-            this.#spacer.id = 'spacer';
-            this.#column.prepend(this.#spacer);
-            this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
-            this.#handleEvent({ type: 'init' });
-            ['scroll', 'resize'].forEach(event =>
-                window.addEventListener(event, this.#handleEvent, { passive: true, capture: true })
-            );
-        }
-    }
 }
 
-export { Columns };
+export { FlowingColumns };

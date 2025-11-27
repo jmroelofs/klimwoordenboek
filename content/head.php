@@ -25,7 +25,7 @@ if (! defined( '_LEXICON' )) {
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-italic.woff2">
 <link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
-<link rel="modulepreload" href="js/columns.mjs">
+<link rel="modulepreload" href="js/flowingColumns.mjs">
 <link rel="modulepreload" href="js/rot.mjs">
 <link rel="modulepreload" href="js/activeLink.mjs">
 <link rel="stylesheet" href="css/main.css">
@@ -36,12 +36,10 @@ if (! defined( '_LEXICON' )) {
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <script type="module">
 import table from './json/rotTable.json' with { type: 'json' };
-import { Columns } from './js/columns.mjs';
+import { FlowingColumns } from './js/flowingColumns.mjs';
 import { Rot } from './js/rot.mjs';
 import { ActiveLink } from './js/activeLink.mjs';
-const setupFlow = new Columns().setupFlow,
-    decode = new Rot(table).decode,
-    maxWaitingTime = 1000,
+const maxWaitingTime = 1000,
     warn = () => console.warn(`Fonts were not available after waiting ${maxWaitingTime} milliseconds`);
 
 // we prefer to wait until the fonts are loaded
@@ -50,12 +48,12 @@ new Promise((resolve, reject) => {
     document.fonts.ready.then(resolve);
 })
     .catch(warn)
-    .finally(setupFlow);
+    .finally(new FlowingColumns());
 
 new ActiveLink(document.querySelectorAll('#alphabet a'));
 
 document.querySelectorAll('a[href^="mailto:"]')
-    .forEach(mailLink => mailLink.href = mailLink.href.replace(/(?<=mailto:).*/i, decode));
+    .forEach(mailLink => mailLink.href = mailLink.href.replace(/(?<=mailto:).*/i, new Rot(table).decode));
 </script>
 <?php include('content/analytics.php'); ?>
 <script type="application/ld+json">
