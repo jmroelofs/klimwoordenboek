@@ -35,7 +35,7 @@ if (! defined( '_LEXICON' )) {
 <link rel="icon" sizes="192x192" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <script type="module">
-import table from "./json/rotTable.json" with { type: "json" };
+import table from './json/rotTable.json' with { type: 'json' };
 import { Columns } from './js/columns.mjs';
 import { Rot } from './js/rot.mjs';
 import { ActiveLink } from './js/activeLink.mjs';
