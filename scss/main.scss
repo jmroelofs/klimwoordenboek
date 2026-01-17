@@ -334,10 +334,10 @@ dfn {
 }
 
 
-/* adjust text in grading tables */
+/* make headers stick horizontally in grading tables */
 
-h3:has(+ section),
-section p {
+h3:has(+ .grading-table),
+.grading-table p {
     position: sticky;
     width: max-content;
     left: 1.2%;
