@@ -5,24 +5,6 @@
 @use 'normalize';
 
 
-/* font related */
-
-$vertical-adjust-for-font: 1.5px;
-
-
-/* colors */
-
-$background-color: oklch(0.97 0 0);
-$background-color-darker: oklch(0 0 0 / 0.035);
-$text-color: oklch(0.26 0 0);
-$bold-color: oklch(0.32 0 0);
-$underline-color: oklch(0.68 0 0);
-$french-color: oklch(0.33 0.1 146.11);
-$english-color: oklch(0.27 0.11 18.9);
-$color-even: oklch(0.89 0.05 225.57);
-$color-odd: oklch(0.86 0.05 225.57);
-
-
 /* use golden ratio */
 
 $ratio: 1.618;
@@ -36,6 +18,12 @@ $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 /* ------------------------------------------------------------ */
 
 :root {
+    --background-color: oklch(0.97 0 0);
+    --text-color: oklch(0.26 0 0);
+    --bold-color: oklch(0.32 0 0);
+    --underline-color: oklch(0.68 0 0);
+    --french-color: oklch(0.33 0.1 146.11);
+    --english-color: oklch(0.27 0.11 18.9);
     font: 400 14px/1.5 font.$font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
@@ -43,8 +31,8 @@ $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
     hyphens: auto;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
-    color: $text-color;
-    background: $background-color url('../images/handmadepaper.avif') repeat scroll 0 0;
+    color: var(--text-color);
+    background: var(--background-color) url('../images/handmadepaper.avif') repeat scroll 0 0;
     overscroll-behavior: contain;
 }
 
@@ -124,7 +112,7 @@ section {
         }
 
         h3:target:after {
-            text-decoration: underline $background-color 2px;
+            text-decoration: underline var(--background-color) 2px;
         }
     }
 }
@@ -204,7 +192,7 @@ a:is(:link, :hover, :active, :focus, :visited) {
 }
 
 a:is(:link, :visited) {
-    text-decoration: underline $underline-color from-font;
+    text-decoration: underline var(--underline-color) from-font;
 }
 
 :target,
@@ -237,7 +225,7 @@ h1,
 h2,
 h3,
 h3:target {
-    color: $bold-color;
+    color: var(--bold-color);
 }
 
 dfn {
@@ -246,12 +234,12 @@ dfn {
 
 :lang(fr) {
     font-style: inherit;
-    color: $french-color;
+    color: var(--french-color);
 }
 
 :lang(en) {
     font-style: italic;
-    color: $english-color;
+    color: var(--english-color);
 }
 
 .nowrap {
@@ -294,13 +282,17 @@ dfn {
 .grading-table {
     margin-top: 1rlh;
     position: relative;
+    --background-color-darker: oklch(0 0 0 / 0.035);
+    --color-even: oklch(0.89 0.05 225.57);
+    --color-odd: oklch(0.86 0.05 225.57);
+    --vertical-adjust-for-font: 1.5px;
 
     &:hover::before {
         content: "";
         position: absolute;
-        inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
+        inset: calc(var(--vertical-adjust-for-font) * -1) 0 var(--vertical-adjust-for-font);
         z-index: -1;
-        background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
+        background: linear-gradient(to right, var(--background-color-darker), var(--background-color-darker) 50%, transparent 50%, transparent) left top / 64px 100%;
     }
 
     display: table;
@@ -318,16 +310,16 @@ dfn {
             &::before {
                 content: "";
                 position: absolute;
-                inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
+                inset: calc(var(--vertical-adjust-for-font) * -1) 0 var(--vertical-adjust-for-font);
                 z-index: -1;
             }
 
             &:nth-child(odd)::before {
-                background-color: $color-odd;
+                background-color: var(--color-odd);
             }
 
             &:nth-child(even)::before {
-                background-color: $color-even;
+                background-color: var(--color-even);
             }
         }
     }
