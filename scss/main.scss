@@ -8,11 +8,9 @@
 
 /* font related */
 
-$line-height: 1.5rem;
 $text-indent: 0.667rem;
 $font-size: 14px;
 $font-size-header: 1.333rem;
-$padding-height: $font-size * math.div($line-height, 1rem) * 2;
 $vertical-adjust-for-font: 1.5px;
 
 
@@ -42,7 +40,7 @@ $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 /* ------------------------------------------------------------ */
 
 :root {
-    font: 400 list.slash($font-size, math.div($line-height, 1rem)) font.$font-family;
+    font: 400 list.slash($font-size, 1.5) font.$font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
@@ -64,7 +62,7 @@ header {
     position: sticky;
     top: 0;
     margin-inline: 5.5% 6.9%;
-    padding-bottom: $padding-height;
+    padding-bottom: 2rlh;
     max-height: 100lvh;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -75,7 +73,7 @@ header {
 }
 
 main {
-    margin: $padding-height 3.1% $padding-height 1.6%
+    margin: 2rlh 3.1% 2rlh 1.6%
 }
 
 
@@ -115,7 +113,7 @@ section {
             https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
             /* adjust margin 1px because of min height */
-            margin-top: calc(100svh - #{($padding-height * 2) + 1});
+            margin-top: calc(100svh - 4rlh - 1px);
             height: 1px;
             width: 100%;
             float: left;
@@ -177,7 +175,7 @@ h3 {
 h2,
 h3,
 :is(nav, h3) + p {
-    padding-top: $line-height;
+    padding-top: 1rlh;
 }
 
 p {
@@ -188,14 +186,14 @@ p {
 }
 
 dfn {
-    scroll-margin-block: $padding-height;
+    scroll-margin-block: 2rlh;
 }
 
 h1,
 main h3 {
     font-size: $font-size-header;
-    line-height: $line-height;
-    padding-top: $padding-height;
+    line-height: 1rlh;
+    padding-top: 2rlh;
 }
 
 main h3:first-of-type {
@@ -298,7 +296,7 @@ dfn {
 /* grading tables */
 
 .grading-table {
-    margin-top: $line-height;
+    margin-top: 1rlh;
     position: relative;
 
     &:hover::before {
@@ -318,7 +316,7 @@ dfn {
             padding: 0;
             font-size: 0.85rem;
             text-align: center;
-            line-height: $line-height;
+            line-height: 1rlh;
             position: relative;
 
             &::before {
