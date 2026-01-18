@@ -121,31 +121,34 @@ section {
 /*  on big and wide screens we use the golden ratio
     it kicks in between 1200 and 1600 pixels wide */
 
-@media (height <= $ratio-view-lower-height) and (width >= $ratio-view-lower-width) {
+@media (height < $ratio-view-lower-height) {
 
     /* wide enough, but not high enough, body will be 1200px wide */
     body {
         --max-width: #{$ratio-view-lower-width};
-        max-width: var(--max-width);
-        margin-left: calc(50vw - var(--max-width) / 2)
     }
 }
 
-@media (height >= $ratio-view-lower-height) and (width >= $ratio-view-lower-width) and (aspect-ratio >= $ratio-view-aspect-ratio) {
+@media (height >= $ratio-view-lower-height) and (aspect-ratio >= $ratio-view-aspect-ratio) {
 
     /* body will use golden ratio */
     body {
         --max-width: #{$ratio * 100vh};
-        max-width: var(--max-width);
-        margin-left: calc(50vw - var(--max-width) / 2)
     }
 }
 
-@media (height >= $ratio-view-upper-height) and (width >= $ratio-view-upper-width) {
+@media (height > $ratio-view-upper-height) and (width >= $ratio-view-upper-width) {
 
     /* too big, body will be 1600px wide */
     body {
         --max-width: #{$ratio-view-upper-width};
+    }
+}
+
+@media (width >= $ratio-view-lower-width) {
+
+    /* apply */
+    body {
         max-width: var(--max-width);
         margin-left: calc(50vw - var(--max-width) / 2)
     }
