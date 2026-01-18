@@ -1,7 +1,7 @@
 /* CSS for klimwoordenboek */
 
 @use 'sass:math';
-@use 'fonts-newsreader' as font;
+@use 'fonts-newsreader';
 @use 'normalize';
 
 
@@ -24,7 +24,7 @@ $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
     --underline-color: oklch(0.68 0 0);
     --french-color: oklch(0.33 0.1 146.11);
     --english-color: oklch(0.27 0.11 18.9);
-    font: 400 14px/1.5 font.$font-family;
+    font: 400 14px/1.5 var(--font-family);
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
