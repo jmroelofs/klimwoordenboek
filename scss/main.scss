@@ -1,30 +1,27 @@
 /* CSS for klimwoordenboek */
 
-@use 'sass:math';
 @use 'fonts-newsreader';
 @use 'normalize';
-
-
-/* use golden ratio */
-
-$ratio: 1.618;
-$ratio-view-lower-width: 1200px;
-$ratio-view-lower-height: math.round(math.div($ratio-view-lower-width, $ratio));
-$ratio-view-upper-width: 1600px;
-$ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
-$ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 
 
 /* ------------------------------------------------------------ */
 
 :root {
+    --ratio: 1.618;
+    --ratio-view-lower-width: 1200px;
+    --ratio-view-lower-height: 742px;
+    --ratio-view-upper-width: 1600px;
+    --ratio-view-upper-height: 989px;
+    --ratio-view-aspect-ratio: 1618/1000;
+
     --background-color: oklch(0.97 0 0);
     --text-color: oklch(0.26 0 0);
     --bold-color: oklch(0.32 0 0);
     --underline-color: oklch(0.68 0 0);
     --french-color: oklch(0.33 0.1 146.11);
     --english-color: oklch(0.27 0.11 18.9);
-    font: 400 14px/1.5 var(--font-family);
+
+    font: 400 14px/1.5 var(--font-name), serif;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
@@ -118,36 +115,35 @@ section {
 }
 
 
-/*  on big and wide screens we use the golden ratio
-    it kicks in between 1200 and 1600 pixels wide */
+/*  on big and wide screens we use the golden ratio */
 
-@media (height < $ratio-view-lower-height) {
+@media (height < var(--ratio-view-lower-height)) {
 
-    /* wide enough, but not high enough, body will be 1200px wide */
+    /* not high enough: don´t use golden ratio */
     body {
-        --max-width: #{$ratio-view-lower-width};
+        --max-width: var(--ratio-view-lower-width);
     }
 }
 
-@media (height >= $ratio-view-lower-height) and (aspect-ratio >= $ratio-view-aspect-ratio) {
+@media (height >= var(--ratio-view-lower-height)) and (aspect-ratio >= var(--ratio-view-aspect-ratio)) {
 
     /* body will use golden ratio */
     body {
-        --max-width: #{$ratio * 100vh};
+        --max-width: calc(var(--ratio) * 100vh);
     }
 }
 
-@media (height > $ratio-view-upper-height) and (width >= $ratio-view-upper-width) {
+@media (height > var(--ratio-view-upper-height)) and (width >= var(--ratio-view-upper-width)) {
 
-    /* too big, body will be 1600px wide */
+    /* very big: maximize width */
     body {
-        --max-width: #{$ratio-view-upper-width};
+        --max-width: var(--ratio-view-upper-width);
     }
 }
 
-@media (width >= $ratio-view-lower-width) {
+@media (width >= var(--ratio-view-lower-width)) {
 
-    /* apply */
+    /* wide enough: apply */
     body {
         max-width: var(--max-width);
         margin-left: calc(50vw - var(--max-width) / 2)
