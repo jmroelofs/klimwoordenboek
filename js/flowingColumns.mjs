@@ -29,7 +29,7 @@ class FlowingColumns {
     #offsetOld = 0;
     #heightOld = 1;
 
-    #mediaQuery = window.matchMedia('screen and (min-width: 801px) and (min-device-width: 750px)');
+    #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
     #matchesMedia = this.#mediaQuery.matches;
 
     #diffMoreThan = (x, y, z) => Math.abs(x - y) > z;
