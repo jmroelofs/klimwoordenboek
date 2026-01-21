@@ -1,35 +1,56 @@
 /* CSS for klimwoordenboek */
 
-@use 'fonts-newsreader';
+@use 'sass:list';
+@use 'sass:math';
+@use 'fonts-newsreader' as font;
 @use 'normalize';
+
+
+/* font related */
+
+$line-height: 1.5rem;
+$text-indent: 0.667rem;
+$font-size: 14px;
+$font-size-header: 1.333rem;
+$padding-height: $font-size * math.div($line-height, 1rem) * 2;
+$vertical-adjust-for-font: 1.5px;
+
+
+/* colors */
+
+$background-color: oklch(0.97 0 0);
+$background-color-darker: oklch(0 0 0 / 0.035);
+$text-color: oklch(0.26 0 0);
+$bold-color: oklch(0.32 0 0);
+$underline-color: oklch(0.68 0 0);
+$french-color: oklch(0.33 0.1 146.11);
+$english-color: oklch(0.27 0.11 18.9);
+$color-even: oklch(0.89 0.05 225.57);
+$color-odd: oklch(0.86 0.05 225.57);
+
+
+/* use golden ratio */
+
+$ratio: 1.618;
+$ratio-view-lower-width: 1200px;
+$ratio-view-lower-height: math.round(math.div($ratio-view-lower-width, $ratio));
+$ratio-view-upper-width: 1600px;
+$ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
+$ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 
 
 /* ------------------------------------------------------------ */
 
 :root {
-    --ratio: 1.618;
-    --ratio-view-lower-width: 1200px;
-    --ratio-view-lower-height: 742px;
-    --ratio-view-upper-width: 1600px;
-    --ratio-view-upper-height: 989px;
-    --ratio-view-aspect-ratio: 1618/1000;
-
-    --background-color: oklch(0.97 0 0);
-    --text-color: oklch(0.26 0 0);
-    --bold-color: oklch(0.32 0 0);
-    --underline-color: oklch(0.68 0 0);
-    --french-color: oklch(0.33 0.1 146.11);
-    --english-color: oklch(0.27 0.11 18.9);
-
-    font: 400 14px/1.5 var(--font-name), serif;
+    font: 400 list.slash($font-size, math.div($line-height, 1rem)) font.$font-family;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
     hyphens: auto;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
-    color: var(--text-color);
-    background: var(--background-color) url('../images/handmadepaper.avif') repeat scroll 0 0;
+    color: $text-color;
+    background: $background-color url('../images/handmadepaper.avif') repeat scroll 0 0;
     overscroll-behavior: contain;
 }
 
@@ -43,7 +64,7 @@ header {
     position: sticky;
     top: 0;
     margin-inline: 5.5% 6.9%;
-    padding-bottom: 2rlh;
+    padding-bottom: $padding-height;
     max-height: 100lvh;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -54,13 +75,13 @@ header {
 }
 
 main {
-    margin: 2rlh 3.1% 2rlh 1.6%
+    margin: $padding-height 3.1% $padding-height 1.6%
 }
 
 
 /* on reasonably small screens the following gives nicer margins */
 
-@media (850px <= width <= 1250px) {
+@media (min-width: 850px) and (max-width: 1250px) {
     :root {
         scrollbar-gutter: stable both-edges;
     }
@@ -80,7 +101,7 @@ section {
     display: none;
 }
 
-@media screen and (width > 800px) and (device-width >= 750px) {
+@media screen and (min-width: 801px) and (min-device-width: 750px) {
     .continuous-column {
         column-count: 2;
         column-gap: 4.1%;
@@ -94,7 +115,7 @@ section {
             https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
             /* adjust margin 1px because of min height */
-            margin-top: calc(100svh - 4rlh - 1px);
+            margin-top: calc(100svh - #{($padding-height * 2) + 1});
             height: 1px;
             width: 100%;
             float: left;
@@ -109,49 +130,41 @@ section {
         }
 
         h3:target:after {
-            text-decoration: underline var(--background-color) 2px;
+            text-decoration: underline $background-color 2px;
         }
     }
 }
 
 
-/*  on big and wide screens we use the golden ratio */
+/*  on big and wide screens we use the golden ratio
+    it kicks in between 1200 and 1600 pixels wide */
 
-@media (height < var(--ratio-view-lower-height)) {
+@media (max-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) {
 
-    /* not high enough: don´t use golden ratio */
+    /* wide enough, but not high enough, body will be 1200px wide */
     body {
-        --max-width: var(--ratio-view-lower-width);
+        max-width: $ratio-view-lower-width;
+        margin-left: calc(50vw - #{$ratio-view-lower-width * 0.5})
     }
 }
 
-@media (height >= var(--ratio-view-lower-height)) and (aspect-ratio >= var(--ratio-view-aspect-ratio)) {
+@media (min-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) and (min-aspect-ratio: $ratio-view-aspect-ratio) {
 
     /* body will use golden ratio */
     body {
-        --max-width: calc(var(--ratio) * 100vh);
+        max-width: $ratio * 100vh;
+        margin-left: calc(50vw - #{$ratio * 50}vh)
     }
 }
 
-@media (height > var(--ratio-view-upper-height)) and (width >= var(--ratio-view-upper-width)) {
+@media (min-height: $ratio-view-upper-height) and (min-width: $ratio-view-upper-width) {
 
-    /* very big: maximize width */
+    /* too big, body will be 1600px wide */
     body {
-        --max-width: var(--ratio-view-upper-width);
+        max-width: $ratio-view-upper-width;
+        margin-left: calc(50vw - #{$ratio-view-upper-width * 0.5})
     }
 }
-
-@media (width >= var(--ratio-view-lower-width)) {
-
-    /* wide enough: apply */
-    body {
-        max-width: var(--max-width);
-        margin-left: calc(50vw - var(--max-width) / 2)
-    }
-}
-
-
-/* headings, paragraphs and links */
 
 h1,
 h2,
@@ -164,25 +177,25 @@ h3 {
 h2,
 h3,
 :is(nav, h3) + p {
-    padding-top: 1rlh;
+    padding-top: $line-height;
 }
 
 p {
     text-align: justify;
-    text-indent: -0.667rem;
-    padding-left: 0.667rem;
+    text-indent: -$text-indent;
     margin-block: 0;
+    padding-left: $text-indent;
 }
 
 dfn {
-    scroll-margin-block: 2rlh;
+    scroll-margin-block: $padding-height;
 }
 
 h1,
 main h3 {
-    font-size: 1.333rem;
-    line-height: 1rlh;
-    padding-top: 2rlh;
+    font-size: $font-size-header;
+    line-height: $line-height;
+    padding-top: $padding-height;
 }
 
 main h3:first-of-type {
@@ -197,7 +210,7 @@ a:is(:link, :hover, :active, :focus, :visited) {
 }
 
 a:is(:link, :visited) {
-    text-decoration: underline var(--underline-color) from-font;
+    text-decoration: underline $underline-color from-font;
 }
 
 :target,
@@ -230,7 +243,7 @@ h1,
 h2,
 h3,
 h3:target {
-    color: var(--bold-color);
+    color: $bold-color;
 }
 
 dfn {
@@ -239,12 +252,12 @@ dfn {
 
 :lang(fr) {
     font-style: inherit;
-    color: var(--french-color);
+    color: $french-color;
 }
 
 :lang(en) {
     font-style: italic;
-    color: var(--english-color);
+    color: $english-color;
 }
 
 .nowrap {
@@ -254,7 +267,7 @@ dfn {
 
 /* make left column pushable to the left on a small screen */
 
-@media (width < 550px) {
+@media (max-width: 549px) {
     body {
         min-width: max(400px, 135vw);
     }
@@ -285,19 +298,15 @@ dfn {
 /* grading tables */
 
 .grading-table {
-    margin-top: 1rlh;
+    margin-top: $line-height;
     position: relative;
-    --background-color-darker: oklch(0 0 0 / 0.035);
-    --color-even: oklch(0.89 0.05 225.57);
-    --color-odd: oklch(0.86 0.05 225.57);
-    --vertical-adjust-for-font: 1.5px;
 
     &:hover::before {
         content: "";
         position: absolute;
-        inset: calc(var(--vertical-adjust-for-font) * -1) 0 var(--vertical-adjust-for-font);
+        inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
         z-index: -1;
-        background: linear-gradient(to right, var(--background-color-darker), var(--background-color-darker) 50%, transparent 50%, transparent) left top / 64px 100%;
+        background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
     }
 
     display: table;
@@ -309,22 +318,22 @@ dfn {
             padding: 0;
             font-size: 0.85rem;
             text-align: center;
-            line-height: 1rlh;
+            line-height: $line-height;
             position: relative;
 
             &::before {
                 content: "";
                 position: absolute;
-                inset: calc(var(--vertical-adjust-for-font) * -1) 0 var(--vertical-adjust-for-font);
+                inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
                 z-index: -1;
             }
 
             &:nth-child(odd)::before {
-                background-color: var(--color-odd);
+                background-color: $color-odd;
             }
 
             &:nth-child(even)::before {
-                background-color: var(--color-even);
+                background-color: $color-even;
             }
         }
     }
@@ -339,10 +348,10 @@ dfn {
 }
 
 
-/* make headers stick horizontally in grading tables */
+/* adjust text in grading tables */
 
-h3:has(+ .grading-table),
-.grading-table p {
+h3:has(+ section),
+section p {
     position: sticky;
     width: max-content;
     left: 1.2%;

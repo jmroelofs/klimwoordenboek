@@ -24,14 +24,10 @@ if (! defined( '_LEXICON' )) {
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-italic.woff2">
 <link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
-<style>
-    <?php include 'styles/normalize.css'; ?>
-    <?php include 'styles/fonts-newsreader.css'; ?>
-    <?php include 'styles/lexicon.css'; ?>
-</style>
 <link rel="modulepreload" href="js/flowingColumns.mjs">
 <link rel="modulepreload" href="js/rot.mjs">
 <link rel="modulepreload" href="js/activeLink.mjs">
+<link rel="stylesheet" href="css/main.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
 <link rel="canonical" href="<?php echo $contentUrl ;?>">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
