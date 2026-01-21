@@ -81,7 +81,7 @@ main {
 
 /* on reasonably small screens the following gives nicer margins */
 
-@media (min-width: 850px) and (max-width: 1250px) {
+@media (850px <= width <= 1250px) {
     :root {
         scrollbar-gutter: stable both-edges;
     }
@@ -139,7 +139,7 @@ section {
 /*  on big and wide screens we use the golden ratio
     it kicks in between 1200 and 1600 pixels wide */
 
-@media (max-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) {
+@media (height < $ratio-view-lower-height) and (width >= $ratio-view-lower-width) {
 
     /* wide enough, but not high enough, body will be 1200px wide */
     body {
@@ -148,7 +148,7 @@ section {
     }
 }
 
-@media (min-height: $ratio-view-lower-height) and (min-width: $ratio-view-lower-width) and (min-aspect-ratio: $ratio-view-aspect-ratio) {
+@media (height >= $ratio-view-lower-height) and (width >= $ratio-view-lower-width) and (aspect-ratio >= $ratio-view-aspect-ratio) {
 
     /* body will use golden ratio */
     body {
@@ -157,7 +157,7 @@ section {
     }
 }
 
-@media (min-height: $ratio-view-upper-height) and (min-width: $ratio-view-upper-width) {
+@media (height > $ratio-view-upper-height) and (width > $ratio-view-upper-width) {
 
     /* too big, body will be 1600px wide */
     body {
@@ -267,7 +267,7 @@ dfn {
 
 /* make left column pushable to the left on a small screen */
 
-@media (max-width: 549px) {
+@media (width < 550px) {
     body {
         min-width: max(400px, 135vw);
     }
