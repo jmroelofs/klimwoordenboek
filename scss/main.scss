@@ -157,7 +157,7 @@ section {
 
     /* too big, body will be 1600px wide */
     body {
-       margin-inline: max(0px, 50vw - #{$ratio-view-upper-width * 0.5})
+        margin-inline: max(0px, 50vw - #{$ratio-view-upper-width * 0.5})
     }
 }
 
