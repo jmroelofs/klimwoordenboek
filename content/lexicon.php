@@ -6,6 +6,7 @@ if (! defined( '_LEXICON' )) {
 }
 
 ?>
+<div id="spacer"></div>
 <h3 id="A">A</h3>
 <p><dfn lang="en-US"><a href="https://www.americanalpineclub.org/" target="_blank" rel="noopener">AAC/<wbr>American Alpine Club</a></dfn>
 	Alpen&shy;vereniging van de Verenigde Staten, publiceert jaarlijks <dfn lang="en-US"><a href="https://publications.americanalpineclub.org/" target="_blank" rel="noopener">the American Alpine Journal</a></dfn>.</p>

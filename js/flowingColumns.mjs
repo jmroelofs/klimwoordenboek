@@ -1,8 +1,6 @@
 class FlowingColumns {  
     constructor() {
         if (this.#column) {
-            this.#spacer.id = 'spacer';
-            this.#column.prepend(this.#spacer);
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
             this.#handleEvent({ type: 'init' });
             ['scroll', 'resize'].forEach(event =>
@@ -16,7 +14,7 @@ class FlowingColumns {
     #root = document.documentElement
     #column = document.getElementsByClassName('continuous-column')[0];
     #spacer = this.#column
-        ? document.createElement('div')
+        ? document.getElementById('spacer')
         : null;
     #lastParagraph = this.#column?.lastElementChild;    
     #firstParagraph = this.#column?.firstElementChild;
