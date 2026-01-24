@@ -38,15 +38,13 @@ import table from './json/rotTable.json' with { type: 'json' };
 import { FlowingColumns } from './js/flowingColumns.mjs';
 import { Rot } from './js/rot.mjs';
 import { ActiveLink } from './js/activeLink.mjs';
-const maxWaitingTime = 1000,
-    warn = () => console.warn(`Fonts were not available after waiting ${maxWaitingTime} milliseconds`);
 
 // we prefer to wait until the fonts are loaded
 new Promise((resolve, reject) => {
-    setTimeout(reject, maxWaitingTime);
     document.fonts.ready.then(resolve);
+    setTimeout(reject, 1000, 'Fonts were not available after waiting one second');
 })
-    .catch(warn)
+    .catch(console.warn)
     .finally(new FlowingColumns());
 
 new ActiveLink(document.querySelectorAll('#alphabet a'));
