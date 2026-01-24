@@ -11,18 +11,14 @@ class FlowingColumns {
 
     #animationFrameID = null;
 
-    #root = document.documentElement
-    #column = document.getElementsByClassName('continuous-column')[0];
-    #spacer = this.#column
-        ? document.getElementById('spacer')
+    #column = document.querySelector('.continuous-column');
+    #spacer = this.#column?.querySelector('#spacer');
+    #lastParagraph = this.#column?.lastElementChild;
+    #paragraphLineHeight = this.#lastParagraph
+        ? parseInt(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
         : null;
-    #lastParagraph = this.#column?.lastElementChild;    
-    #firstParagraph = this.#column?.firstElementChild;
-    #firstParagraphHeight = this.#firstParagraph?.getBoundingClientRect().height;
-    #secondParagraph = this.#firstParagraph?.nextElementSibling;
-    #secondParagraphLineHeight = this.#secondParagraph
-        ? parseInt(window.getComputedStyle(this.#secondParagraph).getPropertyValue('line-height'))
-        : null;
+    #middleHeaderHeight = this.#column?.querySelector('p+h3')?.getBoundingClientRect().height
+        ?? this.#paragraphLineHeight;
 
     #offsetOld = 0;
     #heightOld = 1;
@@ -36,7 +32,7 @@ class FlowingColumns {
     #flowColumns = () => {
         // offset of page readings
         const
-            offsetNeeded = this.#roundNearest(window.scrollY, this.#secondParagraphLineHeight),
+            offsetNeeded = this.#roundNearest(window.scrollY, this.#paragraphLineHeight),
             offsetDifference = offsetNeeded - this.#offsetOld,
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.#spacer.getBoundingClientRect(),
@@ -64,8 +60,8 @@ class FlowingColumns {
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
             safetyMargin = Math.max(
-                Math.min(1, calculatedHeight / this.#root.clientHeight) * this.#firstParagraphHeight,
-                this.#secondParagraphLineHeight / 2
+                Math.min(1, calculatedHeight / document.documentElement.clientHeight) * this.#paragraphLineHeight,
+                this.#middleHeaderHeight / 2
             ),
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
