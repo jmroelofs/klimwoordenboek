@@ -82,6 +82,7 @@ class FlowingColumns {
         if (this.#animationFrameID) {
             console.log(`[flowColumns] resetting animation in ${event.type} event`);
             window.cancelAnimationFrame(this.#animationFrameID);
+            this.#animationFrameID = null;
         }
 
         if (this.#matchesMedia) {
