@@ -60,7 +60,7 @@ class FlowingColumns {
 
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
-            safetyMargin = $this.clamp(
+            safetyMargin = this.#clamp(
                 this.#paragraphLineHeight,
                 calculatedHeight / document.documentElement.clientHeight * this.#paragraphLineHeight,
                 this.#middleHeaderHeight / 2
