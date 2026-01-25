@@ -63,10 +63,8 @@ class FlowingColumns {
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset
-        if(offsetNeeded !== this.#offsetOld) {
-            this.#column.style.setProperty('--column-offset', `${offsetNeeded}px`);
-            this.#offsetOld = offsetNeeded
-        }
+        this.#column.style.setProperty('--column-offset', `${offsetNeeded}px`);
+        this.#offsetOld = offsetNeeded
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
