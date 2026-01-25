@@ -4,7 +4,7 @@ class FlowingColumns {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
             this.#handleEvent({ type: 'init' });
             ['scroll', 'resize'].forEach(event =>
-                window.addEventListener(event, this.#handleEvent, { passive: true})
+                window.addEventListener(event, this.#handleEvent, { passive: true })
             );
         }
     }
