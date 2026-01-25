@@ -28,7 +28,6 @@ class FlowingColumns {
 
     #diffMoreThan = (x, y, threshold) => Math.abs(x - y) > threshold;
     #roundNearest = (value, by) => by * Math.round(value / by);
-    #clamp = (min, value, max) => Math.min(Math.max(value, min), max)
 
     #flowColumns = () => {
         // offset of page readings
@@ -60,16 +59,14 @@ class FlowingColumns {
 
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
-            safetyMargin = this.#clamp(
-                this.#paragraphLineHeight,
-                calculatedHeight / document.documentElement.clientHeight * this.#paragraphLineHeight,
-                this.#middleHeaderHeight / 2
-            ),
+            safetyMargin = this.#middleHeaderHeight / 2,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset
-        this.#column.style.setProperty('--column-offset', `${offsetNeeded}px`);
-        this.#offsetOld = offsetNeeded
+        if(offsetNeeded !== this.#offsetOld) {
+            this.#column.style.setProperty('--column-offset', `${offsetNeeded}px`);
+            this.#offsetOld = offsetNeeded
+        }
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
