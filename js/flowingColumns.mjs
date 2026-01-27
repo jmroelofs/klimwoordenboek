@@ -17,10 +17,13 @@ class FlowingColumns {
     #paragraphLineHeight = this.#lastParagraph
         ? parseInt(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
         : null;
-    #middleHeaderHeight = this.#column?.querySelector('p+h3')?.getBoundingClientRect().height
-        ?? this.#paragraphLineHeight;
+        #firstHeader = this.#column?.querySelector('h3');
+    #HeaderHeight = this.#firstHeader?.getBoundingClientRect().height;
 
-    #offsetOld = 0;
+    #firstOffset = this.#firstHeader
+        ? parseInt(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
+        : null;
+    #offsetOld = this.#firstOffset;
     #heightOld = 1;
 
     #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
@@ -59,12 +62,12 @@ class FlowingColumns {
 
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
-            safetyMargin = this.#middleHeaderHeight / 2,
+            safetyMargin = this.#HeaderHeight / 2,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
-        // adjust offset
-        this.#column.style.setProperty('--column-offset', `${offsetNeeded}px`);
-        this.#offsetOld = offsetNeeded
+        // adjust offset;
+        this.#column.style.setProperty('--column-offset', `${offsetNeeded + this.#firstOffset}px`);
+        this.#offsetOld = offsetNeeded + this.#firstOffset;
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
