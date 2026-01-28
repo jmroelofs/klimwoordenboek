@@ -17,13 +17,12 @@ class FlowingColumns {
     #paragraphLineHeight = this.#lastParagraph
         ? parseInt(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
         : null;
-        #firstHeader = this.#column?.querySelector('h3');
+    #firstHeader = this.#column?.querySelector('h3');
     #HeaderHeight = this.#firstHeader?.getBoundingClientRect().height;
-
-    #initialOffset = this.#firstHeader
+    #BaseOffset = this.#firstHeader
         ? parseInt(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
         : null;
-    #offsetOld = 0;
+    #offset = 0;
     #heightOld = 1;
 
     #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
@@ -35,8 +34,7 @@ class FlowingColumns {
     #flowColumns = () => {
         // offset of page readings
         const
-            offsetNeeded = this.#roundNearest(window.scrollY, this.#paragraphLineHeight),
-            offsetDifference = offsetNeeded - this.#offsetOld,
+            offsetDifference = this.#roundNearest(window.scrollY, this.#paragraphLineHeight) - this.#offset,
             // column readings
             {top: spacerTop, bottom: spacerBottom} = this.#spacer.getBoundingClientRect(),
             {bottom: lastParagraphBottom} = [...this.#lastParagraph.getClientRects()].at(-1);
@@ -66,8 +64,8 @@ class FlowingColumns {
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
-        this.#column.style.setProperty('--column-offset', `${offsetNeeded + this.#initialOffset}px`);
-        this.#offsetOld = offsetNeeded;
+        this.#offset += offsetDifference;
+        this.#column.style.setProperty('--column-offset', `${this.#offset + this.#BaseOffset}px`);
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
