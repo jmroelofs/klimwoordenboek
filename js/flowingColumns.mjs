@@ -1,4 +1,4 @@
-class FlowingColumns {  
+class FlowingColumns {
     constructor() {
         if (this.#column) {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
@@ -22,6 +22,7 @@ class FlowingColumns {
     #BaseOffset = this.#firstHeader
         ? parseInt(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
         : null;
+
     #offset = 0;
     #heightOld = 1;
 
@@ -36,8 +37,8 @@ class FlowingColumns {
         const
             offsetDifference = this.#roundNearest(window.scrollY, this.#paragraphLineHeight) - this.#offset,
             // column readings
-            {top: spacerTop, bottom: spacerBottom} = this.#spacer.getBoundingClientRect(),
-            {bottom: lastParagraphBottom} = [...this.#lastParagraph.getClientRects()].at(-1);
+            { top: spacerTop, bottom: spacerBottom } = this.#spacer.getBoundingClientRect(),
+            { bottom: lastParagraphBottom } = [...this.#lastParagraph.getClientRects()].at(-1);
 
         // calculate height of spacer
         let calculatedHeight;
@@ -53,7 +54,7 @@ class FlowingColumns {
             // we are undershooting
             // console.log('[flowColumns] undershooting');
 
-            const heightNeeded =  this.#column.getBoundingClientRect().bottom - spacerTop;
+            const heightNeeded = this.#column.getBoundingClientRect().bottom - spacerTop;
             calculatedHeight = (2 * heightNeeded) - this.#heightOld - offsetDifference;
 
         }
@@ -85,7 +86,7 @@ class FlowingColumns {
 
         if (this.#matchesMedia) {
             this.#animationFrameID = window.requestAnimationFrame(this.#flowColumns);
-        }        
+        }
     };
 }
 
