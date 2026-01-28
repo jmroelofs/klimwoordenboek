@@ -5,8 +5,8 @@ class Rot {
 
     #lookupTable;
 
-    decode 
-        = this.encode 
+    decode
+        = this.encode
         = source => source.replaceAll(
             /[^]/g,
             char => this.#lookupTable[char] ?? char
