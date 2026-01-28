@@ -20,10 +20,10 @@ class FlowingColumns {
         #firstHeader = this.#column?.querySelector('h3');
     #HeaderHeight = this.#firstHeader?.getBoundingClientRect().height;
 
-    #firstOffset = this.#firstHeader
+    #initialOffset = this.#firstHeader
         ? parseInt(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
         : null;
-    #offsetOld = this.#firstOffset;
+    #offsetOld = 0;
     #heightOld = 1;
 
     #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
@@ -66,8 +66,8 @@ class FlowingColumns {
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
-        this.#column.style.setProperty('--column-offset', `${offsetNeeded + this.#firstOffset}px`);
-        this.#offsetOld = offsetNeeded + this.#firstOffset;
+        this.#column.style.setProperty('--column-offset', `${offsetNeeded + this.#initialOffset}px`);
+        this.#offsetOld = offsetNeeded;
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
