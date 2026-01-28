@@ -1,10 +1,9 @@
 <?php
-declare(strict_types = 1);
+    declare (strict_types = 1);
 
-if (! defined( '_LEXICON' ) && ! defined('_JEXEC')) {
+    if (! defined('_LEXICON') && ! defined('_JEXEC')) {
     require '404.php';
-}
-
+    }
 ?>
 <script>
 window.dataLayer ??= [];

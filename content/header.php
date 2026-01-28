@@ -1,10 +1,9 @@
 <?php
-declare(strict_types = 1);
+    declare (strict_types = 1);
 
-if (! defined( '_LEXICON' )) {
+    if (! defined('_LEXICON')) {
     require '404.php';
-}
-
+    }
 ?>
 <nav>
 <h1><a href="/">Roelofs <span class="nowrap">Coaching</span></a></h1>

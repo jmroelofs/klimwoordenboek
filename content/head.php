@@ -1,10 +1,9 @@
 <?php
-declare(strict_types = 1);
+    declare (strict_types = 1);
 
-if (! defined( '_LEXICON' )) {
+    if (! defined('_LEXICON')) {
     require '404.php';
-}
-
+    }
 ?>
 <title><?php echo $title; ?></title>
 <base href="<?php echo $href; ?>">
@@ -29,7 +28,7 @@ if (! defined( '_LEXICON' )) {
 <link rel="modulepreload" href="js/activeLink.mjs">
 <link rel="stylesheet" href="css/main.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
-<link rel="canonical" href="<?php echo $contentUrl ;?>">
+<link rel="canonical" href="<?php echo $contentUrl; ?>">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" sizes="192x192" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -52,7 +51,7 @@ new ActiveLink(document.querySelectorAll('#alphabet a'));
 document.querySelectorAll('a[href^="mailto:"]')
     .forEach(mailLink => mailLink.href = mailLink.href.replace(/(?<=mailto:).*/i, new Rot(table).decode));
 </script>
-<?php include('content/analytics.php'); ?>
+<?php include 'content/analytics.php'; ?>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
