@@ -106,7 +106,7 @@ section {
         column-gap: 4.1%;
         padding-top: var(--column-offset);
 
-        #spacer+h3 {
+        #spacer + h3 {
             margin-top: calc(-1 * var(--column-offset));
         }
 
