@@ -84,7 +84,7 @@ main {
 
 /* on reasonably small screens the following gives nicer margins */
 
-@media (850px <= width <= 1250px) {
+@media (1150px <= width <= 1250px) {
     :root {
         scrollbar-gutter: stable both-edges;
     }
