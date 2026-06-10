@@ -489,6 +489,8 @@
 <h3 id="K">K</h3>
 
 <h3 id="L">L</h3>
+<p><dfn lang="fr">laché [m.]</dfn> <dfn lang="en-GB">lache (move)</dfn>
+	een zwaaiende, springende beweging (de term is afkomstig uit <a href="https://nl.wikipedia.org/wiki/Parkour" target="_blank" rel="noopener">parkour</a>.</p>
 <p><dfn lang="en-GB"><a href="http://www.edhartouni.net/leavittation-the-off-width-renaissance.html" target="_blank" rel="noopener">leavittation</a></dfn>
 	techniek voor <a lang="en-GB" href="#off-width">off-width</a> spleten, twee handen worden verklemd, waarna de benen verklemd worden, de twee handen worden bij de voort&shy;beweging gelijktijdig verplaatst (vernoemd naar <a href="https://web.archive.org/web/20151230150936/http://www.joshuatreeclimb.com/members/History/Profiles/rleavitt.htm" target="_blank" rel="noopener">Randy Leavitt</a>).</p>
 <p><dfn lang="fr">du libre/<wbr>escalade [v.] libre</dfn> <dfn lang="en-US">free climbing [Am.]</dfn>
