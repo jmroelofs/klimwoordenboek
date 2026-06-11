@@ -22,7 +22,6 @@
 <meta property="og:url" content="<?php echo $contentUrl; ?>">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-italic.woff2">
-<link rel="preload" as="image" type="image/avif" href="images/handmadepaper.avif">
 <link rel="modulepreload" href="js/flowingColumns.mjs">
 <link rel="modulepreload" href="js/rot.mjs">
 <link rel="modulepreload" href="js/activeLink.mjs">

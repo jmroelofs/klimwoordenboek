@@ -3,6 +3,7 @@
 @use 'sass:list';
 @use 'sass:math';
 @use 'fonts-newsreader' as font;
+@use 'background';
 @use 'normalize';
 
 
@@ -53,7 +54,7 @@ $width-unit: 4px;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
     color: $text-color;
-    background: $background-color url('../images/handmadepaper.avif') repeat scroll 0 0;
+    background: $background-color background.$image repeat scroll 0 0;
     overscroll-behavior: contain;
 }
 
