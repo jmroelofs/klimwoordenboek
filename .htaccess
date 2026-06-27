@@ -11,7 +11,7 @@ Addtype font/woff2 .woff2
 AddType image/avif .avif
 
 # set charset for some files
-AddCharset UTF-8 .css .js .mjs
+AddCharset UTF-8 .css .js .mjs .json
 
 # Response may be cached by any cache
 # http://www.askapache.com/htaccess/speed-up-sites-with-htaccess-caching.html
