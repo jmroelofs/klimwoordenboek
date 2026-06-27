@@ -53,8 +53,7 @@
     ->format(filemtime($contentFile));
     $AtomLastEdited = date(DATE_ATOM, filemtime($contentFile));
 
-    $table       = json_decode(file_get_contents('json/rotTable.json'), true);
-    $mailAddress = preg_replace_callback('/[\w\W]/', fn($match) => $table[$match[0]] ?? $match[0], 'jmartinr@home.nl');
+    $mailAddress = strtr('jmartinr@home.nl', json_decode(file_get_contents('json/rotTable.json'), true));
 ?>
 <!DOCTYPE html>
 <html lang="nl">
