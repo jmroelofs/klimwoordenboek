@@ -7,7 +7,7 @@ class Rot {
 
     decode
         = this.encode
-        = source => [...source].map(char => this.#lookupTable[char] ?? char).join('')
+        = source => [...source].map(char => this.#lookupTable[char] ?? char).join('');
 }
 
 export { Rot };
