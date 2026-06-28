@@ -83,15 +83,6 @@ main {
 }
 
 
-/* on reasonably small screens the following gives nicer margins */
-
-@media (1150px <= width <= 1250px) {
-    :root {
-        scrollbar-gutter: stable both-edges;
-    }
-}
-
-
 /*  to get a right margin on smaller screens */
 
 section {
