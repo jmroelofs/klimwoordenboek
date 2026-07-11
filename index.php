@@ -45,17 +45,23 @@
         require 'content/404.php';
     }
 
-    $href       = dirname(filter_input(INPUT_SERVER, 'PHP_SELF')) . '/';
+    $href       = (filter_input(INPUT_SERVER, 'PHP_SELF') |> dirname(...)) . '/';
     $contentUrl = $mainUrl . $request;
 
     date_default_timezone_set('Europe/Amsterdam');
-    $formattedLastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
-        ->format(filemtime($contentFile));
-    $AtomLastEdited = date(DATE_ATOM, filemtime($contentFile));
+    $formattedLastEdited = $contentFile
+        |> filemtime(...)
+        |> new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
+            ->format(...);
+    $AtomLastEdited = date(
+        DATE_ATOM,
+        $contentFile |> filemtime(...)
+    );
 
     $mailAddress = strtr(
         'jmartinr@home.nl',
-        json_decode(file_get_contents('json/rotTable.json'), true) |> array_flip(...)
+        json_decode(file_get_contents('json/rotTable.json'), true)
+            |> array_flip(...)
     );
 ?>
 <!DOCTYPE html>
