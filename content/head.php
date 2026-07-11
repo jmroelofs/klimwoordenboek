@@ -23,7 +23,6 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-italic.woff2">
 <link rel="modulepreload" href="js/flowingColumns.mjs">
-<link rel="modulepreload" href="js/rot.mjs">
 <link rel="modulepreload" href="js/activeLink.mjs">
 <link rel="stylesheet" href="css/main.css">
 <link rel="author" href="https://www.roelofs-coaching.nl/">
@@ -34,7 +33,6 @@
 <script type="module">
 import table from './json/rotTable.json' with { type: 'json' };
 import { FlowingColumns } from './js/flowingColumns.mjs';
-import { Rot } from './js/rot.mjs';
 import { ActiveLink } from './js/activeLink.mjs';
 
 // we prefer to wait until the fonts are loaded
@@ -48,7 +46,11 @@ new Promise((resolve, reject) => {
 new ActiveLink(document.querySelectorAll('#alphabet a'));
 
 document.querySelectorAll('a[href^="mailto:"]')
-    .forEach(mailLink => mailLink.href = mailLink.href.replace(/(?<=mailto:).*/i, new Rot(table).decode));
+    .forEach(mailLink => mailLink.href = mailLink.href
+        .replace(
+            /(?<=mailto:).*/i,
+             source => [...source].map(char => table[char] ?? char).join('')
+    ));
 </script>
 <?php include 'content/analytics.php'; ?>
 <script type="application/ld+json">

@@ -50,10 +50,13 @@
 
     date_default_timezone_set('Europe/Amsterdam');
     $formattedLastEdited = new IntlDateFormatter('nl_NL', IntlDateFormatter::LONG, IntlDateFormatter::NONE)
-    ->format(filemtime($contentFile));
+        ->format(filemtime($contentFile));
     $AtomLastEdited = date(DATE_ATOM, filemtime($contentFile));
 
-    $mailAddress = strtr('jmartinr@home.nl', json_decode(file_get_contents('json/rotTable.json'), true));
+    $mailAddress = strtr(
+        'jmartinr@home.nl',
+        json_decode(file_get_contents('json/rotTable.json'), true) |> array_flip(...)
+    );
 ?>
 <!DOCTYPE html>
 <html lang="nl">
