@@ -49,42 +49,10 @@ document.querySelectorAll('a[href^="mailto:"]')
     .forEach(mailLink => mailLink.href = mailLink.href
         .replace(
             /(?<=mailto:).*/i,
-             source => [...source].map(char => table[char] ?? char).join('')
+            source => [...source].map(char => table[char] ?? char).join('')
     ));
 </script>
 <?php include 'content/analytics.php'; ?>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "<?php echo $contentUrl; ?>"
-  },
-  "headline": "<?php echo $title; ?>",
-  "image": {
-    "@type": "ImageObject",
-    "url": "<?php echo $imageUrl; ?>",
-    "width": 696,
-    "height": 430
-  },
-  "datePublished": "2001-06-02T18:33:56+02:00",
-  "dateModified": "<?php echo $AtomLastEdited; ?>",
-  "author": {
-    "@type": "Person",
-    "url": "https://www.roelofs-coaching.nl/",
-    "name": "Jan Martin Roelofs"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Roelofs Coaching",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.roelofs-coaching.nl/templates/purity_iii/roelofscoaching.png",
-      "width": 600,
-      "height": 60
-    }
-  },
-  "description": "<?php echo $description; ?>"
-}
+<?php include 'json/publisherInfo.php'; ?>
 </script>
