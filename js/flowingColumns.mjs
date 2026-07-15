@@ -18,8 +18,8 @@ class FlowingColumns {
         ? parseInt(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
         : null;
     #firstHeader = this.#column?.querySelector('h3');
-    #HeaderHeight = this.#firstHeader?.getBoundingClientRect().height;
-    #BaseOffset = this.#firstHeader
+    #headerHeight = this.#firstHeader?.getBoundingClientRect().height;
+    #baseOffset = this.#firstHeader
         ? parseInt(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
         : null;
 
@@ -61,12 +61,12 @@ class FlowingColumns {
 
         // add an extra margin on top: with a maximum of the height of the biggest child and a minimum of half a line
         const
-            safetyMargin = this.#HeaderHeight / 2,
+            safetyMargin = this.#headerHeight / 2,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
         this.#offset += offsetDifference;
-        this.#column.style.setProperty('--column-offset', `${this.#offset + this.#BaseOffset}px`);
+        this.#column.style.setProperty('--column-offset', `${this.#offset + this.#baseOffset}px`);
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
@@ -84,9 +84,11 @@ class FlowingColumns {
             this.#animationFrameID = null;
         }
 
-        if (this.#matchesMedia) {
-            this.#animationFrameID = window.requestAnimationFrame(this.#flowColumns);
+        if (! this.#matchesMedia) {
+            return;
         }
+
+        this.#animationFrameID = window.requestAnimationFrame(this.#flowColumns);
     };
 }
 
