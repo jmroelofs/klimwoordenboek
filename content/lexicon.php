@@ -508,7 +508,7 @@
 <p><dfn lang="fr">lire une voie</dfn> <dfn lang="en-GB">to suss the moves/<wbr></dfn><dfn lang="en-US">to read the moves [Am.]</dfn>
 	een route inlezen. <dfn lang="fr">lecture [v.]</dfn> het inlezen van een route.</p>
 <p><dfn lang="fr">lolotte [v.] (en lolotte)/<wbr>egyptien [m.]</dfn> <dfn lang="en">drop knee/<wbr>egyptian</dfn>
-	klimpositie met één voet opzij neer&shy;gezet met naar binnen gedraaide knie (uitgevonden door <a href="https://fr.wikipedia.org/wiki/Laurent_Jacob_%28grimpeur%29" target="_blank" rel="noopener">Laurent Jacob</a>).</p>
+	klimpositie met één voet opzij neer&shy;gezet met naar binnen gedraaide knie (uitgevonden door <a href="https://fr.wikipedia.org/wiki/Laurent_Jacob_%28grimpeur%29" target="_blank" rel="noopener">Laurent &lsquo;Lolo&rsquo; Jacob</a>).</p>
 <p><dfn lang="fr">longueur [v.]</dfn> lengte, <dfn lang="en">pitch/<wbr>ropelength</dfn>
 	touwlengte. <dfn lang="en">multi-pitch route</dfn> een route met meerdere touwlengten.</p>
 <p><dfn lang="fr">lover une corde</dfn> <dfn lang="en">to coil a rope</dfn>
