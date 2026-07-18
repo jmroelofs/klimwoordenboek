@@ -24,7 +24,7 @@
 	Belgisch Frans.</p>
 <p><dfn lang="en-GB">[Br.]</dfn>
 	Brits Engels.</p>
-<p><dfn>contact/<wbr>auteur/<wbr>copyright</dfn>
+<p><dfn>contact&#8239;/&hairsp;auteur&#8239;/&hairsp;copyright</dfn>
 	voor in&shy;for&shy;matie, toe&shy;stem&shy;ming, sugges&shy;ties of fouten: <a href="mailto:<?php echo $mailAddress ?>">Jan Martin Roelofs</a>.</p>
 <p><dfn>[eig.]</dfn>
 	eigenlijk.</p>
