@@ -784,7 +784,7 @@
 
 <h3 id="T">T</h3>
 <p><dfn lang="en">tape</dfn>
-	nylon band, tape, <dfn lang="en">duck-tape</dfn> [eig. een product&shy;naam] speciaal versterkt tape, meestal gebruikt voor reparaties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sporttape. <dfn lang="fr">se strapper</dfn> <dfn lang="en">to tape up</dfn> zich intapen.</p>
+	nylon band, tape, <dfn lang="en">duct<wbr>/duck</dfn> [eig. een product&shy;naam]<wbr><dfn lang="en"> tape</dfn> versterkt tape, meest&shy;al gebruikt voor repa&shy;raties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sport&shy;tape. <dfn lang="fr">se strapper</dfn> <dfn lang="en">to tape up</dfn> zich intapen.</p>
 <p><dfn lang="fr">taper/<wbr>tirer un essai</dfn>
 	een poging trekken (in een route, totdat je hem rotpunkt hebt gedaan). <dfn lang="en">redpoint burn</dfn> poging een route in één keer te klimmen.</p>
 <p><dfn lang="fr">tapis [m.]/<wbr>paillasson [m.]/<wbr>moquette [v.]</dfn> <dfn lang="en">mat</dfn>
@@ -800,7 +800,7 @@
 <p><dfn lang="fr">technique [v.]</dfn> <dfn lang="en">technic</dfn>
 	techniek. <dfn lang="fr">technique de pieds</dfn> <dfn lang="en">footwork</dfn> voeten&shy;werk, voeten&shy;techniek. <dfn lang="fr">technique</dfn> <dfn lang="en">technical</dfn> technisch.</p>
 <p><dfn lang="fr">descendre en téléférique</dfn>
-	[lett. dalen als aan een kabel&shy;baan] <dfn lang="en">to tramline</dfn> (laten) zakken terwijl de klimmer met een setje aan het zekertouw zit en dat volgt, handig in overhangen.</p>
+	[lett. dalen als aan een kabel&shy;baan] <dfn lang="en">to tramline</dfn> (laten) zakken terwijl de klimmer met een setje aan het zeker&shy;touw zit en dat volgt, handig in overhangen.</p>
 <p><dfn lang="fr">tendinite [v.]</dfn> <dfn lang="en">tendinitis</dfn>
 	eigenlijk een pees&shy;ontsteking, maar de term wordt onterecht ook vaak gebruikt voor acuut peesletsel.</p>
 <p><dfn lang="fr">tendu[e]</dfn> [lett. gespannen] <dfn lang="en-US">open-handed [Am.]</dfn>
@@ -830,7 +830,7 @@
 <p><dfn lang="fr">après travail</dfn>
 	na instuderen (van een route). <dfn lang="fr">travailler les mouvements</dfn> <dfn lang="en">to work the moves/<wbr>to rehearse</dfn> bewegingen uitwerken/<wbr>instuderen [zie ook <a lang="en-GB" href="#to-hangdog">to (hang)<wbr>dog</a>].</p>
 <p><dfn lang="fr">traverser</dfn> <dfn lang="en">to traverse</dfn>
-	opzij klimmen. <dfn lang="fr">traversée [v.]</dfn> <dfn lang="en">traverse</dfn> passage waar je opzij klimt. <dfn lang="fr">trav [m.]</dfn> samenstelling van klimbewegingen op een boulderwand.</p>
+	opzij klimmen. <dfn lang="fr">traversée [v.]</dfn> <dfn lang="en">traverse</dfn> passage waar je opzij klimt. <dfn lang="fr">trav [m.]</dfn> samen&shy;stelling van klim&shy;bewegingen op een boulderwand.</p>
 <p><dfn lang="fr">tridoigt [m.]</dfn> <dfn lang="en">threefingerpocket</dfn>
 	drievingergreep.</p>
 <p><dfn lang="fr">trou [m.]</dfn> <dfn lang="en">pocket</dfn>
