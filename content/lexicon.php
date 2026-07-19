@@ -83,7 +83,7 @@
 	iemand die schuivend over z'n buik op een boulder probeert te komen.</p>
 <p><dfn lang="en-US" id="beta">beta [Am.]</dfn>
 	(route&#8209;)<wbr>informatie. <dfn lang="en-US" id="beta">beta spray</dfn> ongevraagd advies.</p>
-<p><dfn lang="fr">bicyclette [v.]/pointe-contre-pointe [v.]<wbr></dfn> <dfn lang="en">bicycle</dfn>
+<p><dfn lang="fr">bicyclette [v.]&#8239;/&hairsp;pointe-contre-pointe [v.]</dfn> <dfn lang="en">bicycle</dfn>
 	fiets, klim&shy;beweging waarbij je een tree tussen je voeten klemt, een voet erop en een voet eronder.</p>
 <p><dfn lang="fr">bidoigt [m.]</dfn> <dfn lang="en">twofingerpocket</dfn>
 	twee&shy;vinger&shy;greep.</p>
@@ -728,7 +728,7 @@
 <p><dfn lang="fr">SAE [v.]&#8239;/&hairsp;Structure Artificielle d'Escalade&#8239;/&hairsp;mur [m.] d'escalade</dfn> <dfn lang="en">climbing wall</dfn>
 	klimmuur.</p>
 <p><dfn lang="fr">salle [v.] d'escalade</dfn> <dfn lang="en">climbing gym</dfn>
-	klimzaal&#8239;/&hairsp;&#8209;centrum. <dfn lang="fr">salle de bloc</dfn> <dfn lang="en">boulder gym</dfn> bouldergym. <dfn lang="en">bouldering wall</dfn> bouldermuur.</p>
+	klimzaal/<wbr>&#8209;centrum. <dfn lang="fr">salle de bloc</dfn> <dfn lang="en">boulder gym</dfn> bouldergym. <dfn lang="en">bouldering wall</dfn> bouldermuur.</p>
 <p><dfn lang="en">to sandbag</dfn>
 	[lett. zich met zand&shy;zakken afschermen] zich indekken, doen alsof je geblesseerd of uit vorm bent. <dfn lang="en">sandbag</dfn> ondergewaardeerde route.</p>
 <p><dfn lang="fr">sangle</dfn> <dfn lang="en">webbing</dfn>
