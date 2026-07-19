@@ -104,32 +104,32 @@
   <p><a href="waarderingen#YDS">Amerikaans</a></p>
   <table>
     <tr>
-      <td class="w-8">5<span class="decp">.</span>8</td>
-      <td class="w-8">5<span class="decp">.</span>9</td>
-      <td class="w-8">5<span class="decp1">.</span>10a</td>
-      <td class="w-7">5<span class="decp1">.</span>10b</td>
-      <td class="w-7">5<span class="decp1">.</span>10c</td>
-      <td class="w-7">5<span class="decp1">.</span>10d</td>
-      <td class="w-7">5<span class="decp1">.</span>11a</td>
-      <td class="w-7">5<span class="decp1">.</span>11b</td>
-      <td class="w-7">5<span class="decp1">.</span>11c</td>
-      <td class="w-7">5<span class="decp1">.</span>11d</td>
-      <td class="w-7">5<span class="decp1">.</span>12a</td>
-      <td class="w-8">5<span class="decp1">.</span>12b</td>
-      <td class="w-8">5<span class="decp1">.</span>12c</td>
-      <td class="w-8">5<span class="decp1">.</span>12d</td>
-      <td class="w-8">5<span class="decp1">.</span>13a</td>
-      <td class="w-8">5<span class="decp1">.</span>13b</td>
-      <td class="w-8">5<span class="decp1">.</span>13c</td>
-      <td class="w-8">5<span class="decp1">.</span>13d</td>
-      <td class="w-8">5<span class="decp1">.</span>14a</td>
-      <td class="w-8">5<span class="decp1">.</span>14b</td>
-      <td class="w-8">5<span class="decp1">.</span>14c</td>
-      <td class="w-8">5<span class="decp1">.</span>14d</td>
-      <td class="w-8">5<span class="decp1">.</span>15a</td>
-      <td class="w-8">5<span class="decp1">.</span>15b</td>
-      <td class="w-8">5<span class="decp1">.</span>15c</td>
-      <td class="w-8">5<span class="decp1">.</span>15d</td>
+      <td class="w-8">5.8</td>
+      <td class="w-8">5.9</td>
+      <td class="w-8">5.10a</td>
+      <td class="w-7">5.10b</td>
+      <td class="w-7">5.10c</td>
+      <td class="w-7">5.10d</td>
+      <td class="w-7">5.11a</td>
+      <td class="w-7">5.11b</td>
+      <td class="w-7">5.11c</td>
+      <td class="w-7">5.11d</td>
+      <td class="w-7">5.12a</td>
+      <td class="w-8">5.12b</td>
+      <td class="w-8">5.12c</td>
+      <td class="w-8">5.12d</td>
+      <td class="w-8">5.13a</td>
+      <td class="w-8">5.13b</td>
+      <td class="w-8">5.13c</td>
+      <td class="w-8">5.13d</td>
+      <td class="w-8">5.14a</td>
+      <td class="w-8">5.14b</td>
+      <td class="w-8">5.14c</td>
+      <td class="w-8">5.14d</td>
+      <td class="w-8">5.15a</td>
+      <td class="w-8">5.15b</td>
+      <td class="w-8">5.15c</td>
+      <td class="w-8">5.15d</td>
     </tr>
   </table>
   <p><a href="waarderingen#Ewbank">Australisch</a></p>
