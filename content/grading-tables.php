@@ -224,7 +224,7 @@
       <td class="w-8">9a</td>
     </tr>
   </table>
-  <p><a href="waarderingen#V-scale">Amerikaans&#8239;/&hairsp;Australisch</a></p>
+  <p><a href="waarderingen#V-scale">Amerikaans<span class="slash">&nbsp;/ </span>Australisch</a></p>
   <table>
     <tr>
       <td class="w-16">V0</td>

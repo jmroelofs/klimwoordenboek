@@ -1,4 +1,4 @@
-<?php
+<sp<?php
     declare (strict_types = 1);
 
     if (! defined('_LEXICON')) {
@@ -9,7 +9,7 @@
 <h3>Moeilijkheids&shy;waarderingen gebruikt in het klimmen</h3>
 <p><dfn lang="fr" id="cotation">2, 3, 3<sup>+</sup>, 4<sup>&minus;</sup>, 4, 4<sup>+</sup>, 5<sup>&minus;</sup>, 5, 5<sup>+</sup>, 6a, 6a<sup>+</sup>, 6b, 6b<sup>+</sup>, 6c, 6c<sup>+</sup>, 7a&nbsp;&hellip; 9c</dfn> <dfn lang="en-GB">F7a&nbsp;&hellip; F9c</dfn>
 	Franse waardering die de zwaarte van een touw&shy;lengte aangeeft, dit is in het sport&shy;klimmen de meest gebruikte waardering (in België zijn de routes tot en met <dfn lang="fr">7a</dfn> één graad strenger gewaar&shy;deerd dan in Frankrijk); in het boul&shy;deren wordt een <span id="cotation-bloc">zwaarder gewaar&shy;deerde variant</span> hierop gehanteerd, een <dfn lang="fr">7a <a href="#bloc">bloc</a></dfn> is vergelijk&shy;baar met een <dfn lang="fr">7b<sup>+</sup> <a href="#falaise">falaise</a></dfn>; de <span id="cotation-traverse">traverse&shy;waardering</span> is weer een variant daarop die iets lichter is gewaardeerd</p>
-<p><dfn lang="en-AU" id="Ewbank">2, 3, 4&nbsp;&hellip; 38&#8239;/&hairsp;Ewbank system</dfn>
+<p><dfn lang="en-AU" id="Ewbank">2, 3, 4&nbsp;&hellip; 38<span class="slash">&nbsp;/ </span>Ewbank system</dfn>
 	Australische waardering die de zwaarte van een touw&shy;lengte aangeeft, ook gebruikt in Nieuw Zeeland en Zuid Afrika, ontwikkeld door <a href="https://en.wikipedia.org/wiki/John_Ewbank_%28climber%29" target="_blank" rel="noopener">John Ewbank</a>.</p>
 <p><dfn lang="fr">A0, A1&nbsp;&hellip; A5</dfn> <dfn lang="en" id="a-rating">A0, A1&nbsp;&hellip; A5</dfn>
 	waardering voor artificieel klimmen, <dfn lang="en">A0</dfn> is aan een haak doorgrijpen, <dfn lang="en">A1</dfn> gaat het beste met een laddertje, <dfn lang="en">A2</dfn> vraagt twee laddertjes, <dfn lang="en">A3</dfn> is nog lastiger, <dfn lang="en">A4</dfn> is gevaarlijk, de zekerings&shy;punten zijn niet zo best meer, <dfn lang="en">A5</dfn> is zeer gevaarlijk met het risico van het strippen van alle voort&shy;bewegings&shy;punten bij een val.</p>
@@ -23,7 +23,7 @@
 	Franse waardering die de totale moeilijk&shy;heid van een route met meerdere touw&shy;lengten aangeeft.</p>
 <p><dfn lang="de" id="UIAA"> II, III<sup>&minus;</sup>, III, III<sup>+</sup>, IV<sup>&minus;</sup>&nbsp;&hellip; XII</dfn>
 	Duitse en <a href="#UIAA">UIAA</a>-waardering die de zwaarte van een touw&shy;lengte aangeeft; er bestaat ook een <span id="Elbsandstein">hoger gewaar&shy;deerde variant</span> hierop die in het Elb&shy;sandstein wordt gehanteerd.</p>
-<p><dfn lang="en" id="V-scale">V0<sup>&minus;</sup>, V0, V1&nbsp;&hellip; V17&#8239;/&hairsp;V&#8209;scale</dfn>
+<p><dfn lang="en" id="V-scale">V0<sup>&minus;</sup>, V0, V1&nbsp;&hellip; V17<span class="slash">&nbsp;/ </span>V&#8209;scale</dfn>
 	Ameri&shy;kaanse boulder&shy;waardering, ook gebruikt in Australië en Zuid Afrika, bedacht door <a href="https://en.wikipedia.org/wiki/John_Sherman_(climber)" target="_blank" rel="noopener">John Sherman</a>.</p>
-<p><dfn lang="en-US" id="YDS">YDS&#8239;/&hairsp;<a href="https://en.wikipedia.org/wiki/Yosemite_Decimal_System" target="_blank" rel="noopener">Yosemite Decimal System</a></dfn>
+<p><dfn lang="en-US" id="YDS">YDS<span class="slash">&nbsp;/ </span><a href="https://en.wikipedia.org/wiki/Yosemite_Decimal_System" target="_blank" rel="noopener">Yosemite Decimal System</a></dfn>
 	Ameri&shy;kaanse waar&shy;dering die de zwaarte van een route aangeeft. <dfn lang="en-US">class 1</dfn> lopen. <dfn lang="en-US">class 2</dfn> lopen met hoogte&shy;verschil. <dfn lang="en-US">class 3</dfn> lopen over rots&shy;blokken, soms met gebruik van de handen. <dfn lang="en-US">class 4</dfn> klimmen met gebruik van de handen, zonder de noodzaak van zekering. <dfn lang="en-US">5<span class="decp1">.</span>1&nbsp;&hellip; 5<span class="decp">.</span>9, 5<span class="decp1">.</span>10a, 5<span class="decp1">.</span>10b, 5<span class="decp1">.</span>10c, 5<span class="decp1">.</span>10d, 5<span class="decp1">.</span>11a&nbsp;&hellip; 5<span class="decp1">.</span>15d</dfn> (vrij)klimmen met zekering, het tweede getal geeft de zwaarte van een touw&shy;lengte aan. <dfn lang="en-US" id="six">class 6</dfn> artifi&shy;cieel klimmen, met gebruik van haken voor de voort&shy;beweging (meestal wordt hier het <a href=waarderingen#a-rating>A rating system</a> voor gebruikt).</p>

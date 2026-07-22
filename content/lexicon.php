@@ -7,7 +7,7 @@
 ?>
 <div id="spacer"></div>
 <h3 id="A">A</h3>
-<p><dfn lang="en-US"><a href="https://www.americanalpineclub.org/" target="_blank" rel="noopener">AAC&#8239;/&hairsp;American Alpine Club</a></dfn>
+<p><dfn lang="en-US"><a href="https://www.americanalpineclub.org/" target="_blank" rel="noopener">AAC<span class="slash">&nbsp;/ </span>American Alpine Club</a></dfn>
 	Alpen&shy;vereniging van de Verenigde Staten, publiceert jaarlijks <dfn lang="en-US"><a href="https://publications.americanalpineclub.org/" target="_blank" rel="noopener">the American Alpine Journal</a></dfn>.</p>
 <p><dfn lang="fr"><a href="waarderingen#ABO">ABO(minablement difficile)</a></dfn>
 	een graad moei&shy;lijker dan <dfn lang="fr"><a lang="fr" href="waarderingen#ED">Extrêmement Difficile</a></dfn>.</p>
@@ -17,7 +17,7 @@
 	[lett. kippen&shy;vleugels] ellebogen die tijdens het klimmen door vermoeid&shy;heid omhoog gaan.</p>
 <p><dfn lang="fr">aléatoire</dfn> <dfn lang="en">precarious</dfn>
 	onzeker. <dfn lang="fr">mouvement [m.] aléatoire</dfn> klim&shy;beweging waarvan je als je hem doet niet zeker weet of ie gaat lukken.</p>
-<p><dfn lang="fr">allez&#8239;/&hairsp;vas-y!</dfn> <dfn lang="en">go on&#8239;/&hairsp;go for it&#8239;/&hairsp;</dfn><dfn lang="en-US">stick it [Am.]!</dfn>
+<p><dfn lang="fr">allez<span class="slash">&nbsp;/ </span>vas-y!</dfn> <dfn lang="en">go on<span class="slash">&nbsp;/ </span>go for it<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">stick it [Am.]!</dfn>
 	kom op, gaan!</p>
 <p><dfn lang="fr">(beaucoup d')allonge [v.]</dfn>
 	(grote) reikwijdte.</p>
@@ -32,7 +32,7 @@
 <p><dfn lang="en">ape index</dfn>
 	aapfactor (span&shy;wijdte min lichaams&shy;lengte).</p>
 <p><dfn lang="fr">(à&#8209;)<wbr>plat [m.]</dfn>
-	platte greep, <dfn lang="fr">prise [v.] fuyante</dfn> [lett. terug&shy;wijkende greep] <dfn lang="en">sloper&#8239;/&hairsp;sloping hold</dfn> aflopende greep.</p>
+	platte greep, <dfn lang="fr">prise [v.] fuyante</dfn> [lett. terug&shy;wijkende greep] <dfn lang="en">sloper<span class="slash">&nbsp;/ </span>sloping hold</dfn> aflopende greep.</p>
 <p><dfn lang="fr">en appui</dfn>
 	afsteunend. <dfn lang="fr">appui [m.] de paume</dfn> afsteunend met de hand&shy;palm onder je.</p>
 <p><dfn lang="fr">ardoise [v.]</dfn> <dfn lang="en">slate</dfn>
@@ -40,26 +40,26 @@
 <p><dfn lang="fr">arête [v.]</dfn> <dfn lang="en">arête</dfn>
 	graat, <dfn lang="en-US">outside corner [Am.]</dfn> hoek (v.e. rotswand), <dfn lang="en">ridge</dfn> bergrug.</p>
 <p><dfn lang="fr">arqué[e]</dfn> [lett. gebogen] <dfn lang="en">(closed) crimped</dfn>
-	met over&shy;strekte eind&shy;gewrichten van de vingers. <dfn lang="fr">arquer&#8239;/&hairsp;prendre une prise en arqué</dfn> <dfn lang="en">to crimp&#8239;/&hairsp;</dfn><dfn lang="en-US">to cling [Am.]</dfn> op deze manier een greep vast&shy;houden. <dfn lang="fr">(prise) arquée [v.]</dfn> <dfn lang="en-GB">crimp [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">crimper [Am.]</dfn> greep die je zo pakt. <dfn lang="fr">semi-arqué[e]</dfn> <dfn lang="en">half crimped&#8239;/&hairsp;</dfn><dfn lang="en-US">open crimped [Am.]</dfn> met rechte eind&shy;gewrichten, zonder de duim te gebruiken (geeft meer controle en is minder slecht voor de gewrichten, maar kost meer kracht). <dfn lang="fr">(prise) semi-arquée [v.]</dfn> <dfn lang="en">half crimp&#8239;/&hairsp;</dfn><dfn lang="en-US">open crimper [Am.]</dfn> greep die je zo pakt.</p>
+	met over&shy;strekte eind&shy;gewrichten van de vingers. <dfn lang="fr">arquer<span class="slash">&nbsp;/ </span>prendre une prise en arqué</dfn> <dfn lang="en">to crimp<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to cling [Am.]</dfn> op deze manier een greep vast&shy;houden. <dfn lang="fr">(prise) arquée [v.]</dfn> <dfn lang="en-GB">crimp [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">crimper [Am.]</dfn> greep die je zo pakt. <dfn lang="fr">semi-arqué[e]</dfn> <dfn lang="en">half crimped<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">open crimped [Am.]</dfn> met rechte eind&shy;gewrichten, zonder de duim te gebruiken (geeft meer controle en is minder slecht voor de gewrichten, maar kost meer kracht). <dfn lang="fr">(prise) semi-arquée [v.]</dfn> <dfn lang="en">half crimp<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">open crimper [Am.]</dfn> greep die je zo pakt.</p>
 <p><dfn lang="fr">arrondi[e]</dfn> <dfn lang="en">rounded</dfn>
 	afgerond.</p>
-<p><dfn lang="fr">escalade [v.] artificielle&#8239;/&hairsp;artif [m.]&#8239;/&hairsp;tire-clous [m.]</dfn> <dfn lang="en">aid climbing</dfn>
+<p><dfn lang="fr">escalade [v.] artificielle<span class="slash">&nbsp;/ </span>artif [m.]<span class="slash">&nbsp;/ </span>tire-clous [m.]</dfn> <dfn lang="en">aid climbing</dfn>
 	artificieel klimmen, het gebruiken van haken voor de voort&shy;beweging, haken rukken, soms ook <dfn lang="en-US"><a href="waarderingen#six">sixth class climbing [Am.]</a></dfn> genoemd. <dfn lang="fr">voie [v.] d'artif</dfn> <dfn lang="en">aid route</dfn> route die zo geklommen wordt. <dfn lang="fr">faire quelque chose en artif</dfn> <dfn lang="en">to aid something</dfn> iets klimmen met gebruik van haken voor de voortbeweging.</p>
 <p><dfn lang="fr">aseptisé[e]</dfn>
 	steriel, zonder spanning, ruim behaakt.</p>
 <p><dfn lang="fr">assurer</dfn> <dfn lang="en">to belay</dfn>
-	zekeren. <dfn lang="fr">assureur [m.]</dfn> <dfn lang="en">belayer</dfn> zekeraar. <dfn lang="fr">tu veux&#8239;/&hairsp;peux m'assurer?</dfn> <dfn lang="en">you want to give me a belay?&#8239;/&hairsp;can you give me a belay?</dfn> wil&#8239;/&hairsp;kun je me zekeren?</p>
+	zekeren. <dfn lang="fr">assureur [m.]</dfn> <dfn lang="en">belayer</dfn> zekeraar. <dfn lang="fr">tu veux<span class="slash">&nbsp;/ </span>peux m'assurer?</dfn> <dfn lang="en">you want to give me a belay?<span class="slash">&nbsp;/ </span>can you give me a belay?</dfn> wil<span class="slash">&nbsp;/ </span>kun je me zekeren?</p>
 <p><dfn lang="fr">athlétique</dfn>
 	gymnastisch, veel kracht en lenig&shy;heid kostend.</p>
-<p><dfn lang="fr">zone [v.] d'atterrissage&#8239;/&hairsp;surface [v.] de réception</dfn> <dfn lang="en">landing-spot</dfn>
+<p><dfn lang="fr">zone [v.] d'atterrissage<span class="slash">&nbsp;/ </span>surface [v.] de réception</dfn> <dfn lang="en">landing-spot</dfn>
 	landings&shy;plaats, valzone (bv. bij boulderen).</p>
 <p><dfn lang="fr">en aval</dfn> <dfn lang="en">downstream</dfn>
 	stroomaf, naar beneden.</p>
-<p><dfn lang="fr">avale!</dfn> <dfn lang="en-GB">take in [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">up rope [Am.]!</dfn>
+<p><dfn lang="fr">avale!</dfn> <dfn lang="en-GB">take in [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">up rope [Am.]!</dfn>
 	touw in!</p>
 
 <h3 id="B">B</h3>
-<p><dfn lang="fr">bac [m.]</dfn> <dfn lang="en">jug&#8239;/&hairsp;bucket</dfn>
+<p><dfn lang="fr">bac [m.]</dfn> <dfn lang="en">jug<span class="slash">&nbsp;/ </span>bucket</dfn>
 	emmer, bak, grote greep. <dfn lang="fr">baignoire [v.]</dfn> [lett. badkuip] heel grote greep. <dfn lang="fr">baquet [m.]</dfn> iets minder grote greep.</p>
 <p><dfn lang="en">Bachar ladder</dfn>
 	touwladder die gebruikt wordt om het boven&shy;lichaam te trainen door alleen op de armen omhoog te gaan (vooral het op die manier ook weer naar beneden gaan is de oorzaak van vele elleboog-blessures, vernoemd naar <a href="https://en.wikipedia.org/wiki/John_Bachar" target="_blank" rel="noopener">John Bachar</a>, een beroemde Californische klimmer).</p>
@@ -77,13 +77,13 @@
 	ring<wbr>(&#8209;vormige greep), waar je dus met je vingers door kunt.</p>
 <p><dfn lang="fr">basalte [m.]</dfn> <dfn lang="en">basalt</dfn>
 	basalt. <dfn lang="fr">basaltique</dfn> <dfn lang="en">basaltic</dfn> basalten, basalt&shy;achtig.</p>
-<p><dfn lang="fr">baudrier [m.]&#8239;/&hairsp;baudard [m.]&#8239;/&hairsp;harnais [m.]</dfn> <dfn lang="en">harness</dfn>
+<p><dfn lang="fr">baudrier [m.]<span class="slash">&nbsp;/ </span>baudard [m.]<span class="slash">&nbsp;/ </span>harnais [m.]</dfn> <dfn lang="en">harness</dfn>
 	klimgordel.</p>
 <p><dfn lang="en-US">beached whale [Am.]</dfn>
 	iemand die schuivend over z'n buik op een boulder probeert te komen.</p>
 <p><dfn lang="en-US" id="beta">beta [Am.]</dfn>
 	(route&#8209;)<wbr>informatie. <dfn lang="en-US" id="beta">beta spray</dfn> ongevraagd advies.</p>
-<p><dfn lang="fr">bicyclette [v.]&#8239;/&hairsp;pointe-contre-pointe [v.]</dfn> <dfn lang="en">bicycle</dfn>
+<p><dfn lang="fr">bicyclette [v.]<span class="slash">&nbsp;/ </span>pointe-contre-pointe [v.]</dfn> <dfn lang="en">bicycle</dfn>
 	fiets, klim&shy;beweging waarbij je een tree tussen je voeten klemt, een voet erop en een voet eronder.</p>
 <p><dfn lang="fr">bidoigt [m.]</dfn> <dfn lang="en">twofingerpocket</dfn>
 	twee&shy;vinger&shy;greep.</p>
@@ -97,11 +97,11 @@
 	klimmer uit Fontainebleau, boulderaar. <dfn lang="fr">bleausard[e]</dfn> uit Fontainebleau, het boulderen betreffend.</p>
 <p><dfn lang="fr">bloc [m.]</dfn> <dfn lang="en" id="boulder">boulder</dfn>
 	rotsblok. <dfn lang="fr" id="bloc">faire du bloc</dfn> <dfn lang="en">to boulder</dfn> boulderen, op rots&shy;blokken klimmen zonder touw. <dfn lang="fr">passage [m.] de bloc</dfn> <dfn lang="en">boulder (problem)</dfn> boulder&shy;(probleem), samen&shy;stelling van enkele klim&shy;bewegingen. <dfn lang="fr">pas [m.] de bloc</dfn> geïsoleerde moeilijke pas.</p>
-<p><dfn lang="fr">bloque&#8239;/&hairsp;prends (moi)!</dfn> <dfn lang="en">tension&#8239;/&hairsp;take (me)!</dfn>
+<p><dfn lang="fr">bloque<span class="slash">&nbsp;/ </span>prends (moi)!</dfn> <dfn lang="en">tension<span class="slash">&nbsp;/ </span>take (me)!</dfn>
 	blok!, de klimmer wil het touw strak hebben staan, omdat hij gaat hangen of vallen.</p>
 <p><dfn lang="fr">bloquer</dfn> <dfn lang="en">to lock off</dfn>
 	&lsquo;blokkeren&rsquo;, een greep vast&shy;houden. <dfn lang="fr">blocage [m.] bas</dfn> <dfn lang="en">low lock-off</dfn> lage &lsquo;blokkage&rsquo; (om ver statisch door te kunnen pakken).</p>
-<p><dfn lang="en-GB"><a href="https://www.thebmc.co.uk/" target="_blank" rel="noopener">BMC&#8239;/&hairsp;British Mountaineering Council</a></dfn>
+<p><dfn lang="en-GB"><a href="https://www.thebmc.co.uk/" target="_blank" rel="noopener">BMC<span class="slash">&nbsp;/ </span>British Mountaineering Council</a></dfn>
 	Britse bergsport&shy;federatie.</p>
 <p><dfn lang="fr">boeuf [m.]</dfn>
 	[lett. stier] <dfn lang="en">thug</dfn> beest, botterik. <dfn lang="fr">boeuf</dfn> <dfn lang="en">thuggish</dfn> beest&shy;achtig, lomp.</p>
@@ -109,9 +109,9 @@
 	brievenbus, grote spleetvormige greep.</p>
 <p><dfn lang="en">bolt</dfn>
 	bout, boorhaak. <dfn lang="en">to bolt</dfn> een boor&shy;haak plaatsen. <dfn lang="en">bolted</dfn> van boor&shy;haken voorzien. <dfn lang="en">bolt ladder</dfn> opeen&shy;volging van boor&shy;haken. <dfn lang="en">bolt stud</dfn> uit&shy;stekende kop van een boor&shy;haak. <dfn lang="en">bolt rash</dfn> (te) veel boor&shy;haken in een wand.</p>
-<p><dfn lang="fr">bombé [m.]&#8239;/&hairsp;ventre [m.]</dfn> [lett. buik] <dfn lang="en">bulge</dfn>
+<p><dfn lang="fr">bombé [m.]<span class="slash">&nbsp;/ </span>ventre [m.]</dfn> [lett. buik] <dfn lang="en">bulge</dfn>
 	bolling, ronde overhang.</p>
-<p><dfn lang="en">bomber&#8239;/&hairsp;</dfn><dfn lang="en-US">trucker [Am.]</dfn>
+<p><dfn lang="en">bomber<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">trucker [Am.]</dfn>
 	&lsquo;bomvaste&rsquo; haak.</p>
 <p><dfn lang="fr">bossette [v.]</dfn>
 	[lett. bobbeltje] klein rond greepje. <dfn lang="fr">bosse [v.]</dfn> <dfn lang="en">boss</dfn> ronde greep.</p>
@@ -120,7 +120,7 @@
 <p><dfn lang="fr">bourrin[e]</dfn>
 	niet subtiel, op kracht. <dfn lang="fr">bourriner</dfn> op kracht klimmen, <dfn lang="en">to crank</dfn> hijsen.</p>
 <p><dfn lang="fr">bouse [v.]</dfn>
-	[lett. koemest] schijt&shy;rots&#8239;/&hairsp;schijt&shy;route&#8239;/&hairsp;schijt&shy;greep <dfn lang="en">shite crag&#8239;/&hairsp;shite route&#8239;/&hairsp;pile of shit</dfn> schijt&shy;rots&shy;(wand)&#8239;/&hairsp;schijt&shy;route&#8239;/&hairsp;hoop stront.</p>
+	[lett. koemest] schijt&shy;rots<span class="slash">&nbsp;/ </span>schijt&shy;route<span class="slash">&nbsp;/ </span>schijt&shy;greep <dfn lang="en">shite crag<span class="slash">&nbsp;/ </span>shite route<span class="slash">&nbsp;/ </span>pile of shit</dfn> schijt&shy;rots&shy;(wand)<span class="slash">&nbsp;/ </span>schijt&shy;route<span class="slash">&nbsp;/ </span>hoop stront.</p>
 <p><dfn lang="fr">bout de corde!</dfn> <dfn lang="en">that's me!</dfn>
 	touw uit!, melding dat de voor&shy;klimmer genoeg touw in heeft genomen.</p>
 <p><dfn lang="fr">avoir des bouteilles</dfn>
@@ -129,12 +129,12 @@
 	rukker.</p>
 <p><dfn lang="fr">à bras</dfn>
 	op de armen, armkracht kostend.</p>
-<p> <dfn lang="en-GB">bridging&#8239;/&hairsp;</dfn><dfn lang="en-US">stemming [Am.]</dfn>
-	klim&shy;positie, waarbij met uit&shy;gespreide armen en benen naar opzij druk uit&shy;geoefend wordt. <dfn lang="en-GB">to bridge&#8239;/&hairsp;</dfn><dfn lang="en-US">stem [Am.]</dfn> uitspreiden.</p>
+<p> <dfn lang="en-GB">bridging<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">stemming [Am.]</dfn>
+	klim&shy;positie, waarbij met uit&shy;gespreide armen en benen naar opzij druk uit&shy;geoefend wordt. <dfn lang="en-GB">to bridge<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">stem [Am.]</dfn> uitspreiden.</p>
 <p><dfn lang="fr">brin [m.]</dfn>
 	deel van een touw, touw&shy;uiteinde.</p>
-<p><dfn lang="fr">broche [v.] scellée&#8239;/&hairsp;scellement [m.]</dfn> <dfn lang="en">cemented&#8239;/&hairsp;glued ringbolt&#8239;/&hairsp;glue-in bolt</dfn>
-	ingecementeerde&#8239;/&hairsp;gelijmde ringhaak.</p>
+<p><dfn lang="fr">broche [v.] scellée<span class="slash">&nbsp;/ </span>scellement [m.]</dfn> <dfn lang="en">cemented<span class="slash">&nbsp;/ </span>glued ringbolt<span class="slash">&nbsp;/ </span>glue-in bolt</dfn>
+	ingecementeerde<span class="slash">&nbsp;/ </span>gelijmde ringhaak.</p>
 <p><dfn lang="fr">se brouter les doigts</dfn>
 	de vingers slijten, klimmen op pijnlijk ruwe rots [lett. de vingers afgrazen].</p>
 <p><dfn lang="en-US">brown ring [Am.]</dfn>
@@ -147,14 +147,14 @@
 	doel. <dfn lang="fr">se mettre un but</dfn> zich een doel stellen, populair gebruikt: mislukken in een route (waarna je dus een nieuw doel hebt). <dfn lang="fr">prendre un but</dfn> vallen, falen. <dfn lang="fr">se faire mettre un but</dfn> door iemand naar huis geklommen worden.</p>
 
 <h3 id="C">C</h3>
-<p><dfn lang="fr"><a href="https://www.clubalpin.be/" target="_blank" rel="noopener">CAB [m.]&#8239;/&hairsp;Club Alpin Belge</a></dfn>
+<p><dfn lang="fr"><a href="https://www.clubalpin.be/" target="_blank" rel="noopener">CAB [m.]<span class="slash">&nbsp;/ </span>Club Alpin Belge</a></dfn>
 	Belgische Alpen Club, over&shy;koepelende organisatie voor de klim- en berg&shy;sport in het Frans&shy;sprekende gedeelte van België.</p>
 <p><dfn lang="fr">cachou [m.]</dfn>
 	[lett. gummetje] klein plastic schijf&shy;vormig greepje.</p>
-<p><dfn lang="fr">caillou [m.]!</dfn> <dfn lang="en-GB">below! [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">rock! [Am.]</dfn>
+<p><dfn lang="fr">caillou [m.]!</dfn> <dfn lang="en-GB">below! [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rock! [Am.]</dfn>
 	steen!, waar&shy;schuwing voor een vallende steen.</p>
-<p><dfn lang="fr">caisse [v.]&#8239;/&hairsp;pèche [v.]&#8239;/&hairsp;péchon [m.]&#8239;/&hairsp;vérin [m.]</dfn>
-	kracht, macht. <dfn lang="fr">être affûté&#8239;/&hairsp;avoir le niaque&#8239;/&hairsp;avoir la caisse&#8239;/&hairsp;etc.</dfn> macht hebben, in vorm zijn. <dfn lang="fr">niaquer</dfn> krachtig klimmen, dóórtrekken.</p>
+<p><dfn lang="fr">caisse [v.]<span class="slash">&nbsp;/ </span>pèche [v.]<span class="slash">&nbsp;/ </span>péchon [m.]<span class="slash">&nbsp;/ </span>vérin [m.]</dfn>
+	kracht, macht. <dfn lang="fr">être affûté<span class="slash">&nbsp;/ </span>avoir le niaque<span class="slash">&nbsp;/ </span>avoir la caisse<span class="slash">&nbsp;/ </span>etc.</dfn> macht hebben, in vorm zijn. <dfn lang="fr">niaquer</dfn> krachtig klimmen, dóórtrekken.</p>
 <p><dfn lang="fr">calcaire [m.]</dfn> <dfn lang="en">limestone</dfn>
 	kalksteen.</p>
 <p><dfn lang="fr">être bien calé[e]</dfn>
@@ -167,7 +167,7 @@
 	binnen&shy;rand (van de voet), voet&shy;positie waarbij de binnen&shy;kant van de voet gebruikt wordt. <dfn lang="fr">en carre interne</dfn> met de binnenkant. <dfn lang="fr">carre externe</dfn> buiten&shy;rand (van de voet), voet&shy;positie waarbij de buiten&shy;kant van de voet gebruikt wordt. <dfn lang="fr">en carre externe</dfn> met de buiten&shy;kant.</p>
 <p><dfn lang="fr">carrière [v.]</dfn> <dfn lang="en">quarry</dfn>
 	steengroeve.</p>
-<p><dfn lang="fr">cassé[e]&#8239;/&hairsp;explosé[e]&#8239;/&hairsp;fatigué[e]&#8239;/&hairsp;gazé[e]&#8239;/&hairsp;gonflé[e]&#8239;/&hairsp;mort[e]&#8239;/&hairsp;nase&#8239;/&hairsp;occis[e]&#8239;/&hairsp;torpillé[e]</dfn> <dfn lang="en-GB">knackered</dfn>
+<p><dfn lang="fr">cassé[e]<span class="slash">&nbsp;/ </span>explosé[e]<span class="slash">&nbsp;/ </span>fatigué[e]<span class="slash">&nbsp;/ </span>gazé[e]<span class="slash">&nbsp;/ </span>gonflé[e]<span class="slash">&nbsp;/ </span>mort[e]<span class="slash">&nbsp;/ </span>nase<span class="slash">&nbsp;/ </span>occis[e]<span class="slash">&nbsp;/ </span>torpillé[e]</dfn> <dfn lang="en-GB">knackered</dfn>
 	kapot, stuk, gebroken, gesloopt, doodmoe.</p>
 <p><dfn lang="fr">chaîne [v.]</dfn> <dfn lang="en">(belay) chain</dfn>
 	(relais&#8209;)<wbr>ketting.</p>
@@ -177,8 +177,8 @@
 	handen&shy;wissel. <dfn lang="fr">changement de pied</dfn> voeten&shy;wissel.</p>
 <p><dfn lang="fr">charger une prise</dfn> <dfn lang="en">to weigh a hold</dfn>
 	een greep of tree belasten.</p>
-<p><dfn lang="fr">chausson [m] d'escalade (a tige basse&#8239;/&hairsp;haute)</dfn> <dfn lang="en">climbing (shoe&#8239;/&hairsp;boot)&#8239;/&hairsp;</dfn><dfn lang="en-US">rock (shoe&#8239;/&hairsp;boot) [Am.]</dfn>
-	(lage&#8239;/&hairsp;hoge) klimschoen.</p>
+<p><dfn lang="fr">chausson [m] d'escalade (a tige basse<span class="slash">&nbsp;/ </span>haute)</dfn> <dfn lang="en">climbing (shoe<span class="slash">&nbsp;/ </span>boot)<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rock (shoe<span class="slash">&nbsp;/ </span>boot) [Am.]</dfn>
+	(lage<span class="slash">&nbsp;/ </span>hoge) klimschoen.</p>
 <p><dfn lang="en" id="cheater-stick">cheater stick</dfn>
 	lange stok waarmee het touw in een haak gehangen wordt, ook gebruikt voor artificieel klimmen.</p>
 <p><dfn lang="en" id="cheater-stone">cheater stone</dfn>
@@ -193,20 +193,20 @@
 	[lett. vliegenpoepje] heel klein puntje op de rots dat zich in je vingertop zet.</p>
 <p><dfn lang="en">chock</dfn>
 	<a href="#nut">nut</a>, klemblokje. <dfn lang="fr">bloc [m.] coincé</dfn> <dfn lang="en">chockstone</dfn> steen die in een spleet geklemd zit. <dfn lang="en">wire-slung chock</dfn> zo'n steen met een touw eromheen, bruikbaar als zekerings&shy;punt (hiermee is het klimmen met <a href="#nut">nutjes</a> begonnen, later werden het moeren).</p>
-<p><dfn lang="fr">chute [v.]&#8239;/&hairsp;plomb [m.]</dfn> <dfn lang="en">fall</dfn>
+<p><dfn lang="fr">chute [v.]<span class="slash">&nbsp;/ </span>plomb [m.]</dfn> <dfn lang="en">fall</dfn>
 	val. <dfn lang="fr">facteur [m.] de chute</dfn> <dfn lang="en">fall factor</dfn> val&shy;factor, val&shy;hoogte gedeeld door uit&shy;gegeven touw: bepaalt hoe groot de klap wordt.</p>
 <p><dfn lang="fr">circuit [m.]</dfn>
 	uitgezet parcours bestaande uit verschillende boulders.</p>
 <p><dfn lang="fr">ciselure [v.]</dfn>
 	[lett. snijwerk] grillig gevormd stuk rots-oppervlak.</p>
-<p><dfn lang="fr">passage [m.] clé&#8239;/&hairsp;crux [m.]</dfn> <dfn lang="en">crux</dfn>
+<p><dfn lang="fr">passage [m.] clé<span class="slash">&nbsp;/ </span>crux [m.]</dfn> <dfn lang="en">crux</dfn>
 	sleutel&shy;passage, de belang rijkste en moeilijkste passage in een route. <dfn lang="fr">mouvement [m.] clé</dfn> <dfn lang="en">crux move</dfn> sleutelpas.</p>
 <p><dfn lang="en-GB">clean [Br.]</dfn>
 	netjes, in goede stijl, zonder vallen of uitwerken (dus zonder <a lang="en-GB" href="#to-hangdog">dogging</a>). <dfn lang="en-US">clean climbing [Am.]</dfn> klimstijl waarbij alleen <a href="#nut">nutten</a> ter zekering worden gebruikt en er geen ijzer&shy;waren in de rots achterblijft (gepropageerd door <a href="https://movingoverstone.com/" target="_blank" rel="noopener">Doug Robinson</a> in de jaren 60). <dfn lang="en">to clean a pitch</dfn> verwijderen van setjes en <a href="#nut">nutjes</a> en soms ook haken uit een touw&shy;lengte. <dfn lang="fr">nettoyer une longueur</dfn> <dfn lang="en">to clean a route</dfn> een route schoon&shy;maken, door begroeiing en losse stenen en soms ook haken te verwijderen.</p>
 <p><dfn lang="fr">clou [m.]</dfn>
 	[lett. spijker] <dfn lang="en">pin</dfn> (oude) haak.</p>
-<p><dfn lang="fr">coincer&#8239;/&hairsp;verrouiller</dfn> <dfn lang="en">to jam</dfn>
-	verklemmen (in een spleet). <dfn lang="fr">coincement [m.]&#8239;/&hairsp;verrou(illage) [m.]</dfn> <dfn lang="en">jam</dfn> verklemming. <dfn lang="fr">coincement&#8239;/&hairsp;verrou(illage) de main</dfn> <dfn lang="en">hand jam</dfn> handverklemming. <dfn lang="fr">coincement&#8239;/&hairsp;verrou(illage) de pied</dfn> <dfn lang="en">foot jam</dfn> voet&shy;verklemming. <dfn lang="fr">coincement&#8239;/&hairsp;verrou(illage) de doigt</dfn> <dfn lang="en">finger jam&#8239;/&hairsp;finger lock</dfn> vinger&shy;verklemming. <dfn lang="fr">coincement&#8239;/&hairsp;verrou(illage) de genou</dfn> <dfn lang="en-GB">knee lock&#8239;/&hairsp;</dfn><dfn lang="en-US">knee bar [Am.]</dfn> knie&shy;verklemming. <dfn lang="fr">coincement&#8239;/&hairsp;verrou(illage) bras-genou</dfn> hand-knie&shy;verklemming, de elle&shy;boog rust daarbij tegen de knie.</p>
+<p><dfn lang="fr">coincer<span class="slash">&nbsp;/ </span>verrouiller</dfn> <dfn lang="en">to jam</dfn>
+	verklemmen (in een spleet). <dfn lang="fr">coincement [m.]<span class="slash">&nbsp;/ </span>verrou(illage) [m.]</dfn> <dfn lang="en">jam</dfn> verklemming. <dfn lang="fr">coincement<span class="slash">&nbsp;/ </span>verrou(illage) de main</dfn> <dfn lang="en">hand jam</dfn> handverklemming. <dfn lang="fr">coincement<span class="slash">&nbsp;/ </span>verrou(illage) de pied</dfn> <dfn lang="en">foot jam</dfn> voet&shy;verklemming. <dfn lang="fr">coincement<span class="slash">&nbsp;/ </span>verrou(illage) de doigt</dfn> <dfn lang="en">finger jam<span class="slash">&nbsp;/ </span>finger lock</dfn> vinger&shy;verklemming. <dfn lang="fr">coincement<span class="slash">&nbsp;/ </span>verrou(illage) de genou</dfn> <dfn lang="en-GB">knee lock<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">knee bar [Am.]</dfn> knie&shy;verklemming. <dfn lang="fr">coincement<span class="slash">&nbsp;/ </span>verrou(illage) bras-genou</dfn> hand-knie&shy;verklemming, de elle&shy;boog rust daarbij tegen de knie.</p>
 <p><dfn lang="fr">coinceur [m.]</dfn> <dfn lang="en" id="nut">nut</dfn>
 	nut, klemblokje. <dfn lang="fr">coinceur de bois</dfn> <dfn lang="en">wooden peg</dfn> houten klemblok.</p>
 <p><dfn lang="fr">collant [m.]</dfn> <dfn lang="en">(pair of) tights</dfn>
@@ -218,30 +218,30 @@
 <p><dfn lang="fr">compression [v.]</dfn> <dfn lang="en">compression</dfn>
 	het samen&shy;persen, omklemmen van een stuk rots. <dfn lang="fr">grimper en compression</dfn> <dfn lang="en">fridge hugging</dfn> klimmen met compressie.</p>
 <p><dfn lang="fr">conditions [v.]</dfn> <dfn lang="en">conditions</dfn>
-	omstandigheden, rots- en weers&shy;gesteldheid. <dfn lang="fr">des bonnes conditions</dfn> <dfn lang="en">good&#8239;/&hairsp;</dfn><dfn lang="en-GB">superb [Br.]</dfn><dfn lang="en"> conditions</dfn> goede omstandigheden, droog en koud. <dfn lang="fr">des mauvaises conditions</dfn> <dfn lang="en">bad conditions</dfn> slechte omstandigheden, vochtig en warm.</p>
+	omstandigheden, rots- en weers&shy;gesteldheid. <dfn lang="fr">des bonnes conditions</dfn> <dfn lang="en">good<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-GB">superb [Br.]</dfn><dfn lang="en"> conditions</dfn> goede omstandigheden, droog en koud. <dfn lang="fr">des mauvaises conditions</dfn> <dfn lang="en">bad conditions</dfn> slechte omstandigheden, vochtig en warm.</p>
 <p><dfn lang="fr">conduit [m.]</dfn>
 	een langzame, gecontroleerd uit&shy;gevoerde dynamische beweging.</p>
 <p><dfn lang="fr">conque [v.]</dfn> <dfn lang="en">scoop</dfn>
 	kom<wbr>(&#8209;vormige wand).</p>
 <p><dfn lang="fr">continu[e]</dfn> <dfn lang="en">continuous</dfn>
-	aanhoudend zwaar. <dfn lang="fr">conti [m.]&#8239;/&hairsp;continuité [v.]</dfn> <dfn lang="en">stamina</dfn> uithoudings&shy;vermogen.</p>
+	aanhoudend zwaar. <dfn lang="fr">conti [m.]<span class="slash">&nbsp;/ </span>continuité [v.]</dfn> <dfn lang="en">stamina</dfn> uithoudings&shy;vermogen.</p>
 <p><dfn lang="fr">corde [v.]</dfn> <dfn lang="en">rope</dfn>
-	touw. <dfn lang="fr">(attention,) corde!</dfn> <dfn lang="en">rope </dfn><dfn lang="en-GB">(below [Br.])!</dfn> (pas op,) touw!, waarschuwing voor een touw dat naar beneden gegooid wordt. <dfn lang="fr">corde à simple&#8239;/&hairsp;monocorde</dfn> <dfn lang="en">single rope</dfn> enkel&shy;touw, touw dat enkel&shy;voudig gebruikt wordt. <dfn lang="fr">corde à double</dfn> <dfn lang="en">double rope</dfn> dubbel&shy;touw, de twee touwen worden elke keer in verschillende setjes of haken gehangen. <dfn lang="en">half rope</dfn> de helft van een dubbel touw. <dfn lang="fr">corde jumellée</dfn> <dfn lang="en">twin rope</dfn> tweeling&shy;touw, twee touwen die als één touw gebruikt worden, de twee touwen worden elke keer in dezelfde karabiner gehangen. <dfn lang="fr">corde statique&#8239;/&hairsp;state [v.]</dfn> <dfn lang="en">static (rope)</dfn> statisch touw, wordt in het klimmen gebruikt om af te touwen of te top-ropen.</p>
+	touw. <dfn lang="fr">(attention,) corde!</dfn> <dfn lang="en">rope </dfn><dfn lang="en-GB">(below [Br.])!</dfn> (pas op,) touw!, waarschuwing voor een touw dat naar beneden gegooid wordt. <dfn lang="fr">corde à simple<span class="slash">&nbsp;/ </span>monocorde</dfn> <dfn lang="en">single rope</dfn> enkel&shy;touw, touw dat enkel&shy;voudig gebruikt wordt. <dfn lang="fr">corde à double</dfn> <dfn lang="en">double rope</dfn> dubbel&shy;touw, de twee touwen worden elke keer in verschillende setjes of haken gehangen. <dfn lang="en">half rope</dfn> de helft van een dubbel touw. <dfn lang="fr">corde jumellée</dfn> <dfn lang="en">twin rope</dfn> tweeling&shy;touw, twee touwen die als één touw gebruikt worden, de twee touwen worden elke keer in dezelfde karabiner gehangen. <dfn lang="fr">corde statique<span class="slash">&nbsp;/ </span>state [v.]</dfn> <dfn lang="en">static (rope)</dfn> statisch touw, wordt in het klimmen gebruikt om af te touwen of te top-ropen.</p>
 <p><dfn lang="fr">cordée [v.]</dfn>
 	touwgroep.</p>
-<p><dfn lang="fr">cordelette [v.]</dfn> <dfn lang="en-GB">tat [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">cord [Am.]</dfn>
+<p><dfn lang="fr">cordelette [v.]</dfn> <dfn lang="en-GB">tat [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">cord [Am.]</dfn>
 	(hulp)&shy;touwtje (meestal met een doorsnede van 5 of 6 mm), <dfn lang="en">thread</dfn> touw dat door een zandloper zit.</p>
 <p><dfn lang="fr">corniche [v.]</dfn> <dfn lang="en">cornice</dfn>
 	[lett. kroonlijst] overhangende rand.</p>
-<p><dfn lang="fr"><a href="https://www.cosiroc.fr/" target="_blank" rel="noopener">CO.SI.ROC [m.]&#8239;/&hairsp;Comité de défense des sites et des rochers d'escalade</a></dfn>
+<p><dfn lang="fr"><a href="https://www.cosiroc.fr/" target="_blank" rel="noopener">CO.SI.ROC [m.]<span class="slash">&nbsp;/ </span>Comité de défense des sites et des rochers d'escalade</a></dfn>
 	samenwerkings&shy;verband van verschillende verenigingen dat zich bezighoudt met creatie, onderhoud en bescherming van klim&shy;gebieden.</p>
-<p><dfn lang="fr">cotation [v.]</dfn> <dfn lang="en-GB"><a href="waarderingen#technical-grade">technical grade [Br.]</a>&#8239;/&hairsp;</dfn><dfn lang="en-US">rating [Am.]</dfn>
-	technische moeilijk&shy;heids&shy;graad (zwaarte van de moeilijkste pas), <dfn lang="en-GB"><a href="waarderingen#adjectival-grade">E&#8209;grade [Br.]&#8239;/&hairsp;adjectival grade [Br.]</a>&#8239;/&hairsp;</dfn><dfn lang="en-US">grade [Am.]</dfn> algemene moeilijkheids&shy;graad (een combinatie van moeilijk&shy;heid en gevaarlijk&shy;heid). <dfn lang="fr">échelle [v.] de cotation</dfn> <dfn lang="en-GB">grading system [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">rating system [Am.]</dfn> moeilijkheids&shy;schaal, waarderings&shy;systeem.</p>
-<p><dfn lang="fr">de côté&#8239;/&hairsp;de profil</dfn>
-	zijdelings ingedraaid. <dfn lang="fr">prise [v.] de coté</dfn> <dfn lang="en">lay-away&#8239;/&hairsp;side-pull</dfn> zijgreep.</p>
+<p><dfn lang="fr">cotation [v.]</dfn> <dfn lang="en-GB"><a href="waarderingen#technical-grade">technical grade [Br.]</a><span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rating [Am.]</dfn>
+	technische moeilijk&shy;heids&shy;graad (zwaarte van de moeilijkste pas), <dfn lang="en-GB"><a href="waarderingen#adjectival-grade">E&#8209;grade [Br.]<span class="slash">&nbsp;/ </span>adjectival grade [Br.]</a><span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">grade [Am.]</dfn> algemene moeilijkheids&shy;graad (een combinatie van moeilijk&shy;heid en gevaarlijk&shy;heid). <dfn lang="fr">échelle [v.] de cotation</dfn> <dfn lang="en-GB">grading system [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rating system [Am.]</dfn> moeilijkheids&shy;schaal, waarderings&shy;systeem.</p>
+<p><dfn lang="fr">de côté<span class="slash">&nbsp;/ </span>de profil</dfn>
+	zijdelings ingedraaid. <dfn lang="fr">prise [v.] de coté</dfn> <dfn lang="en">lay-away<span class="slash">&nbsp;/ </span>side-pull</dfn> zijgreep.</p>
 <p><dfn lang="fr">couché[e]</dfn> <dfn lang="en">less than vertical</dfn>
 	liggend.</p>
-<p><dfn lang="fr">machine [v.] à coudre</dfn> <dfn lang="en">sewing-machine leg&#8239;/&hairsp;</dfn><dfn lang="en-US">Elvis leg [Am.]</dfn>
+<p><dfn lang="fr">machine [v.] à coudre</dfn> <dfn lang="en">sewing-machine leg<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">Elvis leg [Am.]</dfn>
 	naai&shy;machine&#8209;, trilbenen, veroorzaakt door zenuw&shy;achtigheid of onfitheid.</p>
 <p><dfn lang="fr">couenne [v.]</dfn>
 	[lett. zwoerd, randje] korte lastige route.</p>
@@ -260,11 +260,11 @@
 <p><dfn lang="fr">crisper</dfn>
 	krampachtig vasthouden.</p>
 <p><dfn lang="fr">crocher</dfn> <dfn lang="en">to hook</dfn>
-	haken (van een voet bv.). <dfn lang="fr">prise [v.] crochetante</dfn> <dfn lang="en">positive hold</dfn> positieve greep, waar de vingers min of meer achter kunnen haken. <dfn lang="fr">crochet [m.]</dfn> <dfn lang="en">hook</dfn> haak(je), hakende beweging. <dfn lang="fr">crochet à goutte d'eau</dfn> <dfn lang="en" id="sky-hook">sky-hook&#8239;/&hairsp;cliffhanger</dfn> krom haakje dat achter een randje past en waar je aan kunt hangen. <dfn lang="fr">contre-crochet&#8239;/&hairsp;contrepointe [v.]</dfn> voet&shy;positie waarbij de tenen ergens achter haken om tegen&shy;druk te krijgen. <dfn lang="fr">crochet(age) [m.] d'orteils</dfn> <dfn lang="en" id="toe-hook">toe hook</dfn> voet&shy;positie waarbij de tenen ergens achter gehaakt worden (Britten en Amerikanen hebben het niet over een &lsquo;foot hook&rsquo;, daar moet je domme Duitser of Nederlander voor zijn). <dfn lang="fr">crochet(age) de pointe</dfn> voet&shy;positie waarbij de tenen ergens achter haken, ook voet&shy;positie waarbij de zijkant van de bal van de voet ergens op wrijving achter haakt. <dfn lang="fr">crochet(age) de talon</dfn> <dfn lang="en" id="heel-hook">heel hook</dfn> voet&shy;positie waarbij de hak ergens achter gehaakt wordt.</p>
+	haken (van een voet bv.). <dfn lang="fr">prise [v.] crochetante</dfn> <dfn lang="en">positive hold</dfn> positieve greep, waar de vingers min of meer achter kunnen haken. <dfn lang="fr">crochet [m.]</dfn> <dfn lang="en">hook</dfn> haak(je), hakende beweging. <dfn lang="fr">crochet à goutte d'eau</dfn> <dfn lang="en" id="sky-hook">sky-hook<span class="slash">&nbsp;/ </span>cliffhanger</dfn> krom haakje dat achter een randje past en waar je aan kunt hangen. <dfn lang="fr">contre-crochet<span class="slash">&nbsp;/ </span>contrepointe [v.]</dfn> voet&shy;positie waarbij de tenen ergens achter haken om tegen&shy;druk te krijgen. <dfn lang="fr">crochet(age) [m.] d'orteils</dfn> <dfn lang="en" id="toe-hook">toe hook</dfn> voet&shy;positie waarbij de tenen ergens achter gehaakt worden (Britten en Amerikanen hebben het niet over een &lsquo;foot hook&rsquo;, daar moet je domme Duitser of Nederlander voor zijn). <dfn lang="fr">crochet(age) de pointe</dfn> voet&shy;positie waarbij de tenen ergens achter haken, ook voet&shy;positie waarbij de zijkant van de bal van de voet ergens op wrijving achter haakt. <dfn lang="fr">crochet(age) de talon</dfn> <dfn lang="en" id="heel-hook">heel hook</dfn> voet&shy;positie waarbij de hak ergens achter gehaakt wordt.</p>
 <p><dfn lang="fr">croiser</dfn> <dfn lang="en">to cross</dfn>
 	kruisen. <dfn lang="fr">croisé [v.]</dfn> <dfn lang="en">cross-move</dfn> kruispas, bij klim&shy;beweging de ene arm over de andere kruisen. <dfn lang="fr">décroisé [v.]</dfn> de pas na een kruis&shy;pas, waarbij ontkruist wordt. <dfn lang="fr">décroiser</dfn> ontkruisen.</p>
 <p><dfn lang="fr">faire un croix</dfn>
-	een kruisje zetten, <dfn lang="en">to tick a route&#8239;/&hairsp;</dfn><dfn lang="en-US">to send [Am.]</dfn> een route drukken. <dfn lang="en-US">send burn [Am.]</dfn> poging waarbij je een route in één keer klimt. <dfn lang="en-US">send train [Am.]</dfn> meerdere klimmers die een route of boulder na elkaar succesvol klimmen. <dfn lang="en">a nice tick</dfn> een aanrader, een mooie prestatie. <dfn lang="fr">faire un anti-croix</dfn> iets doen dat slecht is voor de vorm (zuipen bv.).</p>
+	een kruisje zetten, <dfn lang="en">to tick a route<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to send [Am.]</dfn> een route drukken. <dfn lang="en-US">send burn [Am.]</dfn> poging waarbij je een route in één keer klimt. <dfn lang="en-US">send train [Am.]</dfn> meerdere klimmers die een route of boulder na elkaar succesvol klimmen. <dfn lang="en">a nice tick</dfn> een aanrader, een mooie prestatie. <dfn lang="fr">faire un anti-croix</dfn> iets doen dat slecht is voor de vorm (zuipen bv.).</p>
 <p><dfn lang="fr">cuissard [m.]</dfn>
 	heupgordel.</p>
 <p><dfn lang="fr">cupule [v.]</dfn>
@@ -275,7 +275,7 @@
 	iets raken (bv. een boom aan&shy;tikken) waardoor de poging ongeldig is. <dfn lang="en-US">dab [Am.]</dfn> zo'n aanraking.</p>
 <p><dfn lang="fr">dalle [v.]</dfn> <dfn lang="en">slab</dfn>
 	plaat (achterover liggend vlak stuk rotswand). <dfn lang="fr">escalade [v.] en dalle</dfn> <dfn lang="en">slab climbing</dfn> plaatklimmen.</p>
-<p><dfn lang="fr">daubé[e]&#8239;/&hairsp;farci[e]</dfn> <dfn lang="en">pumped</dfn>
+<p><dfn lang="fr">daubé[e]<span class="slash">&nbsp;/ </span>farci[e]</dfn> <dfn lang="en">pumped</dfn>
 	opgepompt, met verzuurde onder&shy;armen. <dfn lang="fr">se dauber</dfn> <dfn lang="en">to get pumped</dfn> de onder&shy;armen oppompen. <dfn lang="en">pumpy</dfn> verzurend, tot opgepompte onder&shy;armen leidend. <dfn lang="en">flash pump</dfn> overmatig verzuurde onderarmen door een slechte of te korte warm-up.</p>
 <p><dfn lang="en">dead hang</dfn>
 	houding stil&shy;hangend aan je armen, het zonder slingeren hangen aan je armen. <dfn lang="en">to dead-hang</dfn> zo hangen.</p>
@@ -292,14 +292,14 @@
 <p><dfn lang="fr">délité[e]</dfn>
 	in lagen gespleten, <dfn lang="en">brittle</dfn> bros.</p>
 <p><dfn lang="fr">départ [m.]</dfn>
-	start, begin van een route <dfn lang="fr">départ&#8239;/&hairsp;j'y vais&#8239;/&hairsp;parti[e]!</dfn> <dfn lang="en">climbing!</dfn> ik kom! <dfn lang="fr">départ assis</dfn> <dfn lang="en">sit start&#8239;/&hairsp;</dfn><dfn lang="en-US">Yabo start [Am.]</dfn> (genoemd naar <a href="http://www.supertopo.com/climbers-forum/216039/Yabo" target="_blank" rel="noopener">John Yablonski</a>) zit&shy;start, je begint te klimmen vanuit zittende positie.</p>
+	start, begin van een route <dfn lang="fr">départ<span class="slash">&nbsp;/ </span>j'y vais<span class="slash">&nbsp;/ </span>parti[e]!</dfn> <dfn lang="en">climbing!</dfn> ik kom! <dfn lang="fr">départ assis</dfn> <dfn lang="en">sit start<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">Yabo start [Am.]</dfn> (genoemd naar <a href="http://www.supertopo.com/climbers-forum/216039/Yabo" target="_blank" rel="noopener">John Yablonski</a>) zit&shy;start, je begint te klimmen vanuit zittende positie.</p>
 <p><dfn lang="fr">derviche [m.]</dfn>
 	klim&shy;beweging waarbij onderlangs gekruist wordt en het hoofd onder de arm doorgaat (soms ook wel <dfn lang="fr">Edlinguette [v.]</dfn> genoemd, naar <a href="https://fr.wikipedia.org/wiki/Patrick_Edlinger" target="_blank" rel="noopener">Patrick Edlinger</a>, beroemd geworden door de film &lsquo;<a href="https://fr.wikipedia.org/wiki/La_Vie_au_bout_des_doigts" target="_blank" rel="noopener">La vie au bout des doigts</a>&rsquo;).</p>
 <p><dfn lang="fr">désaxé[e]</dfn>
 	buiten de as of lijn (van de passage) vallend.</p>
 <p><dfn lang="fr">descendre</dfn>
 	(af)dalen. <dfn lang="fr">descente [v.]</dfn> afdaling. <dfn lang="fr">descendeur [m.]</dfn> <dfn lang="en">descender</dfn> afdaal&shy;apparaat (bv. een acht).</p>
-<p><dfn lang="fr">déscends (moi)!</dfn> <dfn lang="en">down!&#8239;/&hairsp;</dfn><dfn lang="en-US">dirt me! [Am.]</dfn>
+<p><dfn lang="fr">déscends (moi)!</dfn> <dfn lang="en">down!<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">dirt me! [Am.]</dfn>
 	zakken! (naar de grond).</p>
 <p><dfn lang="fr">désescalader</dfn> <dfn lang="en">to downclimb</dfn>
 	afklimmen, naar beneden klimmen.</p>
@@ -307,7 +307,7 @@
 	je uitstrekken (bv. op je benen).</p>
 <p><dfn lang="fr">dévers [m.]</dfn> <dfn lang="en">overhanging wall</dfn>
 	over&shy;hangende wand. <dfn lang="fr">dévers prononcé</dfn> zwaar over&shy;hangende wand. <dfn lang="fr">déversant[e]</dfn> <dfn lang="en">overhanging</dfn> overhangend.</p>
-<p><dfn lang="fr">dièdre [m.]</dfn> <dfn lang="en">corner&#8239;/&hairsp;</dfn><dfn lang="en-US">dihedral [Am.]&#8239;/&hairsp;inside corner [Am.]&#8239;/&hairsp;open book [Am.]</dfn>
+<p><dfn lang="fr">dièdre [m.]</dfn> <dfn lang="en">corner<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">dihedral [Am.]<span class="slash">&nbsp;/ </span>inside corner [Am.]<span class="slash">&nbsp;/ </span>open book [Am.]</dfn>
 	(hoek)&shy;verschnijding.</p>
 <p><dfn lang="en-GB" id="to-hangdog">to (hang)<wbr>dog</dfn>
 	na een val verder&shy;gaan waar je gebleven bent, en niet op traditioneel Britse manier weer beneden beginnen. <dfn lang="en-GB">to dog a move</dfn> in die stijl een beweging instuderen, uitwerken.</p>
@@ -321,20 +321,20 @@
 	voluit (d'r tegenaan), <dfn lang="fr"><a href="https://nl.wikipedia.org/wiki/Verlan" target="_blank" rel="noopener">verlan</a></dfn> voor <dfn lang="fr">à fond</dfn>.</p>
 <p><dfn lang="fr">(avec jambe) en drapeau</dfn>
 	afsteunend met uitgestrekt been. <dfn lang="en" id="flag">to flag (a leg)</dfn> afsteunen met uitgestrekt been.</p>
-<p><dfn lang="fr">grimper en dülfer</dfn> <dfn lang="en">to dulfer&#8239;/&hairsp;to lay-back</dfn>
-	een spleet klimmen door zijdelings uit te hangen (vernoemd naar de Duitse alpinist <a href="https://de.wikipedia.org/wiki/Hans_D%C3%BClfer" target="_blank" rel="noopener">Hans Dülfer</a>), piazzen (naar <a href="https://it.wikipedia.org/wiki/Tita_Piaz" target="_blank" rel="noopener">Tita Piaz</a>). <dfn lang="fr">dülf(er) [m.]</dfn> <dfn lang="en">dulfer&#8239;/&hairsp;lay-back</dfn> spleet die geklommen wordt door zijdelings uit te hangen.</p>
+<p><dfn lang="fr">grimper en dülfer</dfn> <dfn lang="en">to dulfer<span class="slash">&nbsp;/ </span>to lay-back</dfn>
+	een spleet klimmen door zijdelings uit te hangen (vernoemd naar de Duitse alpinist <a href="https://de.wikipedia.org/wiki/Hans_D%C3%BClfer" target="_blank" rel="noopener">Hans Dülfer</a>), piazzen (naar <a href="https://it.wikipedia.org/wiki/Tita_Piaz" target="_blank" rel="noopener">Tita Piaz</a>). <dfn lang="fr">dülf(er) [m.]</dfn> <dfn lang="en">dulfer<span class="slash">&nbsp;/ </span>lay-back</dfn> spleet die geklommen wordt door zijdelings uit te hangen.</p>
 <p><dfn lang="fr">dur[e]</dfn> <dfn lang="en">hard</dfn>
-	zwaar&#8239;/&hairsp;moeilijk.</p>
+	zwaar<span class="slash">&nbsp;/ </span>moeilijk.</p>
 <p><dfn lang="fr">dynamiser</dfn>
 	dynamisch klimmen, <dfn lang="fr">assurer dynamique</dfn> <dfn lang="en">to belay dynamically</dfn> dynamisch zekeren, de klap van een val als zekeraar dynamisch opvangen, dynamisch klimmen.</p>
 
 <h3 id="E">E</h3>
 <p><dfn lang="fr">EB [m.]</dfn> <dfn lang="en">EB</dfn>
 	EB, het merk schoenen waar iedereen op klom toen de sportklim&shy;revolutie begon (vernoemd naar <a href="https://www.eb-escalade.com/chausson-escalade/histoire-eb/" target="_blank" rel="noopener">Edmond Bourdonneau</a>, de schoenmaker die de zaak overnam van <a href="#Pierre-Allain">Pierre Allain</a>).</p>
-<p><dfn lang="fr">écaille [v.]</dfn> <dfn lang="en">shelf&#8239;/&hairsp;flake</dfn>
+<p><dfn lang="fr">écaille [v.]</dfn> <dfn lang="en">shelf<span class="slash">&nbsp;/ </span>flake</dfn>
 	schub, uitstekend langwerpig stuk rots (ook wel &lsquo;schelf&rsquo; genoemd, wat eigenlijk hooistapel betekent).</p>
 <p><dfn lang="fr">échauffement [m.]</dfn> <dfn lang="en">warm up</dfn>
-	warm-up, het opwarmen van de spieren. <dfn lang="fr">s'échauffer</dfn> <dfn lang="en">to warm up&#8239;/&hairsp;to do a warm up</dfn> zich opwarmen.</p>
+	warm-up, het opwarmen van de spieren. <dfn lang="fr">s'échauffer</dfn> <dfn lang="en">to warm up<span class="slash">&nbsp;/ </span>to do a warm up</dfn> zich opwarmen.</p>
 <p><dfn lang="fr">s'écraser</dfn> <dfn lang="en">to crash</dfn>
 	te pletter slaan.</p>
 <p><dfn lang="fr">écrou [m.] à fraper</dfn> <dfn lang="en">T-nut</dfn>
@@ -347,24 +347,24 @@
 	kwalificatie<wbr>(&#8209;ronde).</p>
 <p><dfn lang="fr">enchaîner</dfn> <dfn lang="en">to link</dfn>
 	de bewegingen aaneen&shy;rijgen, iets in één keer doorklimmen.</p>
-<p><dfn lang="fr">s'encorder</dfn> <dfn lang="en">to rope up&#8239;/&hairsp;to tie in</dfn>
-	(zich) inbinden, het touw aan jezelf vast&shy;maken. <dfn lang="fr">encordement [m.]</dfn> <dfn lang="en">roping up&#8239;/&hairsp;tying in</dfn> het inbinden.</p>
+<p><dfn lang="fr">s'encorder</dfn> <dfn lang="en">to rope up<span class="slash">&nbsp;/ </span>to tie in</dfn>
+	(zich) inbinden, het touw aan jezelf vast&shy;maken. <dfn lang="fr">encordement [m.]</dfn> <dfn lang="en">roping up<span class="slash">&nbsp;/ </span>tying in</dfn> het inbinden.</p>
 <p><dfn lang="fr">engagé[e]</dfn> <dfn lang="en">committing</dfn>
 	gewaagd, dóórgaan vereist.</p>
 <p><dfn lang="fr">entorse [v.]</dfn> <dfn lang="en">sprain</dfn>
 	verstuiking.</p>
 <p><dfn lang="fr">á l'envers</dfn>
 	verkeerd om, <dfn lang="en">out of sequence</dfn> verkeerd in de bewegings&shy;volgorde, <dfn lang="fr">mauvaise main</dfn> met de handen verkeerd om.</p>
-<p><dfn lang="fr">(prise) enversée [v.]</dfn> <dfn lang="en">undercut&#8239;/&hairsp;underkling</dfn>
+<p><dfn lang="fr">(prise) enversée [v.]</dfn> <dfn lang="en">undercut<span class="slash">&nbsp;/ </span>underkling</dfn>
 	ondergreep.</p>
 <p><dfn lang="fr">mouvement [m.] d'épaule [v.]</dfn>
 	beweging uit de schouder. <dfn lang="fr">épaule [v.]</dfn> schouder, greepje of beweging waarbij opzij getrokken moet worden met naar binnen gedraaide schouder. <dfn lang="fr">en épaule</dfn> op deze manier.</p>
 <p><dfn lang="fr">éperon [m.]</dfn>
 	uitloper van een berg, lijkend op een steunbeer.</p>
-<p><dfn lang="fr">équiper</dfn> <dfn lang="en">to equip&#8239;/&hairsp;to set up a route</dfn>
+<p><dfn lang="fr">équiper</dfn> <dfn lang="en">to equip<span class="slash">&nbsp;/ </span>to set up a route</dfn>
 	(een route) van haken voorzien. <dfn lang="fr">équipement [m.]</dfn> behaking van een route, uitrusting. <dfn lang="fr">équipeur [m.]</dfn> persoon die een route behaakt heeft. <dfn lang="fr">ouvreur [m.]</dfn> persoon die een route als eerste geklommen heeft.</p>
 <p> <dfn lang="fr">escalader</dfn> <dfn lang="en">to climb</dfn> klimmen
-	<dfn lang="fr">escalade [v.]</dfn> <dfn lang="en">climbing</dfn> het klimmen, <dfn lang="en">climb</dfn> een klim. <dfn lang="fr">escalade sportive</dfn> <dfn lang="en-GB">sports climbing&#8239;/&hairsp;</dfn><dfn lang="en-US">sport climbing [Am.]</dfn> het sportklimmen. <dfn lang="en-GB">sports climb&#8239;/&hairsp;sports route&#8239;/&hairsp;</dfn><dfn lang="en-US">sport climb [Am.]&#8239;/&hairsp;sport route [Am.]</dfn> sportklimroute. <dfn lang="fr">faire de l'escalade</dfn> de klimsport beoefenen.</p>
+	<dfn lang="fr">escalade [v.]</dfn> <dfn lang="en">climbing</dfn> het klimmen, <dfn lang="en">climb</dfn> een klim. <dfn lang="fr">escalade sportive</dfn> <dfn lang="en-GB">sports climbing<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">sport climbing [Am.]</dfn> het sportklimmen. <dfn lang="en-GB">sports climb<span class="slash">&nbsp;/ </span>sports route<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">sport climb [Am.]<span class="slash">&nbsp;/ </span>sport route [Am.]</dfn> sportklimroute. <dfn lang="fr">faire de l'escalade</dfn> de klimsport beoefenen.</p>
 <p><dfn lang="fr">éthique [v.]</dfn> <dfn lang="en">ethics</dfn>
 	ethiek, binnen het klimmen de regels die de verschillende klim&shy;stijlen beschrijven, het respecteren van de natuur, de rots etc.</p>
 <p><dfn lang="fr">s'étirer</dfn> <dfn lang="en">to stretch</dfn>
@@ -379,17 +379,17 @@
 	voorkant van een rots. <dfn lang="fr">face ouest</dfn> <dfn lang="en">west face</dfn> westwand.</p>
 <p><dfn lang="fr">de face</dfn>
 	niet ingedraaid, recht toe recht aan dus.</p>
-<p><dfn lang="fr">mouvement [m.] dynamique</dfn> <dfn lang="en">dynamic move&#8239;/&hairsp;lunge</dfn>
-	dynamische beweging. <dfn lang="fr">faire un mouvement dynamique</dfn> <dfn lang="en">to dyno&#8239;/&hairsp;lunge</dfn> een dynamische beweging maken. <dfn lang="en">slap</dfn> beweging waarbij snel met één hand door&shy;gegrepen wordt. <dfn lang="en">to slap (for a hold)</dfn> snel met één hand door&shy;grijpen (naar een greep).</p>
+<p><dfn lang="fr">mouvement [m.] dynamique</dfn> <dfn lang="en">dynamic move<span class="slash">&nbsp;/ </span>lunge</dfn>
+	dynamische beweging. <dfn lang="fr">faire un mouvement dynamique</dfn> <dfn lang="en">to dyno<span class="slash">&nbsp;/ </span>lunge</dfn> een dynamische beweging maken. <dfn lang="en">slap</dfn> beweging waarbij snel met één hand door&shy;gegrepen wordt. <dfn lang="en">to slap (for a hold)</dfn> snel met één hand door&shy;grijpen (naar een greep).</p>
 <p><dfn lang="fr">fais gaffe!</dfn> <dfn lang="en">watch me!</dfn>
 	let op!</p>
 <p><dfn lang="en">falling!</dfn>
 	ik val!</p>
 <p><dfn lang="fr" id="falaise">falaise [v.]</dfn> <dfn lang="en">cliff</dfn>
 	rotsmassief, rotswand, <dfn lang="en">crag</dfn> klimgebied.</p>
-<p><dfn lang="fr"><a href="https://www.ffcam.fr/" target="_blank" rel="noopener">FFCAM [v.]&#8239;/&hairsp;Fédération française des clubs alpins et de montagne</a></dfn>
-	Franse Alpen&shy;vereniging. <dfn lang="fr">cafiste</dfn> (lid) van de <dfn lang="fr">CAF [m]&#8239;/&hairsp;Club Alpin Français</dfn>, een voorganger van hiervan.</p>
-<p><dfn lang="fr"><a href="https://www.ffme.fr/" target="_blank" rel="noopener">FFME [v.]&#8239;/&hairsp;Fédération Française de la Montagne et de l'Escalade</a></dfn>
+<p><dfn lang="fr"><a href="https://www.ffcam.fr/" target="_blank" rel="noopener">FFCAM [v.]<span class="slash">&nbsp;/ </span>Fédération française des clubs alpins et de montagne</a></dfn>
+	Franse Alpen&shy;vereniging. <dfn lang="fr">cafiste</dfn> (lid) van de <dfn lang="fr">CAF [m]<span class="slash">&nbsp;/ </span>Club Alpin Français</dfn>, een voorganger van hiervan.</p>
+<p><dfn lang="fr"><a href="https://www.ffme.fr/" target="_blank" rel="noopener">FFME [v.]<span class="slash">&nbsp;/ </span>Fédération Française de la Montagne et de l'Escalade</a></dfn>
 	Franse over&shy;koepelende berg&shy;sportbond.</p>
 <p><dfn lang="fr">fissure [v.]</dfn> <dfn lang="en">crack</dfn>
 	spleet.</p>
@@ -416,7 +416,7 @@
 <p><dfn lang="en-US">Gaston [Am.]</dfn>
 	zijgreepje dat je pakt met de hand&shy;palm naar buiten gekeerd (naar een foto van <a href="https://fr.wikipedia.org/wiki/Gaston_R%C3%A9buffat" target="_blank" rel="noopener">Gaston Rebuffat</a>).</p>
 <p><dfn lang="fr">gaz [m.]</dfn>
-	diepte. <dfn lang="fr">gazeux<wbr>[&#8209;euse]&#8239;/&hairsp;aérien[ne]</dfn> luchtig.</p>
+	diepte. <dfn lang="fr">gazeux<wbr>[&#8209;euse]<span class="slash">&nbsp;/ </span>aérien[ne]</dfn> luchtig.</p>
 <p><dfn lang="fr">glauque</dfn>
 	vet, vies.</p>
 <p><dfn lang="en">glacis</dfn>
@@ -431,9 +431,9 @@
 	door regenwater uitgesleten kuiltje waar bv. een vingertop inpast.</p>
 <p><dfn lang="fr">grain [m.]</dfn> <dfn lang="en">grain</dfn>
 	korrel, ruwheid, fijnstructuur van de rots.</p>
-<p><dfn lang="fr">grande patate [v.]&#8239;/&hairsp;beau carton [m.]&#8239;/&hairsp;grand caramel [m.]&#8239;/&hairsp;belle envolée [v.]&#8239;/&hairsp;gaufre [v.]&#8239;/&hairsp;méga plomb [m.]</dfn> <dfn lang="en">big whipper</dfn>
+<p><dfn lang="fr">grande patate [v.]<span class="slash">&nbsp;/ </span>beau carton [m.]<span class="slash">&nbsp;/ </span>grand caramel [m.]<span class="slash">&nbsp;/ </span>belle envolée [v.]<span class="slash">&nbsp;/ </span>gaufre [v.]<span class="slash">&nbsp;/ </span>méga plomb [m.]</dfn> <dfn lang="en">big whipper</dfn>
 	grote val.</p>
-<p><dfn lang="fr">granit&#8239;/&hairsp;granite [m.]</dfn> <dfn lang="en">granite</dfn>
+<p><dfn lang="fr">granit<span class="slash">&nbsp;/ </span>granite [m.]</dfn> <dfn lang="en">granite</dfn>
 	graniet.</p>
 <p><dfn lang="fr">gras[se]</dfn> <dfn lang="en">greasy</dfn>
 	vet.</p>
@@ -466,10 +466,10 @@
 <p><dfn lang="fr">hueco [m.]</dfn> <dfn lang="en-US">hueco [Am.]</dfn>
 	[eig. Spaans voor holte] grote ronde holte in de rots, die je als greep kunt gebruiken, wordt veel gevonden in <a href="https://en.wikipedia.org/wiki/Hueco_Tanks" target="_blank" rel="noopener">Hueco Tanks</a>, Texas.</p>
 <p><dfn lang="fr">(descendeur en) huit [m.]</dfn> <dfn lang="en">figure eight</dfn>
-	acht, aluminium achtvorm gebruikt om mee te zekeren en af te touwen. <dfn lang="fr">huit italien&#8239;/&hairsp;huit autobloquant</dfn> het gebruik van een acht als stijgklem, door in het grote oog in te klippen en het touw gekruisd in te hangen. <dfn lang="fr">huit rapide</dfn> het gebruik van een acht met het touw door de karabiner in plaats van om de acht, om de wrijving te verminderen en sneller touw te kunnen geven (in Nederland soms zekeren &lsquo;op z'n Frans&rsquo; genoemd).</p>
+	acht, aluminium achtvorm gebruikt om mee te zekeren en af te touwen. <dfn lang="fr">huit italien<span class="slash">&nbsp;/ </span>huit autobloquant</dfn> het gebruik van een acht als stijgklem, door in het grote oog in te klippen en het touw gekruisd in te hangen. <dfn lang="fr">huit rapide</dfn> het gebruik van een acht met het touw door de karabiner in plaats van om de acht, om de wrijving te verminderen en sneller touw te kunnen geven (in Nederland soms zekeren &lsquo;op z'n Frans&rsquo; genoemd).</p>
 
 <h3 id="I">I</h3>
-<p><dfn lang="fr"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">Fédération&nbsp;[v.] inter&shy;nationale d'escalade</a></dfn> <dfn lang="en"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">IFSC&#8239;/&hairsp;Inter&shy;national Federation of Sport Climbing</a></dfn>
+<p><dfn lang="fr"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">Fédération&nbsp;[v.] inter&shy;nationale d'escalade</a></dfn> <dfn lang="en"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">IFSC<span class="slash">&nbsp;/ </span>Inter&shy;national Federation of Sport Climbing</a></dfn>
 	inter&shy;nationale over&shy;koepelende sport&shy;federatie voor sportklimmen.</p>
 <p><dfn lang="fr">ça parait improbable</dfn> <dfn lang="en">that seems impossible</dfn>
 	dat lijkt onmogelijk.</p>
@@ -477,14 +477,14 @@
 	hellingshoek. <dfn lang="fr">incliné[e]</dfn> <dfn lang="en">inclined</dfn> hellend.</p>
 <p><dfn lang="fr">(prise) intermédiaire [v.]</dfn> <dfn lang="en">intermediate (hold)</dfn>
 	tussen&shy;greep.</p>
-<p><dfn lang="fr">sur information</dfn> <dfn lang="en">with running beta&#8239;/&hairsp;on auto beta</dfn>
+<p><dfn lang="fr">sur information</dfn> <dfn lang="en">with running beta<span class="slash">&nbsp;/ </span>on auto beta</dfn>
 	met informatie van beneden, makkelijke vorm van <a href="#flash">flash</a>.</p>
 
 <h3 id="J">J</h3>
 <p><dfn lang="fr-BE">en jaune [Bel.]</dfn>
 	vrij (zonder haken), oude Belgische klimstijl, waarbij men oor&shy;spronkelijk de haken die niet voor de voort&shy;beweging gebruikt werden geel verfde. <dfn lang="fr-BE">jaunir [Bel.]</dfn> vrijklimmen.</p>
-<p><dfn lang="fr">jeté [m.]&#8239;/&hairsp;lancé [m.]&#8239;/&hairsp;jump [m.]</dfn> <dfn lang="en" id="dyno">dyno&#8239;/&hairsp;jump</dfn>
-	sprong, dynamische beweging. <dfn lang="en">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="fr">jeter&#8239;/&hairsp;lancer</dfn> <dfn lang="en">to dyno&#8239;/&hairsp;jump</dfn> springen.</p>
+<p><dfn lang="fr">jeté [m.]<span class="slash">&nbsp;/ </span>lancé [m.]<span class="slash">&nbsp;/ </span>jump [m.]</dfn> <dfn lang="en" id="dyno">dyno<span class="slash">&nbsp;/ </span>jump</dfn>
+	sprong, dynamische beweging. <dfn lang="en">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="fr">jeter<span class="slash">&nbsp;/ </span>lancer</dfn> <dfn lang="en">to dyno<span class="slash">&nbsp;/ </span>jump</dfn> springen.</p>
 
 <h3 id="K">K</h3>
 
@@ -493,32 +493,32 @@
 	een zwaaiende, springende beweging (de term is afkomstig uit <a href="https://nl.wikipedia.org/wiki/Parkour" target="_blank" rel="noopener">parkour</a>).</p>
 <p><dfn lang="en-US"><a href="http://www.edhartouni.net/leavittation-the-off-width-renaissance.html" target="_blank" rel="noopener">leavittation</a></dfn>
 	techniek voor <a lang="en" href="#off-width">off-width</a> spleten, twee handen worden verklemd, waarna de benen verklemd worden, de twee handen worden bij de voort&shy;beweging gelijktijdig verplaatst (vernoemd naar <a href="https://web.archive.org/web/20151230150936/http://www.joshuatreeclimb.com/members/History/Profiles/rleavitt.htm" target="_blank" rel="noopener">Randy Leavitt</a>).</p>
-<p><dfn lang="fr">du libre&#8239;/&hairsp;escalade [v.] libre</dfn> <dfn lang="en-US">free climbing [Am.]</dfn>
+<p><dfn lang="fr">du libre<span class="slash">&nbsp;/ </span>escalade [v.] libre</dfn> <dfn lang="en-US">free climbing [Am.]</dfn>
 	vrijklimmen, klimstijl waarbij de haken alleen ter zekering gebruikt worden, (de Fransen zijn slordig in de juiste omschrijving van hun klimstijl). <dfn lang="fr">bon style</dfn> <dfn lang="en" id="redpoint">redpoint</dfn> rotpunkt, klimstijl waarbij de haken alleen ter zekering gebruikt worden en waarbij je iets voor&shy;klimt zonder vallen of uitrusten en het touw na een val weer doortrekt; alleen wanneer je een keer naar een haak bent geklommen en weer af mag je het touw in die haak laten hangen (hoewel dit soms onhandig is moet je eigenlijk ook het relais vanaf de laatste greep inklippen; in de oorspronke&shy;lijke definitie van de stijl mocht je na een val ook de setjes niet laten zitten; gepropageerd in de jaren 70 door <a href="https://de.wikipedia.org/wiki/Kurt_Albert_(Bergsteiger)" target="_blank" rel="noopener">Kurt Albert</a> die een rode stip zette onder routes die zo waren geklommen). <dfn lang="fr">faire du libre</dfn> <dfn lang="en">to free climb</dfn> vrijklimmen. <dfn lang="fr">faire une voie en libre</dfn> <dfn lang="en">to free climb a route</dfn> een route vrijklimmen. <dfn lang="fr">grimper en bon style</dfn> <dfn lang="en">to redpoint</dfn> rotpunkt klimmen. <dfn lang="fr">faire une voie en bon style</dfn> <dfn lang="en">to redpoint a route</dfn> een route rotpunkt klimmen.</p>
 <p><dfn lang="fr">lichen [m.]</dfn> <dfn lang="en">lichen</dfn>
 	mos.</p>
-<p><dfn lang="fr">lisse&#8239;/&hairsp;glissant[e]</dfn> <dfn lang="en">slippery</dfn>
+<p><dfn lang="fr">lisse<span class="slash">&nbsp;/ </span>glissant[e]</dfn> <dfn lang="en">slippery</dfn>
 	glad.</p>
-<p><dfn lang="fr">lunule [v.]&#8239;/&hairsp;bracelet [m.]</dfn> <dfn lang="en">tunnel</dfn>
+<p><dfn lang="fr">lunule [v.]<span class="slash">&nbsp;/ </span>bracelet [m.]</dfn> <dfn lang="en">tunnel</dfn>
 	zandloper, een &lsquo;spijl&rsquo; in de rots die je vast kunt pakken of waaraan je kunt zekeren.</p>
 <p><dfn lang="fr">grimper limite</dfn>
 	aan je taks klimmen, er bijna uit vallen.</p>
 <p><dfn lang="en">lip of the roof</dfn>
 	dakrand.</p>
-<p><dfn lang="fr">lire une voie</dfn> <dfn lang="en-GB">to suss the moves&#8239;/&hairsp;</dfn><dfn lang="en-US">to read the moves [Am.]</dfn>
+<p><dfn lang="fr">lire une voie</dfn> <dfn lang="en-GB">to suss the moves<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to read the moves [Am.]</dfn>
 	een route inlezen. <dfn lang="fr">lecture [v.]</dfn> het inlezen van een route.</p>
-<p><dfn lang="fr">lolotte [v.] (en lolotte)&#8239;/&hairsp;egyptien [m.]</dfn> <dfn lang="en">drop knee&#8239;/&hairsp;egyptian</dfn>
+<p><dfn lang="fr">lolotte [v.] (en lolotte)<span class="slash">&nbsp;/ </span>egyptien [m.]</dfn> <dfn lang="en">drop knee<span class="slash">&nbsp;/ </span>egyptian</dfn>
 	klimpositie met één voet opzij neer&shy;gezet met naar binnen gedraaide knie (uitgevonden door <a href="https://fr.wikipedia.org/wiki/Laurent_Jacob_%28grimpeur%29" target="_blank" rel="noopener">Laurent &lsquo;Lolo&rsquo; Jacob</a>).</p>
-<p><dfn lang="fr">longueur [v.]</dfn> lengte, <dfn lang="en">pitch&#8239;/&hairsp;ropelength</dfn>
+<p><dfn lang="fr">longueur [v.]</dfn> lengte, <dfn lang="en">pitch<span class="slash">&nbsp;/ </span>ropelength</dfn>
 	touwlengte. <dfn lang="en">multi-pitch route</dfn> een route met meerdere touwlengten.</p>
 <p><dfn lang="fr">lover une corde</dfn> <dfn lang="en">to coil a rope</dfn>
 	een touw opschieten.</p>
 
 <h3 id="M">M</h3>
-<p><dfn lang="fr" id=magnesium>magnésie [v.]&#8239;/&hairsp;kak [v.]&#8239;/&hairsp;magnoc [m.]</dfn> <dfn lang="en">magnesia&#8239;/&hairsp;chalk</dfn>
+<p><dfn lang="fr" id=magnesium>magnésie [v.]<span class="slash">&nbsp;/ </span>kak [v.]<span class="slash">&nbsp;/ </span>magnoc [m.]</dfn> <dfn lang="en">magnesia<span class="slash">&nbsp;/ </span>chalk</dfn>
 	magnesium&shy;(bi&shy;carbonaat).</p>
 <p><dfn lang="fr">maillon [m.]</dfn> [lett. schakel v.e. ketting] <dfn lang="en">lower-off</dfn>
-	ovalen ring bovenaan een route waaraan je je kunt laten zakken. <dfn lang="fr">maillon rapide</dfn> <dfn lang="en">screw link&#8239;/&hairsp;quick link</dfn> ketting&shy;sluiting, schakel die open&shy;gedraaid kan worden (met een steek&shy;sleutel).</p>
+	ovalen ring bovenaan een route waaraan je je kunt laten zakken. <dfn lang="fr">maillon rapide</dfn> <dfn lang="en">screw link<span class="slash">&nbsp;/ </span>quick link</dfn> ketting&shy;sluiting, schakel die open&shy;gedraaid kan worden (met een steek&shy;sleutel).</p>
 <p><dfn lang="fr">marbre [m.]</dfn> <dfn lang="en">marble</dfn>
 	marmer. <dfn lang="fr">marbré[e]</dfn> <dfn lang="en">marble</dfn> als marmer, glad.</p>
 <p><dfn lang="fr">marche [v.] d'approche</dfn> <dfn lang="en">approach</dfn>
@@ -537,10 +537,10 @@
 	touw na! (Het is jammer dat dit commando in het Nederlands weinig onder&shy;scheidend is.)</p>
 <p><dfn lang="fr">récupérer le mou</dfn> <dfn lang="en">to take in the slack</dfn>
 	het loshangende stuk touw inhalen.</p>
-<p><dfn lang="fr">en moulinette</dfn> <dfn lang="en-GB">bottom-rope&#8239;/&hairsp;</dfn><dfn lang="en-US">slingshot [Am.]</dfn>
-	manier van zekeren met het touw door een zekerings&shy;punt bovenaan een route, zodat de zekeraar beneden kan blijven. <dfn lang="fr">moulinette [v.]</dfn> zo'n zekerings&shy;punt. <dfn lang="fr">grimper en moulinette&#8239;/&hairsp;grimper en moule&#8239;/&hairsp;mouliner</dfn> op deze manier klimmen. <dfn lang="fr">descendre en moulinette</dfn> op deze manier (iemand) laten zakken, <dfn lang="en">to lower off</dfn> (iemand) laten zakken. <dfn lang="en">top-rope</dfn> met touw van boven. <dfn lang="en">to top-rope</dfn> klimmen met touw van boven.</p>
-<p><dfn lang="fr">mousqueton [m.]&#8239;/&hairsp;(mou)squif [m.]&#8239;/&hairsp;moukif [m.]</dfn> <dfn lang="en">(kara)biner&#8239;/&hairsp;krab&#8239;/&hairsp;</dfn><dfn lang="en-GB">snaplink [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">carabiner [Am.]&#8239;/&hairsp;crab [Am.]</dfn>
-	karabiner, musketon (ronde haak met verende sluiting; de term &lsquo;musketonhaak&rsquo; wordt in het klimmen niet gebruikt). <dfn lang="fr">mousqueton à vis</dfn> <dfn lang="en">screwgate (karabiner)&#8239;/&hairsp;</dfn><dfn lang="en-US">locking (kara)biner [Am.]</dfn> schroef&shy;karabiner, kara&shy;biner met vergrendeling. <dfn lang="fr">mousqueton à doigt coudé&#8239;/&hairsp;mousqueton banane&#8239;/&hairsp;banane [v.]</dfn> <dfn lang="en">bend gate (kara)biner</dfn> kara&shy;biner met gebogen sluiting. <dfn lang="fr">mousqueton à doigt automatique</dfn> <dfn lang="en">automatic locking (kara)biner</dfn> automatisch sluitende kara&shy;biner. mousquetonner&#8239;/&hairsp;clipper&#8239;/&hairsp;squiffer <dfn lang="en">to clip</dfn> een touw in een kara&shy;biner hangen. <dfn lang="fr">prémousquetonner</dfn> <dfn lang="en">to pre-clip</dfn> van te voren inklippen, het touw in de eerste setjes laten zitten. <dfn lang="fr">mousquetonnage [m.]&#8239;/&hairsp;clip [m.]</dfn> <dfn lang="en">clip</dfn> het hangen van een touw in een karabiner. <dfn lang="fr">mousquetonnage au bâton</dfn> <dfn lang="en">stick clip</dfn> truc waarbij met een stok het touw in een haak gehangen wordt (bv. als een val voor de eerste haak vervelende consequenties heeft) [zie ook <a lang="en" href="#cheater-stick">cheater stick</a>].</p>
+<p><dfn lang="fr">en moulinette</dfn> <dfn lang="en-GB">bottom-rope<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">slingshot [Am.]</dfn>
+	manier van zekeren met het touw door een zekerings&shy;punt bovenaan een route, zodat de zekeraar beneden kan blijven. <dfn lang="fr">moulinette [v.]</dfn> zo'n zekerings&shy;punt. <dfn lang="fr">grimper en moulinette<span class="slash">&nbsp;/ </span>grimper en moule<span class="slash">&nbsp;/ </span>mouliner</dfn> op deze manier klimmen. <dfn lang="fr">descendre en moulinette</dfn> op deze manier (iemand) laten zakken, <dfn lang="en">to lower off</dfn> (iemand) laten zakken. <dfn lang="en">top-rope</dfn> met touw van boven. <dfn lang="en">to top-rope</dfn> klimmen met touw van boven.</p>
+<p><dfn lang="fr">mousqueton [m.]<span class="slash">&nbsp;/ </span>(mou)squif [m.]<span class="slash">&nbsp;/ </span>moukif [m.]</dfn> <dfn lang="en">(kara)biner<span class="slash">&nbsp;/ </span>krab<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-GB">snaplink [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">carabiner [Am.]<span class="slash">&nbsp;/ </span>crab [Am.]</dfn>
+	karabiner, musketon (ronde haak met verende sluiting; de term &lsquo;musketonhaak&rsquo; wordt in het klimmen niet gebruikt). <dfn lang="fr">mousqueton à vis</dfn> <dfn lang="en">screwgate (karabiner)<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">locking (kara)biner [Am.]</dfn> schroef&shy;karabiner, kara&shy;biner met vergrendeling. <dfn lang="fr">mousqueton à doigt coudé<span class="slash">&nbsp;/ </span>mousqueton banane<span class="slash">&nbsp;/ </span>banane [v.]</dfn> <dfn lang="en">bend gate (kara)biner</dfn> kara&shy;biner met gebogen sluiting. <dfn lang="fr">mousqueton à doigt automatique</dfn> <dfn lang="en">automatic locking (kara)biner</dfn> automatisch sluitende kara&shy;biner. mousquetonner<span class="slash">&nbsp;/ </span>clipper<span class="slash">&nbsp;/ </span>squiffer <dfn lang="en">to clip</dfn> een touw in een kara&shy;biner hangen. <dfn lang="fr">prémousquetonner</dfn> <dfn lang="en">to pre-clip</dfn> van te voren inklippen, het touw in de eerste setjes laten zitten. <dfn lang="fr">mousquetonnage [m.]<span class="slash">&nbsp;/ </span>clip [m.]</dfn> <dfn lang="en">clip</dfn> het hangen van een touw in een karabiner. <dfn lang="fr">mousquetonnage au bâton</dfn> <dfn lang="en">stick clip</dfn> truc waarbij met een stok het touw in een haak gehangen wordt (bv. als een val voor de eerste haak vervelende consequenties heeft) [zie ook <a lang="en" href="#cheater-stick">cheater stick</a>].</p>
 <p><dfn lang="fr">mouv(ement) [m.]</dfn> <dfn lang="en">move</dfn>
 	(klim)&shy;beweging.</p>
 <p><dfn lang="fr">mur [m.]</dfn> <dfn lang="en">wall</dfn>
@@ -561,7 +561,7 @@
 	pijnlijk koude vingers.</p>
 <p><dfn lang="fr">open [m.]</dfn> <dfn lang="en">open (competition)</dfn>
 	wedstrijd met vrije, open inschrijving.</p>
-<p><dfn lang="fr">fissure en opposition&#8239;/&hairsp;cheminée [v.]</dfn> <dfn lang="en">chimney</dfn>
+<p><dfn lang="fr">fissure en opposition<span class="slash">&nbsp;/ </span>cheminée [v.]</dfn> <dfn lang="en">chimney</dfn>
 	schoor&shy;steen, brede spleet waar je doorheen kunt schuifelen. <dfn lang="fr">grimper en opposition [v.]</dfn> klimmen op tegen&shy;druk (bv. in een spleet, of met een verticale greep en tree). <dfn lang="en">to chimney</dfn> een schoor&shy;steen klimmen. <dfn lang="fr">oppo [v.]</dfn> greep die op tegendruk gebruikt wordt.</p>
 <p><dfn lang="fr">oreille [v.]</dfn>
 	oor<wbr>(&#8209;vormige greep).</p>
@@ -569,7 +569,7 @@
 	gedurfd <dfn lang="en">bold</dfn> gedurfd, met lef, lef vereisend. <dfn lang="en-US">dicey [Am.]</dfn> riskant.</p>
 <p><dfn lang="en">outcrop</dfn>
 	aan de oppervlakte komende rotslaag.</p>
-<p><dfn lang="fr">ouvreur</dfn> <dfn lang="en">route-setter&#8239;/&hairsp;</dfn><dfn lang="en-US">forerunner [Am.]</dfn>
+<p><dfn lang="fr">ouvreur</dfn> <dfn lang="en">route-setter<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">forerunner [Am.]</dfn>
 	routebouwer.</p>
 
 <h3 id="P">P</h3>
@@ -582,20 +582,20 @@
 <p><dfn lang="fr">papier [m.] à limer</dfn> <dfn lang="en">sandpaper</dfn>
 	schuurpapier.</p>
 <p><dfn lang="fr">parer</dfn> <dfn lang="en">to spot</dfn>
-	klaar&shy;staan om iemands val op te vangen en te begeleiden. <dfn lang="fr">pareur [m.]</dfn> <dfn lang="en">spotter</dfn> iemand die klaarstaat om een val op te vangen en te begeleiden. <dfn lang="fr">parade [v.]</dfn> <dfn lang="en">spot</dfn> het opvangen van iemands val. <dfn lang="fr">parade appuyée&#8239;/&hairsp;poussette [v.]</dfn> <dfn lang="en">power spot</dfn> lichte onder&shy;steuning om iemand een moeilijke beweging uit te laten werken.</p>
+	klaar&shy;staan om iemands val op te vangen en te begeleiden. <dfn lang="fr">pareur [m.]</dfn> <dfn lang="en">spotter</dfn> iemand die klaarstaat om een val op te vangen en te begeleiden. <dfn lang="fr">parade [v.]</dfn> <dfn lang="en">spot</dfn> het opvangen van iemands val. <dfn lang="fr">parade appuyée<span class="slash">&nbsp;/ </span>poussette [v.]</dfn> <dfn lang="en">power spot</dfn> lichte onder&shy;steuning om iemand een moeilijke beweging uit te laten werken.</p>
 <p><dfn lang="fr">paroi [v.]
 	</dfn>grote wand. <dfn lang="fr">grande paroi</dfn> <dfn lang="en" id="big-wall">big wall</dfn> grote rotswand, waarvan de beklimming meestal gepaard gaat met artificieel klimmen en meerdere dagen vereist. <dfn lang="fr">escalade [v.] en grande paroi</dfn> <dfn lang="en">big wall climbing</dfn> het klimmen van zulke grote rots&shy;wanden, meestal gepaard gaand met de inzet van veel materiaal en artificieel klimmen.</p>
 <p><dfn lang="fr">patiné[e]</dfn> <dfn lang="en">polished</dfn>
 	glad (afgeklommen).</p>
 <p><dfn lang="fr">patiner</dfn>
 	glijden, knoeien.</p>
-<p><dfn lang="fr">PDM&#8239;/&hairsp;pieds des mains [m.]</dfn> <dfn lang="en">SHAFT (same hand and foot&shy;holds)&#8239;/&hairsp;tracking</dfn>
+<p><dfn lang="fr">PDM<span class="slash">&nbsp;/ </span>pieds des mains [m.]</dfn> <dfn lang="en">SHAFT (same hand and foot&shy;holds)<span class="slash">&nbsp;/ </span>tracking</dfn>
 	met de voeten alleen de hand&shy;grepen gebruiken, geeft aan welke treden gebruikt mogen worden.</p>
 <p><dfn lang="fr">pendule [m.]</dfn> <dfn lang="en">pendulum</dfn>
 	pendel<wbr>(&#8209;val), pendel-traverse.</p>
 <p><dfn lang="fr">phalange [v.]</dfn> <dfn lang="en">phalanx</dfn>
 	vingerkootje.</p>
-<p><dfn lang="fr">physique</dfn> <dfn lang="en">strenuous&#8239;/&hairsp;powerful</dfn>
+<p><dfn lang="fr">physique</dfn> <dfn lang="en">strenuous<span class="slash">&nbsp;/ </span>powerful</dfn>
 	veel kracht kostend.</p>
 <p><dfn lang="fr">pied-(à&#8209;)<wbr>main [m.]</dfn>
 	klim&shy;beweging waarbij een voet bij een hand neergezet wordt.</p>
@@ -609,9 +609,9 @@
 	gat of verbreding in een spleet ontstaan door het slaan van haken.</p>
 <p><dfn lang="fr">pince [v.]</dfn> <dfn lang="en">pinch</dfn>
 	knijp&shy;greep. <dfn lang="fr">pincette [v.]</dfn> knijpgreepje.</p>
-<p><dfn lang="fr">piton [m.]</dfn> <dfn lang="en-GB">peg [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">piton [Am.]</dfn>
-	mephaak (platte haak die je als een spijker in een rots&shy;spleet slaat). <dfn lang="fr">mettre un piton&#8239;/&hairsp;des pitons</dfn> <dfn lang="en-GB">to peg [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">to place a piton&#8239;/&hairsp;pitons [Am.]</dfn> een haak&#8239;/&hairsp;haken plaatsen.</p>
-<p><dfn lang="fr">PL&#8239;/&hairsp;pieds libre [m.]</dfn>
+<p><dfn lang="fr">piton [m.]</dfn> <dfn lang="en-GB">peg [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">piton [Am.]</dfn>
+	mephaak (platte haak die je als een spijker in een rots&shy;spleet slaat). <dfn lang="fr">mettre un piton<span class="slash">&nbsp;/ </span>des pitons</dfn> <dfn lang="en-GB">to peg [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to place a piton<span class="slash">&nbsp;/ </span>pitons [Am.]</dfn> een haak<span class="slash">&nbsp;/ </span>haken plaatsen.</p>
+<p><dfn lang="fr">PL<span class="slash">&nbsp;/ </span>pieds libre [m.]</dfn>
 	voeten vrij, geeft aan dat alle treden gebruikt mogen worden.</p>
 <p><dfn lang="fr">placement [m.]</dfn> <dfn lang="en">placement</dfn>
 	plek, (voet)&shy;plaatsing, zekerings&shy;punt dat zelf geplaatst is, een <a href="#nut">nut</a>, <a href="#friend">friend</a>, etc., plaats voor zo'n zekering.</p>
@@ -621,13 +621,13 @@
 	plaatje, oog van een boorhaak.</p>
 <p><dfn lang="fr">plaquette [v.] frein</dfn> <dfn lang="en" id="Sticht-plate">Sticht plate</dfn>
 	Sticht, rond, plat zekerings&shy;apparaat met twee ovale sleuven, vooral gebruikt met dubbel touw (uitgevonden door Fritz Sticht).</p>
-<p><dfn lang="fr" id="pof">pof [m.]&#8239;/&hairsp;résine [v.]( de pin)&#8239;/&hairsp;colophane [v.]</dfn> <dfn lang="en">rosin&#8239;/&hairsp;(pine) resin&#8239;/&hairsp;colophony</dfn>
+<p><dfn lang="fr" id="pof">pof [m.]<span class="slash">&nbsp;/ </span>résine [v.]( de pin)<span class="slash">&nbsp;/ </span>colophane [v.]</dfn> <dfn lang="en">rosin<span class="slash">&nbsp;/ </span>(pine) resin<span class="slash">&nbsp;/ </span>colophony</dfn>
 	<a href="https://nl.wikipedia.org/wiki/Colofonium" target="_blank" rel="noopener">hars (van de Californische pijnboom)</a>, vooral gebruikt in Fontainebleau om rots, handen en schoenen stroever te maken, heel iets anders dan <a href="#magnesium">magnesium</a>.</p>
 <p><dfn lang="en">pogo</dfn>
 	<a href="#dyno">dyno</a> ingezet door een schoppende beweging, ook wel <dfn lang="en">moon kick</dfn> genoemd (naar <a href="https://en.wikipedia.org/wiki/Ben_Moon_%28rock_climber%29" target="_blank" rel="noopener">Ben Moon</a> of meer waarschijnlijk naar de <a href="https://en.wikipedia.org/wiki/Moon_kick" target="_blank" rel="noopener">vechtsport&shy;beweging</a> met dezelfde naam).</p>
 <p><dfn lang="fr">poignée [v.]</dfn> <dfn lang="en">handle</dfn>
 	handvat, greep in die vorm.</p>
-<p><dfn lang="fr">point [m.] (d'assurage)&#8239;/&hairsp;(point d')ancrage</dfn> <dfn lang="en-US">anchor [Am.]</dfn>
+<p><dfn lang="fr">point [m.] (d'assurage)<span class="slash">&nbsp;/ </span>(point d')ancrage</dfn> <dfn lang="en-US">anchor [Am.]</dfn>
 	zekerings&shy;punt. <dfn lang="fr">ancrage à ceinturer</dfn> zekerings&shy;punt waarbij een stuk band of touw ergens om of door moet worden gelegd. <dfn lang="en-US">belay anchor [Am.]</dfn> relais-haak. <dfn lang="en">permanent anchor</dfn> een niet verwijder&shy;baar zekerings&shy;punt. <dfn lang="en-US">rappel anchor [Am.]</dfn> haak of ketting om af te touwen. <dfn lang="en-US">top anchor [Am.]</dfn> tophaak of &#8209;ketting.</p>
 <p><dfn lang="fr">en pointe</dfn> <dfn lang="en">front-pointing</dfn>
 	met de punt (van de schoen).</p>
@@ -641,15 +641,15 @@
 	beweging waarbij je er langzaam uit komt draaien als een schuurdeur.</p>
 <p><dfn lang="fr">porte-matériel [m.]</dfn> <dfn lang="en">gear loop</dfn>
 	materiaal&shy;lus, lus aan een klim&shy;gordel waaraan het klim&shy;materiaal hangt, <dfn lang="en" id="gear-sling">gear sling</dfn> materiaal&shy;band, band om de schouder waaraan het klim&shy;materiaal hangt (wordt gebruikt wanneer je veel materiaal bij je hebt).</p>
-<p><dfn lang="fr">poudingue [m.]&#8239;/&hairsp;conglomérat [m.]</dfn> <dfn lang="en">conglomerate</dfn>
+<p><dfn lang="fr">poudingue [m.]<span class="slash">&nbsp;/ </span>conglomérat [m.]</dfn> <dfn lang="en">conglomerate</dfn>
 	conglomeraat, rots met kiezels erin.</p>
 <p><dfn lang="fr">poulie [v.]</dfn> <dfn lang="en">pulley</dfn>
-	katrol. <dfn lang="fr">A2-poulie</dfn> <dfn lang="en">A2 pulley</dfn> (A2&#8209;)<wbr>ring&shy;bandje dat een vinger&shy;pees op z'n plek houdt. <dfn lang="en">A2 pulley injury&#8239;/&hairsp;pulled tendon</dfn> beschadiging van dit ringbandje.</p>
+	katrol. <dfn lang="fr">A2-poulie</dfn> <dfn lang="en">A2 pulley</dfn> (A2&#8209;)<wbr>ring&shy;bandje dat een vinger&shy;pees op z'n plek houdt. <dfn lang="en">A2 pulley injury<span class="slash">&nbsp;/ </span>pulled tendon</dfn> beschadiging van dit ringbandje.</p>
 <p><dfn lang="fr">poutre [v.] (de traction)</dfn>
-	(trainings)&shy;balk. <dfn lang="en">fingerboard&#8239;/&hairsp;trainingboard</dfn> trainingsplank.</p>
+	(trainings)&shy;balk. <dfn lang="en">fingerboard<span class="slash">&nbsp;/ </span>trainingboard</dfn> trainingsplank.</p>
 <p><dfn lang="fr">préhension [v.]</dfn>
 	het pakken, de manier van pakken van een greep.</p>
-<p><dfn lang="fr">grimper en premier&#8239;/&hairsp;grimper en tête</dfn> <dfn lang="en">to climb on lead&#8239;/&hairsp;to lead</dfn>
+<p><dfn lang="fr">grimper en premier<span class="slash">&nbsp;/ </span>grimper en tête</dfn> <dfn lang="en">to climb on lead<span class="slash">&nbsp;/ </span>to lead</dfn>
 	voorklimmen. <dfn lang="fr">premier [m.] (de cordée)</dfn> <dfn lang="en">leader</dfn> voor&shy;klimmer van een touwgroep.</p>
 <p><dfn lang="fr">première [v.]</dfn> <dfn lang="en">first ascent</dfn>
 	eerstbeklimming.</p>
@@ -658,17 +658,17 @@
 <p><dfn lang="en">to pre-view</dfn>
 	aftouwen over een route om 'm te bestuderen, en de grepen te bekijken of te voelen.</p>
 <p><dfn lang="fr">prise [v.]</dfn>
-	greep of tree. <dfn lang="fr">prise de main&#8239;/&hairsp;main [m.]</dfn> <dfn lang="en">(hand)hold</dfn> greep(je). <dfn lang="fr">prise de pied&#8239;/&hairsp;pied [m.]</dfn> <dfn lang="en">foothold</dfn> tree(tje). <dfn lang="en">feet</dfn> voeten, treedjes. <dfn lang="fr">prisu [m.]</dfn> een gedeelte van een boulder&shy;wand vol met grepen.</p>
+	greep of tree. <dfn lang="fr">prise de main<span class="slash">&nbsp;/ </span>main [m.]</dfn> <dfn lang="en">(hand)hold</dfn> greep(je). <dfn lang="fr">prise de pied<span class="slash">&nbsp;/ </span>pied [m.]</dfn> <dfn lang="en">foothold</dfn> tree(tje). <dfn lang="en">feet</dfn> voeten, treedjes. <dfn lang="fr">prisu [m.]</dfn> een gedeelte van een boulder&shy;wand vol met grepen.</p>
 <p><dfn lang="fr">projet [m.]</dfn> <dfn lang="en">project</dfn>
-	project, route die al wel behaakt maar nog niet geklommen is, vaak aangegeven met een (rood) touwtje of lint in de eerste haak, volgens de klim-etiquette dien je zonder toe&shy;stemming van degene die de haken heeft gezet zo'n route niet te klimmen, soms geeft zo'n touwtje ook aan dat het cement&#8239;/&hairsp;de lijm van de haken nog niet uitgehard is.</p>
+	project, route die al wel behaakt maar nog niet geklommen is, vaak aangegeven met een (rood) touwtje of lint in de eerste haak, volgens de klim-etiquette dien je zonder toe&shy;stemming van degene die de haken heeft gezet zo'n route niet te klimmen, soms geeft zo'n touwtje ook aan dat het cement<span class="slash">&nbsp;/ </span>de lijm van de haken nog niet uitgehard is.</p>
 <p><dfn lang="en">pro(tection)</dfn>
-	alle zekerings&shy;punten in een route. <dfn lang="en">fixed pro(tection)&#8239;/&hairsp;fixed gear&#8239;/&hairsp;resident protection</dfn> haken, <a href="#nut">nutjes</a> etc. die vast in een route hangen, omdat ze óf er niet meer uit kunnen, óf erg handig zijn voor herhalers van een route. <dfn lang="en">natural pro(tection)</dfn> zekeringspunten die gebruik maken van gaten en spleten in de rots door middel van <a href="#nut">nutjes</a>, <a href="#friend">friends</a> en dergelijke, dus niet van (boor)&shy;haken.</p>
+	alle zekerings&shy;punten in een route. <dfn lang="en">fixed pro(tection)<span class="slash">&nbsp;/ </span>fixed gear<span class="slash">&nbsp;/ </span>resident protection</dfn> haken, <a href="#nut">nutjes</a> etc. die vast in een route hangen, omdat ze óf er niet meer uit kunnen, óf erg handig zijn voor herhalers van een route. <dfn lang="en">natural pro(tection)</dfn> zekeringspunten die gebruik maken van gaten en spleten in de rots door middel van <a href="#nut">nutjes</a>, <a href="#friend">friends</a> en dergelijke, dus niet van (boor)&shy;haken.</p>
 <p><dfn lang="fr">proue [v.]</dfn> <dfn lang="en">prow</dfn>
 	boeg, uitstekende rotswand in die vorm.</p>
 <p><dfn lang="en">psyching out</dfn>
 	panieken, echt bang worden.</p>
-<p><dfn lang="fr">puissance [v.]&#8239;/&hairsp;force [v.] pure</dfn> <dfn lang="en">power</dfn>
-	kracht. <dfn lang="fr">être puissant[e]</dfn> <dfn lang="en">to be strong&#8239;/&hairsp;powerful</dfn> sterk zijn. <dfn lang="en">power move</dfn> krachtpas.</p>
+<p><dfn lang="fr">puissance [v.]<span class="slash">&nbsp;/ </span>force [v.] pure</dfn> <dfn lang="en">power</dfn>
+	kracht. <dfn lang="fr">être puissant[e]</dfn> <dfn lang="en">to be strong<span class="slash">&nbsp;/ </span>powerful</dfn> sterk zijn. <dfn lang="en">power move</dfn> krachtpas.</p>
 
 <h3 id="Q">Q</h3>
 <p><dfn lang="fr">quartz [m.]</dfn> <dfn lang="en">quartz</dfn>
@@ -686,23 +686,23 @@
 <p><dfn lang="fr">rampe [v.]</dfn> <dfn lang="en">ramp</dfn>
 	brede oplopende vlakke band in de rots.</p>
 <p><dfn lang="fr">randonner</dfn>
-	wandelen, door een route heen &lsquo;fietsen&rsquo;. <dfn lang="en-GB">to make it look like a path&#8239;/&hairsp;to rally</dfn> een moeilijke route makkelijk klimmen.</p>
+	wandelen, door een route heen &lsquo;fietsen&rsquo;. <dfn lang="en-GB">to make it look like a path<span class="slash">&nbsp;/ </span>to rally</dfn> een moeilijke route makkelijk klimmen.</p>
 <p><dfn lang="fr">râpeux<wbr>[&#8209;euse]</dfn> <dfn lang="en">rough</dfn>
 	ruw, stroef.</p>
-<p><dfn lang="fr">rappel [m.]</dfn> <dfn lang="en-GB">abseil [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">rappel [Am.]</dfn>
-	afdaling aan een touw. <dfn lang="fr">descendre en rappel</dfn> <dfn lang="en-GB">to abseil [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">to rap(pel) [Am.]</dfn> aftouwen.</p>
+<p><dfn lang="fr">rappel [m.]</dfn> <dfn lang="en-GB">abseil [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rappel [Am.]</dfn>
+	afdaling aan een touw. <dfn lang="fr">descendre en rappel</dfn> <dfn lang="en-GB">to abseil [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to rap(pel) [Am.]</dfn> aftouwen.</p>
 <p><dfn lang="fr">râteau [m.]</dfn>
-	misser&#8239;/&hairsp;val.</p>
+	misser<span class="slash">&nbsp;/ </span>val.</p>
 <p><dfn lang="fr">rééquiper</dfn>
 	herbehaken, van nieuwe haken voorzien. <dfn lang="fr">rééquipement [m]</dfn> het herbehaken.</p>
 <p><dfn lang="fr">réglette [v.]</dfn> <dfn lang="en">edge</dfn>
 	rand(je). <dfn lang="en">to edge</dfn> een randje grijpen, op een randje staan. <dfn lang="fr">grimper sur réglettes</dfn> <dfn lang="en">edging</dfn> randjes klimmen.</p>
 <p><dfn lang="fr">relais [m.]</dfn> <dfn lang="en">belay (station)</dfn>
-	relais&#8239;/&hairsp;stand&shy;(plaats). <dfn lang="fr">relais!</dfn> relais&#8239;/&hairsp;stand! <dfn lang="en">you're on&#8239;/&hairsp;belay on!</dfn> je bent gezekerd! <dfn lang="en-GB">you're off&#8239;/&hairsp;</dfn><dfn lang="en-US">belay off [Am.]!</dfn> je bent niet (meer) gezekerd! <dfn lang="fr">relais [m.] pendu</dfn> <dfn lang="en">hanging belay</dfn> relais waarbij je in de haken hangt.</p>
+	relais<span class="slash">&nbsp;/ </span>stand&shy;(plaats). <dfn lang="fr">relais!</dfn> relais<span class="slash">&nbsp;/ </span>stand! <dfn lang="en">you're on<span class="slash">&nbsp;/ </span>belay on!</dfn> je bent gezekerd! <dfn lang="en-GB">you're off<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">belay off [Am.]!</dfn> je bent niet (meer) gezekerd! <dfn lang="fr">relais [m.] pendu</dfn> <dfn lang="en">hanging belay</dfn> relais waarbij je in de haken hangt.</p>
 <p><dfn lang="fr">repos [m.]</dfn> <dfn lang="en">rest</dfn>
 	rust&shy;(positie). <dfn lang="fr">repos sans main</dfn> <dfn lang="en" id="no-hands-rest">no hands rest</dfn> rustpositie &lsquo;met losse handen&rsquo;.</p>
 <p><dfn lang="fr">résine [v.]</dfn> <dfn lang="en">resin</dfn>
-	hars, ook kunsthars, waar grepen van gemaakt zijn. <dfn lang="fr">résine époxyde&#8239;/&hairsp;époxy&shy;acrylique</dfn> <dfn lang="en">epoxide&#8239;/&hairsp;epoxy&shy;acrylic resin</dfn> epoxy&shy;hars&#8239;/&hairsp;epoxy&shy;acryl&shy;hars, gebruikt voor het bevestigen van haken, en soms ook voor het verstevigen of bijwerken&#8239;/&hairsp;bijmaken van grepen of treetjes.</p>
+	hars, ook kunsthars, waar grepen van gemaakt zijn. <dfn lang="fr">résine époxyde<span class="slash">&nbsp;/ </span>époxy&shy;acrylique</dfn> <dfn lang="en">epoxide<span class="slash">&nbsp;/ </span>epoxy&shy;acrylic resin</dfn> epoxy&shy;hars<span class="slash">&nbsp;/ </span>epoxy&shy;acryl&shy;hars, gebruikt voor het bevestigen van haken, en soms ook voor het verstevigen of bijwerken<span class="slash">&nbsp;/ </span>bijmaken van grepen of treetjes.</p>
 <p><dfn lang="fr">résistance [v.]</dfn>
 	kracht&shy;uithoudingsvermogen.</p>
 <p><dfn lang="fr">réta(blissement) [m.]</dfn>
@@ -725,19 +725,19 @@
 	touwzak, zak waarin het touw samen&shy;gepakt en vervoerd kan worden.</p>
 <p><dfn lang="fr">sac [m.] à <a href="#magnesium">magnésie</a></dfn> <dfn lang="en">chalk bag</dfn>
 	magnesiumzak (&lsquo;<a href="#pof">pof</a>zak&rsquo; is volkomen fout).</p>
-<p><dfn lang="fr">SAE [v.]&#8239;/&hairsp;Structure Artificielle d'Escalade&#8239;/&hairsp;mur [m.] d'escalade</dfn> <dfn lang="en">climbing wall</dfn>
+<p><dfn lang="fr">SAE [v.]<span class="slash">&nbsp;/ </span>Structure Artificielle d'Escalade<span class="slash">&nbsp;/ </span>mur [m.] d'escalade</dfn> <dfn lang="en">climbing wall</dfn>
 	klimmuur.</p>
 <p><dfn lang="fr">salle [v.] d'escalade</dfn> <dfn lang="en">climbing gym</dfn>
 	klimzaal/<wbr>&#8209;centrum. <dfn lang="fr">salle de bloc</dfn> <dfn lang="en">boulder gym</dfn> bouldergym. <dfn lang="en">bouldering wall</dfn> bouldermuur.</p>
 <p><dfn lang="en">to sandbag</dfn>
 	[lett. zich met zand&shy;zakken afschermen] zich indekken, doen alsof je geblesseerd of uit vorm bent. <dfn lang="en">sandbag</dfn> ondergewaardeerde route.</p>
 <p><dfn lang="fr">sangle</dfn> <dfn lang="en">webbing</dfn>
-	band (vlakke strook nylon), <dfn lang="fr">anneau [m.] de sangle</dfn> <dfn lang="en-GB">sling [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">runner [Am.]&#8239;/&hairsp;</dfn><dfn lang="en">loop of webbing</dfn> rondgeknoopt of &#8209;genaaid stuk band, om een rotsblok, aan een karabinerpaar, aan een <a href="#nut">nutje</a> etc. (soms ook &lsquo;bandslinger&rsquo; genoemd naar het Duitse <dfn lang="de">Bandschlinge</dfn>). <dfn lang="fr">sangle tubulaire</dfn> <dfn lang="en">tubular webbing</dfn> buisband, holle rondgewoven band.</p>
+	band (vlakke strook nylon), <dfn lang="fr">anneau [m.] de sangle</dfn> <dfn lang="en-GB">sling [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">runner [Am.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en">loop of webbing</dfn> rondgeknoopt of &#8209;genaaid stuk band, om een rotsblok, aan een karabinerpaar, aan een <a href="#nut">nutje</a> etc. (soms ook &lsquo;bandslinger&rsquo; genoemd naar het Duitse <dfn lang="de">Bandschlinge</dfn>). <dfn lang="fr">sangle tubulaire</dfn> <dfn lang="en">tubular webbing</dfn> buisband, holle rondgewoven band.</p>
 <p><dfn lang="fr">sauter</dfn> <dfn lang="en">to jump (off)</dfn>
 	(af)&shy;springen. <dfn lang="fr">sauter un point</dfn> <dfn lang="en">to waste a clip</dfn> een haak over&shy;slaan.</p>
 <p><dfn lang="fr">sec!</dfn> <dfn lang="en">tight (rope)!</dfn>
 	touw strak!, de klimmer wil het touw onder lichte spanning hebben staan. <dfn lang="fr">assurer sec</dfn> strak [lett. droog] zekeren. <dfn lang="en">to belay statically</dfn> statisch zekeren, <dfn lang="fr">sécher</dfn> een val als zekeraar niet-dynamisch opvangen.</p>
-<p><dfn lang="fr">grimper en second</dfn> <dfn lang="en">to second&#8239;/&hairsp;to follow</dfn>
+<p><dfn lang="fr">grimper en second</dfn> <dfn lang="en">to second<span class="slash">&nbsp;/ </span>to follow</dfn>
 	naklimmen. <dfn lang="fr">second</dfn> <dfn lang="en">second</dfn> naklimmer van een touwgroep.</p>
 <p><dfn lang="fr">secteur [m.]</dfn> <dfn lang="en">sector</dfn>
 	sector, deel van een klim&shy;gebied, draagt vaak de naam van een markante route.</p>
@@ -754,29 +754,29 @@
 <p><dfn lang="en">slot</dfn>
 	taps toe&shy;lopende gleuf waarin bv. een hand of een <a href="#nut">nut</a> goed ingeklemd kan worden.</p>
 <p><dfn lang="fr">solo [m.]</dfn> <dfn lang="en">solo</dfn>
-	solo, klimstijl waarbij iemand in z'n eentje klimt (in Groot-Britannië houdt dat tegelijker&shy;tijd in dat geen haken zijn gebruikt). <dfn lang="en">aid solo</dfn> solo met gebruik van haken. <dfn lang="en-US">free solo [Am.]</dfn> solo zonder gebruik van haken. <dfn lang="fr">grimper en solo&#8239;/&hairsp;soloer</dfn> <dfn lang="en">to solo</dfn> in je eentje klimmen, soleren.</p>
+	solo, klimstijl waarbij iemand in z'n eentje klimt (in Groot-Britannië houdt dat tegelijker&shy;tijd in dat geen haken zijn gebruikt). <dfn lang="en">aid solo</dfn> solo met gebruik van haken. <dfn lang="en-US">free solo [Am.]</dfn> solo zonder gebruik van haken. <dfn lang="fr">grimper en solo<span class="slash">&nbsp;/ </span>soloer</dfn> <dfn lang="en">to solo</dfn> in je eentje klimmen, soleren.</p>
 <p><dfn lang="fr">sommet [m.]</dfn> <dfn lang="en">summit</dfn>
 	top. <dfn lang="en">to summit</dfn> de top bereiken.</p>
 <p><dfn lang="fr">sortie [v.]</dfn> <dfn lang="en">exit</dfn>
 	uitklim, het eind van een route.</p>
 <p><dfn lang="fr">soutenu[e]</dfn> <dfn lang="en">sustained</dfn>
 	aanhoudend lastig.</p>
-<p><dfn lang="fr">Spit [m.]</dfn> [eig. een merknaam van <a href="https://www.spitpaslode.fr/fr/" target="_blank" rel="noopener">SPIT</a>]<dfn lang="fr">&#8239;/&hairsp;cheville [v.] autoforeuse</dfn> <dfn lang="en">self-drill bolt</dfn>
-	zelfborende boorhaak. <dfn lang="fr">placer un Spit&#8239;/&hairsp;spiter</dfn> zo'n boorhaak plaatsen.</p>
+<p><dfn lang="fr">Spit [m.]</dfn> [eig. een merknaam van <a href="https://www.spitpaslode.fr/fr/" target="_blank" rel="noopener">SPIT</a>]<dfn lang="fr"><span class="slash">&nbsp;/ </span>cheville [v.] autoforeuse</dfn> <dfn lang="en">self-drill bolt</dfn>
+	zelfborende boorhaak. <dfn lang="fr">placer un Spit<span class="slash">&nbsp;/ </span>spiter</dfn> zo'n boorhaak plaatsen.</p>
 <p><dfn lang="fr">stalactite [v.]</dfn> <dfn lang="en">stalactite</dfn>
 	stalactiet, hangende rotspunt.</p>
 <p><dfn lang="fr">stat(ique)</dfn> <dfn lang="en">static(ly)</dfn>
 	statisch, er wordt niet snel doorgepakt. <dfn lang="fr">mouvement [m.] statique</dfn> <dfn lang="en">static move</dfn> statische beweging, beweging die niet snel wordt uitgevoerd.</p>
-<p><dfn lang="fr">steak [m.]</dfn> [lett. biefstuk]<dfn lang="fr">&#8239;/&hairsp;chiquette [v.]</dfn>
+<p><dfn lang="fr">steak [m.]</dfn> [lett. biefstuk]<dfn lang="fr"><span class="slash">&nbsp;/ </span>chiquette [v.]</dfn>
 	gat in de huid van de hand, waar een stuk opperhuid eraf is. <dfn lang="en">flapper</dfn> losliggend of losgerukt stuk huid. <dfn lang="fr">je me suis fait un steak</dfn> <dfn lang="en">I've ripped a flapper</dfn> ik heb er een stuk huid afgetrokken.</p>
 <p><dfn lang="fr">sudiste</dfn>
-	[eig. Zuidelijk in de Amerikaanse secessie-oorlog] uit het zuiden van Frankrijk, waar de rotsen zijn&#8239;/&hairsp;klimmer uit het zuiden van Frankrijk; <dfn lang="fr">les sudistes</dfn> hadden vroeger weleens onenigheid met <dfn lang="fr"><a href="https://fr.wikipedia.org/wiki/Gang_des_Parisiens" target="_blank" rel="noopener">le Gang des Parisiens</a></dfn> (met als voornaamste leden <a href="https://fr.wikipedia.org/wiki/Antoine_Le_Menestrel" target="_blank" rel="noopener">Antoine</a> en <a href="https://fr.wikipedia.org/wiki/Marc_Le_Menestrel" target="_blank" rel="noopener">Marc Le Menestrel</a> en <a href="https://fr.wikipedia.org/wiki/Jean-Baptiste_Tribout" target="_blank" rel="noopener">Jean-Baptiste Tribout</a>).</p>
+	[eig. Zuidelijk in de Amerikaanse secessie-oorlog] uit het zuiden van Frankrijk, waar de rotsen zijn<span class="slash">&nbsp;/ </span>klimmer uit het zuiden van Frankrijk; <dfn lang="fr">les sudistes</dfn> hadden vroeger weleens onenigheid met <dfn lang="fr"><a href="https://fr.wikipedia.org/wiki/Gang_des_Parisiens" target="_blank" rel="noopener">le Gang des Parisiens</a></dfn> (met als voornaamste leden <a href="https://fr.wikipedia.org/wiki/Antoine_Le_Menestrel" target="_blank" rel="noopener">Antoine</a> en <a href="https://fr.wikipedia.org/wiki/Marc_Le_Menestrel" target="_blank" rel="noopener">Marc Le Menestrel</a> en <a href="https://fr.wikipedia.org/wiki/Jean-Baptiste_Tribout" target="_blank" rel="noopener">Jean-Baptiste Tribout</a>).</p>
 <p><dfn lang="fr">superfinale [m.]</dfn> <dfn lang="en">superfinal</dfn>
 	superfinale, extra route bij een wedstrijd als er in de finale meer dan één boven gekomen is.</p>
 <p><dfn lang="en">supertape</dfn>
 	smal soort nylon band.</p>
 <p><dfn lang="fr">surdur[e]</dfn>
-	heel erg zwaar&#8239;/&hairsp;moeilijk.</p>
+	heel erg zwaar<span class="slash">&nbsp;/ </span>moeilijk.</p>
 <p><dfn lang="fr">surgras[se]</dfn>
 	heel erg vet.</p>
 <p><dfn lang="en-US">swami belt [Am.]</dfn>
@@ -784,10 +784,10 @@
 
 <h3 id="T">T</h3>
 <p><dfn lang="en">tape</dfn>
-	nylon band, tape, <dfn lang="en">duct&#8239;/&hairsp;duck</dfn> [eig. een product&shy;naam]<dfn lang="en"> tape</dfn> versterkt tape, meest&shy;al gebruikt voor repa&shy;raties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sport&shy;tape. <dfn lang="fr">se strapper</dfn> <dfn lang="en">to tape up</dfn> zich intapen.</p>
-<p><dfn lang="fr">taper&#8239;/&hairsp;tirer un essai</dfn>
+	nylon band, tape, <dfn lang="en">duct<span class="slash">&nbsp;/ </span>duck</dfn> [eig. een product&shy;naam]<dfn lang="en"> tape</dfn> versterkt tape, meest&shy;al gebruikt voor repa&shy;raties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sport&shy;tape. <dfn lang="fr">se strapper</dfn> <dfn lang="en">to tape up</dfn> zich intapen.</p>
+<p><dfn lang="fr">taper<span class="slash">&nbsp;/ </span>tirer un essai</dfn>
 	een poging trekken (in een route, totdat je hem rotpunkt hebt gedaan). <dfn lang="en">redpoint burn</dfn> poging een route in één keer te klimmen.</p>
-<p><dfn lang="fr">tapis [m.]&#8239;/&hairsp;paillasson [m.]&#8239;/&hairsp;moquette [v.]</dfn> <dfn lang="en">mat</dfn>
+<p><dfn lang="fr">tapis [m.]<span class="slash">&nbsp;/ </span>paillasson [m.]<span class="slash">&nbsp;/ </span>moquette [v.]</dfn> <dfn lang="en">mat</dfn>
 	(start&#8209;)<wbr>matje.</p>
 <p><dfn lang="fr">strate [v.]</dfn>
 	horizontale laag in de rots. <dfn lang="fr">stratifié[e]</dfn> <dfn lang="en">stratified</dfn> gelaagd.</p>
@@ -817,35 +817,35 @@
 	touw-wrijving.</p>
 <p><dfn lang="fr" id="toit">toit [m.]</dfn> <dfn lang="en">roof</dfn>
 	dak, stuk rots dat een afdakje vormt.</p>
-<p><dfn lang="fr">tomber&#8239;/&hairsp;voler&#8239;/&hairsp;prendre un plomb</dfn> <dfn lang="en">to fall</dfn>
+<p><dfn lang="fr">tomber<span class="slash">&nbsp;/ </span>voler<span class="slash">&nbsp;/ </span>prendre un plomb</dfn> <dfn lang="en">to fall</dfn>
 	vallen.</p>
 <p><dfn lang="fr">topo [m.]</dfn> <dfn lang="en">topo</dfn>
 	topo, klimgidsje, schets van de routes in een gebied.</p>
 <p><dfn lang="fr">touché-tenu [m.]</dfn>
 	trainings&shy;vorm waarbij on sight geklommen wordt en elke aan&shy;geraakte greep gebruikt wordt.</p>
-<p><dfn lang="fr">toucher au sol</dfn> <dfn lang="en">to hit the deck&#8239;/&hairsp;</dfn><dfn lang="en-US">to crater [Am.]</dfn>
+<p><dfn lang="fr">toucher au sol</dfn> <dfn lang="en">to hit the deck<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to crater [Am.]</dfn>
 	de grond raken bij een val. <dfn lang="en-US">to bounce [Am.]</dfn> een doodsmak maken.</p>
 <p><dfn lang="en">trad(itional) (climbing)</dfn>
 	traditionele stijl, waarbij voor de afzekering alleen gebruik wordt gemaakt van <a href="#nut">nutjes</a> en <a href="#friend">friends</a> en dergelijke. <dfn lang="en">trad(itional) route</dfn> route die in deze stijl wordt geklommen. <dfn lang="en">trad fall</dfn> een val in een traditionele route, vaak gevaarlijk.</p>
 <p><dfn lang="fr">après travail</dfn>
-	na instuderen (van een route). <dfn lang="fr">travailler les mouvements</dfn> <dfn lang="en">to work the moves&#8239;/&hairsp;to rehearse</dfn> bewegingen uitwerken&#8239;/&hairsp;instuderen [zie ook <a lang="en-GB" href="#to-hangdog">to (hang)<wbr>dog</a>].</p>
+	na instuderen (van een route). <dfn lang="fr">travailler les mouvements</dfn> <dfn lang="en">to work the moves<span class="slash">&nbsp;/ </span>to rehearse</dfn> bewegingen uitwerken<span class="slash">&nbsp;/ </span>instuderen [zie ook <a lang="en-GB" href="#to-hangdog">to (hang)<wbr>dog</a>].</p>
 <p><dfn lang="fr">traverser</dfn> <dfn lang="en">to traverse</dfn>
 	opzij klimmen. <dfn lang="fr">traversée [v.]</dfn> <dfn lang="en">traverse</dfn> passage waar je opzij klimt. <dfn lang="fr">trav [m.]</dfn> samen&shy;stelling van klim&shy;bewegingen op een boulderwand.</p>
 <p><dfn lang="fr">tridoigt [m.]</dfn> <dfn lang="en">threefingerpocket</dfn>
 	drievingergreep.</p>
 <p><dfn lang="fr">trou [m.]</dfn> <dfn lang="en">pocket</dfn>
-	gat. <dfn lang="fr">escalade [v.] à trous</dfn> <dfn lang="en">pocket climbing&#8239;/&hairsp;pocketing</dfn> met je handen&#8239;/&hairsp;voeten in gaten klimmen. <dfn lang="en">toe pocket</dfn> gat dat als tree gebruikt wordt.</p>
+	gat. <dfn lang="fr">escalade [v.] à trous</dfn> <dfn lang="en">pocket climbing<span class="slash">&nbsp;/ </span>pocketing</dfn> met je handen<span class="slash">&nbsp;/ </span>voeten in gaten klimmen. <dfn lang="en">toe pocket</dfn> gat dat als tree gebruikt wordt.</p>
 
 <h3 id="U">U</h3>
-<p><dfn lang="fr" id="UIAA"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA [v.]&#8239;/&hairsp;Union Internationale des Associations d'Alpinisme</a></dfn> <dfn lang="en"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA</a></dfn>
+<p><dfn lang="fr" id="UIAA"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA [v.]<span class="slash">&nbsp;/ </span>Union Internationale des Associations d'Alpinisme</a></dfn> <dfn lang="en"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA</a></dfn>
 	federatie van nationale alpen&shy;verenigingen, stelt ook normering vast voor klimmateriaal.</p>
 
 <h3 id="V">V</h3>
 <p><dfn lang="fr">se vacher</dfn>
-	zich vastmaken aan het relais. <dfn lang="fr">vaché[e]!</dfn> ik zit vast&#8239;/&hairsp;ik heb een zelf&shy;zekering! <dfn lang="en-GB">(I'm) safe [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">off belay [Am.]!</dfn> je kunt me losmaken!</p>
+	zich vastmaken aan het relais. <dfn lang="fr">vaché[e]!</dfn> ik zit vast<span class="slash">&nbsp;/ </span>ik heb een zelf&shy;zekering! <dfn lang="en-GB">(I'm) safe [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">off belay [Am.]!</dfn> je kunt me losmaken!</p>
 <p><dfn lang="fr">varappe [v.]</dfn>
 	ouderwetse term voor klimmen.</p>
-<p><dfn lang="fr">vas y&#8239;/&hairsp;quand tu veux!</dfn> <dfn lang="en-GB">(climb) when ready [Br.]&#8239;/&hairsp;</dfn><dfn lang="en-US">belay on [Am.]!</dfn>
+<p><dfn lang="fr">vas y<span class="slash">&nbsp;/ </span>quand tu veux!</dfn> <dfn lang="en-GB">(climb) when ready [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">belay on [Am.]!</dfn>
 	kom maar!, melding dat de naklimmer gezekerd wordt en kan komen.</p>
 <p><dfn lang="fr">je suis vert[e]</dfn> <dfn lang="en">I'm scared shitless</dfn>
 	ik schijt peuken.</p>
@@ -860,14 +860,14 @@
 <p><dfn lang="fr">vol [m.]</dfn>
 	vlucht, val.</p>
 <p><dfn lang="fr">volume [m.]</dfn> <dfn lang="en">volume</dfn>
-	volume, groot object dat op een klim&shy;muur&#8239;/&hairsp;boulder is geschroefd.</p>
+	volume, groot object dat op een klim&shy;muur<span class="slash">&nbsp;/ </span>boulder is geschroefd.</p>
 <p><dfn lang="fr">voie [v.]</dfn> <dfn lang="en">route</dfn>
 	klimroute. <dfn lang="fr">grande voie</dfn> grote route, route met vele touwlengten (bv. in de Alpen). <dfn lang="en">multi-pitch route</dfn> route met meerdere touwlengten.</p>
 <p><dfn lang="fr">à-vue [m.]</dfn> <dfn lang="en" id="on-sight">on sight</dfn>
 	klimstijl waarbij een route in één keer geklommen wordt, voor&shy;informatie is niet toegestaan, je mag zelfs niet iemand in de route hebben zien klimmen (de term wordt in Frankrijk en in klimbladen ook wel ten onrechte voor <a href="#flash">flash</a> gebruikt), het klimmen van een route op deze manier. <dfn lang="fr">faire du à-vue</dfn> <dfn lang="en">to climb on sight</dfn> on sight klimmen. <dfn lang="fr">passer à-vue</dfn> iets on sight doen.</p>
 
 <h3 id="W">W</h3>
-<p><dfn lang="en">wired nut&#8239;/&hairsp;wire</dfn>
+<p><dfn lang="en">wired nut<span class="slash">&nbsp;/ </span>wire</dfn>
 	staalkabel-<a href="#nut">nut</a>.</p>
 
 <h3 id="X">X</h3>
@@ -879,5 +879,5 @@
 	klimstijl waarbij je &lsquo;vrij&rsquo;-klimt, maar na een val het touw in de karabiners laat (een tegenwoordig weinig gebruikte stijl, die nuttig kan zijn bij slecht af te zekeren routes).</p>
 
 <h3 id="Z">Z</h3>
-<p><dfn lang="fr">zipper&#8239;/&hairsp;riper&#8239;/&hairsp;glisser</dfn>
-	weg-&#8239;/&hairsp;uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
+<p><dfn lang="fr">zipper<span class="slash">&nbsp;/ </span>riper<span class="slash">&nbsp;/ </span>glisser</dfn>
+	weg-<span class="slash">&nbsp;/ </span>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
