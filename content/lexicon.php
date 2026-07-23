@@ -469,7 +469,7 @@
 	acht, aluminium achtvorm gebruikt om mee te zekeren en af te touwen. <dfn lang="fr">huit italien<span class="slash">&nbsp;/ </span>huit autobloquant</dfn> het gebruik van een acht als stijgklem, door in het grote oog in te klippen en het touw gekruisd in te hangen. <dfn lang="fr">huit rapide</dfn> het gebruik van een acht met het touw door de karabiner in plaats van om de acht, om de wrijving te verminderen en sneller touw te kunnen geven (in Nederland soms zekeren &lsquo;op z'n Frans&rsquo; genoemd).</p>
 
 <h3 id="I">I</h3>
-<p><dfn lang="fr"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">Fédération&nbsp;[v.] inter&shy;nationale d'escalade</a></dfn> <dfn lang="en"><a href="https://www.ifsc-climbing.org/" target="_blank" rel="noopener">IFSC<span class="slash">&nbsp;/ </span>Inter&shy;national Federation of Sport Climbing</a></dfn>
+<p><dfn lang="fr"><a href="https://www.worldclimbing.com/" target="_blank" rel="noopener">Fédération&nbsp;[v.] inter&shy;nationale d'escalade</a></dfn> <dfn lang="en"><a href="https://www.worldclimbing.com/" target="_blank" rel="noopener">IFSC<span class="slash">&nbsp;/ </span>Inter&shy;national Federation of Sport Climbing</a></dfn>
 	inter&shy;nationale over&shy;koepelende sport&shy;federatie voor sportklimmen.</p>
 <p><dfn lang="fr">ça parait improbable</dfn> <dfn lang="en">that seems impossible</dfn>
 	dat lijkt onmogelijk.</p>
