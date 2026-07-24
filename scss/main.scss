@@ -50,7 +50,6 @@ $width-unit: 4.75px;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
-    hyphens: auto;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
     color: $text-color;
@@ -218,6 +217,10 @@ a:focus {
 
 /* language specifics */
 
+:lang(nl) {
+    hyphens: auto;
+}
+
 strong,
 b,
 h1,
@@ -254,8 +257,7 @@ dfn {
 }
 
 .slash {
-    letter-spacing: -0.075em;
-    margin-left: -0.05em;
+    word-spacing: -0.15em;
 }
 
 
