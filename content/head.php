@@ -45,10 +45,10 @@ new Promise((resolve, reject) => {
 
 new ActiveLink(document.querySelectorAll('#alphabet a'));
 
-document.querySelectorAll('a[href^="mailto:"]')
+document.querySelectorAll('a[href^="mailto:"], a[href^="tel:"]')
     .forEach(mailLink => mailLink.href = mailLink.href
         .replace(
-            /(?<=mailto:).*/i,
+            /(?<=mailto:|tel:).*/,
             source => [...source].map(char => table[char] ?? char).join('')
     ));
 </script>
