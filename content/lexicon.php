@@ -177,8 +177,8 @@
 	handen&shy;wissel. <dfn lang="fr">changement de pied</dfn> voeten&shy;wissel.</p>
 <p><dfn lang="fr">charger une prise</dfn> <dfn lang="en">to weigh a hold</dfn>
 	een greep of tree belasten.</p>
-<p><dfn lang="fr">chausson [m] d'escalade (a tige basse<span class="slash">&nbsp;/ </span>haute)</dfn> <dfn lang="en">climbing (shoe<span class="slash">&nbsp;/ </span>boot)<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rock (shoe<span class="slash">&nbsp;/ </span>boot) [Am.]</dfn>
-	(lage<span class="slash">&nbsp;/ </span>hoge) klimschoen.</p>
+<p><dfn lang="fr">chausson [m] d'escalade (a tige basse/<wbr>haute)</dfn> <dfn lang="en">climbing shoe/<wbr>boot<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rock shoe/<wbr>boot [Am.]</dfn>
+	(lage/<wbr>hoge) klimschoen.</p>
 <p><dfn lang="en" id="cheater-stick">cheater stick</dfn>
 	lange stok waarmee het touw in een haak gehangen wordt, ook gebruikt voor artificieel klimmen.</p>
 <p><dfn lang="en" id="cheater-stone">cheater stone</dfn>
@@ -880,4 +880,4 @@
 
 <h3 id="Z">Z</h3>
 <p><dfn lang="fr">zipper<span class="slash">&nbsp;/ </span>riper<span class="slash">&nbsp;/ </span>glisser</dfn>
-	weg-<span class="slash">&nbsp;/ </span>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
+	weg-/<wbr>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
