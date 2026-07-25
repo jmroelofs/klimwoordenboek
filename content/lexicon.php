@@ -218,7 +218,7 @@
 <p><dfn lang="fr">compression [v.]</dfn> <dfn lang="en">compression</dfn>
 	het samen&shy;persen, omklemmen van een stuk rots. <dfn lang="fr">grimper en compression</dfn> <dfn lang="en">fridge hugging</dfn> klimmen met compressie.</p>
 <p><dfn lang="fr">conditions [v.]</dfn> <dfn lang="en">conditions</dfn>
-	omstandigheden, rots- en weers&shy;gesteldheid. <dfn lang="fr">des bonnes conditions</dfn> <dfn lang="en">good<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-GB">superb [Br.]</dfn><dfn lang="en"> conditions</dfn> goede omstandigheden, droog en koud. <dfn lang="fr">des mauvaises conditions</dfn> <dfn lang="en">bad conditions</dfn> slechte omstandigheden, vochtig en warm.</p>
+	omstandig&shy;heden, rots- en weers&shy;gesteldheid. <dfn lang="fr">des bonnes conditions</dfn> <dfn lang="en">good<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-GB">superb [Br.]</dfn><dfn lang="en"> conditions</dfn> goede omstandig&shy;heden, droog en koud. <dfn lang="fr">des mauvaises conditions</dfn> <dfn lang="en">bad conditions</dfn> slechte omstandigheden, vochtig en warm.</p>
 <p><dfn lang="fr">conduit [m.]</dfn>
 	een langzame, gecontroleerd uit&shy;gevoerde dynamische beweging.</p>
 <p><dfn lang="fr">conque [v.]</dfn> <dfn lang="en">scoop</dfn>
@@ -234,15 +234,15 @@
 <p><dfn lang="fr">corniche [v.]</dfn> <dfn lang="en">cornice</dfn>
 	[lett. kroonlijst] overhangende rand.</p>
 <p><dfn lang="fr"><a href="https://www.cosiroc.fr/" target="_blank" rel="noopener">CO.SI.ROC [m.]<span class="slash">&nbsp;/ </span>Comité de défense des sites et des rochers d'escalade</a></dfn>
-	samenwerkings&shy;verband van verschillende verenigingen dat zich bezighoudt met creatie, onderhoud en bescherming van klim&shy;gebieden.</p>
+	samen&shy;werkings&shy;verband van verschillende verenigingen dat zich bezig&shy;houdt met creatie, onderhoud en bescherming van klim&shy;gebieden.</p>
 <p><dfn lang="fr">cotation [v.]</dfn> <dfn lang="en-GB"><a href="waarderingen#technical-grade">technical grade [Br.]</a><span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rating [Am.]</dfn>
-	technische moeilijk&shy;heids&shy;graad (zwaarte van de moeilijkste pas), <dfn lang="en-GB"><a href="waarderingen#adjectival-grade">E&#8209;grade [Br.]<span class="slash">&nbsp;/ </span>adjectival grade [Br.]</a><span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">grade [Am.]</dfn> algemene moeilijkheids&shy;graad (een combinatie van moeilijk&shy;heid en gevaarlijk&shy;heid). <dfn lang="fr">échelle [v.] de cotation</dfn> <dfn lang="en-GB">grading system [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rating system [Am.]</dfn> moeilijkheids&shy;schaal, waarderings&shy;systeem.</p>
+	technische moeilijk&shy;heids&shy;graad (zwaarte van de moeilijkste pas), <dfn lang="en-GB"><a href="waarderingen#adjectival-grade">E&#8209;grade [Br.]<span class="slash">&nbsp;/ </span>adjectival grade [Br.]</a><span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">grade [Am.]</dfn> algemene moeilijk&shy;heids&shy;graad (een combinatie van moeilijk&shy;heid en gevaarlijk&shy;heid). <dfn lang="fr">échelle [v.] de cotation</dfn> <dfn lang="en-GB">grading system [Br.]<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">rating system [Am.]</dfn> moeilijkheids&shy;schaal, waarderings&shy;systeem.</p>
 <p><dfn lang="fr">de côté<span class="slash">&nbsp;/ </span>de profil</dfn>
 	zijdelings ingedraaid. <dfn lang="fr">prise [v.] de coté</dfn> <dfn lang="en">lay-away<span class="slash">&nbsp;/ </span>side-pull</dfn> zijgreep.</p>
 <p><dfn lang="fr">couché[e]</dfn> <dfn lang="en">less than vertical</dfn>
 	liggend.</p>
 <p><dfn lang="fr">machine [v.] à coudre</dfn> <dfn lang="en">sewing-machine leg<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">Elvis leg [Am.]</dfn>
-	naai&shy;machine&#8209;, trilbenen, veroorzaakt door zenuw&shy;achtigheid of onfitheid.</p>
+	naai&shy;machine&#8209;, tril&shy;benen, veroorzaakt door zenuw&shy;achtigheid of onfitheid.</p>
 <p><dfn lang="fr">couenne [v.]</dfn>
 	[lett. zwoerd, randje] korte lastige route.</p>
 <p><dfn lang="fr">ça craint</dfn>
@@ -252,7 +252,7 @@
 <p><dfn lang="fr">crash-pad [m.]</dfn> <dfn lang="en">crash pad</dfn>
 	landingsmat.</p>
 <p><dfn lang="fr">crawl [m.]</dfn>
-	verre kruisbeweging bovenlangs.</p>
+	verre kruis&shy;beweging bovenlangs.</p>
 <p><dfn lang="fr">crépi [m.]</dfn>
 	[lett. stucwerk] stuk rots met veel randjes, gaatjes etc.</p>
 <p><dfn lang="fr">prise [v.] en creux</dfn>
@@ -264,7 +264,7 @@
 <p><dfn lang="fr">croiser</dfn> <dfn lang="en">to cross</dfn>
 	kruisen. <dfn lang="fr">croisé [v.]</dfn> <dfn lang="en">cross-move</dfn> kruispas, bij klim&shy;beweging de ene arm over de andere kruisen. <dfn lang="fr">décroisé [v.]</dfn> de pas na een kruis&shy;pas, waarbij ontkruist wordt. <dfn lang="fr">décroiser</dfn> ontkruisen.</p>
 <p><dfn lang="fr">faire un croix</dfn>
-	een kruisje zetten, <dfn lang="en">to tick a route<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to send [Am.]</dfn> een route drukken. <dfn lang="en-US">send burn [Am.]</dfn> poging waarbij je een route in één keer klimt. <dfn lang="en-US">send train [Am.]</dfn> meerdere klimmers die een route of boulder na elkaar succesvol klimmen. <dfn lang="en">a nice tick</dfn> een aanrader, een mooie prestatie. <dfn lang="fr">faire un anti-croix</dfn> iets doen dat slecht is voor de vorm (zuipen bv.).</p>
+	een kruisje zetten, <dfn lang="en">to tick a route<span class="slash">&nbsp;/ </span></dfn><dfn lang="en-US">to send [Am.]</dfn> een route drukken. <dfn lang="en-US">send burn [Am.]</dfn> poging waarbij je een route in één keer klimt. <dfn lang="en-US">send train [Am.]</dfn> meerdere klimmers die een route of boulder na elkaar succes&shy;vol klimmen. <dfn lang="en">a nice tick</dfn> een aan&shy;rader, een mooie prestatie. <dfn lang="fr">faire un anti-croix</dfn> iets doen dat slecht is voor de vorm (zuipen bv.).</p>
 <p><dfn lang="fr">cuissard [m.]</dfn>
 	heupgordel.</p>
 <p><dfn lang="fr">cupule [v.]</dfn>
@@ -704,7 +704,7 @@
 <p><dfn lang="fr">résine [v.]</dfn> <dfn lang="en">resin</dfn>
 	hars, ook kunsthars, waar grepen van gemaakt zijn. <dfn lang="fr">résine époxyde<span class="slash">&nbsp;/ </span>époxy&shy;acrylique</dfn> <dfn lang="en">epoxide<span class="slash">&nbsp;/ </span>epoxy&shy;acrylic resin</dfn> epoxy&shy;hars<span class="slash">&nbsp;/ </span>epoxy&shy;acryl&shy;hars, gebruikt voor het bevestigen van haken, en soms ook voor het verstevigen of bijwerken<span class="slash">&nbsp;/ </span>bijmaken van grepen of treetjes.</p>
 <p><dfn lang="fr">résistance [v.]</dfn>
-	kracht&shy;uithoudingsvermogen.</p>
+	kracht&shy;uithoudings&shy;vermogen.</p>
 <p><dfn lang="fr">réta(blissement) [m.]</dfn>
 	klimbeweging waarbij je je opricht op een rand. <dfn lang="en">mantle</dfn> klim&shy;beweging waarbij je je opdrukt. <dfn lang="fr">se rétablir</dfn> zich oprichten. <dfn lang="en">to mantle</dfn> zich opdrukken. <dfn lang="en-GB">rock-over</dfn> klim&shy;beweging waarbij je het gewicht op een hoog geplaatste voet brengt. <dfn lang="fr">basculer</dfn> <dfn lang="en-GB">to rock-over</dfn> het gewicht op een hoog geplaatste voet brengen.</p>
 <p><dfn lang="fr">retors[e]</dfn>
