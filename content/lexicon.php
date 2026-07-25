@@ -102,7 +102,7 @@
 <p><dfn lang="fr">bloquer</dfn> <dfn lang="en">to lock off</dfn>
 	&lsquo;blokkeren&rsquo;, een greep vast&shy;houden. <dfn lang="fr">blocage [m.] bas</dfn> <dfn lang="en">low lock-off</dfn> lage &lsquo;blokkage&rsquo; (om ver statisch door te kunnen pakken).</p>
 <p><dfn lang="en-GB"><a href="https://www.thebmc.co.uk/" target="_blank" rel="noopener">BMC<span class="slash">&nbsp;/ </span>British Mountaineering Council</a></dfn>
-	Britse bergsport&shy;federatie.</p>
+	Britse berg&shy;sport&shy;federatie.</p>
 <p><dfn lang="fr">boeuf [m.]</dfn>
 	[lett. stier] <dfn lang="en">thug</dfn> beest, botterik. <dfn lang="fr">boeuf</dfn> <dfn lang="en">thuggish</dfn> beest&shy;achtig, lomp.</p>
 <p><dfn lang="fr">boîte [v.] aux lettres</dfn>
@@ -774,7 +774,7 @@
 <p><dfn lang="fr">superfinale [m.]</dfn> <dfn lang="en">superfinal</dfn>
 	superfinale, extra route bij een wedstrijd als er in de finale meer dan één boven gekomen is.</p>
 <p><dfn lang="en">supertape</dfn>
-	smal soort nylon band.</p>
+	tape voor je vingers met weining rek.</p>
 <p><dfn lang="fr">surdur[e]</dfn>
 	heel erg zwaar<span class="slash">&nbsp;/ </span>moeilijk.</p>
 <p><dfn lang="fr">surgras[se]</dfn>
@@ -860,11 +860,11 @@
 <p><dfn lang="fr">vol [m.]</dfn>
 	vlucht, val.</p>
 <p><dfn lang="fr">volume [m.]</dfn> <dfn lang="en">volume</dfn>
-	volume, groot object dat op een klim&shy;muur<span class="slash">&nbsp;/ </span>boulder is geschroefd.</p>
+	volume, groot object dat op een klim&shy;muur/<wbr>boulder is geschroefd.</p>
 <p><dfn lang="fr">voie [v.]</dfn> <dfn lang="en">route</dfn>
-	klimroute. <dfn lang="fr">grande voie</dfn> grote route, route met vele touwlengten (bv. in de Alpen). <dfn lang="en">multi-pitch route</dfn> route met meerdere touwlengten.</p>
+	klimroute. <dfn lang="fr">grande voie</dfn> grote route, route met vele touw&shy;lengten (bv. in de Alpen). <dfn lang="en">multi-pitch route</dfn> route met meerdere touwlengten.</p>
 <p><dfn lang="fr">à-vue [m.]</dfn> <dfn lang="en" id="on-sight">on sight</dfn>
-	klimstijl waarbij een route in één keer geklommen wordt, voor&shy;informatie is niet toegestaan, je mag zelfs niet iemand in de route hebben zien klimmen (de term wordt in Frankrijk en in klimbladen ook wel ten onrechte voor <a href="#flash">flash</a> gebruikt), het klimmen van een route op deze manier. <dfn lang="fr">faire du à-vue</dfn> <dfn lang="en">to climb on sight</dfn> on sight klimmen. <dfn lang="fr">passer à-vue</dfn> iets on sight doen.</p>
+	klimstijl waarbij een route in één keer geklommen wordt, voor&shy;informatie is niet toegestaan, je mag zelfs niet iemand in de route hebben zien klimmen (de term wordt in Frankrijk en in klim&shy;bladen ook wel ten onrechte voor <a href="#flash">flash</a> gebruikt), het klimmen van een route op deze manier. <dfn lang="fr">faire du à-vue</dfn> <dfn lang="en">to climb on sight</dfn> on sight klimmen. <dfn lang="fr">passer à-vue</dfn> iets on sight doen.</p>
 
 <h3 id="W">W</h3>
 <p><dfn lang="en">wired nut<span class="slash">&nbsp;/ </span>wire</dfn>
