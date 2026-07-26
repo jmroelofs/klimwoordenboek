@@ -174,9 +174,8 @@ h3,
 
 p {
     text-align: justify;
-    text-indent: -$text-indent;
+    text-indent: $text-indent hanging;
     margin-block: 0;
-    padding-left: $text-indent;
 }
 
 dfn {
