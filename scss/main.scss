@@ -118,15 +118,6 @@ section {
             shape-outside: content-box;
             break-inside: avoid;
         }
-
-        /* fix for firefox splitting h3 in columns */
-        h3:after {
-            content: " \00A0";
-        }
-
-        h3:target:after {
-            text-decoration: underline $background-color 2px;
-        }
     }
 }
 
