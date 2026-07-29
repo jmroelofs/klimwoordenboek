@@ -43,7 +43,7 @@ class FlowingColumns {
         // calculate height of spacer
         let calculatedHeight;
 
-        if (spacerBottom >= lastParagraphBottom) {
+        if (spacerBottom >= lastParagraphBottom - offsetDifference) {
             // we are overshooting
             // console.log('[flowColumns] overshooting');
 
@@ -61,7 +61,7 @@ class FlowingColumns {
 
         // add an extra margin on top
         const
-            safetyMargin = this.#headerHeight / 2,
+            safetyMargin = this.#paragraphLineHeight / 2,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
