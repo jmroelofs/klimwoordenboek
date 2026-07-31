@@ -28,6 +28,12 @@ $color-even: oklch(0.89 0.05 225.57);
 $color-odd: oklch(0.86 0.05 225.57);
 
 
+/* margins */
+
+$main-right-margin: 3.1%;
+$main-right-margin-small-screen: 3vw;
+
+
 /* use golden ratio */
 
 $ratio: 1.618;
@@ -78,14 +84,14 @@ header {
 }
 
 main {
-    margin: 0 3.1% 2rlh 1.6%
+    margin: 0 $main-right-margin 2rlh 1.6%;
 }
 
 
 /*  to get a right margin on smaller screens */
 
 section {
-    padding-right: 3.1%;
+    padding-right: $main-right-margin;
 }
 
 
@@ -251,36 +257,6 @@ dfn {
 }
 
 
-/* make left column pushable to the left on a small screen */
-
-@media (width < 550px) {
-    body {
-        min-width: max(400px, 135vw);
-    }
-
-    main {
-        margin-right: 3vw;
-
-        h3 {
-            scroll-margin-right: 3vw;
-        }
-    }
-
-    #grading-tables section {
-        padding-right: 3vw;
-    }
-}
-
-
-/* adjust header text alignment on smaller screens */
-
-@container (width < 185px) {
-    header p {
-        text-align: left;
-    }
-}
-
-
 /* grading tables */
 
 .grading-table {
@@ -291,7 +267,7 @@ dfn {
     &:hover::before {
         content: "";
         position: absolute;
-        inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
+        inset: -$vertical-adjust-for-font $main-right-margin $vertical-adjust-for-font 0;
         z-index: -1;
         background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
     }
@@ -339,6 +315,40 @@ section p {
     position: sticky;
     width: max-content;
     left: 1.2%;
+}
+
+
+/* make left column pushable to the left on a small screen */
+
+@media (width < 550px) {
+    body {
+        min-width: max(400px, 135vw);
+    }
+
+    main {
+        margin-right: $main-right-margin-small-screen;
+
+        h3 {
+            scroll-margin-right: $main-right-margin-small-screen;
+        }
+    }
+
+    section {
+        padding-right: $main-right-margin-small-screen;
+    }
+
+    .grading-table:hover::before {
+        right: $main-right-margin-small-screen;
+    }
+}
+
+
+/* adjust header text alignment on smaller screens */
+
+@container (width < 185px) {
+    header p {
+        text-align: left;
+    }
 }
 
 
