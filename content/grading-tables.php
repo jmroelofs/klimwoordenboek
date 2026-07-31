@@ -220,8 +220,9 @@
       <td class="w-8">8b</td>
       <td class="w-8">8b<sup>+</sup></td>
       <td class="w-8">8c</td>
-      <td class="w-8">8c+<sup>+</sup></td>
+      <td class="w-8">8c<sup>+</sup></td>
       <td class="w-8">9a</td>
+      <td class="w-8">9a<sup>+</sup></td>
     </tr>
   </table>
   <p><a href="waarderingen#V-scale">Amerikaans<span class="slash">&nbsp;/ </span>Australisch</a></p>
@@ -246,6 +247,7 @@
       <td class="w-8">V15</td>
       <td class="w-8">V16</td>
       <td class="w-8">V17</td>
+      <td class="w-8">V18</td>
     </tr>
   </table>
   <p><a href="waarderingen#cotation-traverse">Traversewaardering (Frans)</a></p>
