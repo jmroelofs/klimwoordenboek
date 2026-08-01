@@ -646,7 +646,7 @@
 <p><dfn lang="fr">poulie [v.]</dfn> <dfn lang="en">pulley</dfn>
 	katrol. <dfn lang="fr">A2-poulie</dfn> <dfn lang="en">A2 pulley</dfn> (A2&#8209;)<wbr>ring&shy;bandje dat een vinger&shy;pees op z'n plek houdt. <dfn lang="en">A2 pulley injury<span class="slash">&nbsp;/ </span>pulled tendon</dfn> beschadiging van dit ringbandje.</p>
 <p><dfn lang="fr">poutre [v.] (de traction)</dfn>
-	(trainings)&shy;balk. <dfn lang="en">fingerboard<span class="slash">&nbsp;/ </span>trainingboard</dfn> trainingsplank.</p>
+	(trainings)&shy;balk. <dfn lang="en">fingerboard<span class="slash">&nbsp;/ </span>trainingboard</dfn> trainings&shy;plank.</p>
 <p><dfn lang="fr">préhension [v.]</dfn>
 	het pakken, de manier van pakken van een greep.</p>
 <p><dfn lang="fr">grimper en premier<span class="slash">&nbsp;/ </span>grimper en tête</dfn> <dfn lang="en">to climb on lead<span class="slash">&nbsp;/ </span>to lead</dfn>
