@@ -380,7 +380,7 @@
 <p><dfn lang="fr">de face</dfn>
 	met je lichaam naar de wand gedraaid.</p>
 <p><dfn lang="fr">mouvement [m.] dynamique</dfn> <dfn lang="en">dynamic move<span class="slash">&nbsp;/ </span>lunge</dfn>
-	dynamische beweging. <dfn lang="fr">faire un mouvement dynamique</dfn> <dfn lang="en">to dyno<span class="slash">&nbsp;/ </span>lunge</dfn> een dynamische beweging maken. <dfn lang="en">slap</dfn> beweging waarbij snel met één hand door&shy;gegrepen wordt. <dfn lang="en">to slap (for a hold)</dfn> snel met één hand door&shy;grijpen (naar een greep).</p>
+	dynamische beweging. <dfn lang="fr">faire un mouvement dynamique</dfn> <dfn lang="en">to dyno/<wbr>lunge</dfn> een dynamische beweging maken. <dfn lang="en">slap</dfn> beweging waarbij snel met één hand door&shy;gegrepen wordt. <dfn lang="en">to slap (for a hold)</dfn> snel met één hand door&shy;grijpen (naar een greep).</p>
 <p><dfn lang="fr">fais gaffe!</dfn> <dfn lang="en">watch me!</dfn>
 	let op!</p>
 <p><dfn lang="en">falling!</dfn>
@@ -484,7 +484,7 @@
 <p><dfn lang="fr-BE">en jaune [Bel.]</dfn>
 	vrij (zonder haken), oude Belgische klimstijl, waarbij men oor&shy;spronkelijk de haken die niet voor de voort&shy;beweging gebruikt werden geel verfde. <dfn lang="fr-BE">jaunir [Bel.]</dfn> vrijklimmen.</p>
 <p><dfn lang="fr">jeté [m.]<span class="slash">&nbsp;/ </span>lancé [m.]<span class="slash">&nbsp;/ </span>jump [m.]</dfn> <dfn lang="en" id="dyno">dyno<span class="slash">&nbsp;/ </span>jump</dfn>
-	sprong, dynamische beweging. <dfn lang="en">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="fr">jeter<span class="slash">&nbsp;/ </span>lancer</dfn> <dfn lang="en">to dyno<span class="slash">&nbsp;/ </span>jump</dfn> springen.</p>
+	sprong, dynamische beweging. <dfn lang="en">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="fr">jeter<span class="slash">&nbsp;/ </span>lancer</dfn> <dfn lang="en">to dyno/<wbr>jump</dfn> springen.</p>
 
 <h3 id="K">K</h3>
 
