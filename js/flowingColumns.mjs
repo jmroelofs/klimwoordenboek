@@ -9,7 +9,7 @@ class FlowingColumns {
         }
     }
 
-    #animationFrameID = null;
+    #animationFrameId = null;
 
     #column = document.querySelector('.continuous-column');
     #spacer = this.#column?.querySelector('#spacer');
@@ -70,8 +70,9 @@ class FlowingColumns {
 
         // adjust offset;
         this.#offset += offsetDifference;
-        this.#column.style.setProperty('--offset-remainder', `${remainder}px`);
-        this.#column.style.setProperty('--column-offset', `${this.#offset + this.#baseOffset}px`);
+        this.#column.style.cssText = 
+            `--offset-remainder: ${remainder}px;` +
+            `--column-offset: ${this.#offset + this.#baseOffset}px`;
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
@@ -79,21 +80,21 @@ class FlowingColumns {
             this.#heightOld = heightNew;
         }
 
-        this.#animationFrameID = null;
+        this.#animationFrameId = null;
     };
 
     #handleEvent = event => {
-        if (this.#animationFrameID) {
+        if (this.#animationFrameId) {
             console.log(`[flowColumns] resetting animation in ${event.type} event`);
-            window.cancelAnimationFrame(this.#animationFrameID);
-            this.#animationFrameID = null;
+            window.cancelAnimationFrame(this.#animationFrameId);
+            this.#animationFrameId = null;
         }
 
         if (! this.#matchesMedia) {
             return;
         }
 
-        this.#animationFrameID = window.requestAnimationFrame(this.#flowColumns);
+        this.#animationFrameId = window.requestAnimationFrame(this.#flowColumns);
     };
 }
 
