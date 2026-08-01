@@ -30,12 +30,16 @@ class FlowingColumns {
     #matchesMedia = this.#mediaQuery.matches;
 
     #diffMoreThan = (x, y, threshold) => Math.abs(x - y) > threshold;
-    #roundNearest = (value, interval) => interval * Math.round(value / interval);
+    #roundNearest = (value, interval) => { 
+        const rounded = interval * Math.round(value / interval);
+        return { roundedOffset: rounded, remainder: value - rounded };
+    };
 
     #flowColumns = () => {
         // offset of page readings
         const
-            offsetDifference = this.#roundNearest(window.scrollY, this.#paragraphLineHeight) - this.#offset,
+            {roundedOffset, remainder} = this.#roundNearest(window.scrollY, this.#paragraphLineHeight),
+            offsetDifference = roundedOffset - this.#offset,
             // column readings
             { top: spacerTop, bottom: spacerBottom } = this.#spacer.getBoundingClientRect(),
             { bottom: lastParagraphBottom } = [...this.#lastParagraph.getClientRects()].at(-1);
@@ -66,6 +70,7 @@ class FlowingColumns {
 
         // adjust offset;
         this.#offset += offsetDifference;
+        this.#column.style.setProperty('--offset-remainder', `${remainder}px`);
         this.#column.style.setProperty('--column-offset', `${this.#offset + this.#baseOffset}px`);
 
         // adjust height of spacer

@@ -104,9 +104,10 @@ section {
 @media screen and (width > 800px) and (device-width >= 750px) {
     .continuous-column {
         --column-offset: 2rlh;
+        --offset-remainder: 0px;
         column-count: 2;
         column-gap: 4.1%;
-        padding-top: var(--column-offset);
+        padding-top: calc(var(--column-offset) + var(--offset-remainder));
 
         #spacer + h3 {
             margin-top: calc(-1 * var(--column-offset));
