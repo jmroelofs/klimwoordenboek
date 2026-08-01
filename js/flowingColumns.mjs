@@ -2,14 +2,21 @@ class FlowingColumns {
     constructor() {
         if (this.#column) {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
-            this.#handleEvent({ type: 'init' });
+
+            this.#handleEventTop({ type: 'init' });
             ['scroll', 'resize'].forEach(event =>
-                window.addEventListener(event, this.#handleEvent, { passive: true })
+                window.addEventListener(event, this.#handleEventTop, { passive: true })
+            );
+
+            this.#handleEventBottom({ type: 'init' });
+            ['scroll', 'resize'].forEach(event =>
+                window.addEventListener(event, this.#handleEventBottom, { passive: true })
             );
         }
     }
 
-    #animationFrameID = null;
+    #topAnimationFrameID = null;
+    #bottomAnimationFrameID = null;
 
     #column = document.querySelector('.continuous-column');
     #spacer = this.#column?.querySelector('#spacer');
@@ -32,30 +39,40 @@ class FlowingColumns {
     #diffMoreThan = (x, y, threshold) => Math.abs(x - y) > threshold;
     #roundNearest = (value, interval) => interval * Math.round(value / interval);
 
-    #flowColumns = () => {
-        // offset of page readings
+
+    #flowTop = () => {
+        // adjust offset;
+        this.#column.style.setProperty(
+            '--column-offset',
+            `${this.#roundNearest(window.scrollY, this.#paragraphLineHeight) + this.#baseOffset}px`
+        );
+
+        this.#topAnimationFrameID = null;
+    };
+
+
+    #flowBottom = () => {
+        // column readings
         const
-            offsetDifference = this.#roundNearest(window.scrollY, this.#paragraphLineHeight) - this.#offset,
-            // column readings
             { top: spacerTop, bottom: spacerBottom } = this.#spacer.getBoundingClientRect(),
             { bottom: lastParagraphBottom } = [...this.#lastParagraph.getClientRects()].at(-1);
 
         // calculate height of spacer
         let calculatedHeight;
 
-        if (spacerBottom >= lastParagraphBottom - offsetDifference) {
+        if (spacerBottom >= lastParagraphBottom) {
             // we are overshooting
             // console.log('[flowColumns] overshooting');
 
             const heightNeeded = lastParagraphBottom - spacerTop;
-            calculatedHeight = heightNeeded - offsetDifference;
+            calculatedHeight = heightNeeded;
 
         } else {
             // we are undershooting
             // console.log('[flowColumns] undershooting');
 
             const heightNeeded = this.#column.getBoundingClientRect().bottom - spacerTop;
-            calculatedHeight = (2 * heightNeeded) - this.#heightOld - offsetDifference;
+            calculatedHeight = (2 * heightNeeded) - this.#heightOld;
 
         }
 
@@ -64,31 +81,49 @@ class FlowingColumns {
             safetyMargin = this.#paragraphLineHeight / 2,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
-        // adjust offset;
-        this.#offset += offsetDifference;
-        this.#column.style.setProperty('--column-offset', `${this.#offset + this.#baseOffset}px`);
-
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
             this.#spacer.style.height = `${heightNew}px`;
             this.#heightOld = heightNew;
         }
 
-        this.#animationFrameID = null;
+        this.#bottomAnimationFrameID = null;
     };
 
-    #handleEvent = event => {
-        if (this.#animationFrameID) {
-            console.log(`[flowColumns] resetting animation in ${event.type} event`);
-            window.cancelAnimationFrame(this.#animationFrameID);
-            this.#animationFrameID = null;
+
+
+    #handleEventTop = event => {
+        if (this.#topAnimationFrameID) {
+            console.log(`[flowColumns top] resetting top animation in ${event.type} event`);
+            window.cancelAnimationFrame(this.#topAnimationFrameID);
+            this.#topAnimationFrameID = null;
         }
 
-        if (! this.#matchesMedia) {
+        if (this.#bottomAnimationFrameID) {
+            console.log(`[flowColumns top] resetting bottom animation in ${event.type} event`);
+            window.cancelAnimationFrame(this.#bottomAnimationFrameID);
+            this.#bottomAnimationFrameID = null;
+        }
+
+        if (!this.#matchesMedia) {
             return;
         }
 
-        this.#animationFrameID = window.requestAnimationFrame(this.#flowColumns);
+        this.#topAnimationFrameID = window.requestAnimationFrame(this.#flowTop);
+    };
+
+    #handleEventBottom = event => {
+        if (this.#bottomAnimationFrameID) {
+            console.log(`[flowColumns bottom] resetting bottom animation in ${event.type} event`);
+            window.cancelAnimationFrame(this.#bottomAnimationFrameID);
+            this.#bottomAnimationFrameID = null;
+        }
+
+        if (!this.#matchesMedia) {
+            return;
+        }
+
+        this.#bottomAnimationFrameID = window.requestAnimationFrame(this.#flowBottom);
     };
 }
 
