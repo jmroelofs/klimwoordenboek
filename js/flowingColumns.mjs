@@ -2,7 +2,7 @@ class FlowingColumns {
     constructor() {
         if (this.#column) {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
-            this.#handleEvent({ type: 'init' });
+            this.#handleEvent(new Event('init'));
             ['scroll', 'resize'].forEach(event =>
                 window.addEventListener(event, this.#handleEvent, { passive: true })
             );
@@ -65,7 +65,7 @@ class FlowingColumns {
 
         // add an extra margin on top
         const
-            safetyMargin = this.#paragraphLineHeight / 2,
+            safetyMargin = this.#paragraphLineHeight,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
