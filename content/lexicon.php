@@ -378,7 +378,7 @@
 <p><dfn lang="fr">face [v.]</dfn> <dfn lang="en">face</dfn>
 	voorkant van een rots. <dfn lang="fr">face ouest</dfn> <dfn lang="en">west face</dfn> westwand.</p>
 <p><dfn lang="fr">de face</dfn>
-	niet ingedraaid, recht toe recht aan dus.</p>
+	met je lichaam naar de wand gedraaid.</p>
 <p><dfn lang="fr">mouvement [m.] dynamique</dfn> <dfn lang="en">dynamic move<span class="slash">&nbsp;/ </span>lunge</dfn>
 	dynamische beweging. <dfn lang="fr">faire un mouvement dynamique</dfn> <dfn lang="en">to dyno<span class="slash">&nbsp;/ </span>lunge</dfn> een dynamische beweging maken. <dfn lang="en">slap</dfn> beweging waarbij snel met één hand door&shy;gegrepen wordt. <dfn lang="en">to slap (for a hold)</dfn> snel met één hand door&shy;grijpen (naar een greep).</p>
 <p><dfn lang="fr">fais gaffe!</dfn> <dfn lang="en">watch me!</dfn>
