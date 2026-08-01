@@ -784,7 +784,7 @@
 
 <h3 id="T">T</h3>
 <p><dfn lang="en">tape</dfn>
-	nylon band, tape, <dfn lang="en">duct<span class="slash">&nbsp;/ </span>duck</dfn> [eig. een product&shy;naam]<dfn lang="en"> tape</dfn> versterkt tape, meest&shy;al gebruikt voor repa&shy;raties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sport&shy;tape. <dfn lang="fr">se strapper</dfn> <dfn lang="en">to tape up</dfn> zich intapen.</p>
+	nylon band, tape, <dfn lang="en">duct/<wbr>duck</dfn> [eig. een product&shy;naam]<dfn lang="en"> tape</dfn> versterkt tape, meest&shy;al gebruikt voor repa&shy;raties, <dfn lang="fr">strappal [m.]</dfn> [eig. een product&shy;naam] sport&shy;tape. <dfn lang="fr">se strapper</dfn> <dfn lang="en">to tape up</dfn> zich intapen.</p>
 <p><dfn lang="fr">taper<span class="slash">&nbsp;/ </span>tirer un essai</dfn>
 	een poging trekken (in een route, totdat je hem rotpunkt hebt gedaan). <dfn lang="en">redpoint burn</dfn> poging een route in één keer te klimmen.</p>
 <p><dfn lang="fr">tapis [m.]<span class="slash">&nbsp;/ </span>paillasson [m.]<span class="slash">&nbsp;/ </span>moquette [v.]</dfn> <dfn lang="en">mat</dfn>
@@ -828,7 +828,7 @@
 <p><dfn lang="en">trad(itional) (climbing)</dfn>
 	traditionele stijl, waarbij voor de af&shy;zekering alleen gebruik wordt gemaakt van <a href="#nut">nutjes</a> en <a href="#friend">friends</a> en dergelijke. <dfn lang="en">trad(itional) route</dfn> route die in deze stijl wordt geklommen. <dfn lang="en">trad fall</dfn> een val in een traditionele route, vaak gevaarlijk.</p>
 <p><dfn lang="fr">après travail</dfn>
-	na instuderen (van een route). <dfn lang="fr">travailler les mouvements</dfn> <dfn lang="en">to work the moves<span class="slash">&nbsp;/ </span>to rehearse</dfn> bewegingen uitwerken<span class="slash">&nbsp;/ </span>instuderen [zie ook <a lang="en-GB" href="#to-hangdog">to (hang)<wbr>dog</a>].</p>
+	na instuderen (van een route). <dfn lang="fr">travailler les mouvements</dfn> <dfn lang="en">to work the moves<span class="slash">&nbsp;/ </span>to rehearse</dfn> bewegingen uitwerken/<wbr>instuderen [zie ook <a lang="en-GB" href="#to-hangdog">to (hang)<wbr>dog</a>].</p>
 <p><dfn lang="fr">traverser</dfn> <dfn lang="en">to traverse</dfn>
 	opzij klimmen. <dfn lang="fr">traversée [v.]</dfn> <dfn lang="en">traverse</dfn> passage waar je opzij klimt. <dfn lang="fr">trav [m.]</dfn> samen&shy;stelling van klim&shy;bewegingen op een boulderwand.</p>
 <p><dfn lang="fr">tridoigt [m.]</dfn> <dfn lang="en">threefingerpocket</dfn>
