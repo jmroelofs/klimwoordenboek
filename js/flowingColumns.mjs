@@ -24,7 +24,7 @@ class FlowingColumns {
         : null;
 
     #offset = 0;
-    #heightOld = 1;
+    #storedHeight = 1;
 
     #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
     #matchesMedia = this.#mediaQuery.matches;
@@ -59,7 +59,7 @@ class FlowingColumns {
             // console.log('[flowColumns] undershooting');
 
             const heightNeeded = this.#column.getBoundingClientRect().bottom - spacerTop;
-            calculatedHeight = (2 * heightNeeded) - this.#heightOld - offsetDifference;
+            calculatedHeight = (2 * heightNeeded) - this.#storedHeight - offsetDifference;
 
         }
 
@@ -70,17 +70,16 @@ class FlowingColumns {
 
         // adjust offset;
         this.#offset += offsetDifference;
-        let cssText = 
-            `--offset-remainder: ${remainder}px;` +
-            `--column-offset: ${this.#offset + this.#baseOffset}px;`;
 
         // adjust height of spacer
-        if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
-            this.#heightOld = heightNew;
-            cssText += `--spacer-height: ${heightNew}px;`;
+        if (this.#diffMoreThan(heightNew, this.#storedHeight, 1)) {
+            this.#storedHeight = heightNew;
         }
 
-        this.#column.style.cssText = cssText;
+        this.#column.style.cssText = 
+            `--offset-remainder: ${remainder}px;` +
+            `--column-offset: ${this.#offset + this.#baseOffset}px;` +
+            `--spacer-height: ${this.#storedHeight}px;`;
 
         this.#animationFrameId = null;
     };
