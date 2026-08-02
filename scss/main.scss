@@ -104,15 +104,12 @@ section {
 
 @media screen and (width > 800px) and (device-width >= 750px) {
     .continuous-column {
-        --column-offset: 2rlh;
-        --offset-remainder: 0px;
-        --spacer-height: 1px;
         column-count: 2;
         column-gap: 4.1%;
-        padding-top: calc(var(--column-offset) + var(--offset-remainder));
+        padding-top: calc(var(--column-offset, 2rlh) + var(--offset-remainder, 0px));
 
         #spacer + h3 {
-            margin-top: calc(-1 * var(--column-offset));
+            margin-top: calc(-1 * var(--column-offset, 2rlh));
         }
 
         /*  a block with zero height is ignored by getBoundingClientRect
@@ -120,7 +117,7 @@ section {
         #spacer {
             /* adjust margin 1px because of min height */
             margin-top: calc(100svh - 4rlh - 1px);
-            height: var(--spacer-height);
+            height: var(--spacer-height, 1px);
             width: 100%;
             float: left;
             display: block;
