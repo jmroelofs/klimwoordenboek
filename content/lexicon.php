@@ -330,7 +330,7 @@
 
 <h3 id="E">E</h3>
 <p><dfn lang="fr">EB [m.]</dfn> <dfn lang="en">EB</dfn>
-	EB, het merk schoenen waar iedereen op klom toen de sportklim&shy;revolutie begon (vernoemd naar <a href="https://www.eb-escalade.com/chausson-escalade/histoire-eb/" target="_blank" rel="noopener">Edmond Bourdonneau</a>, de schoenmaker die de zaak overnam van <a href="#Pierre-Allain">Pierre Allain</a>).</p>
+	EB, het merk schoenen waar iedereen op klom toen de sportklim&shy;revolutie begon (vernoemd naar <a href="https://www.eb-escalade.com/chausson-escalade/histoire-eb/" target="_blank" rel="noopener">Edmond Bourdonneau</a>, de schoenmaker die de zaak overnam van <a href="#Pierre-Allain" aria-label="PA klimschoen">Pierre Allain</a>).</p>
 <p><dfn lang="fr">écaille [v.]</dfn> <dfn lang="en">shelf<span class="slash">&nbsp;/ </span>flake</dfn>
 	schub, uitstekend langwerpig stuk rots (ook wel &lsquo;schelf&rsquo; genoemd, wat eigenlijk hooistapel betekent).</p>
 <p><dfn lang="fr">échauffement [m.]</dfn> <dfn lang="en">warm up</dfn>
@@ -574,7 +574,7 @@
 
 <h3 id="P">P</h3>
 <p><dfn lang="fr" id="Pierre-Allain">PA/Pierre Allain [m.]</dfn>
-	eerste &lsquo;moderne&rsquo; wrijvings&shy;schoen, de term werd door zeer ouderwetse klimmers ook wel gebruikt voor wrijvings&shy;schoen in het algemeen (uitgevonden door <a href="https://fr.wikipedia.org/wiki/Pierre_Allain" target="_blank" rel="noopener">Pierre Allain</a> en op de markt gebracht in 1948).</p>
+	eerste &lsquo;moderne&rsquo; wrijvings&shy;schoen, de term werd door zeer ouderwetse klimmers ook wel gebruikt voor wrijvings&shy;schoen in het algemeen (uitgevonden door <a href="https://fr.wikipedia.org/wiki/Pierre_Allain" target="_blank" rel="noopener" aria-label="Pierre Allain">Pierre Allain</a> en op de markt gebracht in 1948).</p>
 <p><dfn lang="fr">pain [m.] de <a href="#magnesium">magnésie</a></dfn> <dfn lang="en">block of chalk</dfn>
 	blok magnesium.</p>
 <p><dfn lang="fr">pan(neau) [m.]</dfn>
