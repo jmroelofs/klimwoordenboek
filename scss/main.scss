@@ -106,6 +106,7 @@ section {
     .continuous-column {
         --column-offset: 2rlh;
         --offset-remainder: 0px;
+        --spacer-height: 1px;
         column-count: 2;
         column-gap: 4.1%;
         padding-top: calc(var(--column-offset) + var(--offset-remainder));
@@ -119,7 +120,7 @@ section {
         #spacer {
             /* adjust margin 1px because of min height */
             margin-top: calc(100svh - 4rlh - 1px);
-            height: 1px;
+            height: var(--spacer-height);
             width: 100%;
             float: left;
             display: block;

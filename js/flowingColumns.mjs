@@ -70,15 +70,17 @@ class FlowingColumns {
 
         // adjust offset;
         this.#offset += offsetDifference;
-        this.#column.style.cssText = 
+        let cssText = 
             `--offset-remainder: ${remainder}px;` +
-            `--column-offset: ${this.#offset + this.#baseOffset}px`;
+            `--column-offset: ${this.#offset + this.#baseOffset}px;`;
 
         // adjust height of spacer
         if (this.#diffMoreThan(heightNew, this.#heightOld, 1)) {
-            this.#spacer.style.height = `${heightNew}px`;
             this.#heightOld = heightNew;
+            cssText += `--spacer-height: ${heightNew}px;`;
         }
+
+        this.#column.style.cssText = cssText;
 
         this.#animationFrameId = null;
     };
