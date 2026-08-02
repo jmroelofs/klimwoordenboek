@@ -10,7 +10,7 @@
 
 <h2><a href="" class="<?php echo $lexiconClass; ?>">Klimwoorden&shy;boek Frans&nbsp;&amp;&nbsp;Engels</a></h2>
 
-<h3 id="alphabet"><a href="#A">A</a><wbr><a href="#B">B</a><wbr><a href="#C">C</a><wbr><a href="#D">D</a><wbr><a href="#E">E</a><wbr><a href="#F">F</a><wbr><a href="#G">G</a><wbr><a href="#H">H</a><wbr><a href="#I">I</a><wbr><a href="#J">J</a><wbr><a href="#K">K</a><wbr><a href="#L">L</a><wbr><a href="#M">M</a><wbr><a href="#N">N</a><wbr><a href="#O">O</a><wbr><a href="#P">P</a><wbr><a href="#Q">Q</a><wbr><a href="#R">R</a><wbr><a href="#S">S</a><wbr><a href="#T">T</a><wbr><a href="#U">U</a><wbr><a href="#V">V</a><wbr><a href="#W">W</a><wbr><a href="#X">X</a><wbr><a href="#Y">Y</a><wbr><a href="#Z">Z</a></h3>
+<h3 id="alphabet"><a href="#A">A</a><a href="#B">B</a><a href="#C">C</a><a href="#D">D</a><a href="#E">E</a><a href="#F">F</a><a href="#G">G</a><a href="#H">H</a><a href="#I">I</a><a href="#J">J</a><a href="#K">K</a><a href="#L">L</a><a href="#M">M</a><a href="#N">N</a><a href="#O">O</a><a href="#P">P</a><a href="#Q">Q</a><a href="#R">R</a><a href="#S">S</a><a href="#T">T</a><a href="#U">U</a><a href="#V">V</a><a href="#W">W</a><a href="#X">X</a><a href="#Y">Y</a><a href="#Z">Z</a></h3>
 
 <h3><a href="waarderingen" class="<?php echo $gradingClass; ?>">Moeilijkheids&shy;waarderingen</a></h3>
 
@@ -24,7 +24,7 @@
 	Belgisch Frans.</p>
 <p><dfn lang="en-GB">[Br.]</dfn>
 	Brits Engels.</p>
-<p><dfn>contact<span class="slash">&nbsp;/ </span>auteur<span class="slash">&nbsp;/ </span>copyright</dfn>
+<p><dfn>contact<span class="slash">&nbsp;/ </span>auteur<span class="slash">&nbsp;/ </span>copy&shy;right</dfn>
 	voor in&shy;for&shy;matie, toe&shy;stem&shy;ming, sugges&shy;ties of fouten: <a href="mailto:<?php echo $mailAddress ?>">Jan Martin Roelofs</a>.</p>
 <p><dfn>[eig.]</dfn>
 	eigenlijk.</p>

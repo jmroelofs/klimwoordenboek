@@ -56,6 +56,7 @@ $width-unit: 4.75px;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
+    hyphens: auto;
     line-break: loose;
     hyphenate-limit-chars: 6 2 3;
     color: $text-color;
@@ -208,15 +209,12 @@ a:focus {
 }
 
 #alphabet {
-    letter-spacing: 0.1em
+    letter-spacing: 0.1em;
+    word-break: break-all;
 }
 
 
 /* language specifics */
-
-:lang(nl) {
-    hyphens: auto;
-}
 
 strong,
 b,
@@ -237,6 +235,7 @@ h3:target {
 
 dfn {
     font-style: italic;
+    hyphens: manual;
 }
 
 :lang(fr) {
