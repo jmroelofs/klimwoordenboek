@@ -32,6 +32,8 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 $main-right-margin: 3.1%;
 $main-right-margin-small-screen: 3vw;
+$margin-top: 2rlh;
+$margin-bottom: 2rlh;
 
 
 /* use golden ratio */
@@ -74,7 +76,7 @@ header {
     position: sticky;
     top: 0;
     margin-inline: 5.5% 6.9%;
-    padding-bottom: 2rlh;
+    padding-bottom: $margin-bottom;
     max-height: 100lvh;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -85,7 +87,7 @@ header {
 }
 
 main {
-    margin: 0 $main-right-margin 2rlh 1.6%;
+    margin: 0 $main-right-margin $margin-top 1.6%;
 }
 
 
@@ -106,17 +108,17 @@ section {
     .continuous-column {
         column-count: 2;
         column-gap: 4.1%;
-        padding-top: calc(var(--column-offset, 2rlh) + var(--offset-remainder, 0px));
+        padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
 
         #spacer + h3 {
-            margin-top: calc(-1 * var(--column-offset, 2rlh));
+            margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
         }
 
         /*  a block with zero height is ignored by getBoundingClientRect
             https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
         #spacer {
             /* adjust margin 1px because of min height */
-            margin-top: calc(100svh - 4rlh - 1px);
+            margin-top: calc(100svh - #{$margin-top + $margin-bottom} - 1px);
             height: var(--spacer-height, 1px);
             width: 100%;
             float: left;
@@ -176,14 +178,14 @@ p {
 }
 
 dfn {
-    scroll-margin-block: 2rlh;
+    scroll-margin-block: $margin-top $margin-bottom;
 }
 
 h1,
 main h3 {
     font-size: $font-size-header;
     line-height: 1rlh;
-    padding-top: 2rlh;
+    padding-top: $margin-top;
 }
 
 *:target,

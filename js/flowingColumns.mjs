@@ -17,10 +17,6 @@ class FlowingColumns {
     #paragraphLineHeight = this.#lastParagraph
         ? parseFloat(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
         : null;
-    #firstHeader = this.#column?.querySelector('h3');
-    #baseOffset = this.#firstHeader
-        ? parseFloat(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
-        : null;
 
     #offset = 0;
     #storedHeight = 1;
@@ -77,7 +73,7 @@ class FlowingColumns {
 
         this.#column.style.cssText = 
             `--offset-remainder: ${remainder}px;` +
-            `--column-offset: ${this.#offset + this.#baseOffset}px;` +
+            `--column-offset: ${this.#offset}px;` +
             `--spacer-height: ${this.#storedHeight}px;`;
 
         this.#animationFrameId = null;
