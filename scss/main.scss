@@ -33,7 +33,7 @@ $color-odd: oklch(0.86 0.05 225.57);
 $main-right-margin: 3.1%;
 $main-right-margin-small-screen: 3vw;
 $margin-top: 2rlh;
-$margin-bottom: 2rlh;
+$margin-bottom: 1.5rlh;
 
 
 /* use golden ratio */
@@ -87,7 +87,7 @@ header {
 }
 
 main {
-    margin: 0 $main-right-margin $margin-top 1.6%;
+    margin: 0 $main-right-margin $margin-bottom 1.6%;
 }
 
 
