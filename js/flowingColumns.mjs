@@ -18,7 +18,6 @@ class FlowingColumns {
         ? parseFloat(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
         : null;
     #firstHeader = this.#column?.querySelector('h3');
-    #headerHeight = this.#firstHeader?.getBoundingClientRect().height;
     #baseOffset = this.#firstHeader
         ? parseFloat(window.getComputedStyle(this.#firstHeader).getPropertyValue('padding-top'))
         : null;
@@ -32,13 +31,13 @@ class FlowingColumns {
     #diffMoreThan = (x, y, threshold) => Math.abs(x - y) > threshold;
     #roundNearest = (value, interval) => { 
         const rounded = interval * Math.round(value / interval);
-        return { roundedOffset: rounded, remainder: value - rounded };
+        return { rounded: rounded, remainder: value - rounded };
     };
 
     #flowColumns = () => {
         // offset of page readings
         const
-            {roundedOffset, remainder} = this.#roundNearest(window.scrollY, this.#paragraphLineHeight),
+            {rounded: roundedOffset, remainder} = this.#roundNearest(window.scrollY, this.#paragraphLineHeight),
             offsetDifference = roundedOffset - this.#offset,
             // column readings
             { top: spacerTop, bottom: spacerBottom } = this.#spacer.getBoundingClientRect(),
@@ -63,7 +62,7 @@ class FlowingColumns {
 
         }
 
-        // add an extra margin on top
+        // add a safety margin
         const
             safetyMargin = this.#paragraphLineHeight,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
