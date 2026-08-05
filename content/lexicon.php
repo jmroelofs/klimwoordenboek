@@ -180,7 +180,7 @@
 <p><dfn lang="fr">chausson [m] d'escalade (a tige basse/<wbr>haute)</dfn> <dfn lang="en">climbing shoe/<wbr>boot<span class="separator">&nbsp;| </span></dfn><dfn lang="en-US">rock shoe/<wbr>boot [Am.]</dfn>
 	(lage/<wbr>hoge) klimschoen.</p>
 <p><dfn lang="en" id="cheater-stick">cheater stick</dfn>
-	lange stok waarmee het touw in een haak gehangen wordt, ook gebruikt voor artificieel klimmen.</p>
+	lange stok waarmee het touw in een haak gehangen wordt, ook gebruikt voor arti&shy;ficieel klimmen.</p>
 <p><dfn lang="en" id="cheater-stone">cheater stone</dfn>
 	startsteen, steen gebruikt als op&shy;stapje om makke&shy;lijker bij de begin&shy;grepen te komen.</p>
 <p><dfn lang="fr">se chevaucher les doigts</dfn>
@@ -190,19 +190,19 @@
 <p><dfn lang="en" id="chickenhead">chickenhead</dfn>
 	stuk uitstekend kristal in graniet, <dfn lang="en-US">horn [Am.]</dfn> hoorn&shy;vormig uit&shy;steeksel in graniet.</p>
 <p><dfn lang="fr">chiure [m.]</dfn>
-	[lett. vliegenpoepje] heel klein puntje op de rots dat zich in je vingertop zet.</p>
+	[lett. vliegenpoepje] heel klein puntje op de rots dat zich in je vinger&shy;top zet.</p>
 <p><dfn lang="en">chock</dfn>
 	<a href="#nut">nut</a>, klemblokje. <dfn lang="fr">bloc [m.] coincé</dfn> <dfn lang="en">chockstone</dfn> steen die in een spleet geklemd zit. <dfn lang="en">wire-slung chock</dfn> zo'n steen met een touw eromheen, bruikbaar als zekerings&shy;punt (hiermee is het klimmen met <a href="#nut">nutjes</a> begonnen, later werden het moeren).</p>
 <p><dfn lang="fr">chute [v.]<span class="separator">&nbsp;| </span>plomb [m.]</dfn> <dfn lang="en">fall</dfn>
 	val. <dfn lang="fr">facteur [m.] de chute</dfn> <dfn lang="en">fall factor</dfn> val&shy;factor, val&shy;hoogte gedeeld door uit&shy;gegeven touw: bepaalt hoe groot de klap wordt.</p>
 <p><dfn lang="fr">circuit [m.]</dfn>
-	uitgezet parcours bestaande uit verschillende boulders.</p>
+	uitgezet parcours bestaande uit verschil&shy;lende boulders.</p>
 <p><dfn lang="fr">ciselure [v.]</dfn>
 	[lett. snijwerk] grillig gevormd stuk rots-oppervlak.</p>
 <p><dfn lang="fr">passage [m.] clé<span class="separator">&nbsp;| </span>crux [m.]</dfn> <dfn lang="en">crux</dfn>
 	sleutel&shy;passage, de belang rijkste en moeilijkste passage in een route. <dfn lang="fr">mouvement [m.] clé</dfn> <dfn lang="en">crux move</dfn> sleutelpas.</p>
 <p><dfn lang="en-GB">clean [Br.]</dfn>
-	netjes, in goede stijl, zonder vallen of uitwerken (dus zonder <a lang="en-GB" href="#to-hangdog">dogging</a>). <dfn lang="en-US">clean climbing [Am.]</dfn> klimstijl waarbij alleen <a href="#nut">nutten</a> ter zekering worden gebruikt en er geen ijzer&shy;waren in de rots achterblijft (gepropageerd door <a href="https://movingoverstone.com/" target="_blank" rel="noopener">Doug Robinson</a> in de jaren 60). <dfn lang="en">to clean a pitch</dfn> verwijderen van setjes en <a href="#nut">nutjes</a> en soms ook haken uit een touw&shy;lengte. <dfn lang="fr">nettoyer une longueur</dfn> <dfn lang="en">to clean a route</dfn> een route schoon&shy;maken, door begroeiing en losse stenen en soms ook haken te verwijderen.</p>
+	netjes, in goede stijl, zonder vallen of uit&shy;werken (dus zonder <a lang="en-GB" href="#to-hangdog">dogging</a>). <dfn lang="en-US">clean climbing [Am.]</dfn> klimstijl waarbij alleen <a href="#nut">nutten</a> ter zekering worden gebruikt en er geen ijzer&shy;waren in de rots achterblijft (gepropageerd door <a href="https://movingoverstone.com/" target="_blank" rel="noopener">Doug Robinson</a> in de jaren 60). <dfn lang="en">to clean a pitch</dfn> verwijderen van setjes en <a href="#nut">nutjes</a> en soms ook haken uit een touw&shy;lengte. <dfn lang="fr">nettoyer une longueur</dfn> <dfn lang="en">to clean a route</dfn> een route schoon&shy;maken, door begroeiing en losse stenen en soms ook haken te verwijderen.</p>
 <p><dfn lang="fr">clou [m.]</dfn>
 	[lett. spijker] <dfn lang="en">pin</dfn> (oude) haak.</p>
 <p><dfn lang="fr">coincer<span class="separator">&nbsp;| </span>verrouiller</dfn> <dfn lang="en">to jam</dfn>
@@ -214,11 +214,11 @@
 <p><dfn lang="fr">ça colle</dfn>
 	[lett. het plakt] er is goede wrijving.</p>
 <p><dfn lang="fr">colonnette [v.]</dfn> [lett. kolommetje] <dfn lang="en">tufa</dfn>
-	verticale rib die uit de rotswand steekt (gevormd door een druipsteen&shy;proces). In Twente heet het een haar.</p>
+	verticale rib die uit de rots&shy;wand steekt (gevormd door een druipsteen&shy;proces). In Twente heet het een haar.</p>
 <p><dfn lang="fr">compression [v.]</dfn> <dfn lang="en">compression</dfn>
-	het samen&shy;persen, omklemmen van een stuk rots. <dfn lang="fr">grimper en compression</dfn> <dfn lang="en">fridge hugging</dfn> klimmen met compressie.</p>
+	het samen&shy;persen, om&shy;klemmen van een stuk rots. <dfn lang="fr">grimper en compression</dfn> <dfn lang="en">fridge hugging</dfn> klimmen met compressie.</p>
 <p><dfn lang="fr">conditions [v.]</dfn> <dfn lang="en">conditions</dfn>
-	omstandig&shy;heden, rots- en weers&shy;gesteldheid. <dfn lang="fr">des bonnes conditions</dfn> <dfn lang="en">good<span class="separator">&nbsp;| </span></dfn><dfn lang="en-GB">superb [Br.]</dfn><dfn lang="en"> conditions</dfn> goede omstandig&shy;heden, droog en koud. <dfn lang="fr">des mauvaises conditions</dfn> <dfn lang="en">bad conditions</dfn> slechte omstandigheden, vochtig en warm.</p>
+	omstandig&shy;heden, rots- en weers&shy;gesteldheid. <dfn lang="fr">des bonnes conditions</dfn> <dfn lang="en">good<span class="separator">&nbsp;| </span></dfn><dfn lang="en-GB">superb [Br.]</dfn><dfn lang="en"> conditions</dfn> goede omstandig&shy;heden, droog en koud. <dfn lang="fr">des mauvaises conditions</dfn> <dfn lang="en">bad conditions</dfn> slechte omstandig&shy;heden, vochtig en warm.</p>
 <p><dfn lang="fr">conduit [m.]</dfn>
 	een langzame, gecontroleerd uit&shy;gevoerde dynamische beweging.</p>
 <p><dfn lang="fr">conque [v.]</dfn> <dfn lang="en">scoop</dfn>
@@ -234,7 +234,7 @@
 <p><dfn lang="fr">corniche [v.]</dfn> <dfn lang="en">cornice</dfn>
 	[lett. kroonlijst] overhangende rand.</p>
 <p><dfn lang="fr"><a href="https://www.cosiroc.fr/" target="_blank" rel="noopener">CO.SI.ROC [m.]<span class="separator">&nbsp;| </span>Comité de défense des sites et des rochers d'escalade</a></dfn>
-	samen&shy;werkings&shy;verband van verschillende verenigingen dat zich bezig&shy;houdt met creatie, onderhoud en bescherming van klim&shy;gebieden.</p>
+	samen&shy;werkings&shy;verband van verschil&shy;lende verenigingen dat zich bezig&shy;houdt met creatie, onder&shy;houd en bescherming van klim&shy;gebieden.</p>
 <p><dfn lang="fr">cotation [v.]</dfn> <dfn lang="en-GB"><a href="waarderingen#technical-grade">technical grade [Br.]</a><span class="separator">&nbsp;| </span></dfn><dfn lang="en-US">rating [Am.]</dfn>
 	technische moeilijk&shy;heids&shy;graad (zwaarte van de moeilijkste pas), <dfn lang="en-GB"><a href="waarderingen#adjectival-grade">E&#8209;grade [Br.]<span class="separator">&nbsp;| </span>adjectival grade [Br.]</a><span class="separator">&nbsp;| </span></dfn><dfn lang="en-US">grade [Am.]</dfn> algemene moeilijk&shy;heids&shy;graad (een combinatie van moeilijk&shy;heid en gevaarlijk&shy;heid). <dfn lang="fr">échelle [v.] de cotation</dfn> <dfn lang="en-GB">grading system [Br.]<span class="separator">&nbsp;| </span></dfn><dfn lang="en-US">rating system [Am.]</dfn> moeilijkheids&shy;schaal, waarderings&shy;systeem.</p>
 <p><dfn lang="fr">de côté<span class="separator">&nbsp;| </span>de profil</dfn>
@@ -242,7 +242,7 @@
 <p><dfn lang="fr">couché[e]</dfn> <dfn lang="en">less than vertical</dfn>
 	liggend.</p>
 <p><dfn lang="fr">machine [v.] à coudre</dfn> <dfn lang="en">sewing-machine leg<span class="separator">&nbsp;| </span></dfn><dfn lang="en-US">Elvis leg [Am.]</dfn>
-	naai&shy;machine&#8209;, tril&shy;benen, veroorzaakt door zenuw&shy;achtigheid of onfitheid.</p>
+	naai&shy;machine&#8209;, tril&shy;benen, ver&shy;oorzaakt door zenuw&shy;achtig&shy;heid of onfitheid.</p>
 <p><dfn lang="fr">couenne [v.]</dfn>
 	[lett. zwoerd, randje] korte lastige route.</p>
 <p><dfn lang="fr">ça craint</dfn>
