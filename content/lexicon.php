@@ -356,7 +356,7 @@
 <p><dfn lang="fr">á l'envers</dfn>
 	verkeerd om, <dfn lang="en">out of sequence</dfn> verkeerd in de bewegings&shy;volgorde, <dfn lang="fr">mauvaise main</dfn> met de handen verkeerd om.</p>
 <p><dfn lang="fr">(prise) enversée [v.]</dfn> <dfn lang="en">undercut<span class="separator">&nbsp;| </span>underkling</dfn>
-	ondergreep.</p>
+	onder&shy;greep.</p>
 <p><dfn lang="fr">mouvement [m.] d'épaule [v.]</dfn>
 	beweging uit de schouder. <dfn lang="fr">épaule [v.]</dfn> schouder, greepje of beweging waarbij opzij getrokken moet worden met naar binnen gedraaide schouder. <dfn lang="fr">en épaule</dfn> op deze manier.</p>
 <p><dfn lang="fr">éperon [m.]</dfn>
@@ -390,7 +390,7 @@
 <p><dfn lang="fr"><a href="https://www.ffcam.fr/" target="_blank" rel="noopener">FFCAM [v.]<span class="separator">&nbsp;| </span>Fédération française des clubs alpins et de montagne</a></dfn>
 	Franse Alpen&shy;vereniging. <dfn lang="fr">cafiste</dfn> (lid) van de <dfn lang="fr">CAF [m]<span class="separator">&nbsp;| </span>Club Alpin Français</dfn>, een voorganger van hiervan.</p>
 <p><dfn lang="fr"><a href="https://www.ffme.fr/" target="_blank" rel="noopener">FFME [v.]<span class="separator">&nbsp;| </span>Fédération Française de la Montagne et de l'Escalade</a></dfn>
-	Franse over&shy;koepelende berg&shy;sportbond.</p>
+	Franse over&shy;koepelende berg&shy;sport&shy;bond.</p>
 <p><dfn lang="fr">fissure [v.]</dfn> <dfn lang="en">crack</dfn>
 	spleet.</p>
 <p><dfn lang="fr">flash</dfn> <dfn id="flash" lang="en">flash</dfn>
