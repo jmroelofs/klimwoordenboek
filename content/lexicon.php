@@ -702,7 +702,7 @@
 <p><dfn lang="fr">repos [m.]</dfn> <dfn lang="en">rest</dfn>
 	rust&shy;(positie). <dfn lang="fr">repos sans main</dfn> <dfn lang="en" id="no-hands-rest">no hands rest</dfn> rustpositie &lsquo;met losse handen&rsquo;.</p>
 <p><dfn lang="fr">résine [v.]</dfn> <dfn lang="en">resin</dfn>
-	hars, ook kunsthars, waar grepen van gemaakt zijn. <dfn lang="fr">résine époxyde<span class="separator">&nbsp;| </span>époxy&shy;acrylique</dfn> <dfn lang="en">epoxide<span class="separator">&nbsp;| </span>epoxy&shy;acrylic resin</dfn> epoxy&shy;hars<span class="separator">&nbsp;| </span>epoxy&shy;acryl&shy;hars, gebruikt voor het bevestigen van haken, en soms ook voor het verstevigen of bijwerken<span class="separator">&nbsp;| </span>bijmaken van grepen of treetjes.</p>
+	hars, ook kunsthars, waar grepen van gemaakt zijn. <dfn lang="fr">résine époxyde<span class="separator">&nbsp;| </span>époxy&shy;acrylique</dfn> <dfn lang="en">epoxide<span class="separator">&nbsp;| </span>epoxy&shy;acrylic resin</dfn> epoxy&shy;hars<span class="separator">&nbsp;| </span>epoxy&shy;acryl&shy;hars, gebruikt voor het bevestigen van haken, en soms ook voor het verstevigen of bijwerken/<wbr>bijmaken van grepen of treetjes.</p>
 <p><dfn lang="fr">résistance [v.]</dfn>
 	kracht&shy;uithoudings&shy;vermogen.</p>
 <p><dfn lang="fr">réta(blissement) [m.]</dfn>
@@ -834,7 +834,7 @@
 <p><dfn lang="fr">tridoigt [m.]</dfn> <dfn lang="en">threefingerpocket</dfn>
 	drievingergreep.</p>
 <p><dfn lang="fr">trou [m.]</dfn> <dfn lang="en">pocket</dfn>
-	gat. <dfn lang="fr">escalade [v.] à trous</dfn> <dfn lang="en">pocket climbing<span class="separator">&nbsp;| </span>pocketing</dfn> met je handen<span class="separator">&nbsp;| </span>voeten in gaten klimmen. <dfn lang="en">toe pocket</dfn> gat dat als tree gebruikt wordt.</p>
+	gat. <dfn lang="fr">escalade [v.] à trous</dfn> <dfn lang="en">pocket climbing<span class="separator">&nbsp;| </span>pocketing</dfn> met je handen/<wbr>voeten in gaten klimmen. <dfn lang="en">toe pocket</dfn> gat dat als tree gebruikt wordt.</p>
 
 <h3 id="U">U</h3>
 <p><dfn lang="fr" id="UIAA"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA [v.]<span class="separator">&nbsp;| </span>Union Internationale des Associations d'Alpinisme</a></dfn> <dfn lang="en"><a href="https://www.theuiaa.org/" target="_blank" rel="noopener">UIAA</a></dfn>
@@ -873,8 +873,8 @@
 <h3 id="X">X</h3>
 
 <h3 id="Y">Y</h3>
-<p><dfn lang="fr">Yaniro [m.]</dfn> <dfn lang="en">figure four</dfn>
-	klim&shy;beweging waarbij je het ene been over de andere arm vouwt (vernoemd naar <a href="https://web.archive.org/web/20151221103933/http://www.joshuatreeclimb.com/members/History/Profiles/tonyyaniro.htm" target="_blank" rel="noopener">Tony Yaniro</a>). <dfn lang="en">figure nine</dfn> klim&shy;beweging waarbij je een been over de arm aan dezelfde kant vouwt.</p>
+<p><dfn lang="fr">Yaniro [m.]</dfn> <dfn lang="en">figure-four</dfn>
+	klim&shy;beweging waarbij je het ene been over de andere arm vouwt (vernoemd naar <a href="https://en.wikipedia.org/wiki/Tony_Yaniro" target="_blank" rel="noopener">Tony Yaniro</a>). <dfn lang="en">figure-nine</dfn> klim&shy;beweging waarbij je een been over de arm aan dezelfde kant vouwt.</p>
 <p><dfn lang="fr">yo-yo</dfn> <dfn lang="en-US">yo-yo [Am.]</dfn>
 	klim&shy;stijl waarbij je &lsquo;vrij&rsquo;-klimt, maar na een val het touw in de karabiners laat (een tegenwoordig weinig gebruikte stijl, die nuttig kan zijn bij slecht af te zekeren routes).</p>
 
