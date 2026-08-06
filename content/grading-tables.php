@@ -50,7 +50,7 @@
       <td class="w-48">ABO<sup>+</sup></td>
     </tr>
   </table>
-  <p><a href="waarderingen#UIAA">UIAA/Duits</a></p>
+  <p><a href="waarderingen#UIAA">UIAA<span class="separator">&nbsp;| </span>Duits</a></p>
   <table>
     <tr>
       <td class="w-8">V<sup>+</sup></td>
@@ -225,7 +225,7 @@
       <td class="w-8">9a<sup>+</sup></td>
     </tr>
   </table>
-  <p><a href="waarderingen#V-scale">Amerikaans<span class="slash">&nbsp;/ </span>Australisch</a></p>
+  <p><a href="waarderingen#V-scale">Amerikaans<span class="separator">&nbsp;| </span>Australisch</a></p>
   <table>
     <tr>
       <td class="w-16">V0</td>
