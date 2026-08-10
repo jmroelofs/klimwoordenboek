@@ -200,7 +200,7 @@
 <p><dfn lang="fr">ciselure [v.]</dfn>
 	[lett. snijwerk] grillig gevormd stuk rots-oppervlak.</p>
 <p><dfn lang="fr">passage [m.] clé<span class="separator">&nbsp;| </span>crux [m.]</dfn> <dfn lang="en">crux</dfn>
-	sleutel&shy;passage, de belang rijkste en moeilijkste passage in een route. <dfn lang="fr">mouvement [m.] clé</dfn> <dfn lang="en">crux move</dfn> sleutelpas.</p>
+	sleutel&shy;passage, de belangrijkste en moeilijkste passage in een route. <dfn lang="fr">mouvement [m.] clé</dfn> <dfn lang="en">crux move</dfn> sleutelpas.</p>
 <p><dfn lang="en-GB">clean [Br.]</dfn>
 	netjes, in goede stijl, zonder vallen of uit&shy;werken (dus zonder <a lang="en-GB" href="#to-hangdog">dogging</a>). <dfn lang="en-US">clean climbing [Am.]</dfn> klimstijl waarbij alleen <a href="#nut">nutten</a> ter zekering worden gebruikt en er geen ijzer&shy;waren in de rots achterblijft (gepropageerd door <a href="https://movingoverstone.com/" target="_blank" rel="noopener">Doug Robinson</a> in de jaren 60). <dfn lang="en">to clean a pitch</dfn> verwijderen van setjes en <a href="#nut">nutjes</a> en soms ook haken uit een touw&shy;lengte. <dfn lang="fr">nettoyer une longueur</dfn> <dfn lang="en">to clean a route</dfn> een route schoon&shy;maken, door begroeiing en losse stenen en soms ook haken te verwijderen.</p>
 <p><dfn lang="fr">clou [m.]</dfn>
