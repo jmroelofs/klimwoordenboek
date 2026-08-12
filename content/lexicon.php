@@ -48,7 +48,7 @@
 <p><dfn lang="fr">aseptisé[e]</dfn>
 	steriel, zonder spanning, ruim behaakt.</p>
 <p><dfn lang="fr">assurer</dfn> <dfn lang="en">to belay</dfn>
-	zekeren. <dfn lang="fr">assureur [m.]</dfn> <dfn lang="en">belayer</dfn> zekeraar. <dfn lang="fr">tu veux<span class="separator">&nbsp;| </span>peux m'assurer?</dfn> <dfn lang="en">you want to give me a belay?<span class="separator">&nbsp;| </span>can you give me a belay?</dfn> wil/<wbr>kun je me zekeren?</p>
+	zekeren. <dfn lang="fr">assureur [m.]</dfn> <dfn lang="en">belayer</dfn> zekeraar. <dfn lang="fr">tu veux/<wbr>peux m'assurer?</dfn> <dfn lang="en">you want to give me a belay?<span class="separator">&nbsp;| </span>can you give me a belay?</dfn> wil/<wbr>kun je me zekeren?</p>
 <p><dfn lang="fr">athlétique</dfn>
 	gymnastisch, veel kracht en lenig&shy;heid kostend.</p>
 <p><dfn lang="fr">zone [v.] d'atterrissage<span class="separator">&nbsp;| </span>surface [v.] de réception</dfn> <dfn lang="en">landing-spot</dfn>
