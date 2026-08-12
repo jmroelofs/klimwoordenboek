@@ -60,7 +60,7 @@ class FlowingColumns {
 
         // add a safety margin
         const
-            safetyMargin = this.#paragraphLineHeight * 2,
+            safetyMargin = this.#paragraphLineHeight,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
