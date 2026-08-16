@@ -13,10 +13,10 @@ class FlowingColumns {
 
     #column = document.querySelector('.continuous-column');
     #spacer = this.#column?.querySelector('#spacer');
-    #lastParagraph = this.#column?.lastElementChild;
-    #paragraphLineHeight = this.#lastParagraph
-        ? parseFloat(window.getComputedStyle(this.#lastParagraph).getPropertyValue('line-height'))
+    #lineHeight = this.#column
+        ? parseFloat(window.getComputedStyle(this.#column).getPropertyValue('line-height'))
         : null;
+    #lastParagraph = this.#column?.lastElementChild;
 
     #offset = 0;
     #storedHeight = 1;
@@ -33,7 +33,7 @@ class FlowingColumns {
     #flowColumns = () => {
         // offset of page readings
         const
-            {rounded: roundedOffset, remainder} = this.#roundNearest(window.scrollY, this.#paragraphLineHeight),
+            {rounded: roundedOffset, remainder} = this.#roundNearest(window.scrollY, this.#lineHeight),
             offsetDifference = roundedOffset - this.#offset,
             // column readings
             { top: spacerTop, bottom: spacerBottom } = this.#spacer.getBoundingClientRect(),
@@ -60,7 +60,7 @@ class FlowingColumns {
 
         // add a safety margin
         const
-            safetyMargin = this.#paragraphLineHeight,
+            safetyMargin = this.#lineHeight,
             heightNew = Math.max(1, calculatedHeight + safetyMargin);
 
         // adjust offset;
