@@ -5,7 +5,7 @@
     require '404.php';
     }
 ?>
-<div id="spacer"></div>
+<div id="column-wrapper">
 <h3 id="A">A</h3>
 <p><dfn lang="en-US"><a href="https://www.americanalpineclub.org/" target="_blank" rel="noopener">AAC<span class="separator">&nbsp;| </span>American Alpine Club</a></dfn>
 	Alpen&shy;vereniging van de Verenigde Staten, publiceert jaarlijks <dfn lang="en-US"><a href="https://publications.americanalpineclub.org/" target="_blank" rel="noopener">the American Alpine Journal</a></dfn>.</p>
@@ -881,3 +881,4 @@
 <h3 id="Z">Z</h3>
 <p><dfn lang="fr">zipper<span class="separator">&nbsp;| </span>riper<span class="separator">&nbsp;| </span>glisser</dfn>
 	weg-/<wbr>uitglijden. <dfn lang="fr">zippette [v.]</dfn> uitglijer.</p>
+</div>

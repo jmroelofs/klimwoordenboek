@@ -87,7 +87,7 @@ header {
 }
 
 main {
-    margin: 0 $main-right-margin $margin-bottom 1.6%;
+    margin: $margin-top $main-right-margin $margin-bottom 1.6%;
 }
 
 
@@ -100,31 +100,19 @@ section {
 
 /* continuous column */
 
-#spacer {
-    display: none;
+#column-wrapper {
+    display: contents;
 }
 
 @media screen and (width > 800px) and (device-width >= 750px) {
     .continuous-column {
         column-count: 2;
         column-gap: 4.1%;
-        padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
+        transform: scaleY(-1);
 
-        #spacer + h3 {
-            margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
-        }
-
-        /*  a block with zero height is ignored by getBoundingClientRect
-            https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
-        #spacer {
-            /* adjust margin 1px because of min height */
-            margin-top: calc(100svh - #{$margin-top + $margin-bottom} - 1px);
-            height: var(--spacer-height, 1px);
-            width: 100%;
-            float: left;
+        #column-wrapper {
             display: block;
-            shape-outside: content-box;
-            break-inside: avoid;
+            transform: scaleY(-1);
         }
     }
 }
@@ -186,6 +174,10 @@ main h3 {
     font-size: $font-size-header;
     line-height: 1rlh;
     padding-top: $margin-top;
+}
+
+ main h3:first-child {
+    padding-top: 0;
 }
 
 *:target,
