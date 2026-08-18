@@ -109,10 +109,12 @@ section {
         column-count: 2;
         column-gap: 4.1%;
         transform: scaleY(-1);
+        transform-origin: top;
 
         #column-wrapper {
             display: block;
             transform: scaleY(-1);
+            transform-origin: top;
         }
     }
 }
