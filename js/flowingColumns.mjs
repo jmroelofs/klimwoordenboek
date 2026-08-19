@@ -45,7 +45,7 @@ class FlowingColumns {
 
             wantedTopOffset = wTop + this.#marginTop,
             wantedOverlap = wHeight - this.#marginBottom - this.#marginTop,
-            wantedBottomOffset = lColHeight + rColHeight - 2 * wantedOverlap - wantedTopOffset;
+            wantedBottomOffset = Math.max(0, lColHeight + rColHeight - 2 * wantedOverlap - wantedTopOffset);
 
         this.#columns.style.marginBlock = `${wantedBottomOffset}px ${wantedTopOffset}px`;
 
