@@ -108,6 +108,8 @@ section {
     .continuous-column {
         column-count: 2;
         column-gap: 4.1%;
+        widows: 1;
+        orphans: 1;
         padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
 
         #spacer + h3 {
