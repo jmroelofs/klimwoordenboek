@@ -87,7 +87,7 @@ header {
 }
 
 main {
-    margin: $margin-top $main-right-margin $margin-bottom 1.6%;
+    margin: 0 $main-right-margin $margin-bottom 1.6%;
 }
 
 
@@ -109,12 +109,12 @@ section {
         column-count: 2;
         column-gap: 4.1%;
         transform: scaleY(-1);
-        transform-origin: top;
+        transform-origin: top left;
 
         #column-wrapper {
             display: block;
             transform: scaleY(-1);
-            transform-origin: top;
+            transform-origin: top left;
         }
     }
 }
@@ -176,10 +176,6 @@ main h3 {
     font-size: $font-size-header;
     line-height: 1rlh;
     padding-top: $margin-top;
-}
-
- main h3:first-child {
-    padding-top: 0;
 }
 
 *:target,
