@@ -47,10 +47,10 @@ class FlowingColumns {
             wantedOverlap = wHeight - this.#marginBottom - this.#marginTop,
             wantedBottomOffset = lColHeight + rColHeight - 2 * wantedOverlap - wantedTopOffset;
 
-        this.#columns.style.marginBottom = `${wantedTopOffset}px`;
-        this.#columns.style.marginTop = `${wantedBottomOffset}px`;
+        this.#columns.style.marginBlock = `${wantedBottomOffset}px ${wantedTopOffset}px`;
 
-        console.log(this.#marginBottom, this.#marginTop, lColHeight + rColHeight);
+
+        // console.log(this.#marginBottom, this.#marginTop, lColHeight + rColHeight);
 
 
         this.#animationFrameId = null;

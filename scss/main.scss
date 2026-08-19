@@ -113,6 +113,8 @@ section {
 
         #column-wrapper {
             display: block;
+            orphans: 1;
+            widows: 1;
             transform: scaleY(-1);
             // transform-origin: top left;
         }
