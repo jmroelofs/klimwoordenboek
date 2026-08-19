@@ -109,12 +109,12 @@ section {
         column-count: 2;
         column-gap: 4.1%;
         transform: scaleY(-1);
-        transform-origin: top left;
+        // transform-origin: top left;
 
         #column-wrapper {
             display: block;
             transform: scaleY(-1);
-            transform-origin: top left;
+            // transform-origin: top left;
         }
     }
 }

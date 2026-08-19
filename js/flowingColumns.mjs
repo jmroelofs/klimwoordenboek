@@ -17,8 +17,8 @@ class FlowingColumns {
     #lineHeight = this.#columns
         ? parseFloat(window.getComputedStyle(this.#columns).getPropertyValue('line-height'))
         : null;
-    #marginTop = this.#container
-        ? parseFloat(window.getComputedStyle(this.#container.firstElementChild).getPropertyValue('padding-top'))
+    #marginTop = this.#columns
+        ? parseFloat(window.getComputedStyle(this.#columns.firstElementChild).getPropertyValue('padding-top'))
         : null;
     #marginBottom = this.#container
         ? parseFloat(window.getComputedStyle(this.#container).getPropertyValue('margin-bottom'))
@@ -41,11 +41,16 @@ class FlowingColumns {
                 { top: lColTop, bottom: lColBottom, height: lColHeight },
                 { top: rColTop, bottom: rColBottom, height: rColHeight = 0 } = {}
             ]
-                = this.#columns.getClientRects()
+                = this.#columns.getClientRects(),
 
+            wantedTopOffset = wTop + this.#marginTop,
+            wantedOverlap = wHeight - this.#marginBottom - this.#marginTop,
+            wantedBottomOffset = lColHeight + rColHeight - 2 * wantedOverlap - wantedTopOffset;
 
+        this.#columns.style.marginBottom = `${wantedTopOffset}px`;
+        this.#columns.style.marginTop = `${wantedBottomOffset}px`;
 
-        console.log('a');
+        console.log(this.#marginBottom, this.#marginTop, lColHeight + rColHeight);
 
 
         this.#animationFrameId = null;
