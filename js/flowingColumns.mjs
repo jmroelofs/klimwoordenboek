@@ -36,12 +36,13 @@ class FlowingColumns {
                 { height: leftColumnHeight },
                 { height: rightColumnHeight = 0 } = {} 
             ] = this.#container.getClientRects(),
+
             wantedBottomOffset = 
                  leftColumnHeight 
                  + rightColumnHeight 
                  - spacerHeight 
                  - 2 * windowHeight 
-                 - roundedOffset
+                 - roundedOffset;
 
         this.#column.style.cssText = 
             `--offset-remainder: ${remainder}px;` +
