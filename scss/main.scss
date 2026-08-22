@@ -112,7 +112,7 @@ section {
         orphans: 1;
         padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
 
-        #spacer + h3 {
+        #column-container {
             margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
         }
 
@@ -121,7 +121,7 @@ section {
         #spacer {
             /* adjust margin 1px because of min height */
             margin-top: calc(100svh - #{$margin-top + $margin-bottom} - 1px);
-            height: var(--spacer-height, 1px);
+            height: max(1px, calc(var(--spacer-height, -200px) + 5rlh));
             width: 100%;
             float: left;
             display: block;

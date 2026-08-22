@@ -16,10 +16,7 @@ class FlowingColumns {
     #lineHeight = this.#column
         ? parseFloat(window.getComputedStyle(this.#column).getPropertyValue('line-height'))
         : null;
-    #lastParagraph = this.#column?.lastElementChild;
-
-    #offset = 0;
-    #storedHeight = 1;
+    #container = this.#column?.querySelector('#column-container');
 
     #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
     #matchesMedia = this.#mediaQuery.matches;
@@ -31,50 +28,25 @@ class FlowingColumns {
     };
 
     #flowColumns = () => {
-        // offset of page readings
         const
+            windowHeight = document.documentElement.clientHeight,
             {rounded: roundedOffset, remainder} = this.#roundNearest(window.scrollY, this.#lineHeight),
-            offsetDifference = roundedOffset - this.#offset,
-            // column readings
-            { top: spacerTop, bottom: spacerBottom } = this.#spacer.getBoundingClientRect(),
-            { bottom: lastParagraphBottom } = [...this.#lastParagraph.getClientRects()].at(-1);
-
-        // calculate height of spacer
-        let calculatedHeight;
-
-        if (spacerBottom >= lastParagraphBottom - offsetDifference) {
-            // we are overshooting
-            // console.log('[flowColumns] overshooting');
-
-            const heightNeeded = lastParagraphBottom - spacerTop;
-            calculatedHeight = heightNeeded - offsetDifference;
-
-        } else {
-            // we are undershooting
-            // console.log('[flowColumns] undershooting');
-
-            const heightNeeded = this.#column.getBoundingClientRect().bottom - spacerTop;
-            calculatedHeight = (2 * heightNeeded) - this.#storedHeight - offsetDifference;
-
-        }
-
-        // add a safety margin
-        const
-            safetyMargin = this.#lineHeight,
-            heightNew = Math.max(1, calculatedHeight + safetyMargin);
-
-        // adjust offset;
-        this.#offset += offsetDifference;
-
-        // adjust height of spacer
-        if (this.#diffMoreThan(heightNew, this.#storedHeight, 1)) {
-            this.#storedHeight = heightNew;
-        }
+            { height: spacerHeight } = this.#spacer.getBoundingClientRect(),
+            [
+                { height: leftColumnHeight },
+                { height: rightColumnHeight = 0 } = {} 
+            ] = this.#container.getClientRects(),
+            wantedBottomOffset = 
+                 leftColumnHeight 
+                 + rightColumnHeight 
+                 - spacerHeight 
+                 - 2 * windowHeight 
+                 - roundedOffset
 
         this.#column.style.cssText = 
             `--offset-remainder: ${remainder}px;` +
-            `--column-offset: ${this.#offset}px;` +
-            `--spacer-height: ${this.#storedHeight}px;`;
+            `--column-offset: ${roundedOffset}px;` + 
+            `--spacer-height: ${wantedBottomOffset}px;`;
 
         this.#animationFrameId = null;
     };
