@@ -114,6 +114,13 @@ section {
 
         #column-container {
             margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
+
+            /* fix for firefox letting h3 overflow in columns
+               vertical-align is needed for correct height*/
+            p + h3 {
+                display: inline-block;
+                vertical-align: top;
+            }
         }
 
         /*  a block with zero height is ignored by getBoundingClientRect
