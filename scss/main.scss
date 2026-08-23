@@ -139,7 +139,8 @@ main {
 /*  on big and wide screens we use the golden ratio
     it kicks in between lower width and upper width */
 
-@media (height < $ratio-view-lower-height) and (width >= $ratio-view-lower-width) {
+@media (height < $ratio-view-lower-height)
+    and (width >= $ratio-view-lower-width) {
 
     /*  wide enough, but not high enough, body will be upper width wide */
     body {
@@ -147,7 +148,9 @@ main {
     }
 }
 
-@media (height >= $ratio-view-lower-height) and (width >= $ratio-view-lower-width) and (aspect-ratio >= $ratio-view-aspect-ratio) {
+@media (height >= $ratio-view-lower-height)
+    and (width >= $ratio-view-lower-width)
+    and (aspect-ratio >= $ratio-view-aspect-ratio) {
 
     /*  body will use golden ratio */
     body {
@@ -155,7 +158,8 @@ main {
     }
 }
 
-@media (height > $ratio-view-upper-height) and (width > $ratio-view-upper-width) {
+@media (height > $ratio-view-upper-height)
+    and (width > $ratio-view-upper-width) {
 
     /*  too big, body will be upper width wide */
     body {
@@ -284,7 +288,9 @@ dfn {
             position: absolute;
             inset: -$vertical-adjust-for-font $main-right-margin $vertical-adjust-for-font 0;
             z-index: -1;
-            background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
+            background:
+                linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent)
+                left top / 64px 100%;
         }
 
         table {
