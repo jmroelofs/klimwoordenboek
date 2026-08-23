@@ -39,7 +39,7 @@
         $lexiconClass       = '';
         $gradingClass       = '';
         $gradingTablesClass = 'active';
-        $class              = '';
+        $class              = 'tables';
         break;
     default:
         require 'content/404.php';
