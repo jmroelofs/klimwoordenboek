@@ -84,6 +84,13 @@ header {
     &::-webkit-scrollbar {
         display: none;
     }
+
+    /*  adjust header text alignment on smaller screens */
+    @container (width < 185px) {
+        p {
+            text-align: left;
+        }
+    }
 }
 
 main {
@@ -345,21 +352,14 @@ dfn {
         }
     }
 
-    section {
-        padding-right: $main-right-margin-small-screen;
-    }
+    .tables {
+        .grading-table {
+            padding-right: $main-right-margin-small-screen;
+        }
 
-    .grading-table:hover::before {
-        right: $main-right-margin-small-screen;
-    }
-}
-
-
-/*  adjust header text alignment on smaller screens */
-
-@container (width < 185px) {
-    header p {
-        text-align: left;
+        .grading-table:hover::before {
+            right: $main-right-margin-small-screen;
+        }
     }
 }
 
