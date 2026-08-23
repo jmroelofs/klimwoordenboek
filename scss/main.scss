@@ -1,4 +1,4 @@
-/* CSS for klimwoordenboek */
+/*  CSS for klimwoordenboek */
 
 @use 'sass:list';
 @use 'sass:math';
@@ -7,7 +7,7 @@
 @use 'normalize';
 
 
-/* font related */
+/*  font related */
 
 $text-indent: 0.5rem;
 $font-size: 15px;
@@ -15,7 +15,7 @@ $font-size-header: 1.333rem;
 $vertical-adjust-for-font: 1.5px;
 
 
-/* colors */
+/*  colors */
 
 $background-color: oklch(0.97 0 0);
 $background-color-darker: oklch(0 0 0 / 0.035);
@@ -28,7 +28,7 @@ $color-even: oklch(0.89 0.05 225.57);
 $color-odd: oklch(0.86 0.05 225.57);
 
 
-/* margins */
+/*  margins */
 
 $main-right-margin: 3.1%;
 $main-right-margin-small-screen: 3vw;
@@ -36,7 +36,7 @@ $margin-top: 2rlh;
 $margin-bottom: 1.5rlh;
 
 
-/* use golden ratio */
+/*  use golden ratio */
 
 $ratio: 1.618;
 $ratio-view-lower-width: 1200px;
@@ -46,12 +46,12 @@ $ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
 $ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 
 
-/* table width unit for grading tables */
+/*  table width unit for grading tables */
 
 $width-unit: 4.75px;
 
 
-/* ------------------------------------------------------------ */
+/*  ------------------------------------------------------------ */
 
 :root {
     font: 400 list.slash($font-size, 1.5) font.$font-family;
@@ -84,6 +84,13 @@ header {
     &::-webkit-scrollbar {
         display: none;
     }
+
+    /*  adjust header text alignment on smaller screens */
+    @container (width < 185px) {
+        p {
+            text-align: left;
+        }
+    }
 }
 
 main {
@@ -91,14 +98,7 @@ main {
 }
 
 
-/*  to get a right margin on smaller screens */
-
-section {
-    padding-right: $main-right-margin;
-}
-
-
-/* continuous column */
+/*  continuous column */
 
 #spacer {
     display: none;
@@ -112,16 +112,27 @@ section {
         orphans: 1;
         padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
 
-        #spacer + h3 {
+        #column-container {
             margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
+
+            /*  fix for firefox letting h3 overflow in columns
+                vertical-align is needed for correct height
+                we are targeting Firefox only, see
+                https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/ */
+            @-moz-document url-prefix() {
+                p+h3 {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            }
         }
 
         /*  a block with zero height is ignored by getBoundingClientRect
-            https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect */
+            https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+            so we use a minimum height of 1px */
         #spacer {
-            /* adjust margin 1px because of min height */
-            margin-top: calc(100svh - #{$margin-top + $margin-bottom} - 1px);
-            height: var(--spacer-height, 1px);
+            margin-top: calc(100svh - #{$margin-top + $margin-bottom});
+            height: max(1px, calc(var(--spacer-height, -200px) + 5rlh));
             width: 100%;
             float: left;
             display: block;
@@ -133,27 +144,31 @@ section {
 
 
 /*  on big and wide screens we use the golden ratio
-    it kicks in between 1200 and 1600 pixels wide */
+    it kicks in between lower width and upper width */
 
-@media (height < $ratio-view-lower-height) and (width >= $ratio-view-lower-width) {
+@media (height < $ratio-view-lower-height)
+    and (width >= $ratio-view-lower-width) {
 
-    /* wide enough, but not high enough, body will be 1200px wide */
+    /*  wide enough, but not high enough, body will be upper width wide */
     body {
         margin-inline: max(0px, 50vw - #{$ratio-view-lower-width * 0.5})
     }
 }
 
-@media (height >= $ratio-view-lower-height) and (width >= $ratio-view-lower-width) and (aspect-ratio >= $ratio-view-aspect-ratio) {
+@media (height >= $ratio-view-lower-height)
+    and (width >= $ratio-view-lower-width)
+    and (aspect-ratio >= $ratio-view-aspect-ratio) {
 
-    /* body will use golden ratio */
+    /*  body will use golden ratio */
     body {
         margin-inline: max(0px, 50vw - #{$ratio * 50}vh)
     }
 }
 
-@media (height > $ratio-view-upper-height) and (width > $ratio-view-upper-width) {
+@media (height > $ratio-view-upper-height)
+    and (width > $ratio-view-upper-width) {
 
-    /* too big, body will be 1600px wide */
+    /*  too big, body will be upper width wide */
     body {
         margin-inline: max(0px, 50vw - #{$ratio-view-upper-width * 0.5})
     }
@@ -169,7 +184,7 @@ h3 {
 
 h2,
 h3,
-:is(nav, h3) + p {
+:is(nav, h3)+p {
     padding-top: 1rlh;
 }
 
@@ -216,7 +231,7 @@ a:focus {
 }
 
 
-/* language specifics */
+/*  language specifics */
 
 strong,
 b,
@@ -259,50 +274,62 @@ dfn {
 }
 
 
-/* grading tables */
+/*  grading tables */
 
-.grading-table {
-    margin-top: 1rlh;
-    position: relative;
-    width: max-content;
-
-    &:hover::before {
-        content: "";
-        position: absolute;
-        inset: -$vertical-adjust-for-font $main-right-margin $vertical-adjust-for-font 0;
-        z-index: -1;
-        background: linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent) left top / 64px 100%;
+.tables {
+    h3,
+    p {
+        position: sticky;
+        width: max-content;
+        left: 1.2%;
     }
 
-    table {
-        border-collapse: collapse;
+    .grading-table {
+        margin-top: 1rlh;
+        position: relative;
+        width: max-content;
+        padding-right: $main-right-margin;
 
-        td {
-            padding: 0;
-            font-size: 0.85rem;
-            text-align: center;
-            line-height: 1rlh;
-            position: relative;
+        &:hover::before {
+            content: "";
+            position: absolute;
+            inset: -$vertical-adjust-for-font $main-right-margin $vertical-adjust-for-font 0;
+            z-index: -1;
+            background:
+                linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent)
+                left top / 64px 100%;
+        }
 
-            &::before {
-                content: "";
-                position: absolute;
-                inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
-                z-index: -1;
-            }
+        table {
+            border-collapse: collapse;
 
-            &:nth-child(odd)::before {
-                background-color: $color-odd;
-            }
+            td {
+                padding: 0;
+                font-size: 0.85rem;
+                text-align: center;
+                line-height: 1rlh;
+                position: relative;
 
-            &:nth-child(even)::before {
-                background-color: $color-even;
-            }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
+                    z-index: -1;
+                }
 
-            @each $n in 5, 6, 7, 8, 10, 11, 12, 14, 16, 20, 24, 48 {
-                &.w-#{$n} {
-                    min-width: $width-unit * $n;
-                    max-width: $width-unit * $n;
+                &:nth-child(odd)::before {
+                    background-color: $color-odd;
+                }
+
+                &:nth-child(even)::before {
+                    background-color: $color-even;
+                }
+
+                @each $n in 5, 6, 7, 8, 10, 11, 12, 14, 16, 20, 24, 48 {
+                    &.w-#{$n} {
+                        min-width: $width-unit * $n;
+                        max-width: $width-unit * $n;
+                    }
                 }
             }
         }
@@ -310,17 +337,7 @@ dfn {
 }
 
 
-/* adjust text in grading tables */
-
-h3:has(+ section),
-section p {
-    position: sticky;
-    width: max-content;
-    left: 1.2%;
-}
-
-
-/* make left column pushable to the left on a small screen */
+/*  make left column pushable to the left on a small screen */
 
 @media (width < 550px) {
     body {
@@ -335,26 +352,19 @@ section p {
         }
     }
 
-    section {
-        padding-right: $main-right-margin-small-screen;
-    }
+    .tables {
+        .grading-table {
+            padding-right: $main-right-margin-small-screen;
+        }
 
-    .grading-table:hover::before {
-        right: $main-right-margin-small-screen;
-    }
-}
-
-
-/* adjust header text alignment on smaller screens */
-
-@container (width < 185px) {
-    header p {
-        text-align: left;
+        .grading-table:hover::before {
+            right: $main-right-margin-small-screen;
+        }
     }
 }
 
 
-/* print */
+/*  print */
 
 @media print {
     page {
