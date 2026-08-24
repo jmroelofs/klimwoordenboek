@@ -30,8 +30,8 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 /*  margins */
 
-$main-right-margin: 3.1%;
-$main-right-margin-small-screen: 3vw;
+$right-margin: 3.1%;
+$right-margin-small-screen: 3vw;
 $margin-top: 2rlh;
 $margin-bottom: 1.5rlh;
 
@@ -69,12 +69,12 @@ $width-unit: 4.75px;
 body {
     display: grid;
     grid-template-columns: 26.7% auto;
-    --main-right-margin: #{$main-right-margin};
+    --right-margin: #{$right-margin};
 
     /*  make left column pushable to the left on a small screen */
     @media (width < 550px) {
         min-width: max(400px, 135vw);
-        --right-margin: #{$main-right-margin-small-screen};
+        --right-margin: #{$right-margin-small-screen};
     }
 
     /*  on big and wide screens we use the golden ratio
@@ -122,10 +122,10 @@ header {
 }
 
 main {
-    margin: 0 var(--main-right-margin) $margin-bottom 1.6%;
+    margin: 0 var(--right-margin) $margin-bottom 1.6%;
 
     h3 {
-        scroll-margin-right: var(--main-right-margin);
+        scroll-margin-right: var(--right-margin);
     }
 }
 
@@ -243,12 +243,12 @@ dfn {
         margin-top: 1rlh;
         position: relative;
         width: max-content;
-        padding-right: -var(--main-right-margin);
+        padding-right: -var(--right-margin);
 
         &:hover::before {
             content: "";
             position: absolute;
-            inset: -$vertical-adjust-for-font var(--main-right-margin) $vertical-adjust-for-font 0;
+            inset: -$vertical-adjust-for-font var(--right-margin) $vertical-adjust-for-font 0;
             z-index: -1;
             background:
                 linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent)
