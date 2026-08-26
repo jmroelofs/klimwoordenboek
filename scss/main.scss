@@ -243,7 +243,7 @@ dfn {
         margin-top: 1rlh;
         position: relative;
         width: max-content;
-        padding-right: -var(--right-margin);
+        padding-right: var(--right-margin);
 
         &:hover::before {
             content: "";
