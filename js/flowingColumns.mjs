@@ -54,4 +54,4 @@ class FlowingColumns {
     };
 }
 
-export { FlowingColumns };
+export default FlowingColumns;

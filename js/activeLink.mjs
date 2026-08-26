@@ -21,4 +21,4 @@ class ActiveLink {
     }
 }
 
-export { ActiveLink };
+export default ActiveLink;

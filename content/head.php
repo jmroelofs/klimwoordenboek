@@ -32,8 +32,8 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <script type="module">
 import table from './json/rotTable.json' with { type: 'json' };
-import { FlowingColumns } from './js/flowingColumns.mjs';
-import { ActiveLink } from './js/activeLink.mjs';
+import FlowingColumns from './js/flowingColumns.mjs';
+import ActiveLink from './js/activeLink.mjs';
 
 // we prefer to wait until the fonts are loaded
 new Promise((resolve, reject) => {
