@@ -1,15 +1,15 @@
+import throttle from './lodash/throttle.js';
+
 class FlowingColumns {
     constructor() {
         if (this.#column) {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
-            this.#handleEvent(new Event('init'));
+            this.#flowColumns();
             ['scroll', 'resize'].forEach(event =>
-                window.addEventListener(event, this.#handleEvent, { passive: true })
+                window.addEventListener(event, throttle(this.#flowColumns, 100), { passive: true })
             );
         }
     }
-
-    #animationFrameId = null;
 
     #column = document.querySelector('.continuous-column');
     #spacer = this.#column?.querySelector('#spacer');
@@ -26,7 +26,11 @@ class FlowingColumns {
         return { rounded: rounded, remainder: value - rounded };
     };
 
-    #flowColumns = () => {
+    #flowColumns = event => {
+        if (! this.#matchesMedia) {
+            return;
+        }
+
         const
             windowHeight = document.documentElement.clientHeight,
             { rounded: roundedOffset, remainder } = this.#roundNearest(window.scrollY, this.#lineHeight),
@@ -47,22 +51,6 @@ class FlowingColumns {
             `--offset-remainder: ${remainder}px;` +
             `--column-offset: ${roundedOffset}px;` +
             `--spacer-height: ${wantedBottomOffset}px;`;
-
-        this.#animationFrameId = null;
-    };
-
-    #handleEvent = event => {
-        if (this.#animationFrameId) {
-            console.log(`[flowColumns] resetting animation in ${event.type} event`);
-            window.cancelAnimationFrame(this.#animationFrameId);
-            this.#animationFrameId = null;
-        }
-
-        if (! this.#matchesMedia) {
-            return;
-        }
-
-        this.#animationFrameId = window.requestAnimationFrame(this.#flowColumns);
     };
 }
 
