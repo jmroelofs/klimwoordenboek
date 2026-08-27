@@ -1,5 +1,4 @@
-import throttle from './lodash/throttle.js';
-
+import { throttle } from '../node_modules/es-toolkit/dist/function/throttle.mjs';
 class FlowingColumns {
     constructor() {
         if (this.#column) {

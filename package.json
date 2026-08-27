@@ -2,7 +2,10 @@
   "name": "klimwoordenboek",
   "description": "Klimwoordenboek Frans & Engels",
   "scripts": {
-    "dev": "sass --style=compressed --no-charset scss:. && lodash modularize include=throttle exports=es -o ./js/lodash",
+    "dev": "sass --style=compressed --no-charset scss:.",
     "watch": "sass --style=compressed --no-charset --watch scss:."
+  },
+  "dependencies": {
+    "es-toolkit": "^1.51.0"
   }
 }

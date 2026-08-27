@@ -1,4 +1,4 @@
 .idea/
 main.css
 main.css.map
-js/lodash/
+node_modules/
