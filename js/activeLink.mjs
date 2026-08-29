@@ -10,14 +10,8 @@ class ActiveLink {
 
     #setActive = event => {
         this.#activeLink?.classList.remove('active-link');
-
-        this.#allLinks.some(link => {
-            if (link.href === event.newURL) {
-                link.classList.add('active-link');
-                this.#activeLink = link;
-                return true
-            }
-        })
+        this.#activeLink = this.#allLinks.find(link => link.href === event.newURL);
+        this.#activeLink?.classList.add('active-link');
     }
 }
 
