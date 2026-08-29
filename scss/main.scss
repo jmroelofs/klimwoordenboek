@@ -320,15 +320,9 @@ dfn {
         #column-container {
             margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
 
-            /*  fix for firefox letting h3 overflow in columns
-                vertical-align is needed for correct height
-                we are targeting Firefox only, see
-                https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/ */
-            @-moz-document url-prefix() {
-                p+h3 {
-                    display: inline-block;
-                    vertical-align: top;
-                }
+            p+h3 {
+                display: inline-block;
+                vertical-align: top;
             }
         }
 
