@@ -321,15 +321,12 @@ dfn {
             }
         }
 
-        /*  a block with zero height is ignored by getBoundingClientRect
-            https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
-            so we use a minimum height of 1px */
         #spacer {
             margin-top: calc(100svh - #{$margin-top + $margin-bottom});
-            height: max(1px, calc(var(--spacer-height, -200px) + 5rlh));
+            height: var(--spacer-height);
             width: 100%;
             float: left;
-            display: block;
+            display: var(--spacer-display);
             shape-outside: content-box;
             break-inside: avoid;
         }

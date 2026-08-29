@@ -12,11 +12,9 @@ class FlowingColumns {
     }
 
     #column = document.querySelector('.continuous-column');
-    #spacer = this.#column?.querySelector('#spacer');
-    #lineHeight = this.#column
-        ? parseFloat(window.getComputedStyle(this.#column).getPropertyValue('line-height'))
-        : null;
+    #lineHeight = parseFloat(window.getComputedStyle(document.documentElement).getPropertyValue('line-height'));
     #container = this.#column?.querySelector('#column-container');
+    #spacer = this.#column?.querySelector('#spacer');
 
     #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
     #matchesMedia = this.#mediaQuery.matches;
@@ -45,12 +43,14 @@ class FlowingColumns {
                 + rightColumnHeight
                 - spacerHeight
                 - 2 * windowHeight
-                - roundedOffset;
+                - roundedOffset
+                + 5 * this.#lineHeight; // top margin + 2 * bottom margin
 
         this.#column.style.cssText =
             `--offset-remainder: ${remainder}px;` +
             `--column-offset: ${roundedOffset}px;` +
-            `--spacer-height: ${wantedBottomOffset}px;`;
+            `--spacer-height: ${wantedBottomOffset}px;` +
+            `--spacer-display: ${wantedBottomOffset  > 0 ? 'block' : 'none'};`;
     };
 }
 
