@@ -1,4 +1,5 @@
-import { throttle } from '../node_modules/es-toolkit/dist/function/throttle.mjs';
+import { throttle } from './es-toolkit/throttle.mjs';
+
 class FlowingColumns {
     constructor() {
         if (this.#column) {

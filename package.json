@@ -2,7 +2,10 @@
   "name": "klimwoordenboek",
   "description": "Klimwoordenboek Frans & Engels",
   "scripts": {
-    "dev": "sass --style=compressed --no-charset scss:.",
+    "dev": "npm-run-all copy:* sass",
+    "copy:throttle" : "cp -uv node_modules/es-toolkit/dist/function/throttle.mjs js/es-toolkit/throttle.mjs",
+    "copy:debounce" : "cp -uv node_modules/es-toolkit/dist/function/debounce.mjs js/es-toolkit/debounce.mjs",
+    "sass": "sass --style=compressed --no-charset scss:.",
     "watch": "sass --style=compressed --no-charset --watch scss:."
   },
   "dependencies": {
