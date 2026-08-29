@@ -208,13 +208,16 @@ h3:target {
 dfn {
     font-style: italic;
     hyphens: manual;
-    /*  Firefox does not go wel with 'hyphens: manual'
-        it sometimes overflows for no apparent reason
-        in our case that's at 'assurer' on a 1080p screen
-        we are targeting Firefox only, see
-        https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/ */
-    @-moz-document url-prefix() {
-        hyphens: auto;
+
+    &:first-child {
+        /*  Firefox does not go wel with 'hyphens: manual'
+            it sometimes overflows for no apparent reason
+            in our case that's at 'assurer' on a 1080p screen
+            we are targeting Firefox only, see
+            https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/ */
+        @-moz-document url-prefix() {
+            hyphens: auto;
+        }
     }
 }
 
