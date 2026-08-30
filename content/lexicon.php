@@ -83,7 +83,7 @@
 <p><dfn lang="en-US">beached whale [Am.]</dfn>
 	iemand die schuivend over z'n buik op een boulder probeert te komen.</p>
 <p><dfn lang="en-US" id="beta">beta [Am.]</dfn>
-	(route&#8209;)<wbr>informatie. <dfn lang="en-US" id="beta">beta spray</dfn> ongevraagd advies.</p>
+	(route&#8209;)<wbr>informatie. <dfn lang="en-US">beta break</dfn> originele on&shy;gewone op&shy;lossing voor een klim&shy;probleem. <dfn lang="en-US">beta spray</dfn> ongevraagd advies.</p>
 <p><dfn lang="fr">bicyclette [v.]<span class="separator">&nbsp;| </span>pointe-contre-pointe [v.]</dfn> <dfn lang="en">bicycle</dfn>
 	fiets, klim&shy;beweging waarbij je een tree tussen je voeten klemt, een voet erop en een voet eronder.</p>
 <p><dfn lang="fr">bidoigt [m.]</dfn> <dfn lang="en">twofingerpocket</dfn>
@@ -467,7 +467,7 @@
 <p><dfn lang="fr">hueco [m.]</dfn> <dfn lang="en-US">hueco [Am.]</dfn>
 	[eig. Spaans voor holte] grote ronde holte in de rots, die je als greep kunt gebruiken, wordt veel gevonden in <a href="https://en.wikipedia.org/wiki/Hueco_Tanks" target="_blank" rel="noopener">Hueco Tanks</a>, Texas.</p>
 <p><dfn lang="fr">(descendeur en) huit [m.]</dfn> <dfn lang="en">figure eight</dfn>
-	acht, aluminium achtvorm gebruikt om mee te zekeren en af te touwen. <dfn lang="fr">huit italien<span class="separator">&nbsp;| </span>huit autobloquant</dfn> het gebruik van een acht als stijgklem, door in het grote oog in te klippen en het touw gekruisd in te hangen. <dfn lang="fr">huit rapide</dfn> het gebruik van een acht met het touw door de karabiner in plaats van om de acht, om de wrijving te verminderen en sneller touw te kunnen geven (in Nederland soms zekeren &lsquo;op z'n Frans&rsquo; genoemd).</p>
+	acht, aluminium acht&shy;vorm gebruikt om mee te zekeren en af te touwen. <dfn lang="fr">huit italien<span class="separator">&nbsp;| </span>huit autobloquant</dfn> het gebruik van een acht als stijg&shy;klem, door in het grote oog in te klippen en het touw gekruisd in te hangen. <dfn lang="fr">huit rapide</dfn> het gebruik van een acht met het touw door de karabiner in plaats van om de acht, om de wrijving te verminderen en sneller touw te kunnen geven (in Nederland soms zekeren &lsquo;op z'n Frans&rsquo; genoemd).</p>
 
 <h3 id="I">I</h3>
 <p><dfn lang="fr"><a href="https://www.worldclimbing.com/" target="_blank" rel="noopener">Fédération&nbsp;[v.] inter&shy;nationale d'escalade</a></dfn> <dfn lang="en"><a href="https://www.worldclimbing.com/" target="_blank" rel="noopener">IFSC<span class="separator">&nbsp;| </span>Inter&shy;national Federation of Sport Climbing</a></dfn>
@@ -479,13 +479,13 @@
 <p><dfn lang="fr">(prise) intermédiaire [v.]</dfn> <dfn lang="en">intermediate (hold)</dfn>
 	tussen&shy;greep.</p>
 <p><dfn lang="fr">sur information</dfn> <dfn lang="en">with running beta<span class="separator">&nbsp;| </span>on auto beta</dfn>
-	met informatie van beneden, makkelijke vorm van <a href="#flash">flash</a>.</p>
+	met informatie van beneden, makke&shy;lijke vorm van <a href="#flash">flash</a>.</p>
 
 <h3 id="J">J</h3>
 <p><dfn lang="fr-BE">en jaune [Bel.]</dfn>
 	vrij (zonder haken), oude Belgische klimstijl, waarbij men oor&shy;spronkelijk de haken die niet voor de voort&shy;beweging gebruikt werden geel verfde. <dfn lang="fr-BE">jaunir [Bel.]</dfn> vrijklimmen.</p>
 <p><dfn lang="fr">jeté [m.]<span class="separator">&nbsp;| </span>lancé [m.]<span class="separator">&nbsp;| </span>jump [m.]</dfn> <dfn lang="en" id="dyno">dyno<span class="separator">&nbsp;| </span>jump</dfn>
-	sprong, dynamische beweging. <dfn lang="en">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="fr">jeter<span class="separator">&nbsp;| </span>lancer</dfn> <dfn lang="en">to dyno/<wbr>jump</dfn> springen.</p>
+	sprong, dynamische beweging. <dfn lang="en">double dyno</dfn> sprong met twee handen tegelijk. <dfn lang="en">paddle dyno</dfn> sprong waarbij je met je handen gelijk &lsquo;door&shy;peddelt&rsquo; naar een volgende greep. <dfn lang="fr">jeter<span class="separator">&nbsp;| </span>lancer</dfn> <dfn lang="en">to dyno/<wbr>jump</dfn> springen.</p>
 
 <h3 id="K">K</h3>
 
@@ -493,9 +493,9 @@
 <p><dfn lang="fr">laché [m.]</dfn> <dfn lang="en">lache (move)</dfn>
 	een zwaaiende, springende beweging (de term is afkomstig uit <a href="https://nl.wikipedia.org/wiki/Parkour" target="_blank" rel="noopener">parkour</a>).</p>
 <p><dfn lang="en-US"><a href="http://www.edhartouni.net/leavittation-the-off-width-renaissance.html" target="_blank" rel="noopener">leavittation</a></dfn>
-	techniek voor <a lang="en" href="#off-width">off-width</a> spleten, twee handen worden verklemd, waarna de benen verklemd worden, de twee handen worden bij de voort&shy;beweging gelijktijdig verplaatst (vernoemd naar <a href="https://web.archive.org/web/20151230150936/http://www.joshuatreeclimb.com/members/History/Profiles/rleavitt.htm" target="_blank" rel="noopener">Randy Leavitt</a>).</p>
+	techniek voor <a lang="en" href="#off-width">off-width</a> spleten, twee handen worden ver&shy;klemd, waarna de benen ver&shy;klemd worden, de twee handen worden bij de voort&shy;beweging gelijk&shy;tijdig verplaatst (vernoemd naar <a href="https://web.archive.org/web/20151230150936/http://www.joshuatreeclimb.com/members/History/Profiles/rleavitt.htm" target="_blank" rel="noopener">Randy Leavitt</a>).</p>
 <p><dfn lang="fr">du libre<span class="separator">&nbsp;| </span>escalade [v.] libre</dfn> <dfn lang="en-US">free climbing [Am.]</dfn>
-	vrijklimmen, klimstijl waarbij de haken alleen ter zekering gebruikt worden, (de Fransen zijn slordig in de juiste omschrijving van hun klimstijl). <dfn lang="fr">bon style</dfn> <dfn lang="en" id="redpoint">redpoint</dfn> rotpunkt, klimstijl waarbij de haken alleen ter zekering gebruikt worden en waarbij je iets voor&shy;klimt zonder vallen of uitrusten en het touw na een val weer doortrekt; alleen wanneer je een keer naar een haak bent geklommen en weer af mag je het touw in die haak laten hangen (hoewel dit soms onhandig is moet je eigenlijk ook het relais vanaf de laatste greep inklippen; in de oorspronke&shy;lijke definitie van de stijl mocht je na een val ook de setjes niet laten zitten; gepropageerd in de jaren 70 door <a href="https://de.wikipedia.org/wiki/Kurt_Albert_(Bergsteiger)" target="_blank" rel="noopener">Kurt Albert</a> die een rode stip zette onder routes die zo waren geklommen). <dfn lang="fr">faire du libre</dfn> <dfn lang="en">to free climb</dfn> vrijklimmen. <dfn lang="fr">faire une voie en libre</dfn> <dfn lang="en">to free climb a route</dfn> een route vrijklimmen. <dfn lang="fr">grimper en bon style</dfn> <dfn lang="en">to redpoint</dfn> rotpunkt klimmen. <dfn lang="fr">faire une voie en bon style</dfn> <dfn lang="en">to redpoint a route</dfn> een route rotpunkt klimmen.</p>
+	vrij&shy;klimmen, klim&shy;stijl waarbij de haken alleen ter zekering gebruikt worden, (de Fransen zijn slordig in de juiste om&shy;schrijving van hun klimstijl). <dfn lang="fr">bon style</dfn> <dfn lang="en" id="redpoint">redpoint</dfn> rotpunkt, klim&shy;stijl waarbij de haken alleen ter zekering gebruikt worden en waarbij je iets voor&shy;klimt zonder vallen of uitrusten en het touw na een val weer doortrekt; alleen wanneer je een keer naar een haak bent geklommen en weer af mag je het touw in die haak laten hangen (hoewel dit soms onhandig is moet je eigenlijk ook het relais vanaf de laatste greep inklippen; in de oorspronke&shy;lijke definitie van de stijl mocht je na een val ook de setjes niet laten zitten; gepropageerd in de jaren 70 door <a href="https://de.wikipedia.org/wiki/Kurt_Albert_(Bergsteiger)" target="_blank" rel="noopener">Kurt Albert</a> die een rode stip zette onder routes die zo waren geklommen). <dfn lang="fr">faire du libre</dfn> <dfn lang="en">to free climb</dfn> vrijklimmen. <dfn lang="fr">faire une voie en libre</dfn> <dfn lang="en">to free climb a route</dfn> een route vrijklimmen. <dfn lang="fr">grimper en bon style</dfn> <dfn lang="en">to redpoint</dfn> rotpunkt klimmen. <dfn lang="fr">faire une voie en bon style</dfn> <dfn lang="en">to redpoint a route</dfn> een route rotpunkt klimmen.</p>
 <p><dfn lang="fr">lichen [m.]</dfn> <dfn lang="en">lichen</dfn>
 	mos.</p>
 <p><dfn lang="fr">lisse<span class="separator">&nbsp;| </span>glissant[e]</dfn> <dfn lang="en">slippery</dfn>
