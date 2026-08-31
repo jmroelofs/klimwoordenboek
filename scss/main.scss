@@ -82,20 +82,23 @@ body {
     @media (height < $ratio-view-lower-height)
         and (width >= $ratio-view-lower-width) {
         /*  wide enough, but not high enough, body will be upper width wide */
-        margin-inline: max(0px, 50vw - #{$ratio-view-lower-width * 0.5});
+        margin-left: max(0px, 50vw - #{$ratio-view-lower-width * 0.5});
+        width: $ratio-view-lower-width;
     }
 
     @media (height >= $ratio-view-lower-height)
         and (width >= $ratio-view-lower-width)
         and (aspect-ratio >= $ratio-view-aspect-ratio) {
         /*  body will use golden ratio */
-        margin-inline: max(0px, 50vw - #{$ratio * 50}vh);
+        margin-left: max(0px, 50vw - #{$ratio * 50}vh);
+        width: #{$ratio * 100}vh;
     }
 
     @media (height > $ratio-view-upper-height)
         and (width > $ratio-view-upper-width) {
         /*  too big, body will be upper width wide */
-        margin-inline: max(0px, 50vw - #{$ratio-view-upper-width * 0.5});
+        margin-left: max(0px, 50vw - #{$ratio-view-upper-width * 0.5});
+        width: $ratio-view-upper-width;
     }
 }
 
