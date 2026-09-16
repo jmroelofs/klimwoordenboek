@@ -3,3 +3,6 @@ main.css
 main.css.map
 node_modules/
 js/es-toolkit/
+js/activeLink.js
+js/flowingColumns.js
+js/*.map

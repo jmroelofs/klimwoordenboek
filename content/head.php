@@ -22,10 +22,8 @@
 <meta property="og:url" content="<?php echo $contentUrl; ?>">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-normal.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="fonts/newsreader-v26-italic.woff2">
-<link rel="modulepreload" href="js/flowingColumns.mjs">
-<link rel="modulepreload" href="js/activeLink.mjs">
-<link rel="modulepreload" href="js/es-toolkit/throttle.mjs">
-<link rel="modulepreload" href="js/es-toolkit/debounce.mjs">
+<link rel="modulepreload" href="js/flowingColumns.js">
+<link rel="modulepreload" href="js/activeLink.js">
 <style><?php include 'main.css'; ?></style>
 <link rel="author" href="https://www.roelofs-coaching.nl/">
 <link rel="canonical" href="<?php echo $contentUrl; ?>">
@@ -34,8 +32,8 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <script type="module">
 import table from './json/rotTable.json' with { type: 'json' };
-import FlowingColumns from './js/flowingColumns.mjs';
-import ActiveLink from './js/activeLink.mjs';
+import FlowingColumns from './js/flowingColumns.js';
+import ActiveLink from './js/activeLink.js';
 
 // we prefer to wait until the fonts are loaded
 new Promise((resolve, reject) => {
