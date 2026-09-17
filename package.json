@@ -8,7 +8,10 @@
     "sass": "sass --style=compressed --no-charset scss:.",
     "esbuild:activeLink": "esbuild js/activeLink.mjs --bundle --format=esm --minify --sourcemap --outfile=js/activeLink.js",
     "esbuild:flowingColumns": "esbuild js/flowingColumns.mjs --bundle --format=esm --minify --sourcemap --outfile=js/flowingColumns.js",
-    "watch": "sass --style=compressed --no-charset --watch scss:."
+    "watch": "npm-run-all -p watch:*",
+    "watch:sass": "sass --style=compressed --no-charset --watch scss:.",
+    "watch:activeLink": "esbuild js/activeLink.mjs --bundle --watch --format=esm --minify --sourcemap --outfile=js/activeLink.js",
+    "watch:flowingColumns": "esbuild js/flowingColumns.mjs --bundle --watch --format=esm --minify --sourcemap --outfile=js/flowingColumns.js"
   },
   "dependencies": {
     "es-toolkit": "^1.52.0"
