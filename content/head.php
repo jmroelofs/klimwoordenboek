@@ -35,13 +35,7 @@ import table from './json/rotTable.json' with { type: 'json' };
 import FlowingColumns from './js/flowingColumns.js';
 import ActiveLink from './js/activeLink.js';
 
-// we prefer to wait until the fonts are loaded
-new Promise((resolve, reject) => {
-    document.fonts.ready.then(resolve);
-    setTimeout(reject, 1000, 'Fonts were not available after waiting one second');
-})
-    .catch(console.warn)
-    .finally(new FlowingColumns());
+new FlowingColumns();
 
 new ActiveLink(document.querySelectorAll('#alphabet a'));
 
