@@ -5,7 +5,7 @@ class FlowingColumns {
         if (this.#column) {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
             const
-                throttledFlowColumns = throttle(this.#flowColumns, 100),
+                throttledFlowColumns = throttle(this.#flowColumns, 75),
                 updateFlowColumns = () => window.dispatchEvent(new Event('update-flow'));
             ['scroll', 'resize', 'update-flow'].forEach(event =>
                 window.addEventListener(event, throttledFlowColumns, { passive: true })
