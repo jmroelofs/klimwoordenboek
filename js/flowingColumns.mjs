@@ -4,10 +4,14 @@ class FlowingColumns {
     constructor() {
         if (this.#column) {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
-            this.#flowColumns();
-            ['scroll', 'resize'].forEach(event =>
-                window.addEventListener(event, throttle(this.#flowColumns, 100), { passive: true })
+            const
+                throttledFlowColumns = throttle(this.#flowColumns, 100),
+                updateFlowColumns = () => window.dispatchEvent(new Event('update-flow'));
+            ['scroll', 'resize', 'update-flow'].forEach(event =>
+                window.addEventListener(event, throttledFlowColumns, { passive: true })
             );
+            updateFlowColumns()
+            document.fonts.ready.then(updateFlowColumns);
         }
     }
 
