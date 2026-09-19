@@ -2,16 +2,14 @@
   "name": "klimwoordenboek",
   "description": "Klimwoordenboek Frans & Engels",
   "scripts": {
-    "build": "npm-run-all copy:* esbuild:* sass",
+    "build": "npm-run-all copy:* esbuild sass",
     "copy:throttle": "cp -uv node_modules/es-toolkit/dist/function/throttle.mjs js/es-toolkit/throttle.mjs",
     "copy:debounce": "cp -uv node_modules/es-toolkit/dist/function/debounce.mjs js/es-toolkit/debounce.mjs",
     "sass": "sass --style=compressed --no-charset scss:.",
-    "esbuild:activeLink": "esbuild js/activeLink.mjs --bundle --format=esm --minify --sourcemap --outfile=js/activeLink.js",
-    "esbuild:flowingColumns": "esbuild js/flowingColumns.mjs --bundle --format=esm --minify --sourcemap --outfile=js/flowingColumns.js",
+    "esbuild": "esbuild js/*.mjs --bundle --format=esm --minify --sourcemap --outdir=js",
     "watch": "npm-run-all -p watch:*",
     "watch:sass": "sass --style=compressed --no-charset --watch scss:.",
-    "watch:activeLink": "esbuild js/activeLink.mjs --bundle --watch --format=esm --minify --sourcemap --outfile=js/activeLink.js",
-    "watch:flowingColumns": "esbuild js/flowingColumns.mjs --bundle --watch --format=esm --minify --sourcemap --outfile=js/flowingColumns.js"
+    "watch:esbuild": "esbuild js/*.mjs --bundle --watch --format=esm --minify --sourcemap --outdir=js"
   },
   "dependencies": {
     "es-toolkit": "^1.52.0"
