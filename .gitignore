@@ -1,8 +1,5 @@
 .idea/
-main.css
-main.css.map
+css/
 node_modules/
-js/es-toolkit/
-js/activeLink.js
-js/flowingColumns.js
-js/*.map
+mjs/es-toolkit/
+js/
