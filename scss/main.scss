@@ -30,10 +30,11 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 /*  margins */
 
-$right-margin: 3.1%;
-$right-margin-small-screen: 3vw;
+$padding-inline: 1.5cqw;
+$padding-inline-smaller-screen: 2.5cqw;
 $margin-top: 2rlh;
 $margin-bottom: 1.5rlh;
+$raw-gap: 3;
 
 
 /*  use golden ratio */
@@ -68,13 +69,15 @@ $width-unit: 4.75px;
 
 body {
     display: grid;
-    grid-template-columns: 26.7% auto;
-    --right-margin: #{$right-margin};
+    container-type: inline-size;
+    grid-template-columns: 25% auto;
+    column-gap: $raw-gap * 1%;
+    --padding-inline: #{$padding-inline};
 
     /*  make left column pushable to the left on a small screen */
     @media (width < 550px) {
-        min-width: max(400px, 135vw);
-        --right-margin: #{$right-margin-small-screen};
+        min-width: max(400px, 134.2vw);
+        --padding-inline: #{$padding-inline-smaller-screen};
     }
 
     /*  on big and wide screens we use the golden ratio
@@ -106,7 +109,7 @@ header {
     container-type: inline-size;
     position: sticky;
     top: 0;
-    margin-inline: 5.5% 6.9%;
+    padding-left: var(--padding-inline);
     padding-bottom: $margin-bottom;
     max-height: 100lvh;
     overflow-y: scroll;
@@ -117,7 +120,7 @@ header {
     }
 
     /*  adjust header text alignment on smaller screens */
-    @container (width < 185px) {
+    @container (width < 170px) {
         p {
             text-align: left;
         }
@@ -125,10 +128,11 @@ header {
 }
 
 main {
-    margin: 0 var(--right-margin) $margin-bottom 1.6%;
+    margin-bottom: $margin-bottom;
+    padding-right: var(--padding-inline);
 
     h3 {
-        scroll-margin-right: var(--right-margin);
+        scroll-margin-right: var(--padding-inline);
     }
 }
 
@@ -257,12 +261,11 @@ dfn {
         margin-top: 1rlh;
         position: relative;
         width: max-content;
-        padding-right: var(--right-margin);
 
         &:hover::before {
             content: "";
             position: absolute;
-            inset: -$vertical-adjust-for-font var(--right-margin) $vertical-adjust-for-font 0;
+            inset: -$vertical-adjust-for-font 0 $vertical-adjust-for-font;
             z-index: -1;
             background:
                 linear-gradient(to right, $background-color-darker, $background-color-darker 50%, transparent 50%, transparent)
@@ -315,7 +318,7 @@ dfn {
 @media screen and (width > 800px) and (device-width >= 750px) {
     .continuous-column {
         column-count: 2;
-        column-gap: 4.1%;
+        column-gap: #{$raw-gap}cqw;
         widows: 1;
         orphans: 1;
         padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
