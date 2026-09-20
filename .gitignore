@@ -1,5 +1,5 @@
 .idea/
-css/
 node_modules/
 mjs/es-toolkit/
 js/
+main.css*
