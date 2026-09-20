@@ -79,7 +79,6 @@ body {
     /*  make left column pushable to the left on a small screen */
     @media (width < 550px) {
         min-width: max(400px, 134.2%);
-        container-type: normal;
         --padding-inline: #{$padding-inline-smaller-screen};
     }
 
