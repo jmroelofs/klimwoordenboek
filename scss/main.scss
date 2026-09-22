@@ -37,14 +37,11 @@ $margin-bottom: 1.5rlh;
 $raw-gap: 3;
 
 
-/*  use golden ratio */
+/*  use golden ratio on big and wide screens*/
 
 $ratio: 1.618;
 $ratio-view-lower-width: 1200px;
-$ratio-view-lower-height: math.round(math.div($ratio-view-lower-width, $ratio));
 $ratio-view-upper-width: 1600px;
-$ratio-view-upper-height: math.round(math.div($ratio-view-upper-width, $ratio));
-$ratio-view-aspect-ratio: math.round(1000 * $ratio) + '/1000';
 
 
 /*  table width unit for grading tables */
@@ -74,33 +71,13 @@ body {
     grid-template-columns: 25% auto;
     column-gap: $raw-gap * 1%;
     margin-inline: auto;
+    width: min(100%, clamp($ratio-view-lower-width, #{$ratio * 100}vh, $ratio-view-upper-width));
     --padding-inline: #{$padding-inline};
 
     /*  make left column pushable to the left on a small screen */
     @media (width < 550px) {
         min-width: max(400px, 134.2%);
         --padding-inline: #{$padding-inline-smaller-screen};
-    }
-
-    /*  on big and wide screens we use the golden ratio
-        it kicks in between lower width and upper width */
-    @media (height < $ratio-view-lower-height)
-        and (width >= $ratio-view-lower-width) {
-        /*  wide enough, but not high enough, body will be upper width wide */
-        width: min($ratio-view-lower-width, 100%);
-    }
-
-    @media (height >= $ratio-view-lower-height)
-        and (width >= $ratio-view-lower-width)
-        and (aspect-ratio >= $ratio-view-aspect-ratio) {
-        /*  body will use golden ratio */
-        width: min(#{$ratio * 100}vh, 100%);
-    }
-
-    @media (height > $ratio-view-upper-height)
-        and (width > $ratio-view-upper-width) {
-        /*  too big, body will be upper width wide */
-        width: min($ratio-view-upper-width, 100%);
     }
 }
 
