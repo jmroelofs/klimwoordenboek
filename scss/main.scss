@@ -1,6 +1,7 @@
 /*  CSS for klimwoordenboek */
 
 @use 'sass:list';
+@use 'sass:math';
 @use 'fonts-newsreader' as font;
 @use 'background';
 @use 'normalize';
@@ -36,7 +37,12 @@ $margin-bottom: 1.5rlh;
 $raw-gap: 3;
 /*  we make left column pushable to the left on a small screen */
 $padding-inline-smaller-screen: 2.5cqw;
-$body-width-smaller-screen: 100 / ( 100 - $left-column-width / 1% - $raw-gap + $padding-inline-smaller-screen / 1cqw ) * 100%;
+$body-width-smaller-screen:
+    100%
+    * math.div(
+        100,
+        100 - math.div($left-column-width, 1%) - $raw-gap + math.div($padding-inline-smaller-screen, 1cqw)
+    );
 
 
 /*  use golden ratio on big and wide screens*/
