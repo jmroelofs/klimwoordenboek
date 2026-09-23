@@ -1,7 +1,6 @@
 /*  CSS for klimwoordenboek */
 
 @use 'sass:list';
-@use 'sass:math';
 @use 'fonts-newsreader' as font;
 @use 'background';
 @use 'normalize';
@@ -30,11 +29,14 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 /*  margins */
 
+$left-column-width: 25%;
 $padding-inline: 1.5cqw;
-$padding-inline-smaller-screen: 2.5cqw;
 $margin-top: 2rlh;
 $margin-bottom: 1.5rlh;
 $raw-gap: 3;
+/*  we make left column pushable to the left on a small screen */
+$padding-inline-smaller-screen: 2.5cqw;
+$body-width-smaller-screen: 100 / ( 100 - $left-column-width / 1% - $raw-gap + $padding-inline-smaller-screen / 1cqw ) * 100%;
 
 
 /*  use golden ratio on big and wide screens*/
@@ -46,7 +48,7 @@ $ratio-view-upper-width: 1600px;
 
 /*  table width unit for grading tables */
 
-$width-unit: 4.75px;
+$table-width-unit: 4.75px;
 
 
 /*  ------------------------------------------------------------ */
@@ -68,15 +70,14 @@ $width-unit: 4.75px;
 body {
     display: grid;
     container-type: inline-size;
-    grid-template-columns: 25% auto;
+    grid-template-columns: $left-column-width auto;
     column-gap: $raw-gap * 1%;
     margin-inline: auto;
     width: min(100%, clamp($ratio-view-lower-width, #{$ratio * 100}vh, $ratio-view-upper-width));
     --padding-inline: #{$padding-inline};
 
-    /*  make left column pushable to the left on a small screen */
     @media (width < 550px) {
-        min-width: max(400px, 134.2%);
+        min-width: max(400px, #{$body-width-smaller-screen});
         --padding-inline: #{$padding-inline-smaller-screen};
     }
 }
@@ -275,8 +276,8 @@ dfn {
 
                 @each $n in 5, 6, 7, 8, 10, 11, 12, 14, 16, 20, 24, 48 {
                     &.w-#{$n} {
-                        min-width: $width-unit * $n;
-                        max-width: $width-unit * $n;
+                        min-width: $table-width-unit * $n;
+                        max-width: $table-width-unit * $n;
                     }
                 }
             }
