@@ -47,9 +47,9 @@ $body-width-smaller-screen:
 
 /*  use golden ratio on big and wide screens*/
 
-$ratio: 1.618;
-$ratio-view-lower-width: 1200px;
-$ratio-view-upper-width: 1600px;
+$view-width: 161.8vh;
+$view-lower-width: 1200px;
+$view-upper-width: 1600px;
 
 
 /*  table width unit for grading tables */
@@ -79,7 +79,7 @@ body {
     grid-template-columns: $left-column-width auto;
     column-gap: $raw-gap * 1%;
     margin-inline: auto;
-    width: min(100%, clamp($ratio-view-lower-width, #{$ratio * 100}vh, $ratio-view-upper-width));
+    width: min(100%, clamp($view-lower-width, $view-width, $view-upper-width));
     --padding-inline: #{$padding-inline};
 
     @media (width < 550px) {
