@@ -32,8 +32,10 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 $left-column-width: 25%;
 $padding-inline: 1.5cqw;
-$margin-top: 2rlh;
-$margin-bottom: 1.5rlh;
+$raw-margin-top: 2;
+$margin-top: $raw-margin-top * 1rlh;
+$raw-padding-bottom: 1.5;
+$padding-bottom: $raw-padding-bottom * 1rlh;
 $raw-gap: 3;
 /*  we make left column pushable to the left on a small screen */
 $padding-inline-smaller-screen: 2.5cqw;
@@ -81,6 +83,8 @@ body {
     margin-inline: auto;
     width: min(100%, clamp($view-lower-width, $view-width, $view-upper-width));
     --padding-inline: #{$padding-inline};
+    --raw-margin-top: #{$raw-margin-top};
+    --raw-padding-bottom: #{$raw-padding-bottom};
 
     @media (width < 550px) {
         min-width: max(400px, #{$body-width-smaller-screen});
@@ -93,7 +97,7 @@ header {
     position: sticky;
     top: 0;
     padding-left: var(--padding-inline);
-    padding-bottom: $margin-bottom;
+    padding-bottom: $padding-bottom;
     max-height: 100lvh;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -111,7 +115,7 @@ header {
 }
 
 main {
-    margin-bottom: $margin-bottom;
+    padding-bottom: $padding-bottom;
     padding-right: var(--padding-inline);
 
     h3 {
@@ -140,7 +144,7 @@ p {
 }
 
 dfn {
-    scroll-margin-block: $margin-top $margin-bottom;
+    scroll-margin-block: $margin-top $padding-bottom;
 }
 
 h1,
@@ -316,7 +320,7 @@ dfn {
         }
 
         #spacer {
-            margin-top: calc(100svh - #{$margin-top + $margin-bottom});
+            margin-top: calc(100svh - #{$margin-top + $padding-bottom});
             height: var(--spacer-height);
             width: 100%;
             float: left;
