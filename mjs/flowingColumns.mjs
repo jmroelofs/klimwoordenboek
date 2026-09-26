@@ -6,9 +6,9 @@ class FlowingColumns {
             this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
             const
                 throttledFlowColumns = throttle(this.#flowColumns, 75),
-                updateFlowColumns = () => window.dispatchEvent(new Event('update-flow'));
+                updateFlowColumns = () => dispatchEvent(new Event('update-flow'));
             ['scroll', 'resize', 'update-flow'].forEach(event =>
-                window.addEventListener(event, throttledFlowColumns, { passive: true })
+                addEventListener(event, throttledFlowColumns, { passive: true })
             );
             updateFlowColumns()
             document.fonts.ready.then(updateFlowColumns);
@@ -16,11 +16,11 @@ class FlowingColumns {
     }
 
     #column = document.querySelector('.continuous-column');
-    #lineHeight = parseFloat(window.getComputedStyle(document.documentElement).getPropertyValue('line-height'));
+    #lineHeight = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('line-height'));
     #container = this.#column?.querySelector('#column-container');
     #spacer = this.#column?.querySelector('#spacer');
 
-    #mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
+    #mediaQuery = matchMedia('screen and (width > 800px) and (device-width >= 750px)');
     #matchesMedia = this.#mediaQuery.matches;
 
     #roundNearest = (value, interval) => {
@@ -35,7 +35,7 @@ class FlowingColumns {
 
         const
             windowHeight = document.documentElement.clientHeight,
-            { rounded: roundedOffset, remainder } = this.#roundNearest(window.scrollY, this.#lineHeight),
+            { rounded: roundedOffset, remainder } = this.#roundNearest(scrollY, this.#lineHeight),
             { height: spacerHeight } = this.#spacer.getBoundingClientRect(),
             [
                 { height: leftColumnHeight },
