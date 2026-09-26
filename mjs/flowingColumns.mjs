@@ -16,7 +16,10 @@ class FlowingColumns {
     }
 
     #column = document.querySelector('.continuous-column');
-    #lineHeight = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('line-height'));
+    #columnProperties = this.#column ? getComputedStyle(this.#column) : null;
+    #lineHeight = parseFloat(this.#columnProperties?.getPropertyValue('line-height'));
+    #paddingTop = parseFloat(this.#columnProperties?.getPropertyValue('--default-padding-top'));
+    #paddingBottom = parseFloat(this.#columnProperties?.getPropertyValue('--default-padding-bottom'));
     #container = this.#column?.querySelector('#column-container');
     #spacer = this.#column?.querySelector('#spacer');
 
@@ -48,7 +51,8 @@ class FlowingColumns {
                 - spacerHeight
                 - 2 * windowHeight
                 - roundedOffset
-                + 5 * this.#lineHeight; // top margin + 2 * bottom margin
+                + this.#paddingTop
+                + 2 * this.#paddingBottom
 
         this.#column.style.cssText =
             `--offset-remainder: ${remainder}px;` +

@@ -10,9 +10,10 @@
 /*  font related */
 
 $text-indent: 0.5rem;
-$font-size: 15px;
+$font-size: 16px;
+$line-height: 1.5;
 $font-size-header: 1.333rem;
-$vertical-adjust-for-font: 1.5px;
+$vertical-adjust-for-font: 1.75px;
 
 
 /*  colors */
@@ -32,10 +33,10 @@ $color-odd: oklch(0.86 0.05 225.57);
 
 $left-column-width: 25%;
 $padding-inline: 1.5cqw;
-$raw-margin-top: 2;
-$margin-top: $raw-margin-top * 1rlh;
-$raw-padding-bottom: 1.5;
-$padding-bottom: $raw-padding-bottom * 1rlh;
+$default-padding-top: 2;
+$padding-top: $default-padding-top * 1rlh;
+$default-padding-bottom: 1.9;
+$padding-bottom: $default-padding-bottom * 1rlh;
 $raw-gap: 3;
 /*  we make left column pushable to the left on a small screen */
 $padding-inline-smaller-screen: 2.5cqw;
@@ -63,7 +64,8 @@ $table-width-unit: 4.75px;
 
 :root {
     font: 400 list.slash($font-size, 1.5) font.$font-family;
-    text-rendering: optimizeLegibility;
+    font-optical-sizing: none;
+    text-rendering: geometricPrecision;
     font-kerning: normal;
     font-variant: common-ligatures proportional-nums oldstyle-nums;
     hyphens: auto;
@@ -83,12 +85,16 @@ body {
     margin-inline: auto;
     width: min(100%, clamp($view-lower-width, $view-width, $view-upper-width));
     --padding-inline: #{$padding-inline};
-    --raw-margin-top: #{$raw-margin-top};
-    --raw-padding-bottom: #{$raw-padding-bottom};
+    --default-padding-top: #{$default-padding-top * $line-height * $font-size};
+    --default-padding-bottom: #{$default-padding-bottom * $line-height * $font-size};
+    --padding-top: var(--default-padding-top);
+    --padding-bottom: var(--default-padding-bottom);
 
     @media (width < 550px) {
         min-width: max(400px, #{$body-width-smaller-screen});
         --padding-inline: #{$padding-inline-smaller-screen};
+        --padding-top: 1rlh;
+        --padding-bottom: 0.875rlh;
     }
 }
 
@@ -97,7 +103,7 @@ header {
     position: sticky;
     top: 0;
     padding-left: var(--padding-inline);
-    padding-bottom: $padding-bottom;
+    padding-bottom: var(--padding-bottom);
     max-height: 100lvh;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -115,7 +121,7 @@ header {
 }
 
 main {
-    padding-bottom: $padding-bottom;
+    padding-bottom: var(--padding-bottom);
     padding-right: var(--padding-inline);
 
     h3 {
@@ -144,14 +150,14 @@ p {
 }
 
 dfn {
-    scroll-margin-block: $margin-top $padding-bottom;
+    scroll-margin-block: var(--padding-top) var(--padding-bottom);
 }
 
 h1,
 main h3 {
     font-size: $font-size-header;
     line-height: 1rlh;
-    padding-top: $margin-top;
+    padding-top: var(--padding-top);
 }
 
 *:target,
@@ -308,10 +314,10 @@ dfn {
         column-gap: #{$raw-gap}cqw;
         widows: 1;
         orphans: 1;
-        padding-top: calc($margin-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
+        padding-top: calc($padding-top + var(--column-offset, 0px) + var(--offset-remainder, 0px));
 
         #column-container {
-            margin-top: calc(#{-$margin-top} - var(--column-offset, 0px));
+            margin-top: calc(#{-$padding-top} - var(--column-offset, 0px));
 
             p+h3 {
                 display: inline-block;
@@ -320,7 +326,7 @@ dfn {
         }
 
         #spacer {
-            margin-top: calc(100svh - #{$margin-top + $padding-bottom});
+            margin-top: calc(100svh - #{$padding-top + $padding-bottom});
             height: var(--spacer-height);
             width: 100%;
             float: left;
