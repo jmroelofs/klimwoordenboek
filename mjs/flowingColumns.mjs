@@ -41,7 +41,7 @@ class FlowingColumns {
 
         const
             windowHeight = document.documentElement.clientHeight,
-            { rounded: roundedOffset, remainder } = this.#roundNearest(scrollY, this.#lineHeight),
+            { rounded: roundedOffset, remainder } = this.#roundNearest(window.scrollY, this.#lineHeight),
             { height: spacerHeight } = this.#spacer.getBoundingClientRect(),
             [
                 { height: leftColumnHeight },
@@ -55,7 +55,7 @@ class FlowingColumns {
                 - 2 * windowHeight
                 - roundedOffset
                 + this.#paddingTop
-                + 2 * this.#paddingBottom
+                + 2 * this.#paddingBottom;
 
         this.#column.style.cssText =
             `--offset-remainder: ${remainder}px;` +
