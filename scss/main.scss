@@ -11,7 +11,8 @@
 
 $text-indent: 0.5rem;
 $font-size: 16px;
-$line-height: 1.45;
+/* using 1.45 gives cumulative positional rounding errors */
+$line-height: 23px;
 $font-size-header: 1.333rem;
 $vertical-adjust-for-font: 1.75px;
 
