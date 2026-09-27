@@ -3,12 +3,15 @@ import { throttle } from './es-toolkit/throttle.mjs';
 class FlowingColumns {
     constructor() {
         if (this.#column) {
-            this.#mediaQuery.addEventListener('change', event => this.#matchesMedia = event.matches);
             const
                 throttledFlowColumns = throttle(this.#flowColumns, 75),
-                updateFlowColumns = () => dispatchEvent(new Event('update-flow'));
+                updateFlowColumns = () => window.dispatchEvent(new Event('update-flow'));
+            this.#mediaQuery.addEventListener('change', event => {
+                this.#matchesMedia = event.matches;
+                updateFlowColumns();
+            });
             ['scroll', 'resize', 'update-flow'].forEach(event =>
-                addEventListener(event, throttledFlowColumns, { passive: true })
+                window.addEventListener(event, throttledFlowColumns, { passive: true })
             );
             updateFlowColumns()
             document.fonts.ready.then(updateFlowColumns);
@@ -18,8 +21,8 @@ class FlowingColumns {
     #column = document.querySelector('.continuous-column');
     #columnProperties = this.#column ? getComputedStyle(this.#column) : null;
     #lineHeight = parseFloat(this.#columnProperties?.getPropertyValue('line-height'));
-    #paddingTop = parseFloat(this.#columnProperties?.getPropertyValue('--default-padding-top'));
-    #paddingBottom = parseFloat(this.#columnProperties?.getPropertyValue('--default-padding-bottom'));
+    #paddingTop = parseFloat(this.#columnProperties?.getPropertyValue('padding-top'));
+    #paddingBottom = parseFloat(this.#columnProperties?.getPropertyValue('padding-bottom'));
     #container = this.#column?.querySelector('#column-container');
     #spacer = this.#column?.querySelector('#spacer');
 

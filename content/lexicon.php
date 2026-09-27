@@ -317,7 +317,7 @@
 <p><dfn lang="fr">dôme [m.]</dfn> <dfn lang="en">dome</dfn>
 	koepel<wbr>(&#8209;vormige rots).</p>
 <p><dfn lang="en">Don Whillans</dfn>
-	ouderwets soort zit&shy;gordel met band tussen de benen (zodat je als je valt moet hopen dat je ballen netjes aan de zijkant zitten, dit was de eerste heupgordel, eigenlijk ontwikkeld om met een stijgklem te gebruiken en ingewikkeld in het gebruik omdat je hem verkeerd aan kunt doen, vernoemd naar <a href="https://en.wikipedia.org/wiki/Don_Whillans" target="_blank" rel="noopener">Don Whillans</a>, een beroemde klimmer uit de jaren 60).</p>
+	ouderwets soort zit&shy;gordel met band tussen de benen (zodat je als je valt moet hopen dat je ballen netjes aan de zijkant zitten, dit was de eerste heupgordel, eigenlijk ontwikkeld om met een stijgklem te gebruiken en ingewikkeld in het gebruik omdat je hem verkeerd aan kunt doen, vernoemd naar <a href="https://en.wikipedia.org/wiki/Don_Whillans" target="_blank" rel="noopener">Don Whillans</a>, in de jaren 60 een beroemde klimmer).</p>
 <p><dfn lang="fr">à donf</dfn>
 	voluit (d'r tegenaan), <dfn lang="fr"><a href="https://nl.wikipedia.org/wiki/Verlan" target="_blank" rel="noopener">verlan</a></dfn> voor <dfn lang="fr">à fond</dfn>.</p>
 <p><dfn lang="fr">(avec jambe) en drapeau</dfn>
