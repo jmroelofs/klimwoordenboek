@@ -4,17 +4,18 @@ class FlowingColumns {
     constructor() {
         if (this.#column) {
             const
-                throttledFlowColumns = throttle(this.#flowColumns, 75),
-                updateFlowColumns = () => window.dispatchEvent(new Event('update-flow'));
+                throttledFlowColumns = throttle(this.#flowColumns, 75, { edges: ['trailing'] });
+
             this.#mediaQuery.addEventListener('change', event => {
                 this.#matchesMedia = event.matches;
-                updateFlowColumns();
+                throttledFlowColumns();
             });
-            ['scroll', 'resize', 'update-flow'].forEach(event =>
-                window.addEventListener(event, throttledFlowColumns, { passive: true })
-            );
-            updateFlowColumns()
-            document.fonts.ready.then(updateFlowColumns);
+            ['scroll', 'resize'].forEach(event => {
+                window.addEventListener(event, throttledFlowColumns, { passive: true });
+            });
+            document.fonts.ready.then(throttledFlowColumns);
+
+            throttledFlowColumns();
         }
     }
 
