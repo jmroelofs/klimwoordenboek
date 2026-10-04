@@ -2,21 +2,23 @@ import { throttle } from './es-toolkit/throttle.mjs';
 
 class FlowingColumns {
     constructor() {
-        if (this.#column) {
-            const
-                throttledFlowColumns = throttle(this.#flowColumns, 75, { edges: ['trailing'] });
-
-            this.#mediaQuery.addEventListener('change', event => {
-                this.#matchesMedia = event.matches;
-                throttledFlowColumns();
-            });
-            ['scroll', 'resize'].forEach(event => {
-                window.addEventListener(event, throttledFlowColumns, { passive: true });
-            });
-            document.fonts.ready.then(throttledFlowColumns);
-
-            throttledFlowColumns();
+        if (! this.#column) {
+            return;
         }
+
+        const
+            throttledFlowColumns = throttle(this.#flowColumns, 75, { edges: ['trailing'] });
+
+        this.#mediaQuery.addEventListener('change', event => {
+            this.#matchesMedia = event.matches;
+            throttledFlowColumns();
+        });
+        ['scroll', 'resize'].forEach(event => {
+            window.addEventListener(event, throttledFlowColumns, { passive: true });
+        });
+        document.fonts.ready.then(throttledFlowColumns);
+
+        throttledFlowColumns();
     }
 
     #column = document.querySelector('.continuous-column');
