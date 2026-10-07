@@ -42,6 +42,11 @@ class FlowingColumns {
     #mediaQuery;
     #matchesMedia;
 
+    #roundNearest = (value, interval) => {
+        const rounded = interval * Math.round(value / interval);
+        return { rounded: rounded, remainder: value - rounded };
+    };
+
     #flowColumns = event => {
         if (!this.#matchesMedia) {
             return;
@@ -50,10 +55,7 @@ class FlowingColumns {
         const
             windowHeight = document.documentElement.clientHeight,
             { rounded: roundedOffset, remainder } =
-                ((value, interval) => {
-                    const rounded = interval * Math.round(value / interval);
-                    return { rounded: rounded, remainder: value - rounded };
-                })(window.scrollY, this.#lineHeight),
+                this.#roundNearest(window.scrollY, this.#lineHeight),
             { height: spacerHeight } =
                 this.#spacer.getBoundingClientRect(),
             [{ height: leftColumnHeight }, { height: rightColumnHeight = 0 } = {}] =
