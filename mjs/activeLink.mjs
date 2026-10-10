@@ -1,12 +1,8 @@
 export default function activeLink(links) {
-    const
-        allLinks = [...links],
-
-        setActive = event => {
-            activeLink?.classList.remove('active-link');
-            activeLink = allLinks.find(link => link.href === event.newURL);
-            activeLink?.classList.add('active-link');
-        }
+    const setActive = event => (
+        activeLink?.classList.remove('active-link'),
+        activeLink = [...links].find(link => link.href === event.newURL)
+    )?.classList.add('active-link');
 
     let activeLink = null;
 
