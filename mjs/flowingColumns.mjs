@@ -18,7 +18,7 @@ class FlowingColumns {
         [this.#container, this.#spacer] =
             ['#column-container', '#spacer']
                 .map(selector => this.#column.querySelector(selector));
-        this.#mediaQuery = matchMedia('screen and (width > 800px) and (device-width >= 750px)');
+        this.#mediaQuery = window.matchMedia('screen and (width > 800px) and (device-width >= 750px)');
         this.#matchesMedia = this.#mediaQuery.matches;
 
         this.#mediaQuery.addEventListener('change', event => {
