@@ -33,11 +33,11 @@
 <script type="module">
 import table from './json/rotTable.json' with { type: 'json' };
 import FlowingColumns from './js/flowingColumns.js';
-import ActiveLink from './js/activeLink.js';
+import activeLink from './js/activeLink.js';
 
 new FlowingColumns();
 
-new ActiveLink(document.querySelectorAll('#alphabet a'));
+activeLink(document.querySelectorAll('#alphabet a'));
 
 document.querySelectorAll('a[href^="mailto:"], a[href^="tel:"]')
     .forEach(mailLink => mailLink.href = mailLink.href

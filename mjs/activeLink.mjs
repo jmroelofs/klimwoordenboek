@@ -1,18 +1,15 @@
-class ActiveLink {
-    constructor(links) {
-        this.#allLinks = [...links];
-        this.#setActive({ newURL: window.location.href });
-        window.addEventListener('hashchange', this.#setActive, { passive: true })
-    }
+export default function activeLink(links) {
+    const
+        allLinks = [...links],
 
-    #allLinks;
-    #activeLink;
+        setActive = event => {
+            activeLink?.classList.remove('active-link');
+            activeLink = allLinks.find(link => link.href === event.newURL);
+            activeLink?.classList.add('active-link');
+        }
 
-    #setActive = event => {
-        this.#activeLink?.classList.remove('active-link');
-        this.#activeLink = this.#allLinks.find(link => link.href === event.newURL);
-        this.#activeLink?.classList.add('active-link');
-    }
+    let activeLink = null;
+
+    setActive({ newURL: window.location.href });
+    window.addEventListener('hashchange', setActive, { passive: true });
 }
-
-export default ActiveLink;
