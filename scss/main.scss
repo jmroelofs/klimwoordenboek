@@ -35,7 +35,7 @@ $color-odd: oklch(0.86 0.05 225.57);
 $left-column-width: 25%;
 $padding-inline: 1.5cqw;
 $padding-top: 2rlh;
-$padding-bottom: 1.875rlh;
+$padding-bottom: 43px;
 $raw-gap: 4;
 /*  we make left column pushable to the left on a small screen */
 $padding-inline-smaller-screen: 2.5cqw;
@@ -320,7 +320,7 @@ dfn {
         }
 
         #spacer {
-            margin-top: calc(100svh - #{$padding-top + $padding-bottom});
+            margin-top: calc(100svh - #{$padding-top} - #{$padding-bottom});
             height: var(--spacer-height);
             width: 100%;
             float: left;
