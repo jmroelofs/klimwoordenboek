@@ -166,7 +166,7 @@ a:is(:link, :visited) {
 
 :target,
 a:is(.active, .active-link, :hover, :active, :focus) {
-    text-decoration: underline currentcolor 2px;
+    text-decoration: underline var(--active-underline-color, $underline-color) 2px;
 }
 
 a:focus {
@@ -217,11 +217,13 @@ dfn {
 :lang(fr) {
     font-style: inherit;
     color: $french-color;
+    --active-underline-color: #{$french-color};
 }
 
 :lang(en) {
     font-style: italic;
     color: $english-color;
+    --active-underline-color: #{$english-color};
 }
 
 .nowrap {
