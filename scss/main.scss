@@ -217,13 +217,13 @@ dfn {
 :lang(fr) {
     font-style: inherit;
     color: $french-color;
-    --active-underline-color: #{$french-color};
+    --active-underline-color: oklch(from #{$french-color} 50% 0.07 h);
 }
 
 :lang(en) {
     font-style: italic;
     color: $english-color;
-    --active-underline-color: #{$english-color};
+    --active-underline-color: oklch(from #{$english-color} 47% 0.09 h);
 }
 
 .nowrap {
