@@ -161,7 +161,7 @@ a:is(:link, :hover, :active, :focus, :visited) {
 }
 
 a:is(:link, :visited) {
-    text-decoration: underline $underline-color from-font;
+    text-decoration: underline $underline-color 1px;
 }
 
 :target,
