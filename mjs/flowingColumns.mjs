@@ -10,7 +10,7 @@ class FlowingColumns {
 
         const
             columnProperties = getComputedStyle(this.#column),
-            throttledFlowColumns = throttle(this.#flowColumns, 75, { edges: ['trailing'] });
+            throttledFlowColumns = throttle(this.#flowColumns, 75);
 
         [this.#lineHeight, this.#paddingTop, this.#paddingBottom] =
             ['line-height', 'padding-top', 'padding-bottom']
